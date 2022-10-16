@@ -1,0 +1,6 @@
+/* pages/index/basics/home/home.wxss */
+.image-bg {
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+}

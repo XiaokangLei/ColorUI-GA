@@ -1,0 +1,36 @@
+<!--pages/about/log/log.wxml-->
+
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">日志</view>
+</cu-custom>
+
+<view class="cu-timeline">
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">v2.0.2</view>
+        <view class="cu-tag line-white">2022/10/16</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.新增模板页、关于页</view>
+        <view>2.去除悬浮按钮，新增关于页面</view>
+        <view>3.新增日志更新页面</view>
+        <view>4.代码开源</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">v2.0.1</view>
+        <view class="cu-tag line-white">2022/10/14</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.ColorUI 2.0基础代码结构重构</view>
+        <view>2.临时修复swiper左侧消失bug</view>
+        <view>3.基础页面开发</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+/**index.wxss**/
+
+/* 悬浮工具栏 */
+.fixed-tools-view {
+  position: fixed;
+  right: 40rpx;
+  bottom: -360rpx;
+  width: 80rpx;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.fixed-tools-view .icon-view {
+  position: relative;
+  background: #ffffff;
+  border: 1rpx solid #e8e8e8;
+  height: 0rpx;
+  width: 0rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48rpx;
+  color: #585858;
+  border-radius: 1024rpx;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.fixed-tools-view .icon-view.show {
+  height: 72rpx;
+  width: 72rpx;
+  visibility: visible;
+}
+
+.fixed-tools-view .icon-view.show+.icon-view.show {
+  margin-top: 24rpx;
+}
+
+.fixed-tools-view.show {
+  bottom: 120rpx;
+}

@@ -1,0 +1,23 @@
+<!--pages/about/about/about.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">关于</view>
+</cu-custom>
+
+<view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
+  <view class='text-center margin-bottom text-xl text-bold text-blue'>ColorUI GA</view>
+  <view class='text-content'>
+    <view>Hi！开发者~欢迎使用ColorUI-GA组件库！</view>
+      <view class='margin-top-sm'>该项目是基于ColorUI 2.0开发的小程序组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法请移步到Github提交Issues。页面模板努力开发中，每周更新。</view>
+      <view class='margin-top-sm'>更多功能敬请期待！</view>
+  </view>
+</view>
+
+<view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
+  <view class='text-center margin-bottom text-lg text-bold text-blue'>感谢</view>
+  <view class='text-content'>
+    <view>ColorUI: https://github.com/weilanwl/ColorUI</view>
+    <view class='margin-top-sm'>Lin-UI: https://github.com/TaleLin/lin-ui</view>
+    <view class='margin-top-sm'>Vant: https://github.com/vant-ui/vant-weapp</view>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/basics/layout/layout",
+    "pages/index/basics/background/background",
+    "pages/index/basics/text/text",
+    "pages/index/basics/icon/icon",
+    "pages/index/basics/button/button",
+    "pages/index/basics/button/design",
+    "pages/index/basics/tag/tag",
+    "pages/index/basics/avatar/avatar",
+    "pages/index/basics/loading/loading",
+    "pages/index/basics/progress/progress",
+    "pages/index/basics/shadow/shadow",
+    "pages/index/component/bar/bar",
+    "pages/index/component/nav/nav",
+    "pages/index/component/list/list",
+    "pages/index/component/card/card",
+    "pages/index/component/form/form",
+    "pages/index/component/timeline/timeline",
+    "pages/index/component/chat/chat",
+    "pages/index/component/swiper/swiper",
+    "pages/index/component/modal/modal",
+    "pages/index/component/steps/steps",
+    "pages/index/plugin/indexes/indexes",
+    "pages/index/plugin/animation/animation",
+    "pages/index/plugin/drawer/drawer",
+    "pages/index/plugin/verticalnav/verticalnav",
+    "pages/about/home/home",
+    "pages/about/log/log",
+    "pages/about/about/about",
+    "pages/template/home/home",
+    "pages/template/shop/home/home",
+    "pages/template/default/default"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ColorUI GA",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+<template name="copyright">
+
+  <view class="text-center padding-tb">
+    <view class="colorui-text">Copyright © ColorUI GA. All Rights Reserved.</view>
+  </view>
+
+</template>

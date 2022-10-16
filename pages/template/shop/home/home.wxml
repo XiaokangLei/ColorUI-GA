@@ -1,0 +1,202 @@
+<!--pages/template/shop/home/home.wxml-->
+<!--状态栏区域-->
+<cu-custom bgColor="bg-gradual-red" isCustom="{{true}}">
+  <view slot="content">shop</view>
+</cu-custom>
+
+<!--搜索区-->
+<view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px;">
+  <view class='search-form round'>
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="输入关键词" confirm-type="search"></input>
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-gradual-red shadow-blur round' bindtap="search">搜索</button>
+  </view>
+</view>
+
+<!--轮播区域-->
+<swiper class="screen-swiper square-dot margin-top-xs shadow-warp bg-white" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="swiperchange">
+  <swiper-item wx:for="{{swiperlist}}" wx:key="index">
+    <image src="{{item.url}}" mode='aspectFill' bindtap="swipclick"></image>
+  </swiper-item>
+</swiper>
+
+<!--头条滚动区域-->
+<swiper class="swiperitem margin-top-xs solid-bottom" autoplay="true" vertical="true" circular="true" bindchange="lineschange">
+  <block wx:for="{{Headlines}}" wx:key="index">
+    <swiper-item bindtap="linesclick">
+      <view class="cu-bar bg-white">
+        <view class='action'>
+          <text class='cuIcon-title text-green'></text>
+          <text class="text-orange">热卖：{{item.title}}</text>
+        </view>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!--宫格功能区域-->
+<view class="cu-list grid margin-top-xs col-4 no-border">
+  <block wx:for="{{iconList}}" wx:key="index">
+    <view class="cu-item" bindtap="itemckcred" data-index="{{item.id}}" data-itemtype="{{item.type}}">
+      <view class='cuIcon-{{item.icon}} text-{{item.color}}'> </view>
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</view>
+
+<!--视频区域-->
+<!-- <video class="canui-video shadow-warp bg-white" src="{{videosrc}}"></video> -->
+
+<!--优选商家-->
+<view class="cu-bar bg-white margin-top-xs solid-bottom">
+  <view class='action'>
+    <text class='cuIcon-titles text-green'></text>
+    <text>优选商家</text>
+  </view>
+  <navigator hover-class='none' url="/pages/home/groom/index">
+    <view class='action' style="font-size: 27rpx;"> 更多 <view class='cuIcon-right'></view>
+    </view>
+  </navigator>
+</view>
+<!--  style="padding:0 30rpx;padding-bottom: 20rpx;" -->
+<view class="bg-white padding-xs">
+  <view class='nav-list canui-flex-car'>
+
+    <navigator open-type="navigate" hover-class='none' url="/pages/shop/goods/details" class="nav-li canui-yx-url">
+      <view class="flex-sub cu-card case shadow-warp bg-white">
+        <view class="cu-item shadow">
+          <view class='image'>
+            <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="widthFix"></image>
+          </view>
+          <view class="cu-list menu menu-avatar">
+            <view class="cu-item">
+              <view class='content flex-sub'>
+                <view class='text-grey'>猪皮蛋</view>
+                <view class='text-gray text-sm flex justify-between'>
+                  十天前
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="cu-avatar radius" style="background-image:url(/images/logo.png);"></view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator open-type="navigate" hover-class='none' url="/pages/shop/index/index" class="nav-li canui-yx-url">
+      <view class="flex-sub cu-card case shadow-warp bg-white">
+        <view class="cu-item shadow">
+          <view class='image'>
+            <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="widthFix"></image>
+          </view>
+          <view class="cu-list menu menu-avatar">
+            <view class="cu-item">
+              <view class='content flex-sub'>
+                <view class='text-grey'>猪皮蛋</view>
+                <view class='text-gray text-sm flex justify-between'>
+                  十天前
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="cu-avatar radius" style="background-image:url(/images/logo.png);"></view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator open-type="navigate" hover-class='none' url="/pages/shop/goods/details" class="nav-li canui-yx-url">
+      <view class="flex-sub cu-card case shadow-warp bg-white">
+        <view class="cu-item shadow">
+          <view class='image'>
+            <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="widthFix"></image>
+          </view>
+          <view class="cu-list menu menu-avatar">
+            <view class="cu-item">
+              <view class='content flex-sub'>
+                <view class='text-grey'>猪皮蛋</view>
+                <view class='text-gray text-sm flex justify-between'>
+                  十天前
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="cu-avatar radius" style="background-image:url(/images/logo.png);"></view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator open-type="navigate" hover-class='none' url="/pages/shop/index/index" class="nav-li canui-yx-url">
+      <view class="flex-sub cu-card case shadow-warp bg-white">
+        <view class="cu-item shadow">
+          <view class='image'>
+            <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="widthFix"></image>
+          </view>
+          <view class="cu-list menu menu-avatar">
+            <view class="cu-item">
+              <view class='content flex-sub'>
+                <view class='text-grey'>猪皮蛋</view>
+                <view class='text-gray text-sm flex justify-between'>
+                  十天前
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="cu-avatar radius" style="background-image:url(/images/logo.png);"></view>
+        </view>
+      </view>
+    </navigator>
+
+  </view>
+</view>
+
+<!--附近商家-->
+<view class="cu-bar bg-white solid-bottom margin-top-xs">
+  <view class='action'>
+    <text class='cuIcon-titles text-orange'></text> 附近商家
+  </view>
+</view>
+
+<view class="cu-list menu menu-avatar">
+  <view class="bg-red light canui-gps">
+    <view class="flex solid-bottom justify-between">
+      <view class='margin-xs'>
+        <text class='cuIcon-location'></text> 当前：重庆市渝北区xxxxxxxx
+      </view>
+      <view class='margin-xs'>
+        <text class='cuIcon-right'></text>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item ">
+    <view class="cu-avatar radius lg" style="background-image:url(/images/logo.png);"></view>
+    <view class='content'>
+      <view>商家名称</view>
+      <view class='text-gray text-sm'>商家介绍商家介绍商家介绍商家介绍</view>
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>1.2km</view>
+    </view>
+  </view>
+  <view class="cu-item ">
+    <view class="cu-avatar radius lg" style="background-image:url(/images/logo.png);"></view>
+    <view class='content'>
+      <view>商家名称</view>
+      <view class='text-gray text-sm'>商家介绍商家介绍</view>
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>1.2km</view>
+    </view>
+  </view>
+  <view class="cu-item ">
+    <view class="cu-avatar radius lg" style="background-image:url(/images/logo.png);"></view>
+    <view class='content'>
+      <view>商家名称</view>
+      <view class='text-gray text-sm'>商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍商家介绍</view>
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>1.2km</view>
+    </view>
+  </view>
+</view>
