@@ -41,7 +41,7 @@
   </view>
 
   <view class="cu-list menu card-menu margin-top margin-bottom-xl shadow-lg radius-lg">
-    <view class="cu-item arrow" bindtap="CopyLink" data-link="https://github.com/weilanwl/ColorUI">
+    <view class="cu-item arrow" bindtap="CopyLink" data-link="https://github.com/XiaokangLei/ColorUI-GA">
       <view class="content">
         <text class="cuIcon-github"></text>
         <text>GitHub</text>

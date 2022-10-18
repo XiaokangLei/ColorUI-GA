@@ -1526,9 +1526,9 @@ button.icon.lg {
   border: none
 }
 
-.cu-list.grid.no-border {
+/* .cu-list.grid.no-border {
   padding: 20rpx 10rpx
-}
+} */
 
 .cu-list.grid.col-3>.cu-item:nth-child(3n):after,
 .cu-list.grid.col-4>.cu-item:nth-child(4n):after,

@@ -25,7 +25,7 @@ page {
 
 .swiperitem {
   background: #fff;
-  height: 55px;
+  height: 51px;
 }
 
 .canui-video {

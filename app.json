@@ -31,7 +31,8 @@
     "pages/about/about/about",
     "pages/template/home/home",
     "pages/template/shop/home/home",
-    "pages/template/default/default"
+    "pages/template/default/default",
+    "pages/template/user/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",

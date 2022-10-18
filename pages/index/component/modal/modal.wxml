@@ -6,7 +6,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 普通窗口
+    <text class="cuIcon-titles text-blue "></text> 普通窗口
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="Modal">Modal</button>
@@ -29,7 +29,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 底部窗口
+    <text class="cuIcon-titles text-blue "></text> 底部窗口
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="bottomModal">Bottom</button>
@@ -50,7 +50,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 对话窗口
+    <text class="cuIcon-titles text-blue "></text> 对话窗口
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DialogModal1">Dialog</button>
@@ -102,7 +102,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 图片窗口
+    <text class="cuIcon-titles text-blue "></text> 图片窗口
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="Image">Image</button>
@@ -126,7 +126,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 单选窗口
+    <text class="cuIcon-titles text-blue "></text> 单选窗口
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="RadioModal">Radio</button>
@@ -150,7 +150,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 多选窗口
+    <text class="cuIcon-titles text-blue "></text> 多选窗口
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="ChooseModal">Choose</button>
@@ -175,7 +175,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-orange "></text> 侧边抽屉
+    <text class="cuIcon-titles text-blue "></text> 侧边抽屉
   </view>
   <view class="action">
     <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DrawerModalL">Left</button>

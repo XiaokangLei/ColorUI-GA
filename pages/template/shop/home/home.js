@@ -13,20 +13,20 @@ Page({
     lines: 0,
     swiperlist: [{
       id: 0,
-      url: '/images/share.jpg',
+      url: 'https://image.meiye.art/pic_16313377820535zgaaRBF9NhjxJcA8bZML?imageMogr2/thumbnail/450x/interlace/1',
       type: 1
     }, {
       id: 1,
-      url: '/images/share.jpg',
+      url: 'https://image.meiye.art/pic_1631337782042olyfk9eUv_L-Zi6I73BZu?imageMogr2/thumbnail/450x/interlace/1',
       type: 2
 
     }, {
       id: 2,
-      url: '/images/share.jpg',
+      url: 'https://image.meiye.art/pic_1631337782022cy8Y_XJWrmp58FOlyPgxy?imageMogr2/thumbnail/450x/interlace/1',
       type: 3
     }, {
       id: 3,
-      url: '/images/share.jpg',
+      url: 'https://image.meiye.art/pic_16313377820487PUB9WVBRHPtX-PBiztqu?imageMogr2/thumbnail/450x/interlace/1',
       type: 4
     }],
     iconList: [{

@@ -19,11 +19,11 @@
 
   <view class="cu-bar margin-top">
     <view class="action">
-      <text class="cuIcon-title text-blue"></text><text class="text-xl">模板持续更新中...</text>
+      <text class="cuIcon-title text-blue"></text><text class="text-xl">持续更新中...</text>
     </view>
   </view>
   <view class='nav-list'>
-    <navigator open-type="navigate" hover-class='none' url="/pages/template/default/default" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="item">
+    <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="item">
       <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -8rpx 0rpx 0rpx -32rpx"></image>
       <view class="nav-title">{{item.title}}</view>
       <view class="nav-name">{{item.name}}</view>

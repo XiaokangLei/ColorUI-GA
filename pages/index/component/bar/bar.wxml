@@ -5,7 +5,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-green"></text>
+    <text class="cuIcon-titles text-blue"></text>
     <text>底部操作条</text>
   </view>
 </view>
@@ -180,7 +180,7 @@
 
 <view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-title text-green"></text>
+    <text class="cuIcon-titles text-blue"></text>
     <text>标题操作条</text>
   </view>
 </view>
@@ -251,7 +251,7 @@
   </view>
   <view class="cu-bar bg-white">
     <view class="action">
-      <text class="cuIcon-title text-green"></text>
+      <text class="cuIcon-titles text-blue"></text>
       <text class="text-xl text-bold">关于我们</text>
     </view>
   </view>
@@ -265,7 +265,7 @@
 
 <view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-title text-green"></text>
+    <text class="cuIcon-titles text-blue"></text>
     <text>顶部操作条</text>
   </view>
 </view>
@@ -312,7 +312,7 @@
 
 <view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-title text-green"></text>
+    <text class="cuIcon-titles text-blue"></text>
     <text>搜索操作条</text>
   </view>
 </view>
@@ -363,7 +363,7 @@
 
 <view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-title text-green"></text>
+    <text class="cuIcon-titles text-blue"></text>
     <text>操作条按钮组</text>
   </view>
 </view>
@@ -384,7 +384,7 @@
 
 <view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-title text-green"></text>
+    <text class="cuIcon-titles text-blue"></text>
     <text>输入操作条</text>
   </view>
 </view>

@@ -6,7 +6,7 @@
 
 <view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>头像形状
+    <text class="cuIcon-titles text-blue"></text>头像形状
   </view>
 </view>
 
@@ -17,7 +17,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>头像尺寸
+    <text class="cuIcon-titles text-blue"></text>头像尺寸
   </view>
 </view>
 
@@ -48,7 +48,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>内嵌文字(图标)
+    <text class="cuIcon-titles text-blue"></text>内嵌文字(图标)
   </view>
 </view>
 
@@ -72,7 +72,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>头像颜色
+    <text class="cuIcon-titles text-blue"></text>头像颜色
   </view>
 </view>
 
@@ -84,7 +84,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>头像组
+    <text class="cuIcon-titles text-blue"></text>头像组
   </view>
 </view>
 
@@ -96,7 +96,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>头像标签
+    <text class="cuIcon-titles text-blue"></text>头像标签
   </view>
 </view>
 

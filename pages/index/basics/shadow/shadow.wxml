@@ -6,7 +6,7 @@
 
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>边框
+    <text class="cuIcon-titles text-blue"></text>边框
   </view>
   <view class="action">
     <text class="text-df margin-right-sm">粗边框</text>
@@ -24,7 +24,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>阴影
+    <text class="cuIcon-titles text-blue"></text>阴影
   </view>
 </view>
 

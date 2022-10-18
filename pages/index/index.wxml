@@ -29,9 +29,9 @@
   </view>
 </view> -->
 
-<templates wx:if="{{PageCur=='templates'}}"></templates>
+<!-- <templates wx:if="{{PageCur=='templates'}}"></templates> -->
 
-<plugin wx:if="{{PageCur=='plugin'}}"></plugin>
+<!-- <plugin wx:if="{{PageCur=='plugin'}}"></plugin> -->
 
 <about wx:if="{{PageCur=='about'}}"></about>
 
@@ -44,12 +44,12 @@
     <view class="{{PageCur=='basics'?'text-blue':'text-gray'}}">主页</view>
   </view>
 
-  <view class="action" bindtap="NavChange" data-cur="templates">
+  <!-- <view class="action" bindtap="NavChange" data-cur="templates">
     <view class='cuIcon-cu-image'>
       <image src="/images/tabbar/component{{PageCur=='templates'?'_cur':''}}.png"></image>
     </view>
     <view class="{{PageCur=='templates'?'text-blue':'text-gray'}}">模板</view>
-  </view>
+  </view> -->
 
   <view class="action" bindtap="NavChange" data-cur="about">
     <view class='cuIcon-cu-image'>

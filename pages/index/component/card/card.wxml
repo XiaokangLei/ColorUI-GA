@@ -6,7 +6,7 @@
 
 <view class="cu-bar bg-white solid-bottom">
   <view class='action'>
-    <text class='cuIcon-titles text-orange '></text> 案例类卡片
+    <text class='cuIcon-titles text-blue '></text> 案例类卡片
   </view>
   <view class='action'>
     <switch class='sm' checked='{{isCard}}' bindchange='isCard'></switch>
@@ -44,7 +44,7 @@
 
 <view class="cu-bar bg-white solid-bottom {{isCard?'margin-top':''}}">
   <view class='action'>
-    <text class='cuIcon-titles text-orange '></text> 动态类卡片
+    <text class='cuIcon-titles text-blue '></text> 动态类卡片
   </view>
   <view class='action'>
     <switch class='sm' checked='{{isCard}}' bindchange='isCard'></switch>
@@ -127,7 +127,7 @@
 
 <view class="cu-bar bg-white solid-bottom margin-top">
   <view class='action'>
-    <text class='cuIcon-titles text-orange '></text> 文章类卡片
+    <text class='cuIcon-titles text-blue '></text> 文章类卡片
   </view>
   <view class='action'>
     <switch class='sm' checked='{{isCard}}' bindchange='isCard'></switch>

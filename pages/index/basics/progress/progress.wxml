@@ -6,7 +6,7 @@
 
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>进度条形状
+    <text class="cuIcon-titles text-blue"></text>进度条形状
   </view>
 </view>
 
@@ -24,7 +24,7 @@
 
 <view class="cu-bar bg-white solid-bottom margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>进度条尺寸
+    <text class="cuIcon-titles text-blue"></text>进度条尺寸
   </view>
 </view>
 
@@ -42,7 +42,7 @@
 
 <view class="cu-bar bg-white solid-bottom margin-top" bindtap="showModal" data-target="ColorModal">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>进度条颜色
+    <text class="cuIcon-titles text-blue"></text>进度条颜色
   </view>
   <view class="action">
     <text class="text-df margin-right-sm">自定义</text>
@@ -58,7 +58,7 @@
 
 <view class="cu-bar bg-white solid-bottom margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>进度条条纹
+    <text class="cuIcon-titles text-blue"></text>进度条条纹
   </view>
   <view class="action">
     <text class="text-df margin-right-sm">动态</text>
@@ -77,7 +77,7 @@
 
 <view class="cu-bar bg-white solid-bottom margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>进度条比例
+    <text class="cuIcon-titles text-blue"></text>进度条比例
   </view>
 </view>
 
@@ -91,7 +91,7 @@
 
 <view class="cu-bar bg-white solid-bottom margin-top">
   <view class="action">
-    <text class="cuIcon-title text-blue"></text>进度条布局
+    <text class="cuIcon-titles text-blue"></text>进度条布局
   </view>
 </view>
 

@@ -5,7 +5,7 @@
 <!-- 全屏背景图 -->
 <image src='/images/bg.png' mode='widthFix' class='image-bg'></image>
 <!-- 页面 -->
-<scroll-view scroll-y class="scrollPage">
+<scroll-view scroll-y class="scrollPage cu-timeline">
   <!-- 滚动图片 -->
   <swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" previousMargin="0.01rpx" indicator-color="#8799a3" indicator-active-color="#0081ff" style='margin-top: {{StatusBar + CustomBar}}rpx;'>
     <swiper-item wx:for="{{swiperList}}" wx:key="item" class="{{cardCur==index?'cur':''}}">
@@ -18,7 +18,7 @@
   <!-- 标题【基础】 -->
   <view class="cu-bar margin-top">
     <view class="action">
-      <text class="cuIcon-titles text-blue"></text><text class="text-xl">基础</text>
+      <text class="cuIcon-titles text-blue"></text><text class="text-xl">基础样式</text>
     </view>
   </view>
   <!-- 基础list -->
@@ -33,7 +33,7 @@
   <!-- 标题【组件】 -->
   <view class="cu-bar">
     <view class="action">
-      <text class="cuIcon-titles text-blue"></text><text class="text-xl">组件</text>
+      <text class="cuIcon-titles text-blue"></text><text class="text-xl">组件布局</text>
     </view>
   </view>
   <!-- 组件list -->

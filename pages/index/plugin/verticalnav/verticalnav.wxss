@@ -7,7 +7,7 @@
 .VerticalNav.nav .cu-item {
   width: 100%;
   text-align: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   margin: 0;
   border: none;
   height: 50px;

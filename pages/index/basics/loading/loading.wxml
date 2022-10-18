@@ -9,7 +9,7 @@
 
 <view class="cu-bar bg-white">
   <view class='action'>
-    <text class='cuIcon-title text-blue'></text>背景
+    <text class='cuIcon-titles text-blue'></text>背景
   </view>
 </view>
 
@@ -17,7 +17,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
-    <text class='cuIcon-title text-blue'></text>加载状态
+    <text class='cuIcon-titles text-blue'></text>加载状态
   </view>
   <view class='action'>
     <text class="text-df margin-right-sm">加载完成</text>
@@ -29,7 +29,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
-    <text class='cuIcon-title text-blue'></text>加载错误
+    <text class='cuIcon-titles text-blue'></text>加载错误
   </view>
 </view>
 
@@ -37,7 +37,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
-    <text class='cuIcon-title text-blue'></text>弹框加载
+    <text class='cuIcon-titles text-blue'></text>弹框加载
   </view>
   <view class='action'>
     <button class='cu-btn bg-green shadow' bindtap='loadModal'>
@@ -54,7 +54,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
-    <text class='cuIcon-title text-blue'></text>顶部进度条加载
+    <text class='cuIcon-titles text-blue'></text>顶部进度条加载
   </view>
   <view class='action'>
     <button class='cu-btn bg-green shadow' bindtap='loadProgress'>

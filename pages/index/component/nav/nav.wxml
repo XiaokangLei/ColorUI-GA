@@ -10,19 +10,19 @@
 
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
-    <text class="cuIcon-titles text-orange"></text> 默认
+    <text class="cuIcon-titles text-blue"></text> 默认
   </view>
 </view>
 
 <scroll-view scroll-x class="bg-white nav" scroll-with-animation scroll-left="{{scrollLeft}}">
-  <view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:for="{{10}}" wx:key="index" bindtap="tabSelect" data-id="{{index}}">
+  <view class="cu-item {{index==TabCur?'text-blue cur':''}}" wx:for="{{10}}" wx:key="index" bindtap="tabSelect" data-id="{{index}}">
     Tab{{index}}
   </view>
 </scroll-view>
 
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
-    <text class="cuIcon-title text-orange"></text> 居中
+    <text class="cuIcon-titles text-blue"></text> 居中
   </view>
 </view>
 
@@ -34,13 +34,13 @@
 
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
-    <text class="cuIcon-title text-orange"></text> 平分
+    <text class="cuIcon-titles text-blue"></text> 平分
   </view>
 </view>
 
 <scroll-view scroll-x class="bg-white nav">
   <view class="flex text-center">
-    <view class="cu-item flex-sub {{index==TabCur?'text-orange cur':''}}" wx:for="{{4}}" wx:key="index" bindtap="tabSelect" data-id="{{index}}">
+    <view class="cu-item flex-sub {{index==TabCur?'text-blue cur':''}}" wx:for="{{4}}" wx:key="index" bindtap="tabSelect" data-id="{{index}}">
       Tab{{index}}
     </view>
   </view>
@@ -48,7 +48,7 @@
 
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
-    <text class="cuIcon-title text-orange"></text> 背景
+    <text class="cuIcon-titles text-blue"></text> 背景
   </view>
 </view>
 
@@ -60,11 +60,11 @@
 
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
-    <text class="cuIcon-title text-orange"></text> 图标
+    <text class="cuIcon-titles text-blue"></text> 图标
   </view>
 </view>
 
-<scroll-view scroll-x class="bg-green nav text-center">
+<scroll-view scroll-x class="bg-blue nav text-center">
   <view class="cu-item {{0==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="0">
     <text class="cuIcon-camerafill"></text> 数码
   </view>
