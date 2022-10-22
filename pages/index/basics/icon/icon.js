@@ -979,6 +979,9 @@ Page({
 
   },
 
+  /**
+   * 搜索图标
+   */
   searchIcon(e) {
     let key = e.detail.value.toLowerCase();
     let list = this.data.icon;
@@ -994,5 +997,22 @@ Page({
     this.setData({
       icon: list
     })
-  }
+  },
+
+  /**
+   * 复制内容到剪切板
+   */
+  CopyText(e) {
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.link,
+      success: res => {
+        console.log("CopyText:", res)
+        wx.showToast({
+          title: '已复制',
+          duration: 1000,
+        })
+      }
+    })
+  },
+
 })

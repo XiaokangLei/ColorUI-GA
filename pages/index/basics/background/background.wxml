@@ -25,7 +25,7 @@
   </view>
 </view>
 
-<view class="grid col-3 bg-white padding-sm">
+<view class="grid col-3 padding-sm">
   <view class="padding-sm" wx:for="{{ColorList}}" wx:key="item" wx:if="{{index<12}}">
     <view class="bg-{{item.name}} padding radius-lg text-center light">
       <view class="text-lg">{{item.title}}</view>
@@ -75,6 +75,77 @@
     <view class="bg-gradual-pink padding radius-lg text-center shadow-blur">
       <view class="text-lg">霞彩</view>
       <view class="margin-top-sm text-Abc">#ec008c - #6739b6</view>
+    </view>
+  </view>
+
+  <view class="padding-sm">
+    <view class="bg-gradual-pinknew padding radius-lg text-center shadow-blur">
+      <view class="text-lg">桃粉</view>
+      <view class="margin-top-sm text-Abc">#fea894 - #ff1047</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-cyan padding radius-lg text-center shadow-blur">
+      <view class="text-lg">天青</view>
+      <view class="margin-top-sm text-Abc">#06edfe - #48b2fe</view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>渐变高亮
+  </view>
+</view>
+
+<view class="grid col-2 padding-sm">
+  <view class="padding-sm">
+    <view class="bg-gradual-red-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">魅红</view>
+      <view class="margin-top-sm text-Abc">#f9d3d0</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-orange-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">鎏金</view>
+      <view class="margin-top-sm text-Abc">#fcdec7</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-green-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">翠柳</view>
+      <view class="margin-top-sm text-Abc">#cfeece</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-blue-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">靛青</view>
+      <view class="margin-top-sm text-Abc">#bfe0ff</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-purple-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">惑紫</view>
+      <view class="margin-top-sm text-Abc">dfd0f7</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-pink-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">霞彩</view>
+      <view class="margin-top-sm text-Abc">#edd1f2</view>
+    </view>
+  </view>
+
+  <view class="padding-sm">
+    <view class="bg-gradual-pinknew-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">桃粉</view>
+      <view class="margin-top-sm text-Abc">#f7cee5</view>
+    </view>
+  </view>
+  <view class="padding-sm">
+    <view class="bg-gradual-cyan-light padding radius-lg text-center shadow-blur">
+      <view class="text-lg">天青</view>
+      <view class="margin-top-sm text-Abc">#cdefff</view>
     </view>
   </view>
 </view>

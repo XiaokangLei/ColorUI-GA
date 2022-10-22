@@ -11,14 +11,13 @@
   <view class="UCenter-bg">
     <image src="/images/logo.png" class="png" mode="widthFix"></image>
     <view class="text-xl text-orange text-blod">ColorUI GA
-      <text class="text-df">v2.0.1</text>
+      <text class="text-df">v2.0.4</text>
     </view>
-    <view class="margin-top-sm">
-      <text class=" text-orange">By: L.</text>
-    </view>
+    <text class="margin-top-sm text-orange">By: L.</text>
+    <text class="margin-top-sm text-gray">最近更新：2022/10/24</text>
   </view>
   <view class="margin">
-    <view class="padding-tb flex text-center bg-white shadow radius-df">
+    <view class="padding-tb flex text-center bg-white shadow radius-lg">
       <view class="flex flex-sub flex-direction solid-right">
         <view class="text-xxl text-orange">{{visitTotal}}</view>
         <view class="margin-top-sm text-black">
@@ -40,8 +39,8 @@
     </view>
   </view>
 
-  <view class="cu-list menu card-menu margin-top margin-bottom-xl shadow-lg radius-lg">
-    <view class="cu-item arrow" bindtap="CopyLink" data-link="https://github.com/XiaokangLei/ColorUI-GA">
+  <view class="cu-list menu card-menu margin-top margin-bottom-xl shadow radius-lg">
+    <view class="cu-item arrow" bindtap="CopyText" data-link="https://github.com/XiaokangLei/ColorUI-GA">
       <view class="content">
         <text class="cuIcon-github"></text>
         <text>GitHub</text>

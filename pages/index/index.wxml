@@ -35,7 +35,7 @@
 
 <about wx:if="{{PageCur=='about'}}"></about>
 
-<view class="cu-bar tabbar bg-white shadow foot" style="opacity: 0.9;">
+<view class="cu-bar tabbar bg-white shadow foot" style="opacity: 0.92;">
 
   <view class="action" bindtap="NavChange" data-cur="basics">
     <view class='cuIcon-cu-image'>

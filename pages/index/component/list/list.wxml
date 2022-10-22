@@ -302,7 +302,7 @@
     <view class="cu-item {{modalName=='move-box-'+ index?'move-cur':''}}" wx:for="{{4}}" wx:key="item" bindtouchstart="ListTouchStart" bindtouchmove="ListTouchMove" bindtouchend="ListTouchEnd" data-target="move-box-{{index}}">
       <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big2100{{index+1}}.jpg);"></view>
       <view class="content">
-        <view class="text-grey">文晓港</view>
+        <view class="text-grey">小黄人</view>
         <view class="text-gray text-sm">
           <text class="cuIcon-infofill text-red"></text> 消息未送达
         </view>

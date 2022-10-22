@@ -53,6 +53,10 @@
         <view class="flex-twice bg-blue light padding-sm margin-xs radius">1/3</view>
         <view class="flex-treble bg-blue light padding-sm margin-xs radius">1/2</view>
       </view>
+      <view class="flex p-xs margin-bottom-sm mb-sm">
+        <view class="flex-treble bg-blue light padding-sm margin-xs radius">3/4</view>
+        <view class="flex-sub bg-blue light padding-sm margin-xs radius">1/4</view>
+      </view>
     </view>
     <view class="cu-bar bg-white margin-top solid-bottom">
       <view class="action">

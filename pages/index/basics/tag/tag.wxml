@@ -11,9 +11,9 @@
 </view>
 
 <view class="padding bg-white solid-bottom">
-  <view class="cu-tag">默认</view>
-  <view class="cu-tag round">椭圆</view>
-  <view class="cu-tag radius">圆角</view>
+  <view class="cu-tag margin-right">默认</view>
+  <view class="cu-tag round margin-right">椭圆</view>
+  <view class="cu-tag radius margin-right">圆角</view>
 </view>
 
 <view class="cu-bar bg-white margin-top  solid-bottom">
@@ -23,8 +23,8 @@
 </view>
 
 <view class="padding bg-white">
-  <view class="cu-tag radius sm">小尺寸</view>
-  <view class="cu-tag radius">普通尺寸</view>
+  <view class="cu-tag radius sm margin-right">小尺寸</view>
+  <view class="cu-tag radius margin-right">普通尺寸</view>
 </view>
 
 <view class="cu-bar bg-white margin-top">
@@ -61,7 +61,7 @@
 </view>
 
 <view class="padding">
-  <view class="cu-capsule">
+  <view class="cu-capsule margin-right-sm">
     <view class="cu-tag bg-red">
       <text class="cuIcon-likefill"></text>
     </view>
@@ -69,7 +69,7 @@
       12
     </view>
   </view>
-  <view class="cu-capsule round">
+  <view class="cu-capsule round margin-right-sm">
     <view class="cu-tag bg-blue ">
       <text class="cuIcon-likefill"></text>
     </view>
@@ -77,7 +77,7 @@
       23
     </view>
   </view>
-  <view class="cu-capsule round">
+  <view class="cu-capsule round margin-right-sm">
     <view class="cu-tag bg-blue ">
       说明
     </view>
@@ -85,7 +85,7 @@
       123
     </view>
   </view>
-  <view class="cu-capsule radius">
+  <view class="cu-capsule radius margin-right-sm">
     <view class="cu-tag bg-grey ">
       <text class="cuIcon-likefill"></text>
     </view>
@@ -111,7 +111,7 @@
 
 <view class="padding flex justify-between align-center">
   <view class="cu-avatar xl radius">
-    港
+    L
     <view class="cu-tag badge">99+</view>
   </view>
   <view class="cu-avatar xl radius" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);">

@@ -16,11 +16,11 @@ page {
   --orange: #f37b1d;
   --yellow: #fbbd08;
   --olive: #8dc63f;
-  --green: #39b54a;
-  --cyan: #1cbbb4;
+  --green: #3eb93b;
+  --cyan: #37c0fe;
   --blue: #0081ff;
-  --purple: #6739b6;
-  --mauve: #9c26b0;
+  --purple: #8044de;
+  --mauve: #b745cb;
   --pink: #e03997;
   --brown: #a5673f;
   --grey: #8799a3;
@@ -49,6 +49,16 @@ page {
   --gradualPurple: linear-gradient(45deg, #9000ff, #5e00ff);
   --gradualPink: linear-gradient(45deg, #ec008c, #6739b6);
   --gradualBlue: linear-gradient(45deg, #0081ff, #1cbbb4);
+  --gradualPinkNew: linear-gradient(45deg, #fea894, #ff1047);
+  --gradualCyan: linear-gradient(45deg, #06edfe, #48b2fe);
+  --gradualRedLight: linear-gradient(45deg, white, #f9d3d0);
+  --gradualOrangeLight: linear-gradient(45deg, white, #fcdec7);
+  --gradualGreenLight: linear-gradient(45deg, white, #cfeece);
+  --gradualPurpleLight: linear-gradient(45deg, white, #dfd0f7);
+  --gradualPinkLight: linear-gradient(45deg, white, #edd1f2);
+  --gradualBlueLight: linear-gradient(45deg, white, #bfe0ff);
+  --gradualPinkNewLight: linear-gradient(45deg, white, #f7cee5);
+  --gradualCyanLight: linear-gradient(45deg, white, #cdefff);
   /* 阴影透明色 */
   --ShadowSize: 6rpx 6rpx 8rpx;
   --redShadow: rgba(204, 69, 59, 0.2);
@@ -3631,6 +3641,56 @@ scroll-view.cu-steps .cu-item {
 .bg-gradual-blue {
   background-image: var(--gradualBlue);
   color: var(--white);
+}
+
+.bg-gradual-pinknew {
+  background-image: var(--gradualPinkNew);
+  color: var(--white);
+}
+
+.bg-gradual-cyan {
+  background-image: var(--gradualCyan);
+  color: var(--white);
+}
+
+.bg-gradual-red-light {
+  background-image: var(--gradualRedLight);
+  color: var(--red);
+}
+
+.bg-gradual-orange-light {
+  background-image: var(--gradualOrangeLight);
+  color: var(--orange);
+}
+
+.bg-gradual-green-light {
+  background-image: var(--gradualGreenLight);
+  color: var(--green);
+}
+
+.bg-gradual-purple-light {
+  background-image: var(--gradualPurpleLight);
+  color: var(--purple);
+}
+
+.bg-gradual-pink-light {
+  background-image: var(--gradualPinkLight);
+  color: var(--pink);
+}
+
+.bg-gradual-blue-light {
+  background-image: var(--gradualBlueLight);
+  color: var(--blue);
+}
+
+.bg-gradual-pinknew-light {
+  background-image: var(--gradualPinkNewLight);
+  color: var(--pink);
+}
+
+.bg-gradual-cyan-light {
+  background-image: var(--gradualCyanLight);
+  color: var(--cyan);
 }
 
 .shadow[class*="-red"] {

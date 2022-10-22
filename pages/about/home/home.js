@@ -32,7 +32,7 @@ Component({
       }
       return e
     },
-    CopyLink(e) {
+    CopyText(e) {
       wx.setClipboardData({
         data: e.currentTarget.dataset.link,
         success: res => {

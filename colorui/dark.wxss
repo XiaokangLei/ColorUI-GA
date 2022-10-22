@@ -2,11 +2,11 @@
 @media (prefers-color-scheme: dark) {
   page {
     /* 暗黑模式背景色 */
-    --darkBlack: #000000;
-    --lightGray: #1F1F1F;
-    --darkGray: #141414;
+    --darkBlack: #111111;
+    --lightGray: #222222;
+    --darkGray: #333333;
     /* 暗黑模式按钮颜色 */
-    --btnGray: #313131;
+    --btnGray: #444444;
     /* 暗黑模式字体颜色 */
     --darkTitle: rgba(255, 255, 255, .85);
     --darkPrimaryText: rgba(255, 255, 255, .65);
