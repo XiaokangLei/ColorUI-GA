@@ -6,11 +6,26 @@
 </cu-custom>
 
 <view class="cu-timeline">
+
   <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
+    <view class="bg-gradual-blue-light content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">v2.0.4</view>
+        <view class="cu-tag line-blue">2022/10/24</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.优化darkmodel样式</view>
+        <view>2.新增背景浅色渐变高亮样式</view>
+        <view>3.部分样式更新</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue-light content shadow">
       <view class="cu-capsule radius">
         <view class="cu-tag bg-white text-blue">v2.0.3</view>
-        <view class="cu-tag line-white">2022/10/18</view>
+        <view class="cu-tag line-blue">2022/10/18</view>
       </view>
       <view class="margin-top-sm text-content">
         <view>1.去除模板页</view>
@@ -19,11 +34,12 @@
       </view>
     </view>
   </view>
+
   <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
+    <view class="bg-gradual-blue-light content shadow">
       <view class="cu-capsule radius">
         <view class="cu-tag bg-white text-blue">v2.0.2</view>
-        <view class="cu-tag line-white">2022/10/16</view>
+        <view class="cu-tag line-blue">2022/10/16</view>
       </view>
       <view class="margin-top-sm text-content">
         <view>1.新增模板页、关于页</view>
@@ -33,11 +49,12 @@
       </view>
     </view>
   </view>
+
   <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
+    <view class="bg-gradual-blue-light content shadow">
       <view class="cu-capsule radius">
         <view class="cu-tag bg-white text-blue">v2.0.1</view>
-        <view class="cu-tag line-white">2022/10/14</view>
+        <view class="cu-tag line-blue">2022/10/14</view>
       </view>
       <view class="margin-top-sm text-content">
         <view>1.ColorUI 2.0基础代码结构重构</view>
