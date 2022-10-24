@@ -59,18 +59,6 @@
         <text>更新日志</text>
       </view>
     </view>
-    <view class="cu-item arrow">
-      <button class="cu-btn content" open-type="feedback">
-        <text class="cuIcon-writefill text-cyan"></text>
-        <text>意见反馈</text>
-      </button>
-    </view>
-    <view class="cu-item arrow">
-      <navigator class="content" url="/pages/about/test/list" hover-class="none">
-        <text class="cuIcon-creativefill text-orange"></text>
-        <text>Bug测试</text>
-      </navigator>
-    </view>
   </view>
   <template is="copyright"></template>
   <view class="cu-tabbar-height"></view>
