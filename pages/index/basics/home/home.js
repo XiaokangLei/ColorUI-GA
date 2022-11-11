@@ -26,10 +26,6 @@ Component({
       id: 1,
       type: 'image',
       url: '/images/45fc.png',
-    }, {
-      id: 2,
-      type: 'image',
-      url: '/images/45fc.png'
     }],
     elements: [{
         title: '布局',
