@@ -1,2 +1,10 @@
 <!--pages/template/default/default.wxml-->
-<text>pages/template/default/default.wxml</text>
+
+<import src="/pages/template/common/nodata.wxml" />
+
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">敬请期待</view>
+</cu-custom>
+
+<template is="nodata"></template>

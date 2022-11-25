@@ -73,9 +73,6 @@
   <view class="cu-progress round sm margin-top-sm striped {{active?'active':''}}">
     <view class="bg-black" style="width:{{loading?'40%':''}};"></view>
   </view>
-  <view class="cu-progress round sm margin-top-sm striped {{active?'active':''}}">
-    <view class="bg-blue" style="width:{{loading?'80%':''}};"></view>
-  </view>
 </view>
 
 <view class="cu-bar bg-white solid-bottom margin-top">
@@ -89,11 +86,6 @@
     <view class="bg-red" style="width:{{loading?'30%':''}};">30%</view>
     <view class="bg-olive" style="width:{{loading?'45%':''}};">45%</view>
     <view class="bg-cyan" style="width:{{loading?'25%':''}};">25%</view>
-  </view>
-  <view class="cu-progress radius striped active margin-top-sm ">
-    <view class="bg-red" style="width:{{loading?'10%':''}};">10%</view>
-    <view class="bg-olive" style="width:{{loading?'60%':''}};">60%</view>
-    <view class="bg-cyan" style="width:{{loading?'30%':''}};">30%</view>
   </view>
 </view>
 

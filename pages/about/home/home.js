@@ -90,7 +90,7 @@ Component({
       } else {
         that.setData({
           starCount: that.coutNum(30),
-          forksCount: that.coutNum(582),
+          forksCount: that.coutNum(532),
           visitTotal: that.coutNum(24)
         })
       }

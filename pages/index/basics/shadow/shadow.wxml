@@ -29,14 +29,14 @@
 </view>
 
 <view class="padding text-center">
-  <view class="padding-xl radius shadow bg-white radius-df">默认阴影</view>
-  <view class="padding-xl radius shadow bg-blue margin-top radius-df">根据背景颜色而改变的阴影</view>
-  <view class="padding-xl radius shadow bg-green margin-top radius-df">根据背景颜色而改变的阴影</view>
-  <view class="padding-xl radius shadow bg-red margin-top radius-df">根据背景颜色而改变的阴影</view>
-  <view class="padding-xl radius shadow shadow-lg bg-white margin-top radius-df">长阴影</view>
-  <view class="padding-xl radius shadow shadow-lg bg-blue margin-top radius-df">长阴影</view>
-  <view class="padding-xl radius shadow-warp bg-white margin-top radius-df">翘边阴影</view>
-  <view class="padding-xl radius shadow-blur bg-red margin-top bg-img radius-df" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+  <view class="padding-xl radius shadow bg-white">默认阴影</view>
+  <view class="padding-xl radius shadow bg-blue margin-top">根据背景颜色而改变的阴影</view>
+  <view class="padding-xl radius shadow bg-green margin-top">根据背景颜色而改变的阴影</view>
+  <view class="padding-xl radius shadow bg-red margin-top">根据背景颜色而改变的阴影</view>
+  <view class="padding-xl radius shadow shadow-lg bg-white margin-top">长阴影</view>
+  <view class="padding-xl radius shadow shadow-lg bg-blue margin-top">长阴影</view>
+  <view class="padding-xl radius shadow-warp bg-white margin-top">翘边阴影</view>
+  <view class="padding-xl radius shadow-blur bg-red margin-top bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
     <view>根据背景图而改变的阴影</view>
   </view>
 </view>

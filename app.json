@@ -29,7 +29,10 @@
     "pages/about/home/home",
     "pages/about/log/log",
     "pages/about/about/about",
-    "pages/template/default/default"
+    "pages/template/home/home",
+    "pages/template/shop/home/home",
+    "pages/template/default/default",
+    "pages/template/user/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",
