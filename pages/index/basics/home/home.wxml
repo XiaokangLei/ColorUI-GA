@@ -4,6 +4,7 @@
 
 <!-- 全屏背景图 -->
 <image src='/images/bg.png' mode='widthFix' class='image-bg'></image>
+
 <!-- 页面 -->
 <scroll-view scroll-y class="scrollPage cu-timeline">
   <!-- 滚动图片 -->

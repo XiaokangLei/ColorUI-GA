@@ -32,17 +32,16 @@ Component({
       url: '/images/45fc.png'
     }],
     elements: [{
+        title: '首页',
+        name: 'index',
+        color: 'purple light',
+        icon: 'font'
+      }, {
         title: '个人中心',
         name: 'user',
         color: 'blue light',
         icon: 'colorlens'
       },
-      // {
-      //   title: '启动页',
-      //   name: 'text',
-      //   color: 'purple light',
-      //   icon: 'font'
-      // },
       // {
       //   title: '评论页 ',
       //   name: 'icon',
@@ -61,12 +60,12 @@ Component({
       //   color: 'brown light',
       //   icon: 'tagfill'
       // },
-      {
-        title: '电商购物',
-        name: 'shop',
-        color: 'red light',
-        icon: 'myfill'
-      },
+      // {
+      //   title: '电商购物',
+      //   name: 'shop',
+      //   color: 'red light',
+      //   icon: 'myfill'
+      // },
       // {
       //   title: '旅行住宿',
       //   name: 'progress',

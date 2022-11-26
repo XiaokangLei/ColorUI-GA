@@ -1,1 +1,65 @@
 /* pages/template/user/home/home.wxss */
+.cardTitle {
+  padding: 90rpx 60rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  transform: skew(-10deg, 0deg);
+  position: relative;
+  text-shadow: 0px 0px 6rpx rgba(0, 0, 0, 0.3)
+}
+
+.cardTitle::before {
+  content: "";
+  position: absolute;
+  width: 60rpx;
+  height: 6rpx;
+  border-radius: 24rpx;
+  display: block;
+  top: 60rpx;
+  left: 50rpx;
+  transform: skew(10deg, 0deg);
+}
+
+.cardTitle::after {
+  content: "";
+  position: absolute;
+  width: 140rpx;
+  border-radius: 16rpx;
+  height: 24rpx;
+  background-color: rgb(223, 47, 47);
+  display: block;
+  bottom: 76rpx;
+  left: 90rpx;
+  transform: skew(10deg, 0deg);
+  opacity: 0.1;
+}
+
+.image-bg {
+  /* position: absolute; */
+  width: 100%;
+  /* opacity: 0.5; */
+}
+
+.nav-lie {
+  border-radius: 28rpx;
+  width: 46%;
+  margin: 0 1.0% 40rpx;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-lie::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: -10%;
+  border-radius: 10rpx;
+  opacity: 0.2;
+  transform: scale(0.9, 0.9);
+}

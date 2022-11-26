@@ -6,7 +6,7 @@
 <image src='/images/bg.png' mode='widthFix' class='image-bg'></image>
 
 <!-- 页面 -->
-<scroll-view scroll-y class="scrollPage">
+<scroll-view scroll-y class="scrollPage cu-timeline">
   <!-- 滚动图片 -->
   <swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" previousMargin="0.01rpx" indicator-color="#8799a3" indicator-active-color="#0081ff" style='margin-top: {{StatusBar + CustomBar}}rpx;'>
     <swiper-item wx:for="{{swiperList}}" wx:key="item" class="{{cardCur==index?'cur':''}}">
@@ -19,9 +19,10 @@
 
   <view class="cu-bar margin-top">
     <view class="action">
-      <text class="cuIcon-title text-blue"></text><text class="text-xl">持续更新中...</text>
+      <text class="cuIcon-titles text-blue"></text><text class="text-xl">页面设计</text>
     </view>
   </view>
+
   <view class='nav-list'>
     <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="item">
       <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -8rpx 0rpx 0rpx -32rpx"></image>
@@ -30,6 +31,11 @@
       <text class='cuIcon-{{item.icon}}'></text>
     </navigator>
   </view>
+  <!-- <view class="cu-bar margin-top">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text><text class="text-xl">专题</text>
+    </view>
+  </view> -->
   <template is="copyright"></template>
   <view class="cu-tabbar-height"></view>
 </scroll-view>

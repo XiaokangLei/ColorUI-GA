@@ -1,9 +1,9 @@
-<!--pages/template/user/home/home.wxml-->
+<!--pages/template/index/home/home.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">个人中心UI设计</view>
+  <view slot="content">首页UI设计</view>
 </cu-custom>
 
 <!-- 页面 -->

@@ -1,0 +1,144 @@
+<!--pages/template/user/user01/user01.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">个人中心01</view>
+</cu-custom>
+
+<!-- 页面 -->
+<scroll-view scroll-y class="scrollPage cu-timeline">
+  <!-- 顶部个人信息 -->
+  <view class="bg-white margin-xs">
+    <view class="flex padding justify-between">
+      <view class="padding-xs text-xxl text-black">
+        <view>张子栋<text class="text-gray text-df"> / 平台运营</text></view>
+        <view class="text-gray text-df padding-top">北京仓颉数源网络文化有限公司</view>
+      </view>
+      <view class="padding-lr-xs">
+        <view class="cu-avatar xl round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg);">
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 基本数据 -->
+  <view class="cu-list grid col-4 no-border padding-lr-xs margin-sm">
+    <view class="cu-item">
+      <view class="text-black text-bold text-xxl">
+        500
+      </view>
+      <text>信用值</text>
+    </view>
+    <view class="cu-item">
+      <view class="text-black text-bold text-xxl">
+        V3
+      </view>
+      <text>红度值</text>
+    </view>
+    <view class="cu-item">
+      <view class="text-black text-bold text-xxl">
+        95
+      </view>
+      <text>能者</text>
+    </view>
+    <view class="cu-item">
+      <view class="text-black text-bold text-xxl">
+        83
+      </view>
+      <text>任务数</text>
+    </view>
+  </view>
+  <!-- 助力/推荐/邀请 -->
+  <view class="margin-top-xs padding-lr">
+    <view class="bg-gradual-pinknew radius-lg shadow-blur">
+      <view class="flex padding-sm justify-between">
+        <view class="padding-xs text-xxl">
+          <view>挖贝提速</view>
+        </view>
+        <view class="padding-sm">
+          <view>当前加速：30%</view>
+        </view>
+      </view>
+      <view class="flex justify-between">
+        <view class="padding-xs text-xxl">
+          <view class="flex">
+            <view class="margin-left-xl cu-btn round bg-pink light sm">20%</view>
+            <view class="margin-left-xl cu-btn round bg-white sm text-red">30%</view>
+            <view class="margin-left-xl cu-btn round bg-pink light sm">50%</view>
+          </view>
+        </view>
+        <view class="padding-xs">
+          <view class="margin-right-sm cu-btn round bg-pink light sm">100%</view>
+        </view>
+      </view>
+      <view class="flex padding-lr justify-between">
+        <view class="cu-progress round striped active xs">
+          <view class="bg-orange" style="width:30%;"></view>
+          <view class="bg-pink light" style="width:70%;"></view>
+        </view>
+      </view>
+      <view class="flex justify-between">
+        <view class="padding-xs">
+          <view class="flex tet-df">
+            <view class="margin-left-xl"><text class="margin-left">2级</text></view>
+            <view class="margin-left-xl"><text class="margin-left">3级</text></view>
+            <view class="margin-left-xl"><text class="margin-left">4级</text></view>
+          </view>
+        </view>
+        <view class="padding-xs">
+          <view class="margin-right">5级</view>
+        </view>
+      </view>
+      <view class="flex padding-sm justify-between">
+        <view class="padding-xs text-xxl">
+          <view class="flex">
+            <view class="cu-btn round line">助力明细</view>
+            <view class="cu-btn round line margin-left-sm">我的推荐</view>
+          </view>
+        </view>
+        <view class="padding-xs">
+          <view class="cu-btn round bg-white text-red">邀新助力</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 常用功能 -->
+  <view class="cu-bar margin-top">
+    <view class="action">
+      <text class="text-xl">常用功能</text>
+    </view>
+  </view>
+  <view class="cu-list grid col-4 no-border text-black">
+    <view class="cu-item" wx:for="{{iconList}}" wx:key="idx" bindtap="{{item.bindtap}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 56rpx;">
+        <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
+          <block wx:if="{{item.badge!=1}}">{{item.badge>99?"99+":item.badge}}</block>
+        </view>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+  <!-- 其他功能 -->
+  <view class="cu-bar margin-top">
+    <view class="action">
+      <text class="text-xl">其他功能</text>
+    </view>
+  </view>
+  <view class="cu-list grid col-4 no-border text-black">
+    <view class="cu-item" wx:for="{{iconOtherList}}" wx:key="idx" bindtap="{{item.bindtap}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 56rpx;">
+        <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
+          <block wx:if="{{item.badge!=1}}">{{item.badge>99?"99+":item.badge}}</block>
+        </view>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+  <view class="margin-top">
+    <template is="copyright"></template>
+  </view>
+
+  <view class="cu-tabbar-height"></view>
+
+</scroll-view>

@@ -26,7 +26,7 @@ page {
   --grey: #8799a3;
   --black: #333333;
   --darkGray: #666666;
-  --gray: #aaaaaa;
+  --gray: #969696;
   --ghostWhite: #f1f1f1;
   --white: #ffffff;
   /* 浅色 */
@@ -99,15 +99,39 @@ image {
 }
 
 .radius {
-  border-radius: 6rpx;
+  border-radius: 8rpx;
+}
+
+.radius-top {
+  border-radius: 8rpx 8rpx 0rpx 0rpx;
+}
+
+.radius-bottom {
+  border-radius: 0rpx 0rpx 8rpx 8rpx;
 }
 
 .radius-df {
   border-radius: 16rpx;
 }
 
+.radius-df-top {
+  border-radius: 16rpx 16rpx 0rpx 0rpx;
+}
+
+.radius-df-bottom {
+  border-radius: 0rpx 0rpx 16rpx 16rpx;
+}
+
 .radius-lg {
   border-radius: 24rpx;
+}
+
+.radius-lg-top {
+  border-radius: 24rpx 24rpx 0rpx 0rpx;
+}
+
+.radius-lg-bottom {
+  border-radius: 0rpx 0rpx 24rpx 24rpx;
 }
 
 /* ==================
@@ -984,8 +1008,8 @@ button.icon.lg {
 }
 
 .cu-avatar.xl {
-  width: 128rpx;
-  height: 128rpx;
+  width: 136rpx;
+  height: 136rpx;
   font-size: 2.5em;
 }
 
