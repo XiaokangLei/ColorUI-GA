@@ -11,11 +11,12 @@
     <view class="bg-gradual-blue-light content shadow">
       <view class="cu-capsule radius">
         <view class="cu-tag bg-white text-blue">v2.0.5</view>
-        <view class="cu-tag line-blue">2022/11/24</view>
+        <view class="cu-tag line-blue">2022/11/27</view>
       </view>
       <view class="margin-top-sm text-content">
-        <view>1.新增页面UI设计</view>
-        <view>2.部分样式更新</view>
+        <view>1.新增首页设计+2</view>
+        <view>2.新增个人中心设计+2</view>
+        <view>3.部分样式更新</view>
       </view>
     </view>
   </view>

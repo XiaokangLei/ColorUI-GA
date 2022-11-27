@@ -36,6 +36,12 @@
       </view>
       <view class="cuIcon-copy text-blue"></view>
     </view>
+    <view class="flex flex-wrap margin-top-sm" bindtap="CopyText" data-link="https://www.meiye.art/inspiration">
+      <view class="basis-xl">
+        <view class="text-cut" style="width:500rpx">MeiYe: https://www.meiye.art/inspiration</view>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
 
   </view>
 </view>

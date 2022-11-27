@@ -1,0 +1,163 @@
+<!--pages/template/index/index02/index02.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">首页UI设计02</view>
+</cu-custom>
+
+<!-- 页面 -->
+<view class="scrollPage cu-timeline margin-sm radius-lg">
+
+  <view class="box-serach">
+    <view class="cu-bar search bg-white radius-lg">
+      <view class="search-form round">
+        <text class="cuIcon-search"></text>
+        <input type="text" placeholder="搜索内容" confirm-type="search"></input>
+      </view>
+      <view class="flex padding-sm text-xxl text-black"><text class="cuIcon-message"></text></view>
+
+    </view>
+  </view>
+  <scroll-view scroll-x class="bg-white nav">
+    <view class="flex text-center">
+      <view class="cu-item flex-sub {{index==TabCur?'text-blue cur text-bold':''}}" wx:for="{{tabList}}" wx:key="item" bindtap="tabSelect" data-id="{{item.id}}">
+        {{item.name}}
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 滚动图片 -->
+  <swiper class="screen-swiper margin {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key="item">
+      <image src="{{item.url}}" class="radius-df" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </swiper-item>
+  </swiper>
+  <!-- 常用功能 -->
+  <view class="cu-list grid col-5 no-border text-black">
+    <view class="cu-item" wx:for="{{iconList}}" wx:key="idx" bindtap="{{item.bindtap}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 56rpx;">
+        <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
+          <block wx:if="{{item.badge!=1}}">{{item.badge>99?"99+":item.badge}}</block>
+        </view>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+  <view class="flex margin-sm padding-bottom justify-start">
+    <view class="cu-btn round bg-gradual-orange sm shadow"><text class="cuIcon-light"></text>小鹏社区<text class="cuIcon-right"></text></view>
+    <view class="cu-btn round line-black sm shadow margin-left-sm"><text class="cuIcon-we"></text>理想社区</view>
+    <view class="cu-btn round line-black sm shadow margin-left-sm"><text class="cuIcon-brand"></text>比亚迪社区</view>
+  </view>
+
+  <view class="margin-sm radius-lg padding-lr-xs solid">
+    <view class="bg-white light radius-lg shadow-blur">
+      <view class="flex padding-tb justify-between">
+        <view class="">
+          <view class="bg-gray padding-xs radius">
+            <view class="cu-card article no-card bg-gray">
+              <view class="cu-item bg-gray">
+                <view class="content bg-gray">
+                  <image src="https://image.meiye.art/pic_1631421397661HNOINNh3D_3i_X438GQtr" mode="aspectFill"></image>
+                  <view class="desc">
+                    <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+                    <view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="bg-gray padding-xs radius margin-top-sm">
+            <view class="cu-card article no-card bg-gray">
+              <view class="cu-item bg-gray">
+                <view class="content bg-gray">
+                  <image src="https://image.meiye.art/pic_1632021660409hVO2lpyE7mLmFn0aXAfgh" mode="aspectFill"></image>
+                  <view class="desc">
+                    <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+                    <view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="bg-gray padding-xs radius margin-top-sm">
+            <view class="cu-card article no-card bg-gray">
+              <view class="cu-item bg-gray">
+                <view class="content bg-gray">
+                  <image src="https://image.meiye.art/pic_1631447955083EbRPbKSVHSSGfbCftknGs" mode="aspectFill"></image>
+                  <view class="desc">
+                    <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+                    <view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="">
+          <!-- <view class="cu-btn round bg-gradual-pinknew margin-top-sm">6折优惠</view> -->
+          <view class="cu-card dynamic no-card">
+            <view class="cu-item shadow">
+              <view class="grid flex-sub padding-lr col-1">
+                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/pic_1631421397660S7MJ04IsLJVGZMg8HT4YG); height: 180rpx; width: 230rpx;">
+                </view>
+              </view>
+              <view class="cu-list menu-avatar comment">
+                <view class="flex text-center text-black justify-center">
+                  <text>小鹏P7</text>
+                </view>
+                <view class="flex text-center text-red text-bold justify-center">
+                  <text>21.99~40.99w</text>
+                </view>
+                <view class="flex text-center text-black justify-center margin-top-sm">
+                  <view class="cu-tag round line-black">图片</view>
+                  <view class="cu-tag round line-black margin-left-sm">参数</view>
+                  <view class="cu-tag round line-black margin-left-sm">车型</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="flex margin-lr-xs padding-bottom-sm justify-between">
+        <text class="text-lg text-yellow">进入小鹏社区 <text class="cuIcon-right"></text></text>
+        <text class="text-lg text-yellow">收起 <text class="cuIcon-fold"></text></text>
+      </view>
+    </view>
+  </view>
+
+  <view class="flex padding-xs margin-bottom-sm">
+    <view class="flex-sub bg-gray light padding-sm margin-xs radius">
+      <view>
+        <text class="cuIcon-titles text-yellow"></text><text class="text-sm text-gray"> 产品库车型对比</text>
+      </view>
+      <view class="margin-top-xs">
+        <view class="text-cut text-black padding-sm" style="width:130px">e-POWER轩逸 VS 秦Plus</view>
+      </view>
+    </view>
+    <view class="flex-sub bg-gray light padding-sm margin-xs radius">
+      <view>
+        <text class="cuIcon-titles text-yellow"></text><text class="text-sm text-gray"> 岚图梦想家</text>
+      </view>
+      <view class="margin-top-xs">
+        <view class="text-cut text-black padding-sm" style="width:130px">品牌首款MVP</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="cu-list grid col-3 no-border radius-lg">
+    <view class="cu-item" wx:for="{{3}}" wx:key="idx">
+      <image src="https://image.meiye.art/pic_1632021660409hVO2lpyE7mLmFn0aXAfgh" mode="aspectFill" style="height:210rpx" class="padding-sm"></image>
+    </view>
+  </view>
+
+</view>
+
+
+<view class="margin-top-xl">
+  <template is="copyright"></template>
+</view>

@@ -40,3 +40,6 @@
   width: 100%;
   opacity: 0.5;
 }
+.scrollPage {
+  height: 100vh;
+}

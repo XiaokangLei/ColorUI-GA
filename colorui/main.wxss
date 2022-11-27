@@ -2048,7 +2048,7 @@ button.icon.lg {
 }
 
 .nav .cu-item.cur {
-  border-bottom: 4rpx solid;
+  border-bottom: 6rpx solid;
 }
 
 /* ==================
@@ -2649,7 +2649,7 @@ swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active {
 }
 
 .screen-swiper {
-  min-height: 320rpx;
+  min-height: 300rpx;
 }
 
 .screen-swiper image,

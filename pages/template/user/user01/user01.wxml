@@ -7,7 +7,7 @@
 </cu-custom>
 
 <!-- 页面 -->
-<view class="scrollPage bg-white">
+<view class="scrollPage bg-white margin-sm radius-lg">
   <!-- 顶部个人信息 -->
   <view class="bg-white margin-lr-xs radius-lg">
     <view class="flex padding justify-between">
@@ -124,7 +124,7 @@
       <text class="text-xl">其他功能</text>
     </view>
   </view>
-  <view class="cu-list grid col-4 no-border text-black">
+  <view class="cu-list grid col-4 no-border text-black radius-lg">
     <view class="cu-item" wx:for="{{iconOtherList}}" wx:key="idx" bindtap="{{item.bindtap}}">
       <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 56rpx;">
         <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
@@ -135,8 +135,8 @@
     </view>
   </view>
 
-  <view class="margin-top">
-    <template is="copyright"></template>
-  </view>
+</view>
 
+<view class="margin-top">
+  <template is="copyright"></template>
 </view>

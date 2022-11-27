@@ -32,6 +32,10 @@
   top: 0rpx;
 }
 
-.box {
-  width: 460rpx;
+.box-search {
+  margin: 20rpx 0;
+}
+
+.box-search view.cu-bar {
+  margin-top: 20rpx;
 }

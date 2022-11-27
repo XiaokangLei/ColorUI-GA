@@ -10,6 +10,11 @@ Page({
       name: 'index01',
       color: 'purple light',
       url: 'https://image.meiye.art/pic_OErySANY88_5sgwYg_0zF'
+    }, {
+      title: '首页',
+      name: 'index02',
+      color: 'purple light',
+      url: 'https://image.meiye.art/pic_fqsdojCiT71c1eVDCcs3v'
     }],
 
   },
