@@ -1,0 +1,110 @@
+<!--pages/template/index/index01/index01.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">首页01</view>
+</cu-custom>
+
+<!-- 页面 -->
+<view class="scrollPage cu-timeline">
+
+  <view class="margin-lr-sm">
+    <view class="flex">
+      <view class="flex padding-sm margin-tb-xs radius margin-left-xs text-xl">
+        重庆<text class="cuIcon-triangledownfill padding-top-xs"></text>
+      </view>
+      <view class="flex radius">
+        <view class='box'>
+          <form bindsubmit='bindconfirm'>
+            <view class="cu-bar search">
+              <view class='search-form-new round'>
+                <text class="cuIcon-search"></text>
+                <input type="text" placeholder="报酬高" value="{{defaultSearchValue}}" bindconfirm="bindconfirm" name="searchContent" confirm-type="search"></input>
+              </view>
+              <view class="action" wx:if="{{cancel}}" bindtap='onPullDownRefresh'>
+                <text class="text-orange">取消</text>
+              </view>
+            </view>
+          </form>
+        </view>
+      </view>
+      <view class="flex padding-sm margin-lr-xs text-xxl"><text class="cuIcon-message padding-top-xs"></text></view>
+    </view>
+
+  </view>
+  <!-- 滚动图片 -->
+  <swiper class="screen-swiper margin {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key="item">
+      <image src="{{item.url}}" class="radius-df" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </swiper-item>
+  </swiper>
+  <!-- 常用功能 -->
+  <view class="cu-list grid col-4 no-border text-black">
+    <view class="cu-item" wx:for="{{iconList}}" wx:key="idx" bindtap="{{item.bindtap}}">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 56rpx;">
+        <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
+          <block wx:if="{{item.badge!=1}}">{{item.badge>99?"99+":item.badge}}</block>
+        </view>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+  <view class="flex solid-bottom margin-lr padding-tb justify-between">
+    <text class="text-xl text-black">最新任务</text>
+    <text class="text-lg text-gray">更多任务<text class="cuIcon-right"></text></text>
+  </view>
+
+  <view class="flex margin-lr padding-top padding-bottom-xs justify-between">
+    <view class="flex">
+      <text class="text-xxl text-black">找人来帮我搬家</text>
+      <view class="cu-tag bg-orange sm radius margin-top-xs">金牌雇主</view>
+    </view>
+    <text class="text-xxl text-red"><text class="text-bold">60</text><text class="text-gray text-lg">/时</text></text>
+  </view>
+  <view class="flex margin-lr padding-bottom justify-start">
+    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
+    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 3~5小时</text>
+  </view>
+  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
+    <view class="cu-tag line-blue radius">高信用</view>
+    <view class="cu-tag line-blue radius">加急</view>
+  </view>
+
+  <view class="flex margin-lr padding-tb justify-between">
+    <view class="flex">
+      <text class="text-xxl text-black">明天需要一台车,有没有闲的</text>
+    </view>
+    <text class="text-xxl text-red"><text class="text-bold">100</text><text class="text-gray text-lg">/时</text></text>
+  </view>
+  <view class="flex margin-lr padding-bottom justify-start">
+    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
+    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 24小时</text>
+  </view>
+  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
+    <view class="cu-tag line-blue radius">高信用</view>
+    <view class="cu-tag line-blue radius">高报酬</view>
+  </view>
+
+  <view class="flex margin-lr padding-tb justify-between">
+    <view class="flex">
+      <text class="text-xxl text-black">急找|附近有没有要打游戏的？</text>
+    </view>
+    <text class="text-xxl text-red"><text class="text-bold">5</text><text class="text-gray text-lg">/时</text></text>
+  </view>
+  <view class="flex margin-lr padding-bottom justify-start">
+    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
+    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 2小时</text>
+  </view>
+  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
+    <view class="cu-tag line-blue radius">高信用</view>
+  </view>
+
+  <view class="margin-top">
+    <template is="copyright"></template>
+  </view>
+
+
+</view>

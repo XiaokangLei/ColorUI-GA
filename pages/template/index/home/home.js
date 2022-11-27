@@ -5,6 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
+    elements: [{
+      title: '首页',
+      name: 'index01',
+      color: 'purple light',
+      url: 'https://image.meiye.art/pic_OErySANY88_5sgwYg_0zF'
+    }],
 
   },
 

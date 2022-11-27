@@ -6,18 +6,16 @@ Page({
    */
   data: {
     elements: [{
-        title: '首页',
-        name: 'user02',
-        color: 'purple light',
-        url: 'https://image.meiye.art/pic_0GLUfuwa7SUr4KaBj8I_F'
-      }, {
-        title: '个人中心',
-        name: 'user01',
-        color: 'blue light',
-        url: 'https://image.meiye.art/pic_rtbm-gwTiDPTHOcu9B_Ih'
-      },
-
-    ],
+      title: '个人中心',
+      name: 'user01',
+      color: 'blue light',
+      url: 'https://image.meiye.art/pic_rtbm-gwTiDPTHOcu9B_Ih'
+    }, {
+      title: '首页',
+      name: 'user02',
+      color: 'purple light',
+      url: 'https://image.meiye.art/pic_0GLUfuwa7SUr4KaBj8I_F'
+    }],
 
   },
 

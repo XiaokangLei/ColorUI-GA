@@ -1,7 +1,7 @@
 <!--pages/template/index/home/home.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
-<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+<cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">首页UI设计</view>
 </cu-custom>
@@ -9,7 +9,7 @@
 <!-- 页面 -->
 <scroll-view scroll-y class="scrollPage cu-timeline">
   <view class='nav-list margin-top'>
-    <navigator open-type="navigate" hover-class='none' url="/pages/template/user/{{item.name}}/{{item.name}}" class="nav-lie" wx:for="{{elements}}" wx:key="item">
+    <navigator open-type="navigate" hover-class='none' url="/pages/template/index/{{item.name}}/{{item.name}}" class="nav-lie" wx:for="{{elements}}" wx:key="item">
       <image src='{{item.url}}' mode='widthFix' class='image-bg' style="border-radius: 16rpx;"></image>
     </navigator>
   </view>

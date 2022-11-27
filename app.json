@@ -34,7 +34,8 @@
     "pages/template/user/home/home",
     "pages/template/user/user01/user01",
     "pages/template/user/user02/user02",
-    "pages/template/index/home/home"
+    "pages/template/index/home/home",
+    "pages/template/index/index01/index01"
   ],
   "window": {
     "backgroundTextStyle": "light",

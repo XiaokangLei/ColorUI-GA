@@ -1,15 +1,15 @@
 <!--pages/template/user/user01/user01.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
-<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+<cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">个人中心01</view>
 </cu-custom>
 
 <!-- 页面 -->
-<scroll-view scroll-y class="scrollPage cu-timeline">
+<view class="scrollPage bg-white">
   <!-- 顶部个人信息 -->
-  <view class="bg-white margin-xs">
+  <view class="bg-white margin-lr-xs radius-lg">
     <view class="flex padding justify-between">
       <view class="padding-xs text-xxl text-black">
         <view>张子栋<text class="text-gray text-df"> / 平台运营</text></view>
@@ -22,7 +22,7 @@
     </view>
   </view>
   <!-- 基本数据 -->
-  <view class="cu-list grid col-4 no-border padding-lr-xs margin-sm">
+  <view class="cu-list grid col-4 no-border padding-lr-xs margin-sm radius-lg padding-top-xs">
     <view class="cu-item">
       <view class="text-black text-bold text-xxl">
         500
@@ -139,6 +139,4 @@
     <template is="copyright"></template>
   </view>
 
-  <view class="cu-tabbar-height"></view>
-
-</scroll-view>
+</view>

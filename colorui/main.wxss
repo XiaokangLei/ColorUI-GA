@@ -24,7 +24,7 @@ page {
   --pink: #e03997;
   --brown: #a5673f;
   --grey: #8799a3;
-  --black: #333333;
+  --black: #0a0a0a;
   --darkGray: #666666;
   --gray: #969696;
   --ghostWhite: #f1f1f1;
@@ -2649,7 +2649,7 @@ swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active {
 }
 
 .screen-swiper {
-  min-height: 375rpx;
+  min-height: 320rpx;
 }
 
 .screen-swiper image,
