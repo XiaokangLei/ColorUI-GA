@@ -17,7 +17,7 @@
     <text class="margin-top-sm text-gray">最近更新：2022/11/27</text>
   </view>
   <view class="margin">
-    <view class="padding-tb flex text-center bg-white shadow radius-lg">
+    <view class="padding-tb flex text-center bg-white shadow radius-df">
       <view class="flex flex-sub flex-direction solid-right">
         <view class="text-xxl text-orange">{{visitTotal}}</view>
         <view class="margin-top-sm text-black">
@@ -42,15 +42,15 @@
   <view class="cu-list menu card-menu margin-top margin-bottom-xl shadow radius-lg">
     <view class="cu-item arrow" bindtap="CopyText" data-link="https://github.com/XiaokangLei/ColorUI-GA">
       <view class="content">
-        <text class="cuIcon-github"></text>
-        <text>GitHub</text>
+        <text class="cuIcon-github text-brown"></text>
+        <text>GitHub开源</text>
       </view>
       <view class="cuIcon-copy text-blue"></view>
     </view>
     <view class="cu-item arrow" bindtap="toPage" data-url="/pages/about/about/about">
       <view class="content">
         <image src="/images/logo.png" class="png" mode="aspectFit"></image>
-        <text>关于</text>
+        <text>关于小程序</text>
       </view>
     </view>
     <view class="cu-item arrow" bindtap="toPage" data-url="/pages/about/log/log">
@@ -59,13 +59,32 @@
         <text>更新日志</text>
       </view>
     </view>
-    <view class="cu-item arrow">
-      <button class="cu-btn content" open-type="feedback">
-        <text class="cuIcon-writefill text-cyan"></text>
-        <text>意见反馈</text>
+  </view>
+
+  <view class="cu-list menu card-menu margin-top-sm shadow-lg">
+    <!-- 联系作者 -->
+    <view class="cu-item">
+      <button class='cu-btn content' open-type='contact'>
+        <text class='cuIcon-service text-orange text-xl'></text>
+        <text class='text-l'>联系作者</text>
       </button>
     </view>
+    <view class="cu-item">
+      <button class='cu-btn content' open-type='feedback'>
+        <text class='cuIcon-write text-cyan text-xl'></text>
+        <text class='text-l'>意见反馈</text>
+      </button>
+    </view>
+    <view wx:if="{{isAuthor}}" class="cu-item arrow margin-top-sm" bindtap="showAdmin">
+      <view class='content'>
+        <text class='cuIcon-settings text-gary text-xl'></text>
+        <text class='text-l'>后台管理</text>
+      </view>
+    </view>
   </view>
-  <template is="copyright"></template>
+  <view class="margin-top">
+    <template is="copyright"></template>
+  </view>
+
   <view class="cu-tabbar-height"></view>
 </scroll-view>

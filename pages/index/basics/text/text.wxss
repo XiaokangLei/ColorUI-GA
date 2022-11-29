@@ -1,1 +1,8 @@
 /* pages/index/basics/text/text.wxss */
+.box {
+  margin: 20rpx 0;
+}
+
+.box view.cu-bar {
+  margin-top: 20rpx;
+}
