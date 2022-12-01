@@ -36,7 +36,9 @@
     "pages/template/user/user02/user02",
     "pages/template/index/home/home",
     "pages/template/index/index01/index01",
-    "pages/template/index/index02/index02"
+    "pages/template/index/index02/index02",
+    "pages/index/component/home/home",
+    "pages/index/plugin/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",

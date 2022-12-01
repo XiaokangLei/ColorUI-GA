@@ -3,7 +3,7 @@
 <import src="/pages/template/common/copyright.wxml" />
 
 <!-- 背景图 -->
-<image src='/images/bg.png' mode='widthFix' class='imageBg'></image>
+<image src='/images/bg.png' mode='widthFix' class='bg-img'></image>
 
 <!-- 页面 -->
 <scroll-view scroll-y class="scrollPage">

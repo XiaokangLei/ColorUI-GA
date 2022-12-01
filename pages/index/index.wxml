@@ -29,26 +29,42 @@
   </view>
 </view> -->
 
-<templates wx:if="{{PageCur=='templates'}}"></templates>
+<component wx:if="{{PageCur=='component'}}"></component>
 
-<!-- <plugin wx:if="{{PageCur=='plugin'}}"></plugin> -->
+<templates wx:if="{{PageCur=='templates'}}"></templates>
 
 <about wx:if="{{PageCur=='about'}}"></about>
 
-<view class="cu-bar tabbar bg-white shadow foot" style="opacity: 0.92;">
+<plugin wx:if="{{PageCur=='plugin'}}"></plugin>
+
+<view class="cu-bar tabbar bg-white shadow foot">
 
   <view class="action" bindtap="NavChange" data-cur="basics">
     <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
+      <image src="/images/tabbar/navi{{PageCur=='basics'?'_cur':''}}.png"></image>
     </view>
-    <view class="{{PageCur=='basics'?'text-blue':'text-gray'}}">主页</view>
+    <view class="{{PageCur=='basics'?'text-blue':'text-gray'}}">基础</view>
   </view>
 
-  <view class="action" bindtap="NavChange" data-cur="templates">
+  <view class="action" bindtap="NavChange" data-cur="component">
     <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/component{{PageCur=='templates'?'_cur':''}}.png"></image>
+      <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='component'?'text-blue':'text-gray'}}">组件</view>
+  </view>
+
+  <view class="action add-action" bindtap="NavChange" data-cur="templates">
+    <view class='cuIcon-cu-image'>
+      <image style="width: 72rpx; height: 72rpx;" src="/images/tabbar/basics{{PageCur=='templates'?'_cur':''}}.png"></image>
     </view>
     <view class="{{PageCur=='templates'?'text-blue':'text-gray'}}">设计</view>
+  </view>
+
+  <view class="action" bindtap="NavChange" data-cur="plugin">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/chat{{PageCur=='plugin'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='plugin'?'text-blue':'text-gray'}}">扩展</view>
   </view>
 
   <view class="action" bindtap="NavChange" data-cur="about">

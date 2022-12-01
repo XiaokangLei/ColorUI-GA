@@ -1,7 +1,7 @@
 // index.js
 Page({
   data: {
-    PageCur: 'basics'
+    PageCur: 'templates'
   },
   showModal(e) {
     this.setData({

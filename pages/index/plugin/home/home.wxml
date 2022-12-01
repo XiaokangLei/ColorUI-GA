@@ -1,9 +1,8 @@
-<!--pages/template/home/home.wxml-->
-
+<!--pages/index/plugin/home/home.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
-<!-- 背景图 -->
-<image src='/images/bg.png' mode='widthFix' class='bg-img '></image>
+<!-- 全屏背景图 -->
+<image src='/images/bg.png' mode='widthFix' class='bg-img'></image>
 
 <!-- 页面 -->
 <scroll-view scroll-y class="scrollPage cu-timeline">
@@ -16,9 +15,9 @@
       </view>
     </swiper-item>
   </swiper>
-
+  <!-- 扩展list -->
   <view class='nav-list margin-top'>
-    <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="item">
+    <navigator hover-class='none' url="/pages/index/plugin/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elementsPlugins}}" wx:key="item">
       <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -8rpx 0rpx 0rpx -32rpx"></image>
       <view class="nav-title">{{item.title}}</view>
       <view class="nav-name">{{item.name}}</view>
@@ -26,5 +25,7 @@
     </navigator>
   </view>
   <template is="copyright"></template>
-  <view class="cu-tabbar-height"></view>
+
+  <view class='cu-tabbar-height'></view>
+
 </scroll-view>

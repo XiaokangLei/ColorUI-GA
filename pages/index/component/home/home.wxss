@@ -1,4 +1,4 @@
-/* pages/index/basics/home/home.wxss */
+/* pages/index/component/home/home.wxss */
 .image-bg {
   position: absolute;
   height: 100%;

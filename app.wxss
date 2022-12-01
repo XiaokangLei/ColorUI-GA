@@ -14,8 +14,14 @@
   box-sizing: border-box;
 }
 
+.bg-img {
+  position: absolute;
+  width: 100%;
+}
+
 .scrollPage {
   height: 100%;
+  min-height: 100vh;
 }
 
 .nav-list {

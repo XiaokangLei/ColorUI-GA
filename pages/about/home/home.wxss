@@ -47,13 +47,6 @@ map,.mapBox{
   height: 300rpx;
 } */
 
-.imageBg {
-  position: absolute;
-  width: 100%;
-  opacity: 0.5;
-  /* height: 600rpx; */
-}
-
 /* .user-center-card {
   position: fixed;
   top: 0;
