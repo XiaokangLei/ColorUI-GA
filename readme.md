@@ -2,6 +2,15 @@
 
 ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 [Github Issues](https://github.com/XiaokangLei/ColorUI-GA/issues)。对于想要一起开发，补充CSS样式库的朋友，欢迎提交 PR。
 
+## 文档
+
+- 【努力更新中...】文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)
+- 小程序预览
+
+<div align=center>
+  <img width="160px" style="border-radius: 5%;" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
+</div>
+
 ## 快速开始
 
 - 1、下载 [源码](https://github.com/XiaokangLei/ColorUI-GA) 并解压，复制`/colorui`文件夹到项目根目录
@@ -80,11 +89,11 @@ onLaunch: function() {
 - 分享小程序给您身边更多的小伙伴
 
 <div align=center>
-  <img width="160px" style="border-radius: 5%" bor src="./images/wx_mp.jpg">
-  <img width="160px" style="border-radius: 5%; margin-left:20%" bor src="./images/mini.jpg">
+  <img width="160px" style="border-radius: 5%; margin:0 10%" bor src="https://s1.ax1x.com/2022/11/30/zwKWsx.jpg">
+  <img width="160px" style="border-radius: 5%; margin:0 10%" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
 </div>
 
-**请作者喝咖啡**
+<!-- **请作者喝咖啡**
 <div align=center>
-  <img width="60%" style="border-radius: 2%" bor src="./images/zanshang.jpg">
-</div>
+    <img width="50%" style="border-radius: 5%" bor src="https://pic3.zhimg.com/80/v2-a1225a9a1ea9b01aeb77ca915811fb5e_1440w.webp">
+</div> -->

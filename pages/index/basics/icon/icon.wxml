@@ -11,7 +11,7 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white solid-bottom" style="margin-top:{{CustomBar}}rpx">
+<view class="cu-bar bg-white solid-bottom" style="margin-top:{{CustomBar+15}}rpx">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>图标颜色
   </view>
