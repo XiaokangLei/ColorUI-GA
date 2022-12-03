@@ -1,0 +1,36 @@
+<!--pages/about/appreciate/appreciate.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">感谢</view>
+</cu-custom>
+
+<view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
+  <view class='text-center margin-bottom text-lg text-bold text-blue'>感谢以下开源</view>
+  <view class='text-content'>
+    <view class="flex flex-wrap" bindtap="CopyText" data-link="https://github.com/weilanwl/ColorUI">
+      <view class="basis-xl">
+        <view class="text-cut" style="width:500rpx">ColorUI: https://github.com/weilanwl/ColorUI</view>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
+    <view class="flex flex-wrap margin-top-sm" bindtap="CopyText" data-link="https://github.com/TaleLin/lin-ui">
+      <view class="basis-xl">
+        <view class="text-cut" style="width:500rpx">Lin-UI: https://github.com/TaleLin/lin-ui</view>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
+    <view class="flex flex-wrap margin-top-sm" bindtap="CopyText" data-link="https://github.com/vant-ui/vant-weapp">
+      <view class="basis-xl">
+        <view class="text-cut" style="width:500rpx">Vant: https://github.com/vant-ui/vant-weapp</view>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
+    <view class="flex flex-wrap margin-top-sm" bindtap="CopyText" data-link="https://www.meiye.art/inspiration">
+      <view class="basis-xl">
+        <view class="text-cut" style="width:500rpx">MeiYe: https://www.meiye.art/inspiration</view>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
+
+  </view>
+</view>

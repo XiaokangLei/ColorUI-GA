@@ -11,49 +11,52 @@
   <view class="padding text-center"> class="cu-btn<text wx:if="{{color}}"> {{border?'line':'bg'}}{{bordersize?bordersize:''}}-{{color}} {{round?'round':''}} {{size}} {{shadow?'shadow':''}} {{block?'block':''}}</text>" </view>
 </view>
 
-<view class="cu-form-group margin-top" bindtap="showModal" data-target="ColorModal">
-  <view class="title">选择颜色</view>
-  <view class="padding bg-{{color}} solid radius shadow-blur"></view>
+<view class="margin-sm">
+  <view class="cu-form-group margin-top radius-lg-top" bindtap="showModal" data-target="ColorModal">
+    <view class="title">选择颜色</view>
+    <view class="padding bg-{{color}} solid radius shadow-blur"></view>
+  </view>
+
+  <view class="cu-form-group">
+    <view class="title">是否圆角</view>
+    <switch class="sm" bindchange="SetRound"></switch>
+  </view>
+
+  <view class="cu-form-group">
+    <view class="title">选择尺寸</view>
+    <radio-group bindchange="SetSize">
+      <label class="margin-left-sm">
+        <radio class="blue sm radio" value="sm"></radio>
+        <text> 小</text>
+      </label>
+      <label class="margin-left-sm">
+        <radio class="blue sm radio" value="" checked></radio>
+        <text> 中</text>
+      </label>
+      <label class="margin-left-sm">
+        <radio class="blue sm radio" value="lg"></radio>
+        <text> 大</text>
+      </label>
+      <label class="margin-left-sm">
+        <radio class="blue sm radio" value="xxl"></radio>
+        <text> 超大</text>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class="cu-form-group">
+    <view class="title">是否添加阴影</view>
+    <switch class="sm" bindchange="SetShadow"></switch>
+  </view>
+
+  <view class="cu-form-group radius-lg-bottom">
+    <view class="title">是否镂空</view>
+    <switch class="sm" bindchange="SetBorder"></switch>
+  </view>
+
 </view>
 
-<view class="cu-form-group">
-  <view class="title">是否圆角</view>
-  <switch class="sm" bindchange="SetRound"></switch>
-</view>
-
-<view class="cu-form-group">
-  <view class="title">选择尺寸</view>
-  <radio-group bindchange="SetSize">
-    <label class="margin-left-sm">
-      <radio class="blue sm radio" value="sm"></radio>
-      <text> 小</text>
-    </label>
-    <label class="margin-left-sm">
-      <radio class="blue sm radio" value="" checked></radio>
-      <text> 中</text>
-    </label>
-    <label class="margin-left-sm">
-      <radio class="blue sm radio" value="lg"></radio>
-      <text> 大</text>
-    </label>
-    <label class="margin-left-sm">
-      <radio class="blue sm radio" value="xxl"></radio>
-      <text> 超大</text>
-    </label>
-  </radio-group>
-</view>
-
-<view class="cu-form-group">
-  <view class="title">是否添加阴影</view>
-  <switch class="sm" bindchange="SetShadow"></switch>
-</view>
-
-<view class="cu-form-group">
-  <view class="title">是否镂空</view>
-  <switch class="sm" bindchange="SetBorder"></switch>
-</view>
-
-<view class="cu-form-group" wx:if="{{border}}">
+<view class="cu-form-group margin-sm radius" wx:if="{{border}}">
   <view class="title">边框粗细</view>
   <radio-group bindchange="SetBorderSize">
     <label class="margin-left-sm">

@@ -3,10 +3,10 @@
 <import src="/pages/template/common/copyright.wxml" />
 
 <!-- 背景图 -->
-<image src='/images/bg.png' mode='widthFix' class='bg-img '></image>
+<image src='/images/bg.png' mode='widthFix' class='bg-img-new'></image>
 
 <!-- 页面 -->
-<scroll-view scroll-y class="scrollPage cu-timeline">
+<scroll-view scroll-y class="scrollPage">
   <!-- 滚动图片 -->
   <swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" previousMargin="0.01rpx" indicator-color="#8799a3" indicator-active-color="#0081ff" style='margin-top: {{StatusBar + CustomBar}}rpx;'>
     <swiper-item wx:for="{{swiperList}}" wx:key="item" class="{{cardCur==index?'cur':''}}">
@@ -17,14 +17,30 @@
     </swiper-item>
   </swiper>
 
-  <view class='nav-list margin-top'>
+  <!-- <view class='nav-list margin-top'>
     <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="item">
       <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -8rpx 0rpx 0rpx -32rpx"></image>
       <view class="nav-title">{{item.title}}</view>
       <view class="nav-name">{{item.name}}</view>
       <text class='cuIcon-{{item.icon}}'></text>
     </navigator>
-  </view>
+  </view> -->
+
+  <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" wx:for="{{elements}}" wx:key="item">
+    <view class="cu-card case bg-white margin-lg radius-df">
+      <view class="cu-item shadow">
+        <view class="image">
+          <image src="{{item.url}}" mode="widthFix"></image>
+          <view class="cu-tag bg-orange">热门</view>
+        </view>
+        <view class="padding-sm">
+          <text class="text-xl">『{{item.title}}』UI设计模板</text>
+        </view>
+
+      </view>
+
+    </view>
+  </navigator>
   <template is="copyright"></template>
   <view class="cu-tabbar-height"></view>
 </scroll-view>

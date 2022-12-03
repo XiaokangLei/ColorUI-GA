@@ -38,7 +38,8 @@
     "pages/template/index/index01/index01",
     "pages/template/index/index02/index02",
     "pages/index/component/home/home",
-    "pages/index/plugin/home/home"
+    "pages/index/plugin/home/home",
+    "pages/about/appreciate/appreciate"
   ],
   "window": {
     "backgroundTextStyle": "light",

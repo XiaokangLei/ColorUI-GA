@@ -19,18 +19,6 @@ Page({
     }, {
       icon: 'noticefill',
       color: 'olive'
-    }, {
-      icon: 'upstagefill',
-      color: 'cyan'
-    }, {
-      icon: 'clothesfill',
-      color: 'blue'
-    }, {
-      icon: 'discoverfill',
-      color: 'purple'
-    }, {
-      icon: 'questionfill',
-      color: 'mauve'
     }],
     icon: [{
       name: 'homefill',
@@ -977,6 +965,12 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  SetShadow(e) {
+    this.setData({
+      shadow: e.detail.value
+    })
   },
 
   /**

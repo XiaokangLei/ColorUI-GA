@@ -3,7 +3,7 @@
 <import src="/pages/template/common/copyright.wxml" />
 
 <!-- 背景图 -->
-<image src='/images/bg.png' mode='widthFix' class='bg-img'></image>
+<image src='/images/bg.png' mode='widthFix' class='bg-img-new'></image>
 
 <!-- 页面 -->
 <scroll-view scroll-y class="scrollPage">
@@ -39,7 +39,7 @@
     </view>
   </view>
 
-  <view class="cu-list menu card-menu margin-top margin-bottom-xl shadow radius-lg">
+  <view class="cu-list menu card-menu sm-border margin-top margin-bottom-xl shadow radius-lg">
     <view class="cu-item arrow" bindtap="CopyText" data-link="https://github.com/XiaokangLei/ColorUI-GA">
       <view class="content">
         <text class="cuIcon-github text-brown"></text>
@@ -57,6 +57,12 @@
       <view class="content">
         <text class="cuIcon-formfill text-blue"></text>
         <text>更新日志</text>
+      </view>
+    </view>
+    <view class="cu-item arrow" bindtap="toPage" data-url="/pages/about/appreciate/appreciate">
+      <view class="content">
+        <text class="cuIcon-wefill text-red"></text>
+        <text>感谢</text>
       </view>
     </view>
   </view>

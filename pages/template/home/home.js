@@ -35,12 +35,14 @@ Component({
         title: '首页',
         name: 'index',
         color: 'purple light',
-        icon: 'font'
+        icon: 'font',
+        url: 'https://oss.colorui.org/cos/img/qtrr8.png'
       }, {
         title: '个人中心',
         name: 'user',
         color: 'blue light',
-        icon: 'colorlens'
+        icon: 'colorlens',
+        url: 'https://oss.colorui.org/cos/img/beptn.png'
       },
       // {
       //   title: '评论页 ',

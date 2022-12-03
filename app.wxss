@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-.bg-img {
+.bg-img-new {
   position: absolute;
   width: 100%;
 }
