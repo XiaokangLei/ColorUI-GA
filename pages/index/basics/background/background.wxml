@@ -179,7 +179,7 @@
       上面开始
     </view>
   </view>
-  <view class="bg-img padding-top-xl flex align-end" style="background-image: url('https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg');height: 207rpx;">
+  <view class="bg-img padding-top-xl flex align-end" style="background-image: url('https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec');height: 207rpx;">
     <view class="bg-shadeBottom padding padding-top-xl flex-sub">
       下面开始
     </view>

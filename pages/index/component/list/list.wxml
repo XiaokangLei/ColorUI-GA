@@ -151,7 +151,7 @@
           <view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10004.jpg);"></view>
           <view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10003.jpg);"></view>
           <view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10002.jpg);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec);"></view>
         </view>
         <text class="text-grey text-sm">4 人</text>
       </view>
@@ -209,7 +209,7 @@
 
   <view class="cu-list menu-avatar">
     <view class="cu-item">
-      <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec);"></view>
       <view class="content">
         <view class="text-grey">凯尔</view>
         <view class="text-gray text-sm flex">

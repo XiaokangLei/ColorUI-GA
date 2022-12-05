@@ -3716,6 +3716,12 @@ scroll-view.cu-steps .cu-item {
   color: var(--cyan);
 }
 
+.bg-blur {
+  background: hsla(0, 0%, 100%, .72);
+  -webkit-backdrop-filter: blur(15rpx);
+  backdrop-filter: blur(15rpx);
+}
+
 .shadow[class*="-red"] {
   box-shadow: var(--ShadowSize) var(--redShadow);
 }

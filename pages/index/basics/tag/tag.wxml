@@ -52,6 +52,9 @@
   <view class="padding-xs" wx:for="{{ColorList}}" wx:key="item" wx:if="{{item.name!='white'}}">
     <view class="cu-tag line-{{item.name}}">{{item.title}}</view>
   </view>
+  <view class="padding-xs" wx:for="{{ColorList}}" wx:key="item" wx:if="{{item.name!='white'}}">
+    <view class="cu-tag line-{{item.name}} round">{{item.title}}</view>
+  </view>
 </view>
 
 <view class="cu-bar bg-white margin-top">
@@ -61,41 +64,67 @@
 </view>
 
 <view class="padding">
-  <view class="cu-capsule margin-right-sm">
-    <view class="cu-tag bg-red">
-      <text class="cuIcon-likefill"></text>
+  <view class="margin-bottom">
+    <view class="cu-capsule margin-right">
+      <view class="cu-tag bg-red">
+        <text class="cuIcon-likefill"></text>
+      </view>
+      <view class="cu-tag line-red">
+        12
+      </view>
     </view>
-    <view class="cu-tag line-red">
-      12
+    <view class="cu-capsule margin-right">
+      <view class="cu-tag bg-red">
+        标签
+      </view>
+      <view class="cu-tag line-red">
+        12
+      </view>
+    </view>
+    <view class="cu-capsule round margin-right">
+      <view class="cu-tag bg-blue ">
+        <text class="cuIcon-likefill"></text>
+      </view>
+      <view class="cu-tag line-blue">
+        23
+      </view>
+    </view>
+    <view class="cu-capsule round margin-right">
+      <view class="cu-tag bg-blue ">
+        标签
+      </view>
+      <view class="cu-tag line-blue">
+        123
+      </view>
     </view>
   </view>
-  <view class="cu-capsule round margin-right-sm">
-    <view class="cu-tag bg-blue ">
+  <view class="cu-capsule radius margin-right">
+    <view class="cu-tag bg-orange ">
       <text class="cuIcon-likefill"></text>
     </view>
-    <view class="cu-tag line-blue">
+    <view class="cu-tag line-orange">
       23
     </view>
   </view>
-  <view class="cu-capsule round margin-right-sm">
-    <view class="cu-tag bg-blue ">
-      说明
+  <view class="cu-capsule radius margin-right">
+    <view class="cu-tag bg-green ">
+      标签
     </view>
-    <view class="cu-tag line-blue">
-      123
-    </view>
-  </view>
-  <view class="cu-capsule radius margin-right-sm">
-    <view class="cu-tag bg-grey ">
-      <text class="cuIcon-likefill"></text>
-    </view>
-    <view class="cu-tag line-grey">
+    <view class="cu-tag line-green">
       23
     </view>
   </view>
-  <view class="cu-capsule radius">
+  <view class="cu-capsule radius margin-right">
     <view class="cu-tag bg-brown sm">
       <text class="cuIcon-likefill"></text>
+    </view>
+    <view class="cu-tag line-brown sm">
+      23
+    </view>
+  </view>
+  <view class="cu-capsule radius margin-left">
+    <view class="cu-tag bg-pink sm">
+      标签
     </view>
     <view class="cu-tag line-brown sm">
       23
@@ -105,7 +134,7 @@
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-titles text-blue"></text>数字标签
+    <text class="cuIcon-titles text-blue"></text>提示标签
   </view>
 </view>
 
@@ -114,7 +143,7 @@
     L
     <view class="cu-tag badge">99+</view>
   </view>
-  <view class="cu-avatar xl radius" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);">
+  <view class="cu-avatar xl radius" style="background-image:url(https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec);">
     <view class="cu-tag badge">9</view>
   </view>
   <view class="cu-avatar xl radius">

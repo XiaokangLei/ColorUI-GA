@@ -37,7 +37,7 @@
 
 <plugin wx:if="{{PageCur=='plugin'}}"></plugin>
 
-<view class="cu-bar tabbar bg-white shadow foot">
+<view class="cu-bar tabbar shadow foot bg-blur">
 
   <view class="action" bindtap="NavChange" data-cur="basics">
     <view class='cuIcon-cu-image'>
@@ -53,9 +53,9 @@
     <view class="{{PageCur=='component'?'text-blue':'text-gray'}}">组件</view>
   </view>
 
-  <view class="action add-action" bindtap="NavChange" data-cur="templates">
+  <view class="action" bindtap="NavChange" data-cur="templates">
     <view class='cuIcon-cu-image'>
-      <image style="width: 72rpx; height: 72rpx;" src="/images/tabbar/basics{{PageCur=='templates'?'_cur':''}}.png"></image>
+      <image src="/images/tabbar/basics{{PageCur=='templates'?'_cur':''}}.png"></image>
     </view>
     <view class="{{PageCur=='templates'?'text-blue':'text-gray'}}">设计</view>
   </view>

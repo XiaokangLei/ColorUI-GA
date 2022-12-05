@@ -21,7 +21,7 @@ Page({
     }, {
       id: 3,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg'
+      url: 'https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec'
     }, {
       id: 4,
       type: 'image',
