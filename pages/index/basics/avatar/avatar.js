@@ -8,7 +8,7 @@ Page({
   data: {
     ColorList: app.globalData.ColorList,
     avatar: [
-      'https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec',
+      'https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev',
       'https://ossweb-img.qq.com/images/lol/web201310/skin/big81005.jpg',
       'https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg',
       'https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg'

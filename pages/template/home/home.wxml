@@ -34,7 +34,7 @@
           <view class="cu-tag bg-orange">热门</view>
         </view>
         <view class="padding-sm">
-          <text class="text-xl">『{{item.title}}』UI设计模板</text>
+          <text class="text-xl">『{{item.title}}』UI设计模板 </text><text class="bi-house-door text-xxl text-red"></text>
         </view>
 
       </view>

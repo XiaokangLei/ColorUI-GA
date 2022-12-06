@@ -21,7 +21,7 @@ Page({
     }, {
       id: 3,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec'
+      url: 'https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev'
     }, {
       id: 4,
       type: 'image',

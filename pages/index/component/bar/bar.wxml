@@ -39,8 +39,8 @@
       海蓝
     </view>
   </view>
-  <view class="cu-bar bg-black search">
-    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1629110889083Y8m5fzuQ0YNJv1ci6DWec);"></view>
+  <view class="cu-bar bg-blue light search">
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
     <view class="content">
       ColorUI-GA
     </view>
@@ -68,7 +68,7 @@
     </view>
   </view>
   <view class="cu-bar search bg-white">
-    <view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10002.jpg);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
     <view class="search-form round">
       <text class="cuIcon-search"></text>
       <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
@@ -79,7 +79,7 @@
     </view>
   </view>
   <view class="cu-bar bg-red search">
-    <view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10003.jpg);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
     <view class="search-form radius">
       <text class="cuIcon-search"></text>
       <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
@@ -316,7 +316,7 @@
     <button class="cu-btn bg-green shadow-blur">发送</button>
   </view>
   <view class="cu-bar input">
-    <view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10004.jpg);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
     <view class="action">
       <text class="cuIcon-roundaddfill text-grey"></text>
     </view>
