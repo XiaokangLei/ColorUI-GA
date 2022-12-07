@@ -1,18 +1,20 @@
-// pages/index/basics/avatar/avatar.js
-const app = getApp();
+// pages/template/userlist/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    ColorList: app.globalData.ColorList,
-    avatar: [
-      'https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev',
-      'https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m',
-      'https://image.meiye.art/pic_1628434059132',
-      'https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg'
-    ],
+    elements: [{
+      title: '未知',
+      name: 'userlist01',
+      url: 'https://image.meiye.art/FkaecKbfz38Iif_8d7X9nSuOShY4'
+    }, {
+      title: '未知',
+      name: 'userlist02',
+      url: 'https://image.meiye.art/FtxJNlV5aj0hCFnMevbzlfrlGrL-'
+    }],
+
   },
 
   /**

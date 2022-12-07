@@ -11,7 +11,7 @@
   <view class="UCenter-bg">
     <image src="/images/logo.png" class="png" mode="widthFix"></image>
     <view class="text-xl text-orange text-blod">ColorUI GA
-      <text class="text-df">v2.0.4</text>
+      <text class="text-df">v2.0.6</text>
     </view>
     <text class="margin-top-sm text-orange">By: L.</text>
     <text class="margin-top-sm text-gray">最近更新：2022/11/27</text>
@@ -40,13 +40,6 @@
   </view>
 
   <view class="cu-list menu card-menu sm-border margin-top margin-bottom-xl shadow radius-lg">
-    <view class="cu-item arrow" bindtap="CopyText" data-link="https://github.com/XiaokangLei/ColorUI-GA">
-      <view class="content">
-        <text class="cuIcon-github text-brown"></text>
-        <text>GitHub开源</text>
-      </view>
-      <view class="cuIcon-copy text-blue"></view>
-    </view>
     <view class="cu-item arrow" bindtap="toPage" data-url="/pages/about/about/about">
       <view class="content">
         <image src="/images/logo.png" class="png" mode="aspectFit"></image>
@@ -64,6 +57,20 @@
         <text class="cuIcon-wefill text-red"></text>
         <text>感谢</text>
       </view>
+    </view>
+    <view class="cu-item" bindtap="CopyText" data-link="https://github.com/XiaokangLei/ColorUI-GA">
+      <view class="content">
+        <text class="cuIcon-github text-black"></text>
+        <text>GitHub开源</text>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
+    <view class="cu-item" bindtap="CopyText" data-link="https://one.x-artspace.cn/ColorUI-GA-Docs">
+      <view class="content">
+        <text class="cuIcon-link text-green"></text>
+        <text>文档链接</text>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
     </view>
   </view>
 

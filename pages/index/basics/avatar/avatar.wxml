@@ -12,7 +12,7 @@
 
 <view class="padding">
   <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
-  <view class="cu-avatar radius margin-left" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81005.jpg);"></view>
+  <view class="cu-avatar radius margin-left" style="background-image:url(https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m);"></view>
 </view>
 
 <view class="cu-bar bg-white margin-top">
@@ -23,9 +23,9 @@
 
 <view class="padding">
   <view class="cu-avatar sm round margin-left" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
-  <view class="cu-avatar round margin-left" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81005.jpg);"></view>
-  <view class="cu-avatar lg round margin-left" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg);"></view>
-  <view class="cu-avatar xl round margin-left" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+  <view class="cu-avatar round margin-left" style="background-image:url(https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m);"></view>
+  <view class="cu-avatar lg round margin-left" style="background-image:url(https://image.meiye.art/pic_1628434059132);"></view>
+  <view class="cu-avatar xl round margin-left" style="background-image:url(https://image.meiye.art/pic_1628494374606);"></view>
 </view>
 
 <view class="padding">
@@ -90,7 +90,16 @@
 
 <view class="padding">
   <view class="cu-avatar-group">
-    <view class="cu-avatar round lg" wx:for="{{4}}" wx:key="item" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big1000{{index+1}}.jpg);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1628434059132);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/pic_1628494374606);"></view>
+  </view>
+  <view class="cu-avatar-group">
+    <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
+    <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m);"></view>
+    <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/pic_1628434059132);"></view>
+    <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/pic_1628494374606);"></view>
   </view>
 </view>
 
@@ -101,7 +110,16 @@
 </view>
 
 <view class="padding">
-  <view class="cu-avatar round lg margin-left" wx:for="{{4}}" wx:key="item" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big1000{{index+1}}.jpg);">
-    <view class="cu-tag badge {{index%2==0?'cuIcon-female bg-pink':'cuIcon-male bg-blue'}}"></view>
+  <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);">
+    <view class="cu-tag badge cuIcon-female bg-blue"></view>
+  </view>
+  <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m);">
+    <view class="cu-tag badge cuIcon-female bg-pink"></view>
+  </view>
+  <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/pic_1628434059132);">
+    <view class="cu-tag badge cuIcon-male bg-blue"></view>
+  </view>
+  <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/pic_1628494374606);">
+    <view class="cu-tag badge cuIcon-male bg-pink"></view>
   </view>
 </view>

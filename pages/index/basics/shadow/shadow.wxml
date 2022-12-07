@@ -36,7 +36,7 @@
   <view class="padding-xl radius shadow shadow-lg bg-white margin-top radius-df">长阴影</view>
   <view class="padding-xl radius shadow shadow-lg bg-blue margin-top radius-df">长阴影</view>
   <view class="padding-xl radius shadow-warp bg-white margin-top radius-df">翘边阴影</view>
-  <view class="padding-xl radius shadow-blur bg-red margin-top bg-img radius-df" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+  <view class="padding-xl radius shadow-blur bg-red margin-top bg-img radius-df" style="background-image:url(https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m);">
     <view>根据背景图而改变的阴影</view>
   </view>
 </view>

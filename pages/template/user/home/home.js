@@ -6,14 +6,12 @@ Page({
    */
   data: {
     elements: [{
-      title: '个人中心',
+      title: '我能APP',
       name: 'user01',
-      color: 'blue light',
       url: 'https://image.meiye.art/pic_rtbm-gwTiDPTHOcu9B_Ih'
     }, {
-      title: '首页',
+      title: '啄木鸟家居清洗',
       name: 'user02',
-      color: 'purple light',
       url: 'https://image.meiye.art/pic_0GLUfuwa7SUr4KaBj8I_F'
     }],
 

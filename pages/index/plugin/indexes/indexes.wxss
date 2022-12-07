@@ -35,6 +35,7 @@ page {
   justify-content: center;
   font-size: 24rpx;
   color: #888;
+  line-height: 36rpx;
 }
 
 movable-view.indexBar-item {

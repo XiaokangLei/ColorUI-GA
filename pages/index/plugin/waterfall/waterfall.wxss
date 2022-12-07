@@ -1,0 +1,49 @@
+/* pages/index/plugin/waterfall/waterfall.wxss */
+.container-waterfall {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.cu-card {
+  display: block;
+  overflow: hidden;
+}
+
+.cu-card .cu-item {
+  display: block;
+  overflow: hidden;
+  border-radius: 10rpx;
+  margin: 30rpx;
+  background: #f0f0f0;
+}
+
+.cu-card.no-card .cu-item {
+  margin: 0rpx;
+  border-radius: 0rpx;
+}
+
+.cu-card.case .image {
+  position: relative;
+}
+
+.cu-card.case .image image {
+  width: 100%;
+  border-radius: 24rpx;
+}
+
+.cu-card.case.no-card .image {
+  margin: 30rpx 30rpx 0;
+  overflow: hidden;
+  border-radius: 10rpx;
+}

@@ -39,7 +39,9 @@
     "pages/template/index/index02/index02",
     "pages/index/component/home/home",
     "pages/index/plugin/home/home",
-    "pages/about/appreciate/appreciate"
+    "pages/about/appreciate/appreciate",
+    "pages/template/userlist/home/home",
+    "pages/index/plugin/waterfall/waterfall"
   ],
   "window": {
     "backgroundTextStyle": "light",

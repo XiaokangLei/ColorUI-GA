@@ -46,6 +46,12 @@ Page({
         name: 'verticalnav',
         color: 'brown light',
         icon: 'newsfill'
+      },
+      {
+        title: '瀑布流',
+        name: 'waterfall',
+        color: 'cyan light',
+        icon: 'newsfill'
       }
     ],
 

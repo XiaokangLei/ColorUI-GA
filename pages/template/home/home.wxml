@@ -17,16 +17,19 @@
     </swiper-item>
   </swiper>
 
-  <!-- <view class='nav-list margin-top'>
+  <view class='nav-list margin-top'>
     <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="item">
-      <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -8rpx 0rpx 0rpx -32rpx"></image>
+      <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -18rpx 0rpx 0rpx -36rpx"></image>
       <view class="nav-title">{{item.title}}</view>
-      <view class="nav-name">{{item.name}}</view>
+      <view class="flex">
+        <view class="flex-sub nav-name">{{item.name}}</view>
+        <view class="flex-twice margin-top-sm text-right text">UI设计模板</view>
+      </view>
       <text class='cuIcon-{{item.icon}}'></text>
     </navigator>
-  </view> -->
+  </view>
 
-  <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" wx:for="{{elements}}" wx:key="item">
+  <!-- <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" wx:for="{{elements}}" wx:key="item">
     <view class="cu-card case bg-white margin-lg radius-df">
       <view class="cu-item shadow">
         <view class="image">
@@ -40,7 +43,7 @@
       </view>
 
     </view>
-  </navigator>
+  </navigator> -->
   <template is="copyright"></template>
   <view class="cu-tabbar-height"></view>
 </scroll-view>

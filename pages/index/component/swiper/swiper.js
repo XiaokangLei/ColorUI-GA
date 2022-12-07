@@ -33,7 +33,7 @@ Page({
     }, {
       id: 6,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg'
+      url: 'https://image.meiye.art/pic_1628494374606'
     }],
   },
 
