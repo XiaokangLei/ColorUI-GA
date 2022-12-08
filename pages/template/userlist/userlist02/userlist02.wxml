@@ -1,0 +1,35 @@
+<!--pages/template/userlist/userlist02/userlist02.wxml-->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">通讯录</view>
+</cu-custom>
+
+<scroll-view scroll-y class="indexes" scroll-into-view="indexes-{{listCurID}}" style="height:100vh" scroll-with-animation="true" enable-back-to-top="true">
+  <block wx:for="{{list}}" wx:key="item">
+    <view class="padding indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">{{list[index]}}</view>
+    <view class="cu-list menu-avatar no-padding">
+      <view class="cu-item" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
+        <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+        <view class="content">
+          <view class="text-black">{{list[index]}}
+            <text class="text-abc text-xl">imine</text>
+          </view>
+          <view class="text-gray text-sm">
+            + 176 2114 7787
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>
+
+<view class="indexBar" style="height:100vh">
+  <view class="indexBar-box" bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
+    <view class="indexBar-item" wx:for="{{list}}" wx:key="item" id="{{index}}" bindtouchstart="getCur" bindtouchend="setCur">{{list[index]}}</view>
+  </view>
+</view>
+
+<!--选择显示-->
+<view hidden="{{hidden}}" class="indexToast">
+  {{listCur}}
+</view>

@@ -42,7 +42,8 @@
     "pages/about/appreciate/appreciate",
     "pages/template/userlist/home/home",
     "pages/index/plugin/waterfall/waterfall",
-    "pages/template/userlist/userlist01/userlist01"
+    "pages/template/userlist/userlist01/userlist01",
+    "pages/template/userlist/userlist02/userlist02"
   ],
   "window": {
     "backgroundTextStyle": "light",

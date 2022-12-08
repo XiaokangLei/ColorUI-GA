@@ -1,4 +1,4 @@
-// pages/index/plugin/indexes/indexes.js
+// pages/template/userlist/userlist02/userlist02.js
 const app = getApp();
 
 Page({

@@ -1,7 +1,7 @@
 <!--pages/template/userlist/userlist01/userlist01.wxml-->
 <cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">Calls</view>
+  <view slot="content">通话记录</view>
 </cu-custom>
 
 <scroll-view scroll-y class="indexes">
