@@ -156,10 +156,10 @@
   </view>
 </view>
 
-<view class="bg-img bg-mask padding-tb-xl margin radius-lg" style="background-image: url('https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg');height: 360rpx;">
+<view class="bg-img bg-mask padding-tb-xl margin radius-lg" style="background-image: url('https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P');height: 360rpx;">
   <view class="padding-xl text-white">
     <view class="padding-xs text-xl">
-      钢铁之翼
+      小黄人大眼萌
     </view>
     <view class="padding-xs">
       Only the guilty need fear me.
@@ -174,12 +174,12 @@
 </view>
 
 <view class="grid col-2 margin padding-bottom-xl">
-  <view class="bg-img padding-bottom-xl" style="background-image: url('https://ossweb-img.qq.com/images/lol/web201310/skin/big10007.jpg');height: 207rpx;">
+  <view class="bg-img padding-bottom-xl" style="background-image: url('https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R');height: 207rpx;">
     <view class="bg-shadeTop padding padding-bottom-xl">
       上面开始
     </view>
   </view>
-  <view class="bg-img padding-top-xl flex align-end" style="background-image: url('https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev');height: 207rpx;">
+  <view class="bg-img padding-top-xl flex align-end" style="background-image: url('https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW');height: 207rpx;">
     <view class="bg-shadeBottom padding padding-top-xl flex-sub">
       下面开始
     </view>

@@ -148,10 +148,10 @@
       </view>
       <view class="action">
         <view class="cu-avatar-group">
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
         </view>
         <text class="text-grey text-sm">4 人</text>
       </view>
@@ -209,9 +209,9 @@
 
   <view class="cu-list menu-avatar">
     <view class="cu-item">
-      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev);"></view>
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
       <view class="content">
-        <view class="text-grey">凯尔</view>
+        <view class="text-grey">格鲁</view>
         <view class="text-gray text-sm flex">
           <text class="text-cut">
             <text class="cuIcon-infofill text-red  margin-right-xs"></text> 我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。
@@ -224,12 +224,12 @@
       </view>
     </view>
     <view class="cu-item">
-      <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Taric.png);">
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
         <view class="cu-tag badge">99+</view>
       </view>
       <view class="content">
         <view class="text-grey">
-          <text class="text-cut">瓦洛兰之盾-塔里克</text>
+          <text class="text-cut">马克</text>
           <view class="cu-tag round bg-orange sm">战士</view>
         </view>
         <view class="text-gray text-sm flex">
@@ -242,13 +242,13 @@
       </view>
     </view>
     <view class="cu-item ">
-      <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
       <view class="content">
         <view class="text-pink">
-          <text class="text-cut">莫甘娜</text>
+          <text class="text-cut">斯图尔特</text>
         </view>
         <view class="text-gray text-sm flex">
-          <text class="text-cut">凯尔，你被自己的光芒变的盲目！</text>
+          <text class="text-cut">格鲁，你被自己的光芒变的盲目！</text>
         </view>
       </view>
       <view class="action">
@@ -257,10 +257,10 @@
       </view>
     </view>
     <view class="cu-item grayscale">
-      <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
+      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
       <view class="content">
         <view>
-          <text class="text-cut">伊泽瑞尔</text>
+          <text class="text-cut">蒂姆</text>
           <view class="cu-tag round bg-orange sm">断开连接...</view>
         </view>
         <view class="text-gray text-sm flex">
@@ -273,16 +273,16 @@
       </view>
     </view>
     <view class="cu-item cur">
-      <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81020.jpg);">
+      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R);">
         <view class="cu-tag badge"></view>
       </view>
       <view class="content">
         <view>
-          <text class="text-cut">瓦罗兰大陆-睡衣守护者-新手保护营</text>
+          <text class="text-cut">鲍勃</text>
           <view class="cu-tag round bg-orange sm">6人</view>
         </view>
         <view class="text-gray text-sm flex">
-          <text class="text-cut"> 伊泽瑞尔：<text class="cuIcon-locationfill text-orange margin-right-xs"></text> 传送中...</text>
+          <text class="text-cut"> 蒂姆：<text class="cuIcon-locationfill text-orange margin-right-xs"></text> 传送中...</text>
         </view>
       </view>
       <view class="action">
@@ -300,7 +300,7 @@
 
   <view class="cu-list menu-avatar">
     <view class="cu-item {{modalName=='move-box-'+ index?'move-cur':''}}" wx:for="{{4}}" wx:key="item" bindtouchstart="ListTouchStart" bindtouchmove="ListTouchMove" bindtouchend="ListTouchEnd" data-target="move-box-{{index}}">
-      <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big2100{{index+1}}.jpg);"></view>
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiqphSjedkvi1y0hfqeNrYGXqLKo);"></view>
       <view class="content">
         <view class="text-grey">小黄人</view>
         <view class="text-gray text-sm">

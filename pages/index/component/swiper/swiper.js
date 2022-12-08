@@ -9,31 +9,31 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big84000.jpg'
+      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
     }, {
       id: 1,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big84001.jpg',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
     }, {
       id: 3,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev'
+      url: 'https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW'
     }, {
       id: 4,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25011.jpg'
+      url: 'https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R'
     }, {
       id: 5,
       type: 'image',
-      url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big21016.jpg'
+      url: 'https://image.meiye.art/FiqphSjedkvi1y0hfqeNrYGXqLKo'
     }, {
       id: 6,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1628494374606'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
     }],
   },
 

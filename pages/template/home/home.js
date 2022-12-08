@@ -21,15 +21,15 @@ Component({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1631337782042olyfk9eUv_L-Zi6I73BZu'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
     }, {
       id: 1,
       type: 'image',
-      url: 'https://image.meiye.art/pic_16313377820442PbApilrgdLApvemFgH7T',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
-      url: 'https://image.meiye.art/pic_16313377820456HwTHVAM4pto0AzP-OLA-'
+      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
     }],
     elements: [{
         title: '首页',

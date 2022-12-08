@@ -59,7 +59,7 @@
             <view class="cu-card article no-card bg-gray">
               <view class="cu-item bg-gray">
                 <view class="content bg-gray">
-                  <image src="https://image.meiye.art/pic_1631421397661HNOINNh3D_3i_X438GQtr" mode="aspectFill"></image>
+                  <image src="https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3" mode="aspectFill"></image>
                   <view class="desc">
                     <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
                     <view>
@@ -73,7 +73,7 @@
             <view class="cu-card article no-card bg-gray">
               <view class="cu-item bg-gray">
                 <view class="content bg-gray">
-                  <image src="https://image.meiye.art/pic_1632021660409hVO2lpyE7mLmFn0aXAfgh" mode="aspectFill"></image>
+                  <image src="https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P" mode="aspectFill"></image>
                   <view class="desc">
                     <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
                     <view>
@@ -87,7 +87,7 @@
             <view class="cu-card article no-card bg-gray">
               <view class="cu-item bg-gray">
                 <view class="content bg-gray">
-                  <image src="https://image.meiye.art/pic_1631447955083EbRPbKSVHSSGfbCftknGs" mode="aspectFill"></image>
+                  <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc" mode="aspectFill"></image>
                   <view class="desc">
                     <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
                     <view>
@@ -103,7 +103,7 @@
           <view class="cu-card dynamic no-card">
             <view class="cu-item shadow">
               <view class="grid flex-sub padding-lr col-1">
-                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/pic_1631421397660S7MJ04IsLJVGZMg8HT4YG); height: 180rpx; width: 230rpx;">
+                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc); height: 180rpx; width: 230rpx;">
                 </view>
               </view>
               <view class="cu-list menu-avatar comment">
@@ -151,7 +151,7 @@
 
   <view class="cu-list grid col-3 no-border radius-lg">
     <view class="cu-item" wx:for="{{3}}" wx:key="idx">
-      <image src="https://image.meiye.art/pic_1632021660409hVO2lpyE7mLmFn0aXAfgh" mode="aspectFill" style="height:210rpx" class="padding-sm"></image>
+      <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc" mode="aspectFill" style="height:210rpx" class="padding-sm"></image>
     </view>
   </view>
 

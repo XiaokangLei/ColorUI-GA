@@ -12,7 +12,7 @@
   <view class="bg-white">
     <view class="flex padding">
       <view class="padding-lr-xs">
-        <view class="cu-avatar xl round" style="background-image:url(https://image.meiye.art/pic_1628434059132);">
+        <view class="cu-avatar xl round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
         </view>
       </view>
       <view class="padding-xs text-xxl text-black">
@@ -52,7 +52,7 @@
   <view class="margin-top padding-lr">
     <view class="bg-brown light radius-lg shadow-blur">
       <view class="flex padding-tb padding-lr-sm justify-between">
-        <view class="padding-xs text-lg">
+        <view class="padding-xs">
           <view>9.9元开通超级会员最高可省￥40</view>
         </view>
         <view class="">

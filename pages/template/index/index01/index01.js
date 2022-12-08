@@ -13,15 +13,15 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/FhMsTX6AsUhidDT-kiEK-NUMUwkI'
+      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
     }, {
       id: 1,
       type: 'image',
-      url: 'https://image.meiye.art/Fq_LB23to9HGYlWQXpPWEoB5Y7Bd',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
-      url: 'https://image.meiye.art/Fhxq8VN3suc5dtgaAUBsJSd-Wr5p',
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc',
     }],
     iconList: [{
       icon: 'moneybagfill',

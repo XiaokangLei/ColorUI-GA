@@ -4,7 +4,8 @@ ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组�
 
 ## 文档
 
-- 【努力更新中...】文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)
+- 在线预览：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+- 文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)【努力更新中...】
 - 小程序预览
 
 <div align=center>
@@ -13,7 +14,7 @@ ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组�
 
 ## 待办
 
-- [ ] 长期：模板设计（每周上新1-2个模板），当前模板个数：4
+- [ ] 长期：模板设计（每周上新1-2个模板），当前模板个数：5
 - [ ] 长期：样式调整与设计。大小、颜色、padding、margin等
 - [X] fix 轮播图左侧图消失BUG
 - [ ] 头像右下角标签设计
@@ -101,7 +102,7 @@ onLaunch: function() {
 
 ## 支持
 
-**如果本文能为您得到帮助，请给予支持！**
+**如果本项目能为您提供帮助，请给予支持！**
 
 - 关注公众号 👉 **ColorUI GA**
 - 项目 [Github](https://github.com/XiaokangLei/ColorUI-GAv) 点击**右上角 Star :star:**

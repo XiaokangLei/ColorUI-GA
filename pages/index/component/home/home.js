@@ -13,15 +13,15 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m'
+      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
     }, {
       id: 1,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1628434059132',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
-      url: 'https://image.meiye.art/pic_1628494374606',
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc',
     }],
     elementsComponents: [{
         title: '操作条',

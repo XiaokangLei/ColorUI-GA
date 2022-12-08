@@ -11,55 +11,55 @@ Page({
       color: "gray",
       type: "Outgoing Video Call",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev"
+      avatar: "https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW"
     }, {
       name: "Ricky Spenser",
       color: "gray",
       type: "Incoming Call (2)",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m"
+      avatar: "https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P"
     }, {
       name: "Ray Alton",
       color: "red",
       type: "Missed Call",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1628434059132"
+      avatar: "https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3"
     }, {
       name: "George Atkins",
       color: "red",
       type: "Missed Call",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1628494374606"
+      avatar: "https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc"
     }, {
       name: "Josephine Bunner",
       color: "gray",
       type: "Outgoing Video Call",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev"
+      avatar: "https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW"
     }, {
       name: "Ricky Spenser",
       color: "gray",
       type: "Incoming Call (2)",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m"
+      avatar: "https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P"
     }, {
       name: "Ray Alton",
       color: "red",
       type: "Missed Call",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1628434059132"
+      avatar: "https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3"
     }, {
       name: "George Atkins",
       color: "red",
       type: "Missed Call",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1628494374606"
+      avatar: "https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc"
     }, {
       name: "Ricky Spenser",
       color: "gray",
       type: "Incoming Call (2)",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m"
+      avatar: "https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P"
     }]
 
   },
