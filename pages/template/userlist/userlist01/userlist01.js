@@ -17,7 +17,7 @@ Page({
       color: "gray",
       type: "Incoming Call (2)",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P"
+      avatar: "https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx"
     }, {
       name: "Ray Alton",
       color: "red",
@@ -41,7 +41,7 @@ Page({
       color: "gray",
       type: "Incoming Call (2)",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P"
+      avatar: "https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx"
     }, {
       name: "Ray Alton",
       color: "red",
@@ -59,7 +59,7 @@ Page({
       color: "gray",
       type: "Incoming Call (2)",
       time: "16 Mar",
-      avatar: "https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P"
+      avatar: "https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx"
     }]
 
   },

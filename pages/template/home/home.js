@@ -21,15 +21,21 @@ Component({
     swiperList: [{
       id: 0,
       type: 'image',
+      title: 'ColorUI GA',
+      des: '轻量、可靠的UI组件库',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
     }, {
       id: 1,
       type: 'image',
+      title: 'ColorUI GA',
+      des: '丰富的免费UI模板库',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
-      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
+      title: 'ColorUI GA',
+      des: 'CSS样式、适合多种平台',
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
     }],
     elements: [{
         title: '首页',
@@ -48,12 +54,12 @@ Component({
         color: 'mauve light',
         icon: 'icon'
       },
-      // {
-      //   title: '消息列表',
-      //   name: 'button',
-      //   color: 'pink light',
-      //   icon: 'btn'
-      // },
+      {
+        title: '评论页',
+        name: 'comment',
+        color: 'pink light',
+        icon: 'btn'
+      },
       // {
       //   title: '阅读听书',
       //   name: 'tag',
@@ -97,6 +103,23 @@ Component({
       //   icon: 'creative'
       // },
     ],
+    Headlines: [{
+      id: 1,
+      title: "ColorUI GA 最新版v2.0.6上线啦~",
+      type: 1
+    }, {
+      id: 2,
+      title: "新增6种UI模板库",
+      type: 2
+    }, {
+      id: 3,
+      title: "新增瀑布流图片展示",
+      type: 3
+    }, {
+      id: 4,
+      title: "新增全新纯色、渐变色背景色",
+      type: 4
+    }],
   },
 
   /**
@@ -112,6 +135,16 @@ Component({
       this.setData({
         cardCur: e.detail.current
       })
-    }
+    },
+    linesclick: function (e) {
+      let that = this;
+      var swip = that.data.Headlines[that.data.current];
+      console.log(swip);
+      if (swip.type === 1) {
+        wx.navigateTo({
+          url: '/pages/home/doc/index?id=' + swip.id
+        });
+      }
+    },
   }
 })

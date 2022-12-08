@@ -11,7 +11,7 @@
         <text>喵喵喵！喵喵喵！喵喵喵！喵喵！喵喵！！喵！喵喵喵！</text>
       </view>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
     <view class="date">2018年3月23日 13:23</view>
   </view>
 
@@ -38,9 +38,9 @@
 
   <view class="cu-item self">
     <view class="main">
-      <image src="https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P" class="radius" mode="widthFix"></image>
+      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx" class="radius" mode="widthFix"></image>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
     <view class="date"> 13:23</view>
   </view>
 
@@ -53,7 +53,7 @@
         <text class="cuIcon-sound text-xxl padding-right-xl"> </text>
       </view>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
     <view class="date">13:23</view>
   </view>
 
@@ -66,7 +66,7 @@
         喵星球，喵喵市
       </view>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
     <view class="date">13:23</view>
   </view>
 

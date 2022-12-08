@@ -21,14 +21,20 @@ Component({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
+      title: '布局UI设计',
+      des: 'Flex、Grid及基础样式',
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
     }, {
       id: 1,
       type: 'image',
+      title: '背景UI设计',
+      des: '纯色、渐变色图片背景等样式',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
+      title: '文本UI设计',
+      des: '文本大小、颜色及标题等样式',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc',
     }],
     elements: [{

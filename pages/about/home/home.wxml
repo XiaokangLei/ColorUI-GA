@@ -17,22 +17,22 @@
     <text class="margin-top-sm text-gray">最近更新：2022/11/27</text>
   </view>
   <view class="margin">
-    <view class="padding-tb flex text-center bg-white shadow radius-df">
-      <view class="flex flex-sub flex-direction solid-right">
-        <view class="text-xxl text-orange">{{visitTotal}}</view>
-        <view class="margin-top-sm text-black">
+    <view class="padding-tb flex text-center bg-white shadow radius-lg">
+      <view class="flex flex-sub flex-direction solid-right text-orange">
+        <view class="text-xxl">{{visitTotal}}</view>
+        <view class="margin-top-sm">
           <text class="cuIcon-circlefill"></text> Model
         </view>
       </view>
-      <view class="flex flex-sub flex-direction solid-right">
-        <view class="text-xxl text-blue">{{starCount}}</view>
-        <view class="margin-top-sm text-black">
+      <view class="flex flex-sub flex-direction solid-right text-blue">
+        <view class="text-xxl">{{starCount}}</view>
+        <view class="margin-top-sm">
           <text class="cuIcon-newsfill"></text> Template
         </view>
       </view>
-      <view class="flex flex-sub flex-direction">
-        <view class="text-xxl text-green">{{forksCount}}</view>
-        <view class="margin-top-sm text-black">
+      <view class="flex flex-sub flex-direction text-green">
+        <view class="text-xxl">{{forksCount}}</view>
+        <view class="margin-top-sm">
           <text class="cuIcon-myfill"></text> User
         </view>
       </view>

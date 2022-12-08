@@ -9,7 +9,7 @@
     <view class="padding indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">{{list[index]}}</view>
     <view class="cu-list menu-avatar no-padding">
       <view class="cu-item" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
-        <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+        <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
         <view class="content">
           <view class="text-black">{{list[index]}}
             <text class="text-abc text-xl">imine</text>

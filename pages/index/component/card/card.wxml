@@ -16,7 +16,7 @@
 <view class="cu-card case {{isCard?'no-card':'margin'}}">
   <view class="cu-item shadow">
     <view class="image">
-      <image src="https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P" mode="widthFix"></image>
+      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx" mode="widthFix"></image>
       <view class="cu-tag bg-blue">史诗</view>
       <view class="cu-bar bg-shadeBottom">
         <text class="text-cut">我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。</text>
@@ -24,7 +24,7 @@
     </view>
     <view class="cu-list menu-avatar">
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
         <view class="content flex-sub">
           <view class="text-grey">正义天使 格鲁</view>
           <view class="text-gray text-sm flex justify-between">
@@ -55,7 +55,7 @@
   <view class="cu-item shadow">
     <view class="cu-list menu-avatar">
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
         <view class="content flex-sub">
           <view>格鲁</view>
           <view class="text-gray text-sm flex justify-between">
@@ -68,7 +68,7 @@
       折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！
     </view>
     <view class="grid flex-sub padding-lr {{isCard?'col-3 grid-square':'col-1'}}">
-      <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);" wx:for="{{isCard?9:1}}" wx:key="item">
+      <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);" wx:for="{{isCard?9:1}}" wx:key="item">
       </view>
     </view>
     <view class="text-gray text-sm text-right padding">
@@ -100,7 +100,7 @@
         </view>
       </view>
       <view class="cu-item">
-        <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+        <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
         <view class="content">
           <view class="text-grey">格鲁</view>
           <view class="text-gray text-content text-df">
@@ -140,7 +140,7 @@
       <view class="text-cut">无意者 烈火焚身;以正义的烈火拔出黑暗。我有自己的正义，见证至高的烈火吧。</view>
     </view>
     <view class="content">
-      <image src="https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P" mode="aspectFill"></image>
+      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx" mode="aspectFill"></image>
       <view class="desc">
         <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
         <view>

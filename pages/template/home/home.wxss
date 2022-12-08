@@ -44,3 +44,15 @@
 .scrollPage {
   height: 100vh;
 }
+
+.swiperitem {
+  height: 80rpx;
+}
+
+.cu-bar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  min-height: 60rpx;
+  justify-content: space-between;
+}

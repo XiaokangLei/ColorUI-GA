@@ -13,14 +13,20 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
+      title: '索引列表',
+      des: '索引跳转列表样式',
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
     }, {
       id: 1,
       type: 'image',
+      title: '布局UI设计',
+      des: 'Flex、Grid及基础样式',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
+      title: '全屏抽屉',
+      des: '侧边展示抽屉',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc',
     }],
     elementsPlugins: [{

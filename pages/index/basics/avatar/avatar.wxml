@@ -12,7 +12,7 @@
 
 <view class="padding">
   <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
-  <view class="cu-avatar radius margin-left" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+  <view class="cu-avatar radius margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
 </view>
 
 <view class="cu-bar bg-white margin-top">
@@ -23,7 +23,7 @@
 
 <view class="padding">
   <view class="cu-avatar sm round margin-left" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
-  <view class="cu-avatar round margin-left" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+  <view class="cu-avatar round margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
   <view class="cu-avatar lg round margin-left" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
   <view class="cu-avatar xl round margin-left" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
 </view>
@@ -91,13 +91,13 @@
 <view class="padding">
   <view class="cu-avatar-group">
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
-    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+    <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
   </view>
   <view class="cu-avatar-group">
     <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
-    <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+    <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
     <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
     <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
   </view>
@@ -113,7 +113,7 @@
   <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);">
     <view class="cu-tag badge cuIcon-female bg-blue"></view>
   </view>
-  <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);">
+  <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);">
     <view class="cu-tag badge cuIcon-female bg-pink"></view>
   </view>
   <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">

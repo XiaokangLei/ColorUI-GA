@@ -1,18 +1,21 @@
-// pages/index/basics/avatar/avatar.js
-const app = getApp();
+// pages/template/comment/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    ColorList: app.globalData.ColorList,
-    avatar: [
-      'https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW',
-      'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx',
-      'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
-      'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
-    ],
+    elements: [{
+      title: '首页',
+      name: 'index01',
+      color: 'purple light',
+      url: 'https://image.meiye.art/Fq2GZHKgSIgIdYL3-cGv4PfD5KYv'
+    }, {
+      title: '首页',
+      name: 'index02',
+      color: 'purple light',
+      url: 'https://image.meiye.art/pic_amUlz2Lcdh7ad1eVr8ZzD'
+    }],
   },
 
   /**

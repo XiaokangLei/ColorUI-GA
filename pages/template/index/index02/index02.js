@@ -21,7 +21,7 @@ Page({
     }, {
       id: 2,
       type: 'image',
-      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P',
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx',
     }],
     iconList: [{
       icon: 'moneybagfill',

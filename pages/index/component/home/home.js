@@ -13,14 +13,20 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P'
+      title: '操作条',
+      des: '顶部、底部操作条',
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
     }, {
       id: 1,
       type: 'image',
+      title: '导航栏',
+      des: '滑动、静态Tab样式',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
     }, {
       id: 2,
       type: 'image',
+      title: '列表',
+      des: '宫格列表、菜单列表、消息列表',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc',
     }],
     elementsComponents: [{

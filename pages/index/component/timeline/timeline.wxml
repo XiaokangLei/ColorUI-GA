@@ -55,7 +55,7 @@
     <view class="bg-blue shadow-blur content">
       <view class="cu-list menu-avatar radius">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
           <view class="content">
             <view class="text-grey">小黄人</view>
             <view class="text-gray text-sm">
@@ -68,7 +68,7 @@
           </view>
         </view>
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);">
+          <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);">
             <view class="cu-tag badge">99+</view>
           </view>
           <view class="content">
