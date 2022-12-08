@@ -23,7 +23,9 @@
       <view class="nav-title">{{item.title}}</view>
       <view class="flex">
         <view class="flex-sub nav-name">{{item.name}}</view>
-        <view class="flex-twice margin-top-sm text-right text">UI设计模板</view>
+        <view class="flex-twice nav-des text-right align-end">
+        UI模板设计
+        </view>
       </view>
       <text class='cuIcon-{{item.icon}}'></text>
     </navigator>

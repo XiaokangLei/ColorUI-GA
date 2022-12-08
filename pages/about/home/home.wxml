@@ -55,13 +55,13 @@
     <view class="cu-item arrow" bindtap="toPage" data-url="/pages/about/appreciate/appreciate">
       <view class="content">
         <text class="cuIcon-wefill text-red"></text>
-        <text>感谢</text>
+        <text>致谢</text>
       </view>
     </view>
     <view class="cu-item" bindtap="CopyText" data-link="https://github.com/XiaokangLei/ColorUI-GA">
       <view class="content">
         <text class="cuIcon-github text-black"></text>
-        <text>GitHub开源</text>
+        <text>源码开源</text>
       </view>
       <view class="cuIcon-copy text-blue"></view>
     </view>
@@ -74,7 +74,7 @@
     </view>
   </view>
 
-  <view class="cu-list menu card-menu margin-top-sm shadow-lg">
+  <view class="cu-list menu card-menu sm-border margin-top-sm shadow-lg">
     <!-- 联系作者 -->
     <view class="cu-item">
       <button class='cu-btn content' open-type='contact'>

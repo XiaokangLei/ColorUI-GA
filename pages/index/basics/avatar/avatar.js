@@ -11,7 +11,7 @@ Page({
       'https://image.meiye.art/pic_1631425956676ZyU1WXnJ_9MN64Xbeq0Ev',
       'https://image.meiye.art/pic_1631510964249mj6mkWhbfcBTctEh8qy3m',
       'https://image.meiye.art/pic_1628434059132',
-      'https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg'
+      'https://image.meiye.art/pic_1628494374606'
     ],
   },
 

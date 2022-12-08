@@ -1,11 +1,11 @@
 <!--pages/about/appreciate/appreciate.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">感谢</view>
+  <view slot="content">致谢</view>
 </cu-custom>
 
 <view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
-  <view class='text-center margin-bottom text-lg text-bold text-blue'>感谢以下开源</view>
+  <view class='text-center margin-bottom text-lg text-bold text-blue'>致谢</view>
   <view class='text-content'>
     <view class="flex flex-wrap" bindtap="CopyText" data-link="https://github.com/weilanwl/ColorUI">
       <view class="basis-xl">

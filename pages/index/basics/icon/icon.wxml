@@ -51,15 +51,16 @@
   <view class="action"></view>
 </view>
 
-<!-- <view class="cu-list grid col-4">
-  <view class="cu-item" wx:for="{{icon}}" wx:key="item" wx:if="{{item.isShow}}">
-    <view class="cuIcon-{{item.name}} xl"></view>
-    <text>{{item.name}}</text>
-  </view>
-</view> -->
 <view class="cu-list grid col-4">
   <view class="cu-item text-xxxl" wx:for="{{iconNew}}" wx:key="item" wx:if="{{item.isShow}}">
-    <view class="bi-{{item.name}}"></view>
+    <view class="icon-{{item.name}}"></view>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+
+<view class="cu-list grid col-4">
+  <view class="cu-item" wx:for="{{icon}}" wx:key="item" wx:if="{{item.isShow}}">
+    <view class="cuIcon-{{item.name}} xl"></view>
     <text>{{item.name}}</text>
   </view>
 </view>

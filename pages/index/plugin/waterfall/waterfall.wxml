@@ -23,7 +23,7 @@
     <view class="flow">
       <view class="cu-card case no-card" wx:for="{{rightData}}" wx:key="item">
         <view class="cu-item shadow">
-          <view class="image solid">
+          <view class="image">
             <image src="{{item.image}}" mode="widthFix"></image>
           </view>
         </view>

@@ -80,6 +80,13 @@
   position: relative;
 }
 
+.nav-des {
+  font-size: 24rpx;
+  text-transform: Capitalize;
+  margin-top: 30rpx;
+  position: relative;
+}
+
 .nav-name::before {
   content: "";
   position: absolute;
