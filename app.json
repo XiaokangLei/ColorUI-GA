@@ -44,7 +44,9 @@
     "pages/index/plugin/waterfall/waterfall",
     "pages/template/userlist/userlist01/userlist01",
     "pages/template/userlist/userlist02/userlist02",
-    "pages/template/comment/home/home"
+    "pages/template/comment/home/home",
+    "pages/template/comment/comment01/comment01",
+    "pages/template/comment/comment02/comment02"
   ],
   "window": {
     "backgroundTextStyle": "light",
