@@ -4,6 +4,22 @@
   <view slot="content">背景颜色</view>
 </cu-custom>
 
+<view class="cu-bar solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>十级纯色背景 bg-oc-colorName-n
+  </view>
+</view>
+
+<view class="grid col-4 padding-sm bg-white">
+  <view class="padding-xs" wx:for="{{ColorListNew}}" wx:for-item="items">
+  <block wx:for="{{10}}" wx:for-index="j">
+    <view class="bg-oc-{{items.name}}-{{j}} radius padding-tb-xs text-center margin-tb-xs">
+      <view class="text-sm">{{items.name}}-{{j}}</view>
+    </view>
+  </block>
+  </view>
+</view>
+
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>深色背景

@@ -11,8 +11,8 @@
       <view class="cu-item" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
         <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
         <view class="content">
-          <view class="text-black">{{list[index]}}
-            <text class="text-abc text-xl">imine</text>
+          <view class="text-black">
+            <text class="text-Abc text-xl">{{list[index]}}imine</text>
           </view>
           <view class="text-gray text-sm">
             + 176 2114 7787

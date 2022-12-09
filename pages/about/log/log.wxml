@@ -7,74 +7,17 @@
 
 <view class="cu-timeline">
 
-  <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
-      <view class="cu-capsule radius">
-        <view class="cu-tag bg-white text-blue">v2.0.5</view>
-        <view class="cu-tag line-white">2022/11/27</view>
-      </view>
-      <view class="margin-top-sm text-content">
-        <view>1.新增首页设计+2</view>
-        <view>2.新增个人中心设计+2</view>
-        <view>3.部分样式更新</view>
-      </view>
-    </view>
-  </view>
-
-  <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
-      <view class="cu-capsule radius">
-        <view class="cu-tag bg-white text-blue">v2.0.4</view>
-        <view class="cu-tag line-white">2022/10/24</view>
-      </view>
-      <view class="margin-top-sm text-content">
-        <view>1.优化darkmodel样式</view>
-        <view>2.新增背景浅色渐变高亮样式</view>
-        <view>3.部分样式更新</view>
+  <block wx:for="{{logData}}" wx:key="item">
+    <view class="cu-item text-blue">
+      <view class="bg-blue light content shadow">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-white text-blue">{{item.version}}</view>
+          <view class="cu-tag line-blue">{{item.data}}</view>
+        </view>
+        <view class="margin-top-sm text-content" wx:for="{{item.info}}" wx:key="item">
+          <view>{{item}}</view>
+        </view>
       </view>
     </view>
-  </view>
-
-  <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
-      <view class="cu-capsule radius">
-        <view class="cu-tag bg-white text-blue">v2.0.3</view>
-        <view class="cu-tag line-white">2022/10/18</view>
-      </view>
-      <view class="margin-top-sm text-content">
-        <view>1.去除模板页</view>
-        <view>2.新增黑色模式</view>
-        <view>3.部分样式更新</view>
-      </view>
-    </view>
-  </view>
-
-  <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
-      <view class="cu-capsule radius">
-        <view class="cu-tag bg-white text-blue">v2.0.2</view>
-        <view class="cu-tag line-white">2022/10/16</view>
-      </view>
-      <view class="margin-top-sm text-content">
-        <view>1.新增模板页、关于页</view>
-        <view>2.去除悬浮按钮，新增关于页面</view>
-        <view>3.新增日志更新页面</view>
-        <view>4.代码开源</view>
-      </view>
-    </view>
-  </view>
-
-  <view class="cu-item text-blue">
-    <view class="bg-gradual-blue content shadow">
-      <view class="cu-capsule radius">
-        <view class="cu-tag bg-white text-blue">v2.0.1</view>
-        <view class="cu-tag line-white">2022/10/14</view>
-      </view>
-      <view class="margin-top-sm text-content">
-        <view>1.ColorUI 2.0基础代码结构重构</view>
-        <view>2.临时修复swiper左侧消失bug</view>
-        <view>3.基础页面开发</view>
-      </view>
-    </view>
-  </view>
+  </block>
 </view>

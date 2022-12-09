@@ -45,7 +45,7 @@ Component({
       }, {
         title: '个人中心',
         name: 'user',
-        color: 'blue light',
+        color: 'red light',
         icon: 'colorlens'
       },
       {
@@ -109,15 +109,15 @@ Component({
       type: 1
     }, {
       id: 2,
-      title: "新增6种UI模板库",
+      title: "新增6种UI模板库、瀑布流样式",
       type: 2
     }, {
       id: 3,
-      title: "新增瀑布流图片展示",
+      title: "新增全新纯色、渐变色背景色",
       type: 3
     }, {
       id: 4,
-      title: "新增全新纯色、渐变色背景色",
+      title: "新增Tips提示、常规轮播图样式",
       type: 4
     }],
   },

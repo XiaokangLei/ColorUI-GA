@@ -28,7 +28,7 @@
   </swiper>
 
   <!--滚动区域-->
-  <swiper class="swiperitem margin-lr-lg" autoplay="true" vertical="true" circular="true">
+  <swiper class="swiperitem margin-lr-lg" autoplay="true" vertical="true" circular="true" interval="3500" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="cu-bar radius-lg bg-orange light">

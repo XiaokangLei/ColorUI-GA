@@ -6,7 +6,34 @@ Page({
    * 页面的初始数据
    */
   data: {
-    ColorList: app.globalData.ColorList
+    ColorList: app.globalData.ColorList,
+    ColorListNew: [{
+      name: 'red',
+    }, {
+      name: 'orange',
+    }, {
+      name: 'yellow',
+    }, {
+      name: 'pink',
+    }, {
+      name: 'grape',
+    }, {
+      name: 'violet',
+    }, {
+      name: 'indigo',
+    }, {
+      name: 'blue',
+    }, {
+      name: 'cyan',
+    }, {
+      name: 'teal',
+    }, {
+      name: 'green',
+    }, {
+      name: 'lime',
+    }, {
+      name: 'gray',
+    }]
   },
 
   /**
