@@ -74,6 +74,12 @@ Component({
         name: 'rate',
         color: 'red light',
         icon: 'favorfill'
+      },
+      {
+        title: '手风琴',
+        name: 'piano',
+        color: 'orange light',
+        icon: 'filefill'
       }
     ],
   },

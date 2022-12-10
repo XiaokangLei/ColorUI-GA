@@ -1,0 +1,4 @@
+/* pages/index/plugin/piano/piano.wxss */
+.hidden-content {
+  display: none !important;
+}

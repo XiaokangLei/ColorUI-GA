@@ -1,0 +1,31 @@
+<!--pages/index/plugin/piano/piano.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">手风琴</view>
+</cu-custom>
+
+<view class="scrollPage">
+
+  <view class="cu-bar bg-white margin-top-xs">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>基础样式
+    </view>
+  </view>
+
+  <view class="cu-list margin-top menu" wx:for="{{list}}" wx:key="item">
+    <view class="cu-item" bindtap="click" data-index="{{ index }}">
+      <view class="content padding-tb-sm">
+        <view>{{item['name']}}</view>
+      </view>
+      <view class="action padding-left-xs">
+        <text class="cuIcon-{{item['checked'] ? 'unfold' : 'right'}}"></text>
+      </view>
+    </view>
+    <view class="cu-item {{item['checked'] ? '' : 'hidden-content'}}" wx:for="{{item.content}}" wx:for-item="child" wx:key="item">
+      <view class="content">
+        <text selectable>{{ child }}</text>
+      </view>
+    </view>
+  </view>
+
+</view>
