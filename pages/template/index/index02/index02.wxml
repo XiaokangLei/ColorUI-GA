@@ -99,21 +99,20 @@
           </view>
         </view>
         <view class="">
-          <!-- <view class="cu-btn round bg-gradual-pinknew margin-top-sm">6折优惠</view> -->
           <view class="cu-card dynamic no-card">
             <view class="cu-item shadow">
               <view class="grid flex-sub padding-lr col-1">
-                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc); height: 180rpx; width: 230rpx;">
+                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc); height: 166rpx; width: 230rpx;">
                 </view>
               </view>
-              <view class="cu-list menu-avatar comment">
+              <view class="cu-list menu-avatar comment padding-xs">
                 <view class="flex text-center text-black justify-center">
                   <text>小鹏P7</text>
                 </view>
                 <view class="flex text-center text-red text-bold justify-center">
                   <text>21.99~40.99w</text>
                 </view>
-                <view class="flex text-center text-black justify-center margin-top-sm">
+                <view class="flex text-center text-black justify-center margin-top">
                   <view class="cu-tag round line-black">图片</view>
                   <view class="cu-tag round line-black margin-left-sm">参数</view>
                   <view class="cu-tag round line-black margin-left-sm">车型</view>
@@ -149,14 +148,13 @@
     </view>
   </view>
 
-  <view class="cu-list grid col-3 no-border radius-lg">
+  <view class="cu-list grid col-3 no-border">
     <view class="cu-item" wx:for="{{3}}" wx:key="idx">
-      <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc" mode="aspectFill" style="height:210rpx" class="padding-sm"></image>
+      <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc" mode="aspectFill" style="height:180rpx" class="padding-xs"></image>
     </view>
   </view>
 
 </view>
-
 
 <view class="margin-top-xl">
   <template is="copyright"></template>

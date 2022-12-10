@@ -47,7 +47,8 @@
     "pages/template/comment/home/home",
     "pages/template/comment/comment01/comment01",
     "pages/template/comment/comment02/comment02",
-    "pages/template/comment/comment03/comment03"
+    "pages/template/comment/comment03/comment03",
+    "pages/index/plugin/rate/rate"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -17,7 +17,7 @@
       </view>
       <view class="padding-xs text-xxl text-black">
         <view>Hello，啄木鸟</view>
-        <view class="cu-btn round line sm text-green">已减排22.200g <text class="cuIcon-right"></text></view>
+        <view class="cu-btn round line sm text-green">已减排22.200g ></view>
       </view>
     </view>
   </view>

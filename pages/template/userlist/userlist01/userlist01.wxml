@@ -1,11 +1,13 @@
 <!--pages/template/userlist/userlist01/userlist01.wxml-->
-<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">通话记录</view>
 </cu-custom>
 
 <scroll-view scroll-y class="indexes">
-  <view class="bg-white">
+  <view class="bg-white margin-top-sm margin-xs radius-lg">
     <block wx:for="{{list}}" wx:key="item">
       <view class="flex padding-tb-sm">
         <view class="flex-treble">

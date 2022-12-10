@@ -66,8 +66,14 @@ Component({
       {
         title: '瀑布流',
         name: 'waterfall',
-        color: 'cyan light',
+        color: 'blue light',
         icon: 'newsfill'
+      },
+      {
+        title: '评分',
+        name: 'rate',
+        color: 'red light',
+        icon: 'favorfill'
       }
     ],
   },
