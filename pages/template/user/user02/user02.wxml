@@ -113,6 +113,7 @@
 
   <view class="margin-top">
     <template is="copyright"></template>
+    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
   </view>
 
 </view>

@@ -1,9 +1,11 @@
 // pages/template/home/home.js
 const app = getApp();
+
 Component({
   options: {
     addGlobalClass: true,
   },
+
   /**
    * 组件的属性列表
    */
@@ -131,11 +133,13 @@ Component({
         url: e.currentTarget.dataset.url
       })
     },
+
     cardSwiper(e) {
       this.setData({
         cardCur: e.detail.current
       })
     },
+
     linesclick: function (e) {
       let that = this;
       var swip = that.data.Headlines[that.data.current];

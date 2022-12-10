@@ -6,7 +6,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-    ColorList: app.globalData.ColorList
+    ColorList: app.globalData.ColorList,
+    iconList: [{
+      icon: 'cardboardfill',
+      color: 'red',
+      badge: 120,
+      name: 'VR'
+    }, {
+      icon: 'recordfill',
+      color: 'orange',
+      badge: 1,
+      name: '录像'
+    }, {
+      icon: 'picfill',
+      color: 'yellow',
+      badge: 8,
+      name: '图像'
+    }, {
+      icon: 'noticefill',
+      color: 'olive',
+      badge: 22,
+      name: '通知'
+    }],
   },
 
   /**

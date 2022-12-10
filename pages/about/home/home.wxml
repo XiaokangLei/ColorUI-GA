@@ -9,7 +9,7 @@
 <scroll-view scroll-y class="scrollPage">
   <!-- logo&信息 -->
   <view class="UCenter-bg">
-    <image src="/images/logo.png" class="png" mode="widthFix"></image>
+    <image src="/images/tabbar/basics_cur.png" class="png" mode="widthFix"></image>
     <view class="text-xl text-orange text-blod">ColorUI GA
       <text class="text-df">v2.0.6</text>
     </view>
@@ -42,7 +42,7 @@
   <view class="cu-list menu card-menu sm-border margin-top margin-bottom-xl shadow radius-lg">
     <view class="cu-item arrow" bindtap="toPage" data-url="/pages/about/about/about">
       <view class="content">
-        <image src="/images/logo.png" class="png" mode="aspectFit"></image>
+        <image src="/images/tabbar/basics_cur.png" class="png" mode="aspectFit"></image>
         <text>关于小程序</text>
       </view>
     </view>
@@ -79,20 +79,14 @@
     <view class="cu-item">
       <button class='cu-btn content' open-type='contact'>
         <text class='cuIcon-service text-orange text-xl'></text>
-        <text class='text-l'>联系作者</text>
+        <text class='text-l text-black'>联系作者</text>
       </button>
     </view>
     <view class="cu-item">
       <button class='cu-btn content' open-type='feedback'>
         <text class='cuIcon-write text-cyan text-xl'></text>
-        <text class='text-l'>意见反馈</text>
+        <text class='text-l text-black'>意见反馈</text>
       </button>
-    </view>
-    <view wx:if="{{isAuthor}}" class="cu-item arrow margin-top-sm" bindtap="showAdmin">
-      <view class='content'>
-        <text class='cuIcon-settings text-gary text-xl'></text>
-        <text class='text-l'>后台管理</text>
-      </view>
     </view>
   </view>
   <view class="margin-top">

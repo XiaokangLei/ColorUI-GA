@@ -4,13 +4,24 @@
   <view slot="content">关于</view>
 </cu-custom>
 
-<view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
-  <view class='text-center margin-bottom text-xl text-bold text-blue'>ColorUI GA</view>
-  <view class='text-content'>
-    <view>Hi！开发者~欢迎使用ColorUI-GA组件库！</view>
-    <view class='margin-top-sm'>该项目是基于ColorUI 2.0开发的小程序组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法请移步到Github提交Issues。页面模板努力开发中，每周更新。</view>
-    <view class='margin-top-sm'>更多功能敬请期待！</view>
-    <view class='margin-top-sm text-right text-blue'>By L.</view>
-    <view class='margin-top-sm text-right text-blue'>2022/10/12</view>
+<scroll-view scroll-y class="scrollPage">
+
+  <view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
+    <view class='text-center margin-bottom text-xl text-bold text-blue'>🌈ColorUI GA</view>
+    <view class='text-content'>
+      <view class="margin-top-lg">Hi！开发者~欢迎使用 ColorUI GA 组件库！</view>
+      <view class='margin-top-sm'>该项目是基于 ColorUI 2.0 开发的小程序css组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法请移步到Github提交Issues。页面模板努力开发中，每周更新。</view>
+      <view class='margin-top-sm'>更多功能敬请期待！</view>
+      <view class='margin-top text-right text-blue'>By L.</view>
+      <view class='margin-top-sm text-right text-blue'>2022/10/12</view>
+    </view>
   </view>
-</view>
+
+  <view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
+    <view class='text-center margin-bottom text-xl text-bold text-blue'>支持作者</view>
+    <view class='text-content text-center' bindtap="support">
+      <button class="cu-btn bg-orange light lg">点击观看15秒视频支持作者~</button>
+    </view>
+  </view>
+
+</scroll-view>

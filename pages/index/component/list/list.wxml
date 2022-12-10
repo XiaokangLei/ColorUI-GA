@@ -10,7 +10,7 @@
       <text class="cuIcon-titles text-blue "></text> 宫格列表
     </view>
     <view class="action">
-      <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="gridModal">设置</button>
+      <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="gridModal">设置</button>
     </view>
   </view>
 
@@ -29,7 +29,7 @@
       <view class="cu-list menu text-left solid-top">
         <view class="cu-item">
           <view class="content">
-            <text class="text-grey">边框</text>
+            <text class="text-gray">边框</text>
           </view>
           <view class="action">
             <switch bindchange="gridswitch"></switch>
@@ -55,7 +55,7 @@
       <text class="cuIcon-titles text-blue "></text> 菜单列表
     </view>
     <view class="action">
-      <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="menuModal">设置</button>
+      <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="menuModal">设置</button>
     </view>
   </view>
 
@@ -65,7 +65,7 @@
         <view class="cu-list menu text-left solid-top">
           <view class="cu-item">
             <view class="content">
-              <text class="text-grey">短边框</text>
+              <text class="text-gray">短边框</text>
             </view>
             <view class="action">
               <switch bindchange="menuBorder"></switch>
@@ -73,7 +73,7 @@
           </view>
           <view class="cu-item">
             <view class="content">
-              <text class="text-grey">箭头</text>
+              <text class="text-gray">箭头</text>
             </view>
             <view class="action">
               <switch bindchange="menuArrow"></switch>
@@ -81,7 +81,7 @@
           </view>
           <view class="cu-item">
             <view class="content">
-              <text class="text-grey">卡片</text>
+              <text class="text-gray">卡片</text>
             </view>
             <view class="action">
               <switch bindchange="menuCard"></switch>
@@ -125,7 +125,7 @@
     </view>
     <view class="cu-item {{menuArrow?'arrow':''}}">
       <view class="content">
-        <image src="/images/logo.png" class="png" mode="aspectFit"></image>
+        <image src="/images/tabbar/basics_cur.png" class="png" mode="aspectFit"></image>
         <text class="text-grey">图片 + 标题</text>
       </view>
     </view>
@@ -162,7 +162,7 @@
         <text class="text-grey">按钮</text>
       </view>
       <view class="action">
-        <button class="cu-btn round bg-green shadow">
+        <button class="cu-btn round bg-blue shadow">
           <text class="cuIcon-upload"></text> 上传</button>
       </view>
     </view>

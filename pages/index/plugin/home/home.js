@@ -1,10 +1,20 @@
 // pages/index/plugin/home/home.js
 const app = getApp();
 
-Page({
+Component({
+  options: {
+    addGlobalClass: true,
+  },
 
   /**
-   * 页面的初始数据
+   * 组件的属性列表
+   */
+  properties: {
+
+  },
+
+  /**
+   * 组件的初始数据
    */
   data: {
     StatusBar: app.globalData.StatusBar,
@@ -60,62 +70,16 @@ Page({
         icon: 'newsfill'
       }
     ],
-
   },
 
   /**
-   * 生命周期函数--监听页面加载
+   * 组件的方法列表
    */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+  methods: {
+    cardSwiper(e) {
+      this.setData({
+        cardCur: e.detail.current
+      })
+    }
   }
 })

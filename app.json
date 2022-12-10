@@ -46,7 +46,8 @@
     "pages/template/userlist/userlist02/userlist02",
     "pages/template/comment/home/home",
     "pages/template/comment/comment01/comment01",
-    "pages/template/comment/comment02/comment02"
+    "pages/template/comment/comment02/comment02",
+    "pages/template/comment/comment03/comment03"
   ],
   "window": {
     "backgroundTextStyle": "light",

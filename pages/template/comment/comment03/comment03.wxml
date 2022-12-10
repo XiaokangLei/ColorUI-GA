@@ -1,55 +1,42 @@
-<!--pages/template/comment/comment01/comment01.wxml-->
+<!--pages/template/comment/comment03/comment03.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">评论页01模板</view>
+  <view slot="content">评论页03模板</view>
 </cu-custom>
 
 <view class="scrollPage">
   <view class="bg-white margin-xs radius-lg">
-    <view class="flex padding-sm justify-between">
-      <view class="flex">
-        <view class="padding-right-sm text-xxl padding-top-xs">
-          <text class="cuIcon-back_android text-black"></text>
-        </view>
+    <view class="flex padding-sm justify-between solid-bottom">
+      <view class="flex padding-top-xs">
         <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
         </view>
-        <view class="padding-lr-xs text-xl text-black">
-          <view>yiche朱涛</view>
-        </view>
       </view>
-      <view class="flex text-xxl">
-        <view class="cu-btn round bg-blue margin-right-xs"><text class="cuIcon-add"> 关注</text></view>
-        <view class="cuIcon-more text-black padding-top-xs"></view>
+      <view class="text-xxl">
+        <view class="flex justify-center cuIcon-peoplelist text-black"></view>
+        <view class="text-sm">我的关注</view>
       </view>
     </view>
-    <view class="cu-bar margin-top-sm">
-      <view class="text-black text-xxl padding-lr">
-        热门评论
-      </view>
-    </view>
-    <view class="cu-list menu-avatar no-padding">
+
+    <view class="cu-list menu-avatar padding-top-xs">
       <view class="cu-item">
         <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
         <view class="content">
-          <view class="text-lg text-bold">
-            谦和钢笔
+          <view class="text-lg text-brown">
+            吴天毅_7845<view class="cu-tag margin-right round bg-yellow sm">Lv3</view>
           </view>
           <view class="text-gray text-sm">
-            05-08
+            6月20号
           </view>
-        </view>
-        <view class="action text-xxl text-black">
-          <view class="cuIcon-appreciate"><text class="text-gray text-lg"> 37</text></view>
-        </view>
-        <view class="action text-xxl text-black">
-          <view class="cuIcon-comment"></view>
         </view>
       </view>
       <view class="margin-left padding-left-xl text-black">
         <view class="margin-lr padding-left">
-          <text>从卡罗拉和雷凌的配置就可以看出丰田在中国为了缩减生产成本手段真是无所不用其极。混动卡罗拉全系只有一个型号带雷达，再高配有了视频倒车影像就把雷达取消了。车内的按钮连疏油层都不涂，轻轻蹭一下就是个印子...</text>
+          <text>非常满意</text>
+        </view>
+        <view class="margin-lr padding-left padding-top">
+          <text>打分</text>
         </view>
         <view class="margin-left-xl margin-right padding-lr bg-gray radius-lg">
           <view class="margin-tb-xs padding-top-sm bg-gray">
@@ -137,21 +124,4 @@
     </view>
 
   </view>
-</view>
-
-<!-- 底部评论 -->
-<view class="cu-bar foot input {{InputBottom!=0?'cur':''}}" style="bottom:{{InputBottom}}px">
-  <view class="action">
-    <text class="cuIcon-write text-gray"></text>
-  </view>
-
-  <input class="solid-bottom" placeholder="写评论" bindfocus="InputFocus" bindblur="InputBlur" adjust-position="{{false}}" focus="{{false}}" maxlength="300" cursor-spacing="10"></input>
-
-  <view class="action">
-    <text class="cuIcon-comment text-black"></text>
-    <text class="cuIcon-appreciate text-black"></text>
-    <text class="cuIcon-favor text-black"></text>
-    <text class="cuIcon-forward text-black"></text>
-  </view>
-
 </view>

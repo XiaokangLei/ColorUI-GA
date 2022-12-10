@@ -51,14 +51,14 @@
     <text class="text-lg text-gray">更多任务<text class="cuIcon-right"></text></text>
   </view>
 
-  <view class="flex margin-lr padding-top padding-bottom-xs justify-between">
+  <view class="flex margin-lr padding-top-xs justify-between">
     <view class="flex">
       <text class="text-xl text-black">找人来帮我搬家</text>
-      <view class="cu-tag bg-orange sm radius margin-top-xs">金牌雇主</view>
+      <view class="cu-tag bg-orange sm radius">金牌雇主</view>
     </view>
     <text class="text-xxl text-red"><text class="text-bold">60</text><text class="text-gray text-lg">/时</text></text>
   </view>
-  <view class="flex margin-lr padding-bottom justify-start">
+  <view class="flex margin-lr padding-bottom-sm justify-start">
     <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
     <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 3~5小时</text>
   </view>
@@ -67,13 +67,13 @@
     <view class="cu-tag line-blue radius">加急</view>
   </view>
 
-  <view class="flex margin-lr padding-tb justify-between">
+  <view class="flex margin-lr padding-top-xs justify-between">
     <view class="flex">
       <text class="text-xl text-black">明天需要一台车,有没有闲的</text>
     </view>
     <text class="text-xxl text-red"><text class="text-bold">100</text><text class="text-gray text-lg">/时</text></text>
   </view>
-  <view class="flex margin-lr padding-bottom justify-start">
+  <view class="flex margin-lr padding-bottom-sm justify-start">
     <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
     <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 24小时</text>
   </view>
@@ -82,13 +82,13 @@
     <view class="cu-tag line-blue radius">高报酬</view>
   </view>
 
-  <view class="flex margin-lr padding-tb justify-between">
+  <view class="flex margin-lr padding-top-xs justify-between">
     <view class="flex">
       <text class="text-xl text-black">急找|附近有没有要打游戏的？</text>
     </view>
     <text class="text-xxl text-red"><text class="text-bold">5</text><text class="text-gray text-lg">/时</text></text>
   </view>
-  <view class="flex margin-lr padding-bottom justify-start">
+  <view class="flex margin-lr padding-bottom-sm justify-start">
     <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
     <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 2小时</text>
   </view>
@@ -96,8 +96,23 @@
     <view class="cu-tag line-blue radius">高信用</view>
   </view>
 
+  <view class="flex margin-lr padding-top-xs justify-between">
+    <view class="flex">
+      <text class="text-xl text-black">找车子，明天</text>
+    </view>
+    <text class="text-xxl text-red"><text class="text-bold">45</text><text class="text-gray text-lg">/时</text></text>
+  </view>
+  <view class="flex margin-lr padding-bottom-sm justify-start">
+    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
+    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 2小时</text>
+  </view>
+  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
+    <view class="cu-tag line-blue radius">高报酬</view>
+  </view>
+
 </view>
 
 <view class="margin-top">
   <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

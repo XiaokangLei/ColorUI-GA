@@ -1,36 +1,18 @@
-// pages/template/comment/home/home.js
+// pages/template/comment/comment03/comment03.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    loading: true,
-    elements: [{
-      title: '未知',
-      name: 'comment01',
-      url: 'https://image.meiye.art/Fq2GZHKgSIgIdYL3-cGv4PfD5KYv?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      title: '未知',
-      name: 'comment02',
-      color: 'purple light',
-      url: 'https://image.meiye.art/pic_amUlz2Lcdh7ad1eVr8ZzD?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      title: '未知',
-      name: 'comment03',
-      url: 'https://image.meiye.art/Fnjvt-Yfz28V7herjbGLEez4YGp2?imageMogr2/thumbnail/450x/interlace/1'
-    }],
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    setTimeout(() => {
-      this.setData({
-        loading: false
-      })
-    }, 500);
+
   },
 
   /**
