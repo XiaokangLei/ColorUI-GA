@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count: 5,
+    active: 0,
+    score: 1
   },
 
   /**
@@ -62,5 +64,22 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+
+  /**
+   * 点击评分
+   */
+  click(e) {
+    const {
+      score,
+      count
+    } = this.data;
+    const active = e.currentTarget.dataset.index;
+    this.setData({
+      active
+    })
+    this.triggerEvent("click", {
+      result: score / count * active
+    }, {})
+  },
 })
