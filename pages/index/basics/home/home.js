@@ -23,19 +23,19 @@ Component({
       type: 'image',
       title: '布局UI设计',
       des: 'Flex、Grid及基础样式',
-      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 1,
       type: 'image',
       title: '背景UI设计',
       des: '纯色、渐变色图片背景等样式',
-      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
     }, {
       id: 2,
       type: 'image',
       title: '文本UI设计',
       des: '文本大小、颜色及标题等样式',
-      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc',
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1',
     }],
     elements: [{
         title: '布局',

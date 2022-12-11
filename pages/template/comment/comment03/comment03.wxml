@@ -10,7 +10,7 @@
   <view class="bg-white margin-xs radius-lg">
     <view class="flex padding-sm justify-between solid-bottom">
       <view class="flex padding-top-xs">
-        <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
+        <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
         </view>
       </view>
       <view class="text-xxl">
@@ -22,7 +22,7 @@
     <view class="cu-list menu-avatar padding-tb-sm solid-bottom">
       <!-- 个人信息：头像、昵称、日期和会员等级 -->
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-lg text-brown">
             吴天毅_7845<view class="cu-tag margin-right round bg-yellow sm">Lv3</view>
@@ -51,7 +51,7 @@
           <view class="flex justify-between">
             <view class="flex">
               <view class="padding-xs">
-                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
+                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
                 </view>
               </view>
               <view class="padding-xs padding-top-sm text-df text-black">
@@ -95,7 +95,7 @@
     <view class="cu-list menu-avatar padding-tb-sm solid-bottom">
       <!-- 个人信息：头像、昵称、日期和会员等级 -->
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-lg text-brown">
             吴天毅_7845<view class="cu-tag margin-right round bg-yellow sm">Lv3</view>
@@ -124,7 +124,7 @@
           <view class="flex justify-between">
             <view class="flex">
               <view class="padding-xs">
-                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);">
+                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);">
                 </view>
               </view>
               <view class="padding-xs padding-top-sm text-df text-black">
@@ -168,7 +168,7 @@
     <view class="cu-list menu-avatar padding-tb-sm solid-bottom">
       <!-- 个人信息：头像、昵称、日期和会员等级 -->
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-lg text-brown">
             吴天毅_7845<view class="cu-tag margin-right round bg-yellow sm">Lv3</view>
@@ -197,7 +197,7 @@
           <view class="flex justify-between">
             <view class="flex">
               <view class="padding-xs">
-                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);">
+                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);">
                 </view>
               </view>
               <view class="padding-xs padding-top-sm text-df text-black">

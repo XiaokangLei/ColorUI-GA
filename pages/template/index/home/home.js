@@ -9,12 +9,12 @@ Page({
       title: '首页',
       name: 'index01',
       color: 'purple light',
-      url: 'https://image.meiye.art/pic_OErySANY88_5sgwYg_0zF'
+      url: 'https://image.meiye.art/pic_OErySANY88_5sgwYg_0zF?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       title: '首页',
       name: 'index02',
       color: 'purple light',
-      url: 'https://image.meiye.art/pic_fqsdojCiT71c1eVDCcs3v'
+      url: 'https://image.meiye.art/pic_fqsdojCiT71c1eVDCcs3v?imageMogr2/thumbnail/450x/interlace/1'
     }],
 
   },

@@ -9,9 +9,9 @@
 <scroll-view scroll-y class="indexes" scroll-into-view="indexes-{{listCurID}}" style="height:100vh" scroll-with-animation="true" enable-back-to-top="true">
   <block wx:for="{{list}}" wx:key="item">
     <view class="padding indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">{{list[index]}}</view>
-    <view class="cu-list menu-avatar no-padding">
+    <view class="cu-list menu-avatar no-padding bg-white">
       <view class="cu-item" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
-        <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+        <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-black">
             <text class="text-Abc text-xl">{{list[index]}}imine</text>

@@ -8,7 +8,7 @@
 
 <!-- 页面 -->
 <view class="scrollPage cu-timeline margin-sm radius-lg">
-
+  <!-- 搜索 -->
   <view class="box-serach">
     <view class="cu-bar search bg-white radius-lg">
       <view class="search-form round">
@@ -59,7 +59,7 @@
             <view class="cu-card article no-card bg-gray">
               <view class="cu-item bg-gray">
                 <view class="content bg-gray">
-                  <image src="https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3" mode="aspectFill"></image>
+                  <image src="https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
                   <view class="desc">
                     <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
                     <view>
@@ -73,7 +73,7 @@
             <view class="cu-card article no-card bg-gray">
               <view class="cu-item bg-gray">
                 <view class="content bg-gray">
-                  <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx" mode="aspectFill"></image>
+                  <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
                   <view class="desc">
                     <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
                     <view>
@@ -87,7 +87,7 @@
             <view class="cu-card article no-card bg-gray">
               <view class="cu-item bg-gray">
                 <view class="content bg-gray">
-                  <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc" mode="aspectFill"></image>
+                  <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
                   <view class="desc">
                     <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
                     <view>
@@ -102,7 +102,7 @@
           <view class="cu-card dynamic no-card">
             <view class="cu-item shadow">
               <view class="grid flex-sub padding-lr col-1">
-                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc); height: 166rpx; width: 230rpx;">
+                <view class="bg-img only-img" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1); height: 166rpx; width: 230rpx;">
                 </view>
               </view>
               <view class="cu-list menu-avatar comment padding-xs">
@@ -150,7 +150,7 @@
 
   <view class="cu-list grid col-3 no-border">
     <view class="cu-item" wx:for="{{3}}" wx:key="idx">
-      <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc" mode="aspectFill" style="height:180rpx" class="padding-xs"></image>
+      <image src="https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill" style="height:180rpx" class="padding-xs"></image>
     </view>
   </view>
 

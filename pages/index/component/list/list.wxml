@@ -148,10 +148,10 @@
       </view>
       <view class="action">
         <view class="cu-avatar-group">
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
-          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
+          <view class="cu-avatar round sm" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);"></view>
         </view>
         <text class="text-grey text-sm">4 人</text>
       </view>
@@ -209,7 +209,7 @@
 
   <view class="cu-list menu-avatar">
     <view class="cu-item">
-      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW);"></view>
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
       <view class="content">
         <view class="text-grey">格鲁</view>
         <view class="text-gray text-sm flex">
@@ -224,7 +224,7 @@
       </view>
     </view>
     <view class="cu-item">
-      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
         <view class="cu-tag badge">99+</view>
       </view>
       <view class="content">
@@ -242,7 +242,7 @@
       </view>
     </view>
     <view class="cu-item ">
-      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
       <view class="content">
         <view class="text-pink">
           <text class="text-cut">斯图尔特</text>
@@ -257,7 +257,7 @@
       </view>
     </view>
     <view class="cu-item grayscale">
-      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
+      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);"></view>
       <view class="content">
         <view>
           <text class="text-cut">蒂姆</text>
@@ -273,7 +273,7 @@
       </view>
     </view>
     <view class="cu-item cur">
-      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R);">
+      <view class="cu-avatar radius lg" style="background-image:url(https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R?imageMogr2/thumbnail/450x/interlace/1);">
         <view class="cu-tag badge"></view>
       </view>
       <view class="content">
@@ -300,7 +300,7 @@
 
   <view class="cu-list menu-avatar">
     <view class="cu-item {{modalName=='move-box-'+ index?'move-cur':''}}" wx:for="{{4}}" wx:key="item" bindtouchstart="ListTouchStart" bindtouchmove="ListTouchMove" bindtouchend="ListTouchEnd" data-target="move-box-{{index}}">
-      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiqphSjedkvi1y0hfqeNrYGXqLKo);"></view>
+      <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FiqphSjedkvi1y0hfqeNrYGXqLKo?imageMogr2/thumbnail/450x/interlace/1);"></view>
       <view class="content">
         <view class="text-grey">小黄人</view>
         <view class="text-gray text-sm">

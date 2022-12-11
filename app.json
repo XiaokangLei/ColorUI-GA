@@ -50,7 +50,9 @@
     "pages/template/comment/comment03/comment03",
     "pages/index/plugin/rate/rate",
     "pages/index/plugin/piano/piano",
-    "pages/index/plugin/tips/tips"
+    "pages/index/plugin/tips/tips",
+    "pages/template/message/home/home",
+    "pages/template/message/message01/message01"
   ],
   "window": {
     "backgroundTextStyle": "light",

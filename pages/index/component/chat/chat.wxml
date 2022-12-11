@@ -11,14 +11,14 @@
         <text>喵喵喵！喵喵喵！喵喵喵！喵喵！喵喵！！喵！喵喵喵！</text>
       </view>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="date">2018年3月23日 13:23</view>
   </view>
 
   <view class="cu-info round">对方撤回一条消息!</view>
 
   <view class="cu-item">
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="main">
       <view class="content shadow">
         <text>喵喵喵！喵喵喵！</text>
@@ -38,9 +38,9 @@
 
   <view class="cu-item self">
     <view class="main">
-      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx" class="radius" mode="widthFix"></image>
+      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" class="radius" mode="widthFix"></image>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="date"> 13:23</view>
   </view>
 
@@ -53,7 +53,7 @@
         <text class="cuIcon-sound text-xxl padding-right-xl"> </text>
       </view>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="date">13:23</view>
   </view>
 
@@ -66,12 +66,12 @@
         喵星球，喵喵市
       </view>
     </view>
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="date">13:23</view>
   </view>
 
   <view class="cu-item">
-    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);"></view>
+    <view class="cu-avatar radius" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="main">
       <view class="content shadow">
         @#$^&**

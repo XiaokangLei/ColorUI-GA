@@ -8,13 +8,12 @@ Page({
     elements: [{
       title: '未知',
       name: 'userlist01',
-      url: 'https://image.meiye.art/FkaecKbfz38Iif_8d7X9nSuOShY4'
+      url: 'https://image.meiye.art/FkaecKbfz38Iif_8d7X9nSuOShY4?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       title: '未知',
       name: 'userlist02',
-      url: 'https://image.meiye.art/FtxJNlV5aj0hCFnMevbzlfrlGrL-'
+      url: 'https://image.meiye.art/FtxJNlV5aj0hCFnMevbzlfrlGrL-?imageMogr2/thumbnail/450x/interlace/1'
     }],
-
   },
 
   /**

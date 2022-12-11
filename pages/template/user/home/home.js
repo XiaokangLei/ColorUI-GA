@@ -8,11 +8,11 @@ Page({
     elements: [{
       title: '我能APP',
       name: 'user01',
-      url: 'https://image.meiye.art/pic_rtbm-gwTiDPTHOcu9B_Ih'
+      url: 'https://image.meiye.art/pic_rtbm-gwTiDPTHOcu9B_Ih?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       title: '啄木鸟家居清洗',
       name: 'user02',
-      url: 'https://image.meiye.art/pic_0GLUfuwa7SUr4KaBj8I_F'
+      url: 'https://image.meiye.art/pic_0GLUfuwa7SUr4KaBj8I_F?imageMogr2/thumbnail/450x/interlace/1'
     }],
 
   },

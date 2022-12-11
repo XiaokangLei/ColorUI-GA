@@ -23,7 +23,7 @@
     </view>
     <view class="cu-item {{item['checked'] ? '' : 'hidden-content'}}" wx:for="{{item.content}}" wx:for-item="child" wx:key="item">
       <view class="content">
-        <text selectable>{{ child }}</text>
+        <text>{{ child }}</text>
       </view>
     </view>
   </view>

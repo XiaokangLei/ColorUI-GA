@@ -3,28 +3,22 @@ Page({
   data: {
     PageCur: 'templates'
   },
+
   showModal(e) {
     this.setData({
       modalName: e.currentTarget.dataset.target
     })
   },
+
   hideModal(e) {
     this.setData({
       modalName: null
     })
   },
+
   NavChange(e) {
     this.setData({
       PageCur: e.currentTarget.dataset.cur
-    })
-  },
-
-  /**
-   * 页面跳转
-   */
-  JumpTo: function (e) {
-    wx.navigateTo({
-      url: e.currentTarget.dataset.page
     })
   },
 

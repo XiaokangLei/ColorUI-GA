@@ -25,19 +25,19 @@ Component({
       type: 'image',
       title: 'ColorUI GA',
       des: '轻量、可靠的UI组件库',
-      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 1,
       type: 'image',
       title: 'ColorUI GA',
       des: '丰富的免费UI模板库',
-      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
     }, {
       id: 2,
       type: 'image',
       title: 'ColorUI GA',
       des: 'CSS样式、适合多种平台',
-      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
     }],
     elements: [{
         title: '首页',
@@ -62,12 +62,12 @@ Component({
         color: 'pink light',
         icon: 'btn'
       },
-      // {
-      //   title: '阅读听书',
-      //   name: 'tag',
-      //   color: 'brown light',
-      //   icon: 'tagfill'
-      // },
+      {
+        title: '消息列表',
+        name: 'message',
+        color: 'brown light',
+        icon: 'commentfill'
+      },
       // {
       //   title: '电商购物',
       //   name: 'shop',
@@ -107,20 +107,16 @@ Component({
     ],
     Headlines: [{
       id: 1,
-      title: "ColorUI GA 最新版v2.0.6上线啦~",
-      type: 1
+      title: "ColorUI GA 最新版v2.0.6上线啦~"
     }, {
       id: 2,
-      title: "新增6种UI模板库、瀑布流样式",
-      type: 2
+      title: "新增6种UI模板库、瀑布流样式"
     }, {
       id: 3,
-      title: "新增全新纯色、渐变色背景色",
-      type: 3
+      title: "新增全新纯色、渐变色背景色"
     }, {
       id: 4,
-      title: "新增Tips提示、常规轮播图样式",
-      type: 4
+      title: "新增Tips提示、常规轮播图样式"
     }],
   },
 
@@ -132,17 +128,6 @@ Component({
       this.setData({
         cardCur: e.detail.current
       })
-    },
-
-    linesclick: function (e) {
-      let that = this;
-      var swip = that.data.Headlines[that.data.current];
-      console.log(swip);
-      if (swip.type === 1) {
-        wx.navigateTo({
-          url: '/pages/home/doc/index?id=' + swip.id
-        });
-      }
     },
   }
 })

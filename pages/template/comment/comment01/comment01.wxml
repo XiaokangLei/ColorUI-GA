@@ -13,7 +13,7 @@
         <view class="padding-right-sm text-xxl padding-top-xs">
           <text class="cuIcon-back_android text-black"></text>
         </view>
-        <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3);">
+        <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
         </view>
         <view class="padding-lr-xs text-xl text-black">
           <view>yiche朱涛</view>
@@ -31,7 +31,7 @@
     </view>
     <view class="cu-list menu-avatar no-padding">
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-lg text-bold">
             谦和钢笔
@@ -69,7 +69,7 @@
 
     <view class="cu-list menu-avatar no-padding">
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-lg text-bold">
             飞奔移动电源
@@ -102,7 +102,7 @@
 
     <view class="cu-list menu-avatar no-padding">
       <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P);"></view>
+        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
           <view class="text-lg text-bold">
             性感的大象

@@ -111,7 +111,7 @@
 
 <view class="cu-modal {{modalName=='Image'?'show':''}}">
   <view class="cu-dialog">
-    <view class="bg-img" style="background-image: url('https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc">
+    <view class="bg-img" style="background-image: url('https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1">
       <view class="cu-bar justify-end text-white">
         <view class="action" bindtap="hideModal">
           <text class="cuIcon-close "></text>

@@ -126,7 +126,7 @@
     </view>
     <view class="bg-white padding">
       <view class="grid col-4 grid-square">
-        <view class="bg-img" wx:for="{{4}}" wx:key="item" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx);"></view>
+        <view class="bg-img" wx:for="{{4}}" wx:key="item" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
       </view>
     </view>
   </block>

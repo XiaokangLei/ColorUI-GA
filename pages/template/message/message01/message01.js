@@ -1,18 +1,11 @@
-// pages/index/basics/avatar/avatar.js
-const app = getApp();
+// pages/template/massage/message01/message01.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    ColorList: app.globalData.ColorList,
-    avatar: [
-      'https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1',
-      'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1',
-      'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
-      'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1'
-    ],
+
   },
 
   /**

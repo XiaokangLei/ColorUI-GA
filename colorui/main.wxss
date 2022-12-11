@@ -1506,7 +1506,7 @@ button.icon.lg {
   display: flex;
   padding-right: 10rpx;
   height: 140rpx;
-  background-color: var(--white);
+  /* background-color: var(--white); */
   justify-content: flex-end;
   align-items: center
 }

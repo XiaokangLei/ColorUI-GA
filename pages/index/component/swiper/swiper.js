@@ -9,31 +9,31 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx'
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 1,
       type: 'image',
-      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3',
+      url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
     }, {
       id: 2,
       type: 'image',
-      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 3,
       type: 'image',
-      url: 'https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW'
+      url: 'https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 4,
       type: 'image',
-      url: 'https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R'
+      url: 'https://image.meiye.art/FhtISupNHMibBgrGZOe15CPQ-d5R?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 5,
       type: 'image',
-      url: 'https://image.meiye.art/FiqphSjedkvi1y0hfqeNrYGXqLKo'
+      url: 'https://image.meiye.art/FiqphSjedkvi1y0hfqeNrYGXqLKo?imageMogr2/thumbnail/450x/interlace/1'
     }, {
       id: 6,
       type: 'image',
-      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1'
     }],
   },
 
