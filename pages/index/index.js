@@ -18,17 +18,22 @@ Page({
       PageCur: e.currentTarget.dataset.cur
     })
   },
+
   /**
-   * 点击文章明细
+   * 页面跳转
    */
   JumpTo: function (e) {
     wx.navigateTo({
       url: e.currentTarget.dataset.page
     })
   },
+
+  /**
+   * 页面分享
+   */
   onShareAppMessage() {
     return {
-      title: 'ColorUI-GA高颜值的小程序UI组件库',
+      title: '轻量、可靠的UI模板库',
       imageUrl: '/images/share.jpg',
       path: '/pages/index/index'
     }

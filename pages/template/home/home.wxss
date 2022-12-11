@@ -41,10 +41,6 @@
   opacity: 0.5;
 }
 
-.scrollPage {
-  height: 100vh;
-}
-
 .swiperitem {
   height: 80rpx;
 }

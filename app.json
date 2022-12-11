@@ -49,7 +49,8 @@
     "pages/template/comment/comment02/comment02",
     "pages/template/comment/comment03/comment03",
     "pages/index/plugin/rate/rate",
-    "pages/index/plugin/piano/piano"
+    "pages/index/plugin/piano/piano",
+    "pages/index/plugin/tips/tips"
   ],
   "window": {
     "backgroundTextStyle": "light",

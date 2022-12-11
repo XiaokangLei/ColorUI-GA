@@ -1,0 +1,98 @@
+<!--pages/index/plugin/tips/tips.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">手风琴</view>
+</cu-custom>
+
+<view class="scrollPage">
+
+  <view class="cu-bar bg-white margin-top-xs">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>基础样式
+    </view>
+  </view>
+
+  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="3500" duration="500">
+    <block wx:for="{{Headlines}}" wx:key="index">
+      <swiper-item catchtouchmove='false'>
+        <view class="cu-bar-new radius-lg bg-orange light">
+          <view class='padding-xs text-xl'>
+            <text class='cuIcon-magic text-orange'></text>
+            <text class="text-df"> {{item.title}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="cu-bar bg-white margin-top-xs">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>形状/颜色
+    </view>
+  </view>
+
+  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="3500" duration="500">
+    <block wx:for="{{Headlines}}" wx:key="index">
+      <swiper-item catchtouchmove='false'>
+        <view class="cu-bar-new radius bg-orange light">
+          <view class='padding-xs text-xl'>
+            <text class='cuIcon-magic text-orange'></text>
+            <text class="text-df"> {{item.title}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <swiper class="swiperitem margin-tb" autoplay="true" vertical="true" circular="true" interval="3500" duration="500">
+    <block wx:for="{{Headlines}}" wx:key="index">
+      <swiper-item catchtouchmove='false'>
+        <view class="cu-bar-new bg-pink light">
+          <view class='padding-xs text-xl'>
+            <text class='cuIcon-magic text-pink'></text>
+            <text class="text-df"> {{item.title}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="cu-bar bg-white margin-top-xs">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>方向
+    </view>
+  </view>
+
+  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="3500" duration="500">
+    <block wx:for="{{Headlines}}" wx:key="index">
+      <swiper-item catchtouchmove='false'>
+        <view class="cu-bar-new bg-pink light">
+          <view class='padding-xs text-xl'>
+            <text class='cuIcon-magic text-pink'></text>
+            <text class="text-df"> {{item.title}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="cu-bar bg-white margin-top-xs">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>点击跳转
+    </view>
+  </view>
+
+  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="3500" duration="500">
+    <block wx:for="{{Headlines}}" wx:key="item">
+      <swiper-item catchtouchmove='false' bindtap="linesclick" data-url="{{item.url}}">
+        <view class="cu-bar-new bg-orange light">
+          <view class='padding-xs text-xl'>
+            <text class='cuIcon-magic text-orange'></text>
+            <text class="text-df"> {{item.title}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+</view>

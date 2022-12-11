@@ -79,7 +79,13 @@ Component({
         title: '手风琴',
         name: 'piano',
         color: 'orange light',
-        icon: 'filefill'
+        icon: 'btn'
+      },
+      {
+        title: '滚动提示',
+        name: 'tips',
+        color: 'cyan light',
+        icon: 'noticefill'
       }
     ],
   },

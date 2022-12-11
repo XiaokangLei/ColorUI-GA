@@ -1,0 +1,12 @@
+/* pages/index/plugin/tips/tips.wxss */
+.swiperitem {
+  height: 80rpx;
+}
+
+.cu-bar-new {
+  display: flex;
+  position: relative;
+  align-items: center;
+  min-height: 60rpx;
+  justify-content: space-between;
+}

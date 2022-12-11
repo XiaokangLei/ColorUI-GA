@@ -128,12 +128,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    toChild(e) {
-      wx.navigateTo({
-        url: e.currentTarget.dataset.url
-      })
-    },
-
     cardSwiper(e) {
       this.setData({
         cardCur: e.detail.current

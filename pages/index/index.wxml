@@ -1,7 +1,11 @@
 <!--index.wxml-->
 
-<!-- 主页 -->
+<!-- 底部tab跳转对应页面 -->
 <basics wx:if="{{PageCur=='basics'}}"></basics>
+<component wx:if="{{PageCur=='component'}}"></component>
+<templates wx:if="{{PageCur=='templates'}}"></templates>
+<about wx:if="{{PageCur=='about'}}"></about>
+<plugin wx:if="{{PageCur=='plugin'}}"></plugin>
 
 <!-- 悬浮工具栏-->
 <!-- <view class="fixed-tools-view show margin-bottom" style="z-index:200;">
@@ -28,14 +32,6 @@
     </view>
   </view>
 </view> -->
-
-<component wx:if="{{PageCur=='component'}}"></component>
-
-<templates wx:if="{{PageCur=='templates'}}"></templates>
-
-<about wx:if="{{PageCur=='about'}}"></about>
-
-<plugin wx:if="{{PageCur=='plugin'}}"></plugin>
 
 <view class="cu-bar tabbar shadow foot bg-blur">
 
