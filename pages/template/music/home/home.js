@@ -8,9 +8,6 @@ Page({
     elements: [{
       name: 'music01',
       url: 'https://image.meiye.art/pic_X3iEdz_HGCq6uBStVoPZp?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      name: 'music02',
-      url: 'https://image.meiye.art/pic_-_iaV8L38mvyjjAY7FSy4?imageMogr2/thumbnail/450x/interlace/1'
     }],
   },
 

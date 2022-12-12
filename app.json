@@ -56,7 +56,8 @@
     "pages/template/music/home/home",
     "pages/index/basics/title/title",
     "pages/index/basics/border/border",
-    "pages/template/music/music01/music01"
+    "pages/template/music/music01/music01",
+    "pages/template/message/message02/message02"
   ],
   "window": {
     "backgroundTextStyle": "light",

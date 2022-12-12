@@ -1,0 +1,149 @@
+<!--pages/template/message/message02/message02.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">消息列表01模板</view>
+</cu-custom>
+
+<view class="scrollPage">
+  <view class="bg-white margin-xs radius-lg">
+    <view class="radius-lg-top solid-bottom">
+      <view class="flex padding-sm justify-between padding-lr">
+        <view class="flex align-center text-xl text-black">
+          消息
+        </view>
+        <view class="flex align-center text-lg">
+          <view class="box-serach" style="width: 200rpx;">
+            <view class="cu-bar search radius-lg">
+              <view class="search-form round">
+                <text class="cuIcon-search"></text>
+                <input type="text" placeholder="搜索" confirm-type="search"></input>
+              </view>
+            </view>
+          </view>
+          <view class="padding-sm text-xxxl">
+            <view class="flex justify-center cuIcon-friend text-blace"></view>
+          </view>
+          <view class="padding-sm text-xxxl">
+            <view class="flex justify-center cuIcon-settings text-blace"></view>
+          </view>
+        </view>
+      </view>
+      <view class="padding flex justify-between margin-lr-sm">
+        <view class="text-center">
+          <view class="cu-avatar lg radius bg-gradual-orange">
+            <text class="cuIcon-noticefill"></text>
+          </view>
+          <view class="flex justify-center padding-tb-xs text-black">通知</view>
+        </view>
+        <view class="text-center">
+          <view class="cu-avatar lg radius bg-gradual-blue">
+            <text class="cuIcon-radiobox"></text>
+          </view>
+          <view class="flex justify-center padding-tb-xs text-black">@我的</view>
+        </view>
+        <view class="text-center">
+          <view class="cu-avatar lg radius bg-gradual-green">
+            <text class="cuIcon-commentfill"></text>
+          </view>
+          <view class="flex justify-center padding-tb-xs text-black">评论</view>
+        </view>
+        <view class="text-center">
+          <view class="cu-avatar lg radius bg-gradual-pink">
+            <text class="cuIcon-appreciatefill"></text>
+          </view>
+          <view class="flex justify-center padding-tb-xs text-black">赞</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-list menu-avatar padding-tb-sm bg-gray">
+
+      <view class="cu-item">
+        <view class="cu-avatar round lg bg-oc-red-6">
+          <view class="cuIcon-notice text-white"></view>
+        </view>
+        <view class="content">
+          <view class="text-lg text-black">
+            微博视频
+          </view>
+          <view class="text-gray text-sm text-cut" style="width:500rpx">
+            您2019年05月01日15:22上传的视频转码
+          </view>
+        </view>
+        <view class="action text-sm text-gray">
+          <view class="text-gray">昨天</view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="cu-avatar round lg bg-oc-orange-4">
+          <view class="cuIcon-commentfill text-white"></view>
+        </view>
+        <view class="content">
+          <view class="text-lg text-black">
+            未关注人消息
+          </view>
+          <view class="text-gray text-sm">
+            微博任务发来了新消息
+          </view>
+        </view>
+        <view class="action text-sm text-gray">
+          <view class="text-gray">昨天</view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="cu-avatar round lg bg-oc-indigo-5" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);">
+        </view>
+        <view class="content">
+          <view class="text-lg text-red">
+            Eleven1dream
+          </view>
+          <view class="text-gray text-sm">
+            嗨!我来啦~ 来撩你一下![5/15]
+          </view>
+        </view>
+        <view class="action text-sm text-gray">
+          <view class="text-gray">昨天00:03</view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="cu-avatar round lg bg-oc-orange-4" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
+        </view>
+        <view class="content">
+          <view class="text-lg text-black">
+            丹麦小吐司
+          </view>
+          <view class="text-gray text-sm">
+            互粉哦，关注你了
+          </view>
+        </view>
+        <view class="action text-sm text-gray">
+          <view class="text-gray">4-31</view>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="cu-avatar round lg bg-oc-orange-4" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);">
+        </view>
+        <view class="content">
+          <view class="text-lg text-black">
+            野生兔
+          </view>
+          <view class="text-gray text-sm">
+            有问题向你求助，快来快来啊阿啊
+          </view>
+        </view>
+        <view class="action text-sm text-gray">
+          <view class="text-gray">3-20</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="margin-top-xl">
+      <template is="copyright"></template>
+    </view>
+  </view>
+  <view class="margin radius-lg">
+    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+  </view>
+</view>

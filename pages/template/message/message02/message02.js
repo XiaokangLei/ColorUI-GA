@@ -1,17 +1,11 @@
-// pages/template/massage/home/home.js
+// pages/template/message/message02/message02.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    elements: [{
-      name: 'message01',
-      url: 'https://image.meiye.art/pic_D-o_OJU88Fw58VHh3o3A5?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      name: 'message02',
-      url: 'https://image.meiye.art/FjtMfxoT9WG2yRR7WiUE7g-eIKtm?imageMogr2/thumbnail/450x/interlace/1'
-    }],
+
   },
 
   /**
