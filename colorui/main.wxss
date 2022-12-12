@@ -324,6 +324,18 @@ image {
   border-radius: 0rpx 0rpx 24rpx 24rpx;
 }
 
+.radius-xl {
+  border-radius: 32rpx;
+}
+
+.radius-xl-top {
+  border-radius: 32rpx 32rpx 0rpx 0rpx;
+}
+
+.radius-xl-bottom {
+  border-radius: 0rpx 0rpx 32rpx 32rpx;
+}
+
 /* ==================
           图片
  ==================== */
