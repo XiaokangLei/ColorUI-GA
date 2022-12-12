@@ -86,7 +86,7 @@ Component({
         icon: 'icloading'
       },
       {
-        title: '边框阴影',
+        title: '阴影',
         name: 'shadow',
         color: 'olive light',
         icon: 'copy'
@@ -97,18 +97,18 @@ Component({
         color: 'green light',
         icon: 'loading2'
       },
-      // {
-      //   title: '标题',
-      //   name: 'shadow',
-      //   color: 'blue light',
-      //   icon: 'brand'
-      // },
-      // {
-      //   title: 'Emoji',
-      //   name: 'emoji',
-      //   color: 'pink light',
-      //   icon: 'creative'
-      // },
+      {
+        title: '标题',
+        name: 'title',
+        color: 'blue light',
+        icon: 'brand'
+      },
+      {
+        title: '边框',
+        name: 'border',
+        color: 'pink light',
+        icon: 'creative'
+      },
     ],
   },
 

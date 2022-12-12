@@ -53,7 +53,7 @@
           </view>
         </view>
       </view>
-      <view class="flex solid-bottom padding justify-end">
+      <view class="flex solid-bottom padding-lr padding-tb-sm justify-end">
         <view class="action text-xxl text-black">
           <view class="cuIcon-comment"></view>
         </view>
@@ -145,7 +145,7 @@
       </view>
     </view>
 
-    <view class="margin-top">
+    <view class="margin">
       <template is="copyright"></template>
       <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
     </view>

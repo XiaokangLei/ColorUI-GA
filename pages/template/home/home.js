@@ -68,12 +68,12 @@ Component({
         color: 'brown light',
         icon: 'commentfill'
       },
-      // {
-      //   title: '电商购物',
-      //   name: 'shop',
-      //   color: 'red light',
-      //   icon: 'myfill'
-      // },
+      {
+        title: '音乐播放',
+        name: 'music',
+        color: 'green light',
+        icon: 'myfill'
+      },
       // {
       //   title: '旅行住宿',
       //   name: 'progress',

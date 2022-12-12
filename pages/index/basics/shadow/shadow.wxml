@@ -1,42 +1,60 @@
 <!--pages/index/basics/shadow/shadow.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">边框阴影-shadow</view>
+  <view slot="content">阴影</view>
 </cu-custom>
-
-<view class="cu-bar bg-white solid-bottom">
-  <view class="action">
-    <text class="cuIcon-titles text-blue"></text>边框
-  </view>
-  <view class="action">
-    <text class="text-df margin-right-sm">粗边框</text>
-    <switch class="sm" bindchange="SetSize"></switch>
-  </view>
-</view>
-
-<view class="padding bg-white text-center">
-  <view class="padding solid{{size?'s':''}}">四周</view>
-  <view class="padding solid{{size?'s':''}}-top margin-top">上</view>
-  <view class="padding solid{{size?'s':''}}-right margin-top">右</view>
-  <view class="padding solid{{size?'s':''}}-bottom margin-top">下</view>
-  <view class="padding solid{{size?'s':''}}-left margin-top">左</view>
-</view>
 
 <view class="cu-bar bg-white margin-top">
   <view class="action">
-    <text class="cuIcon-titles text-blue"></text>阴影
+    <text class="cuIcon-titles text-blue"></text>基本样式
   </view>
 </view>
 
 <view class="padding text-center">
   <view class="padding-xl radius shadow bg-white radius-df">默认阴影</view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>颜色阴影
+  </view>
+</view>
+
+<view class="padding text-center">
   <view class="padding-xl radius shadow bg-blue margin-top radius-df">根据背景颜色而改变的阴影</view>
   <view class="padding-xl radius shadow bg-green margin-top radius-df">根据背景颜色而改变的阴影</view>
   <view class="padding-xl radius shadow bg-red margin-top radius-df">根据背景颜色而改变的阴影</view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>扩展样式
+  </view>
+</view>
+
+<view class="padding text-center">
   <view class="padding-xl radius shadow shadow-lg bg-white margin-top radius-df">长阴影</view>
   <view class="padding-xl radius shadow shadow-lg bg-blue margin-top radius-df">长阴影</view>
   <view class="padding-xl radius shadow-warp bg-white margin-top radius-df">翘边阴影</view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>图片阴影
+  </view>
+</view>
+
+<view class="padding text-center">
   <view class="padding-xl radius shadow-blur bg-red margin-top bg-img radius-df" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);">
     <view>根据背景图而改变的阴影</view>
   </view>
+  <view class="padding-xl radius shadow-blur bg-red margin-top bg-img radius-df" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);">
+    <view>根据背景图而改变的阴影</view>
+  </view>
+</view>
+
+<view class="margin-top-sm">
+  <template is="copyright"></template>
 </view>

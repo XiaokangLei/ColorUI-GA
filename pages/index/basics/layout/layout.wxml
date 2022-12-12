@@ -149,7 +149,7 @@
       </view>
     </view>
     <view class="bg-white">
-      <view class="padding bg-gray">{size}的尺寸有 xs、sm、df、lg、xl</view>
+      <view class="padding bg-gray">{size}的尺寸有 xs、sm、df、lg、xl、xxl</view>
       <view class="flex flex-wrap padding solid-top">
         <view class="basis-df padding-bottom-xs">外边距</view>
         <view class="basis-df padding-bottom-xs">内边距</view>

@@ -750,6 +750,16 @@ radio.white[checked] .wx-radio-input {
 .solids-right,
 .solids-bottom,
 .solids-left,
+.solid-blue,
+.solid-top-blue,
+.solid-right-blue,
+.solid-bottom-blue,
+.solid-left-blue,
+.solids-blue,
+.solids-top-blue,
+.solids-right-blue,
+.solids-bottom-blue,
+.solids-left-blue,
 .dashed,
 .dashed-top,
 .dashed-right,
@@ -768,6 +778,16 @@ radio.white[checked] .wx-radio-input {
 .solids-right::after,
 .solids-bottom::after,
 .solids-left::after,
+.solid-blue::after,
+.solid-top-blue::after,
+.solid-right-blue::after,
+.solid-bottom-blue::after,
+.solid-left-blue::after,
+.solids-blue::after,
+.solids-top-blue::after,
+.solids-right-blue::after,
+.solids-bottom-blue::after,
+.solids-left-blue::after,
 .dashed::after,
 .dashed-top::after,
 .dashed-right::after,
@@ -826,26 +846,66 @@ radio.white[checked] .wx-radio-input {
   border-left: 8rpx solid #eee;
 }
 
+.solid-blue::after {
+  border: 1rpx solid #0081ff;
+}
+
+.solid-top-blue::after {
+  border-top: 1rpx solid #0081ff;
+}
+
+.solid-right-blue::after {
+  border-right: 1rpx solid #0081ff;
+}
+
+.solid-bottom-blue::after {
+  border-bottom: 1rpx solid #0081ff;
+}
+
+.solid-left-blue::after {
+  border-left: 1rpx solid #0081ff;
+}
+
+.solids-blue::after {
+  border: 8rpx solid #0081ff;
+}
+
+.solids-top-blue::after {
+  border-top: 8rpx solid #0081ff;
+}
+
+.solids-right-blue::after {
+  border-right: 8rpx solid #0081ff;
+}
+
+.solids-bottom-blue::after {
+  border-bottom: 8rpx solid #0081ff;
+}
+
+.solids-left-blue::after {
+  border-left: 8rpx solid #0081ff;
+}
+
 /* -- 虚线 -- */
 
 .dashed::after {
-  border: 1rpx dashed #ddd;
+  border: 6rpx dashed #ddd;
 }
 
 .dashed-top::after {
-  border-top: 1rpx dashed #ddd;
+  border-top: 6rpx dashed #ddd;
 }
 
 .dashed-right::after {
-  border-right: 1rpx dashed #ddd;
+  border-right: 6rpx dashed #ddd;
 }
 
 .dashed-bottom::after {
-  border-bottom: 1rpx dashed #ddd;
+  border-bottom: 6rpx dashed #ddd;
 }
 
 .dashed-left::after {
-  border-left: 1rpx dashed #ddd;
+  border-left: 6rpx dashed #ddd;
 }
 
 /* -- 阴影 -- */
@@ -3290,6 +3350,10 @@ scroll-view.cu-steps .cu-item {
   margin: 50rpx;
 }
 
+.margin-xxl {
+  margin: 60rpx;
+}
+
 .margin-top-xs {
   margin-top: 10rpx;
 }
@@ -3308,6 +3372,10 @@ scroll-view.cu-steps .cu-item {
 
 .margin-top-xl {
   margin-top: 50rpx;
+}
+
+.margin-top-xxl {
+  margin-top: 60rpx;
 }
 
 .margin-right-xs {
@@ -3330,6 +3398,10 @@ scroll-view.cu-steps .cu-item {
   margin-right: 50rpx;
 }
 
+.margin-right-xxl {
+  margin-right: 60rpx;
+}
+
 .margin-bottom-xs {
   margin-bottom: 10rpx;
 }
@@ -3350,6 +3422,10 @@ scroll-view.cu-steps .cu-item {
   margin-bottom: 50rpx;
 }
 
+.margin-bottom-xxl {
+  margin-bottom: 60rpx;
+}
+
 .margin-left-xs {
   margin-left: 10rpx;
 }
@@ -3368,6 +3444,10 @@ scroll-view.cu-steps .cu-item {
 
 .margin-left-xl {
   margin-left: 50rpx;
+}
+
+.margin-left-xxl {
+  margin-left: 60rpx;
 }
 
 .margin-lr-xs {
@@ -3395,6 +3475,11 @@ scroll-view.cu-steps .cu-item {
   margin-right: 50rpx;
 }
 
+.margin-lr-xxl {
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}
+
 .margin-tb-xs {
   margin-top: 10rpx;
   margin-bottom: 10rpx;
@@ -3420,6 +3505,11 @@ scroll-view.cu-steps .cu-item {
   margin-bottom: 50rpx;
 }
 
+.margin-tb-xxl {
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+}
+
 .padding-0 {
   padding: 0;
 }
@@ -3442,6 +3532,10 @@ scroll-view.cu-steps .cu-item {
 
 .padding-xl {
   padding: 50rpx;
+}
+
+.padding-xxl {
+  padding: 60rpx;
 }
 
 .padding-top-xs {
@@ -3512,6 +3606,10 @@ scroll-view.cu-steps .cu-item {
   padding-bottom: 50rpx;
 }
 
+.padding-bottom-xxl {
+  padding-bottom: 60rpx;
+}
+
 .padding-left-xs {
   padding-left: 10rpx;
 }
@@ -3530,6 +3628,10 @@ scroll-view.cu-steps .cu-item {
 
 .padding-left-xl {
   padding-left: 50rpx;
+}
+
+.padding-left-xxl {
+  padding-left: 60rpx;
 }
 
 .padding-lr-xs {
@@ -3557,6 +3659,11 @@ scroll-view.cu-steps .cu-item {
   padding-right: 50rpx;
 }
 
+.padding-lr-xxl {
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+}
+
 .padding-tb-xs {
   padding-top: 10rpx;
   padding-bottom: 10rpx;
@@ -3578,6 +3685,11 @@ scroll-view.cu-steps .cu-item {
 }
 
 .padding-tb-xl {
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+}
+
+.padding-tb-xxl {
   padding-top: 50rpx;
   padding-bottom: 50rpx;
 }
@@ -4789,6 +4901,14 @@ scroll-view.cu-steps .cu-item {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.text-cut-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
 }
 
 .text-bold {

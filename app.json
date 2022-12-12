@@ -52,7 +52,10 @@
     "pages/index/plugin/piano/piano",
     "pages/index/plugin/tips/tips",
     "pages/template/message/home/home",
-    "pages/template/message/message01/message01"
+    "pages/template/message/message01/message01",
+    "pages/template/music/home/home",
+    "pages/index/basics/title/title",
+    "pages/index/basics/border/border"
   ],
   "window": {
     "backgroundTextStyle": "light",

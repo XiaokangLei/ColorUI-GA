@@ -52,7 +52,7 @@
     </view>
   </view>
   <view class="cu-item text-blue">
-    <view class="bg-blue shadow-blur content">
+    <view class="bg-blue light shadow-blur content">
       <view class="cu-list menu-avatar radius">
         <view class="cu-item">
           <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>

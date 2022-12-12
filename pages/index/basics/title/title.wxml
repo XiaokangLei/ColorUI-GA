@@ -1,0 +1,124 @@
+<!--pages/index/basics/title/title.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">标题</view>
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>
+    <text class="text-xl text-black">标题样式</text>
+  </view>
+</view>
+
+<view class="margin-sm radius-lg bg-white">
+  <view class="cu-bar radius-lg-top">
+    <view class="action border-title">
+      <text class="text-xl text-bold">示例标题</text>
+      <text class="bg-grey" style="width:2rem"></text>
+      <!-- 底部样式 last-child选择器-->
+    </view>
+  </view>
+  <view class="cu-bar">
+    <view class="action border-title">
+      <text class="text-xl text-bold text-blue">示例标题</text>
+      <text class="bg-gradual-blue" style="width:3rem"></text>
+    </view>
+  </view>
+  <view class="cu-bar">
+    <view class="action sub-title">
+      <text class="text-xl text-bold text-green">示例标题</text>
+      <text class="bg-green"></text>
+      <!-- last-child选择器-->
+    </view>
+  </view>
+  <view class="cu-bar">
+    <view class="action sub-title">
+      <text class="text-xl text-bold text-blue">示例标题</text>
+      <text class="text-ABC text-blue">about</text>
+      <!-- last-child选择器-->
+    </view>
+  </view>
+  <view class="cu-bar">
+    <view class="action title-style-3">
+      <text class="text-xl text-bold">示例标题</text>
+      <text class="text-Abc text-gray self-end margin-left-sm">about</text>
+    </view>
+  </view>
+  <view class="cu-bar">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>
+      <text class="text-xl text-bold">示例标题</text>
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>
+    <text class="text-xl text-black">级别</text>
+  </view>
+</view>
+
+<view class="margin-sm radius-lg bg-white">
+  <view class="cu-bar radius-lg-top">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-xl text-bold">一级标题</text>
+    </view>
+  </view>
+
+  <view class="cu-bar">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-lg text-bold">二级标题</text>
+    </view>
+  </view>
+
+  <view class="cu-bar radius-lg-bottom">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-df text-bold">三级标题</text>
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>
+    <text class="text-xl text-bold">居中</text>
+  </view>
+</view>
+
+<view class="margin-sm radius-lg bg-white">
+  <view class="cu-bar justify-center radius-lg-top">
+    <view class="action border-title">
+      <text class="text-xl text-bold">示例标题</text>
+      <text class="bg-grey" style="width:2rem"></text>
+    </view>
+  </view>
+  <view class="cu-bar justify-center">
+    <view class="action border-title">
+      <text class="text-xl text-bold text-blue">示例标题</text>
+      <text class="bg-gradual-blue" style="width:3rem"></text>
+    </view>
+  </view>
+  <view class="cu-bar justify-center">
+    <view class="action sub-title">
+      <text class="text-xl text-bold text-green">示例标题</text>
+      <text class="bg-green" style="width:2rem"></text>
+    </view>
+  </view>
+  <view class="cu-bar justify-center radius-lg-bottom">
+    <view class="action sub-title">
+      <text class="text-xl text-bold text-blue">示例标题</text>
+      <text class="text-ABC text-blue">about</text>
+    </view>
+  </view>
+</view>
+
+<view class="margin-top-sm">
+  <template is="copyright"></template>
+</view>

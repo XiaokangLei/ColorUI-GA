@@ -165,77 +165,9 @@
       </view>
     </view>
 
-    <view class="cu-list menu-avatar padding-tb-sm solid-bottom">
-      <!-- 个人信息：头像、昵称、日期和会员等级 -->
-      <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
-        <view class="content">
-          <view class="text-lg text-brown">
-            吴天毅_7845<view class="cu-tag margin-right round bg-yellow sm">Lv3</view>
-          </view>
-          <view class="text-gray text-sm">
-            6月20号
-          </view>
-        </view>
-      </view>
-      <!-- 评论内容 -->
-      <view class="text-black">
-        <view class="margin-lr padding-left">
-          <text class="text-lg">老板的热情特别赞 味道也好</text>
-        </view>
-        <!-- 打分 -->
-        <view class="margin-lr padding-left padding-top">
-          <view class="rate padding-bottom-xs text-lg flex align-center">
-            <text class="padding-right-xs">打分</text>
-            <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-              <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
-            </view>
-          </view>
-        </view>
-        <!-- 商品信息 -->
-        <view class="margin-left-xl margin-right bg-gray radius">
-          <view class="flex justify-between">
-            <view class="flex">
-              <view class="padding-xs">
-                <view class="cu-avatar lg radius" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);">
-                </view>
-              </view>
-              <view class="padding-xs padding-top-sm text-df text-black">
-                <view class="text-bold">谭鸭血老火锅(簋街店)</view>
-                <view class="text-gray text-sm padding-top-xs">
-                  东城区 东直门 四川火锅
-                </view>
-              </view>
-            </view>
-            <view class="flex justify-center">
-              <view class="flex align-center text-xxl text-gray padding-lr-sm">
-                <view class="cuIcon-favor"></view><text class="text-lg">1531</text>
-              </view>
-            </view>
-          </view>
-        </view>
-        <!-- 浏览 -->
-        <view class="margin-lr padding-left padding-top-xs">
-          <text class="text-df text-gray">浏览 43</text>
-        </view>
-        <!-- 提示、评论、分享 -->
-        <view class="flex justify-between text-gray padding-top-xs">
-          <view class="margin-lr padding-left padding-top-xs text-lg">
-            <text class="cuIcon-appreciate"></text>
-            <text class="text-df text-gray"> 成为第一个点赞的人</text>
-          </view>
-          <view class="margin-lr padding-left padding-top-xs text-lg">
-            <text class="cuIcon-comment"></text>
-            <text class="text-df padding-left-xs padding-right-sm">1</text>
-            <text class="cuIcon-forward"></text>
-          </view>
-        </view>
-        <!-- 评论回复 -->
-        <view class="margin-lr padding-left padding-top-sm">
-          <text class="text-df text-blue">谭鸭血老火锅(商家)：</text>
-          <text class="text-black">再次感谢您慷慨的五星!再次感谢!</text>
-        </view>
-      </view>
+    <view class="margin">
+      <template is="copyright"></template>
+      <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
     </view>
 
   </view>

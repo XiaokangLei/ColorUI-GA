@@ -14,15 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    // 在页面onLoad回调事件中创建激励视频广告实例
-    if (wx.createRewardedVideoAd) {
-      videoAd = wx.createRewardedVideoAd({
-        adUnitId: 'adunit-ecd9bb8eb3d6e4ac'
-      })
-      videoAd.onLoad(() => {})
-      videoAd.onError((err) => {})
-      videoAd.onClose((res) => {})
-    }
+
   },
 
   /**
@@ -93,6 +85,15 @@ Page({
    * 激励视频广告
    */
   support() {
+    // 在页面onLoad回调事件中创建激励视频广告实例
+    if (wx.createRewardedVideoAd) {
+      videoAd = wx.createRewardedVideoAd({
+        adUnitId: 'adunit-ecd9bb8eb3d6e4ac'
+      })
+      videoAd.onLoad(() => {})
+      videoAd.onError((err) => {})
+      videoAd.onClose((res) => {})
+    }
     // 用户触发广告后，显示激励视频广告
     if (videoAd) {
       videoAd.show().catch(() => {

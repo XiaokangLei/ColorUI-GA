@@ -36,7 +36,7 @@
       </view>
     </block>
   </view>
-  <view class="margin-top">
+  <view class="margin">
     <template is="copyright"></template>
     <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
   </view>

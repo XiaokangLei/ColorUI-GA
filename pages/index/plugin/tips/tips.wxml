@@ -1,7 +1,7 @@
 <!--pages/index/plugin/tips/tips.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">手风琴</view>
+  <view slot="content">滚动提示</view>
 </cu-custom>
 
 <view class="scrollPage">
@@ -12,7 +12,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="5000" duration="500">
+  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="cu-bar-new radius-lg bg-orange light">
@@ -31,7 +31,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="5000" duration="500">
+  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="cu-bar-new radius bg-orange light">
@@ -44,7 +44,7 @@
     </block>
   </swiper>
 
-  <swiper class="swiperitem margin-tb" autoplay="true" vertical="true" circular="true" interval="5000" duration="500">
+  <swiper class="swiperitem margin-tb" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="cu-bar-new bg-pink light">
@@ -63,7 +63,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="5000" duration="500">
+  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="cu-bar-new bg-pink light">
@@ -82,7 +82,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="5000" duration="500">
+  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="item">
       <swiper-item catchtouchmove='false' bindtap="linesclick" data-url="{{item.url}}">
         <view class="cu-bar-new bg-orange light">

@@ -33,8 +33,8 @@
 }
 
 .nav-li {
-  padding: 32rpx;
-  border-radius: 28rpx;
+  padding: 24rpx;
+  border-radius: 24rpx;
   width: 46%;
   margin: 0 1.0% 40rpx;
   background-size: cover;

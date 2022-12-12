@@ -86,6 +86,27 @@
   <button class="cu-btn bg-red margin-tb-sm lg">嫣红</button>
 </view>
 
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>
+    <text>操作条按钮组</text>
+  </view>
+</view>
+
+<view class="box">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn bg-green shadow-blur round lg">保存</button>
+  </view>
+  <view class="cu-bar btn-group">
+    <button class="cu-btn bg-green shadow-blur">保存</button>
+    <button class="cu-btn text-green line-green shadow">上传</button>
+  </view>
+  <view class="cu-bar btn-group">
+    <button class="cu-btn bg-green shadow-blur round">保存</button>
+    <button class="cu-btn bg-blue shadow-blur round">提交</button>
+  </view>
+</view>
+
 <view class="cu-bar margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>无效状态

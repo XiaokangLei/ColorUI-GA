@@ -3,7 +3,7 @@
 
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">首页01</view>
+  <view slot="content">首页01模板</view>
 </cu-custom>
 
 <!-- 页面 -->
@@ -96,23 +96,9 @@
     <view class="cu-tag line-blue radius">高信用</view>
   </view>
 
-  <view class="flex margin-lr padding-top-xs justify-between">
-    <view class="flex">
-      <text class="text-xl text-black">找车子，明天</text>
-    </view>
-    <text class="text-xxl text-red"><text class="text-bold">45</text><text class="text-gray text-lg">/时</text></text>
-  </view>
-  <view class="flex margin-lr padding-bottom-sm justify-start">
-    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
-    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 2小时</text>
-  </view>
-  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
-    <view class="cu-tag line-blue radius">高报酬</view>
+  <view class="margin-top-sm">
+    <template is="copyright"></template>
+    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
   </view>
 
-</view>
-
-<view class="margin-top">
-  <template is="copyright"></template>
-  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

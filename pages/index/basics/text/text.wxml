@@ -89,91 +89,6 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white">
-  <view class="action">
-    <text class="cuIcon-titles text-blue"></text>
-    <text>标题操作条</text>
-  </view>
-</view>
-
-<view class="box" wx:if="{{false}}">
-  <view class="cu-bar justify-center bg-white">
-    <view class="action border-title">
-      <text class="text-xl text-bold">关于我们</text>
-      <text class="bg-grey" style="width:2rem"></text>
-      <!-- 底部样式 last-child选择器-->
-    </view>
-  </view>
-  <view class="cu-bar justify-center bg-white">
-    <view class="action border-title">
-      <text class="text-xl text-bold text-blue">关于我们</text>
-      <text class="bg-gradual-blue" style="width:3rem"></text>
-    </view>
-  </view>
-  <view class="cu-bar justify-center bg-white">
-    <view class="action sub-title">
-      <text class="text-xl text-bold text-green">关于我们</text>
-      <text class="bg-green" style="width:2rem"></text>
-      <!-- last-child选择器-->
-    </view>
-  </view>
-  <view class="cu-bar justify-center bg-white">
-    <view class="action sub-title">
-      <text class="text-xl text-bold text-blue">关于我们</text>
-      <text class="text-ABC text-blue">about</text>
-      <!-- last-child选择器-->
-    </view>
-  </view>
-</view>
-
-<view class="box">
-  <view class="cu-bar bg-white">
-    <view class="action border-title">
-      <text class="text-xl text-bold">关于我们</text>
-      <text class="bg-grey" style="width:2rem"></text>
-      <!-- 底部样式 last-child选择器-->
-    </view>
-  </view>
-  <view class="cu-bar bg-white">
-    <view class="action border-title">
-      <text class="text-xl text-bold text-blue">关于我们</text>
-      <text class="bg-gradual-blue" style="width:3rem"></text>
-    </view>
-  </view>
-  <view class="cu-bar bg-white">
-    <view class="action sub-title">
-      <text class="text-xl text-bold text-green">关于我们</text>
-      <text class="bg-green"></text>
-      <!-- last-child选择器-->
-    </view>
-  </view>
-  <view class="cu-bar bg-white">
-    <view class="action sub-title">
-      <text class="text-xl text-bold text-blue">关于我们</text>
-      <text class="text-ABC text-blue">about</text>
-      <!-- last-child选择器-->
-    </view>
-  </view>
-  <view class="cu-bar bg-white">
-    <view class="action title-style-3">
-      <text class="text-xl text-bold">关于我们</text>
-      <text class="text-Abc text-gray self-end margin-left-sm">about</text>
-    </view>
-  </view>
-  <view class="cu-bar bg-white">
-    <view class="action">
-      <text class="cuIcon-titles text-blue"></text>
-      <text class="text-xl text-bold">关于我们</text>
-    </view>
-  </view>
-  <view class="cu-bar bg-white">
-    <view class="action">
-      <text class="cuIcon-titles text-green"></text>
-      <text class="text-xl text-bold">关于我们</text>
-    </view>
-  </view>
-</view>
-
 <view class="cu-bar bg-white solid-bottom margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>阴影
@@ -195,7 +110,8 @@
 </view>
 
 <view class="padding bg-white">
-  <view class="text-cut padding bg-blue light radius" style="width:220px">我于杀戮之中绽放 ,亦如黎明中的花朵</view>
+  <view class="text-cut padding bg-blue light radius" style="width:220px">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</view>
+  <view class="padding bg-blue light radius margin-top" style="width:220px"><text class="text-cut-2">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</text></view>
 </view>
 
 <view class="cu-bar bg-white solid-bottom margin-top">

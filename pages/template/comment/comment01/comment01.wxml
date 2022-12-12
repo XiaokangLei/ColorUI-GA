@@ -122,16 +122,10 @@
         <view class="margin-lr padding-left">
           <text>国产之光。外观设计无可挑剔,全系列车型国产车里面显得高端大气上档次。MG6和550开始及以上的车型底盘和用料值得称赞。</text>
         </view>
-        <view class="margin-left-xl margin-right padding-lr bg-gray radius-lg">
-          <view class="margin-tb-xs padding-top-sm padding-bottom-sm bg-gray">
-            <text class="text-blue">蜗牛行人：</text>
-            <text class="text-black">中国汽车品牌更是用全面升级的技术与极致的服务迎接新一轮考验</text>
-          </view>
-        </view>
       </view>
     </view>
 
-    <view class="margin-top">
+    <view class="margin">
       <template is="copyright"></template>
       <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
     </view>
