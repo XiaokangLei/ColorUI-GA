@@ -86,6 +86,12 @@ Component({
         name: 'tips',
         color: 'cyan light',
         icon: 'noticefill'
+      },
+      {
+        title: '日历',
+        name: 'calendar',
+        color: 'green light',
+        icon: 'calendar'
       }
     ],
   },

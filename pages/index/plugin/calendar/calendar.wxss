@@ -1,0 +1,44 @@
+/* pages/index/plugin/calendar/calendar.wxss */
+
+.title {
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.main {
+  padding: 16rpx;
+}
+
+.main-title {
+  display: flex;
+}
+
+.main-title view {
+  width: 96rpx;
+  height: 72rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-center view {
+  width: 96rpx;
+  height: 72rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cu-form-group .title {
+  min-width: calc(4em + 30rpx);
+}

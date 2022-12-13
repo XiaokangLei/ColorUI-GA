@@ -1,0 +1,98 @@
+<!--pages/index/plugin/calendar/calendar.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack>
+  <view slot="backText">返回</view>
+  <view slot="content">日历</view>
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>基础样式
+  </view>
+</view>
+
+<view class="padding-tb padding-lr-sm">
+  <view class="margin-tb bg-white radius-lg">
+    <view class="bg-blue radius-lg-top text-center light title">
+      <view bindtap="last"><text class="cuIcon-back"></text></view>
+      <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
+      <view bindtap="next"><text class="cuIcon-right"></text></view>
+    </view>
+    <view class="main">
+      <view class="main-title">
+        <view>MON</view>
+        <view>TUE</view>
+        <view>WED</view>
+        <view>THU</view>
+        <view>FRI</view>
+        <view>SAT</view>
+        <view>SUN</view>
+      </view>
+      <view class="main-center">
+        <view wx:for="{{space}}" wx:key="item"></view>
+        <view wx:for="{{day}}" wx:key="item" data-today="{{item}}" bindtap="click" class="{{today == item? 'bg-blue padding radius light text-bold' : ''}}">
+          {{item}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="grid col-1 bg-white margin-bottom margin-lr-sm radius-lg">
+  <view class="padding-sm">
+    <view class="padding-lg text-center shadow-blur l-card">
+      选中日期为：<text class="text-blue">{{year}}</text> 年 <text class="text-blue">{{month}}</text> 月 <text class="text-blue">{{today}}</text> 日，周<text class="text-blue">{{week}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>弹出样式
+  </view>
+</view>
+
+<view class="cu-list menu sm-border margin-top">
+  <view class="cu-item arrow" bindtap="setShow">
+    <view class="content">
+      <text>选择日期</text>
+    </view>
+    <view class="text-blue">{{year}}-{{month}}-{{today}}</view>
+  </view>
+</view>
+
+<view class="cu-modal {{show ?'show':''}}" bindtap="hideModal">
+  <view class="cu-dialog" catchtap>
+    <view class="padding-lr-xs">
+      <view class="margin-tb bg-white radius-lg">
+        <view class="bg-blue radius-lg-top text-center light title">
+          <view bindtap="last"><text class="cuIcon-back"></text></view>
+          <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
+          <view bindtap="next"><text class="cuIcon-right"></text></view>
+        </view>
+        <view class="main">
+          <view class="main-title">
+            <view>MON</view>
+            <view>TUE</view>
+            <view>WED</view>
+            <view>THU</view>
+            <view>FRI</view>
+            <view>SAT</view>
+            <view>SUN</view>
+          </view>
+          <view class="main-center">
+            <view wx:for="{{space}}" wx:key="item"></view>
+            <view wx:for="{{day}}" wx:key="item" data-today="{{item}}" bindtap="click" class="{{today == item? 'bg-blue padding radius light text-bold' : ''}}">
+              {{item}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action text-blue" bindtap="hideModal">取消</view>
+      <view class="action text-green" bindtap="hideModal">确定</view>
+    </view>
+    <slot />
+
+  </view>
+</view>

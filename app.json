@@ -59,7 +59,8 @@
     "pages/template/music/music01/music01",
     "pages/template/message/message02/message02",
     "pages/index/component/toast/toast",
-    "pages/index/component/status/status"
+    "pages/index/component/status/status",
+    "pages/index/plugin/calendar/calendar"
   ],
   "window": {
     "backgroundTextStyle": "light",
