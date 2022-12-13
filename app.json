@@ -60,7 +60,8 @@
     "pages/template/message/message02/message02",
     "pages/index/component/toast/toast",
     "pages/index/component/status/status",
-    "pages/index/plugin/calendar/calendar"
+    "pages/index/plugin/calendar/calendar",
+    "pages/index/plugin/table/table"
   ],
   "window": {
     "backgroundTextStyle": "light",

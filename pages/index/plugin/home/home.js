@@ -92,6 +92,12 @@ Component({
         name: 'calendar',
         color: 'green light',
         icon: 'calendar'
+      },
+      {
+        title: '表格',
+        name: 'table',
+        color: 'purple light',
+        icon: 'list'
       }
     ],
   },

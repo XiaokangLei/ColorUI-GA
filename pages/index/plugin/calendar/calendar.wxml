@@ -13,9 +13,9 @@
 <view class="padding-tb padding-lr-sm">
   <view class="margin-tb bg-white radius-lg">
     <view class="bg-blue radius-lg-top text-center light title">
-      <view bindtap="last"><text class="cuIcon-back"></text></view>
+      <view class="text-xl" bindtap="last"><text class="cuIcon-back"></text></view>
       <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
-      <view bindtap="next"><text class="cuIcon-right"></text></view>
+      <view class="text-xl" bindtap="next"><text class="cuIcon-right"></text></view>
     </view>
     <view class="main">
       <view class="main-title">
@@ -65,9 +65,9 @@
     <view class="padding-lr-xs">
       <view class="margin-tb bg-white radius-lg">
         <view class="bg-blue radius-lg-top text-center light title">
-          <view bindtap="last"><text class="cuIcon-back"></text></view>
+          <view class="text-xl" bindtap="last"><text class="cuIcon-back"></text></view>
           <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
-          <view bindtap="next"><text class="cuIcon-right"></text></view>
+          <view class="text-xl" bindtap="next"><text class="cuIcon-right"></text></view>
         </view>
         <view class="main">
           <view class="main-title">
@@ -79,7 +79,7 @@
             <view>SAT</view>
             <view>SUN</view>
           </view>
-          <view class="main-center">
+          <view class="main-center-mini">
             <view wx:for="{{space}}" wx:key="item"></view>
             <view wx:for="{{day}}" wx:key="item" data-today="{{item}}" bindtap="click" class="{{today == item? 'bg-blue padding radius light text-bold' : ''}}">
               {{item}}
@@ -89,8 +89,8 @@
       </view>
     </view>
     <view class="cu-bar bg-white">
-      <view class="action text-blue" bindtap="hideModal">取消</view>
-      <view class="action text-green" bindtap="hideModal">确定</view>
+      <view class="action margin-0 flex-sub text-green solid-left" bindtap="hideModal">取消</view>
+      <view class="action margin-0 flex-sub  solid-left text-blue" bindtap="hideModal">确定</view>
     </view>
     <slot />
 

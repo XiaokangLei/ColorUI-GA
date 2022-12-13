@@ -1,5 +1,5 @@
 <!--pages/index/plugin/piano/piano.wxml-->
-<cu-custom bgColor="bg-white" isBack="{{true}}">
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">手风琴</view>
 </cu-custom>

@@ -1,0 +1,40 @@
+/* pages/index/plugin/table/table.wxss */
+.table{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: row;
+}
+.tr{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  /* height: 3rem; */
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 20rpx;
+}
+.th{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* height: 3rem; */
+  align-items: center;
+  background-color: #fff;
+}
+.td{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* height: 3rem; */
+  align-items: center;
+  background-color: #fff;
+}
+.grid{
+  flex: 1;
+}

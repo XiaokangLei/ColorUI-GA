@@ -29,10 +29,26 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 450rpx;
 }
 
 .main-center view {
   width: 96rpx;
+  height: 72rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-center-mini {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 450rpx;
+}
+
+.main-center-mini view {
+  width: 89rpx;
   height: 72rpx;
   display: flex;
   justify-content: center;
