@@ -1,15 +1,11 @@
-// pages/index/basics/layout/layout.js
-const app = getApp();
+// pages/index/component/status/status.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    CustomBar: app.globalData.CustomBar,
-    StatusBar: app.globalData.StatusBar,
-    TabCur: 0,
-    tabNav: ['基础布局', 'Flex布局', 'Grid布局', "表格布局"]
+
   },
 
   /**
@@ -66,15 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  /**
-   * 顶部Tab
-   */
-  tabSelect(e) {
-    this.setData({
-      TabCur: e.currentTarget.dataset.id,
-      scrollLeft: (e.currentTarget.dataset.id - 1) * 60
-    })
   }
 })

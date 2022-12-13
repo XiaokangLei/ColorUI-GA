@@ -4,7 +4,7 @@
   <view slot="content">布局Layout</view>
 </cu-custom>
 
-<view class="padding-top-sl">
+<view class="padding-top-xxl" style="top:{{CustomBar}}px">
 
   <scroll-view scroll-x class="bg-white nav text-center fixed" style="top:{{CustomBar}}px">
     <view class="cu-item {{index==TabCur?'text-blue cur':''}} text-bold" wx:for="{{tabNav}}" wx:key="item" bindtap='tabSelect' data-id="{{index}}">
@@ -12,7 +12,7 @@
     </view>
   </scroll-view>
 
-  <block wx:if="{{TabCur==0}}">
+  <block wx:if="{{TabCur==1}}">
     <view class="cu-bar bg-white solid-bottom margin-top">
       <view class="action">
         <text class="cuIcon-titles text-blue"></text>固定尺寸
@@ -106,7 +106,7 @@
     </view>
   </block>
 
-  <block wx:if="{{TabCur==1}}">
+  <block wx:if="{{TabCur==2}}">
     <view class="cu-bar bg-white margin-top solid-bottom">
       <view class="action">
         <text class="cuIcon-titles text-blue"></text>等分列
@@ -131,25 +131,22 @@
     </view>
   </block>
 
-  <block wx:if="{{TabCur==2}}">
+  <block wx:if="{{TabCur==0}}">
     <view class="cu-bar bg-white margin-top solid-bottom">
       <view class="action">
-        <text class="cuIcon-titles text-blue"></text>浮动
+        <text class="cuIcon-titles text-blue"></text>简介
       </view>
     </view>
-    <view class="bg-white padding">
-      <view class=" cf padding-sm">
-        <view class="bg-blue light radius fl padding-sm">ColorUi fl</view>
-        <view class="bg-blue light radius fr padding-sm">ColorUi fr</view>
-      </view>
+    <view class="margin-xs bg-white padding radius-df">
+      <view>{size}的尺寸有 xs、sm、df、lg、xl、xxl</view>
+      <view class="padding-top-sm">对应大小分别为：10rpx、20rpx、30rpx、40rpx、50rpx、60rpx，df为默认大小，省略不写</view>
     </view>
     <view class="cu-bar bg-white margin-top solid-bottom">
       <view class="action">
         <text class="cuIcon-titles text-blue"></text>内外边距
       </view>
     </view>
-    <view class="bg-white">
-      <view class="padding bg-gray">{size}的尺寸有 xs、sm、df、lg、xl、xxl</view>
+    <view class="bg-white margin-xs radius-df">
       <view class="flex flex-wrap padding solid-top">
         <view class="basis-df padding-bottom-xs">外边距</view>
         <view class="basis-df padding-bottom-xs">内边距</view>
@@ -191,6 +188,36 @@
         <view class="basis-df padding-bottom-xs">左内边距</view>
         <view class="basis-df">.margin-left-{size}</view>
         <view class="basis-df">.padding-left-{size}</view>
+      </view>
+    </view>
+  </block>
+
+  <block wx:if="{{TabCur==3}}">
+    <view class="cu-bar bg-white margin-top solid-bottom">
+      <view class="action">
+        <text class="cuIcon-titles text-blue"></text>简介
+      </view>
+    </view>
+    <view class="margin-xs bg-white padding radius">
+      <view>基本代码：display: table; 以表格的方式进行显示。</view>
+      <view class="padding-top-sm">在宽度上会根据内容多少或设置来表现；在高度上，对齐最大的一个高度，因为在表格里面的一行，最大的一个高度会把这一行的高度给撑开。</view>
+    </view>
+    <view class="cu-bar bg-white margin-top solid-bottom">
+      <view class="action">
+        <text class="cuIcon-titles text-blue"></text>示例
+      </view>
+    </view>
+    <view class="bg-white padding margin-xs radius">
+      <view class="cf padding-sm">
+        <view class="bg-blue light radius fl padding-sm">ColorUI fl</view>
+        <view class="bg-blue light radius fr padding-sm">ColorUI fr</view>
+      </view>
+      <view class="cf padding-sm">
+        <view class="bg-blue light radius fl padding-sm">ColorUI GA组件库</view>
+        <view class="bg-blue light radius fr padding-sm">ColorUI GA</view>
+      </view>
+      <view class="cf padding-sm">
+        <view class="bg-blue light radius padding-sm">ColorUI GA组件库，轻量、可靠的css组件库，代码全部开源，期待您的反馈~</view>
       </view>
     </view>
   </block>

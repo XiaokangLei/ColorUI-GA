@@ -99,6 +99,18 @@ Component({
         color: 'cyan light',
         icon: 'roundcheckfill'
       },
+      {
+        title: '轻提示',
+        name: 'toast',
+        color: 'mauve light',
+        icon: 'noticefill'
+      },
+      {
+        title: '状态提示',
+        name: 'status',
+        color: 'pink light',
+        icon: 'sort'
+      },
     ],
   },
 

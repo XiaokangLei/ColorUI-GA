@@ -33,10 +33,10 @@
 }
 
 .nav-li {
-  padding: 24rpx;
-  border-radius: 24rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
   width: 46%;
-  margin: 0 1.0% 40rpx;
+  margin: 0 1.0% 32rpx;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -64,7 +64,7 @@
 }
 
 .nav-title {
-  font-size: 32rpx;
+  font-size: 30rpx;
   font-weight: 480;
 }
 
@@ -119,8 +119,8 @@
 
 .nav-li text {
   position: absolute;
-  right: 30rpx;
-  top: 30rpx;
+  right: 24rpx;
+  top: 16rpx;
   font-size: 52rpx;
   width: 60rpx;
   height: 60rpx;

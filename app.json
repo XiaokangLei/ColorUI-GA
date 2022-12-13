@@ -57,7 +57,9 @@
     "pages/index/basics/title/title",
     "pages/index/basics/border/border",
     "pages/template/music/music01/music01",
-    "pages/template/message/message02/message02"
+    "pages/template/message/message02/message02",
+    "pages/index/component/toast/toast",
+    "pages/index/component/status/status"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -6,7 +6,7 @@
   <view slot="content">音乐播放01模板</view>
 </cu-custom>
 
-<view class="scrollPage margin-sm margin-lr bg-oc-gray-9 radius-lg">
+<view class="scrollPage margin-sm bg-oc-gray-9 radius-lg">
 
   <view class="radius-lg">
     <view class="flex padding-sm justify-between">

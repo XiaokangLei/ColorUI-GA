@@ -21,19 +21,19 @@
       <view class="flex flex-sub flex-direction solid-right text-orange">
         <view class="text-xxl">{{visitTotal}}</view>
         <view class="margin-top-sm">
-          <text class="cuIcon-circlefill"></text> Model
+          <text class="cuIcon-circlefill"></text> 样式
         </view>
       </view>
       <view class="flex flex-sub flex-direction solid-right text-blue">
         <view class="text-xxl">{{starCount}}</view>
         <view class="margin-top-sm">
-          <text class="cuIcon-newsfill"></text> Template
+          <text class="cuIcon-newsfill"></text> 模板
         </view>
       </view>
       <view class="flex flex-sub flex-direction text-green">
         <view class="text-xxl">{{forksCount}}</view>
         <view class="margin-top-sm">
-          <text class="cuIcon-myfill"></text> User
+          <text class="cuIcon-myfill"></text> 用户
         </view>
       </view>
     </view>

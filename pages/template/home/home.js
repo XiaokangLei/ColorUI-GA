@@ -107,16 +107,13 @@ Component({
     ],
     Headlines: [{
       id: 1,
-      title: "ColorUI GA 最新版v2.0.6上线啦~"
+      title: "ColorUI GA 最新版v2.0.7上线啦~"
     }, {
       id: 2,
-      title: "新增6种UI模板库、瀑布流样式"
+      title: "新增4种UI模板库"
     }, {
       id: 3,
-      title: "新增全新纯色、渐变色背景色"
-    }, {
-      id: 4,
-      title: "新增Tips提示、常规轮播图样式"
+      title: "新增滚动提示样式、手风琴样式"
     }],
   },
 

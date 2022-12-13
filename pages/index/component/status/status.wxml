@@ -1,0 +1,38 @@
+<!--pages/index/component/status/status.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">状态</view>
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>空状态
+  </view>
+</view>
+
+<view class="empty">
+  <text class="cuIcon-searchlist text-gray icon"></text>
+  <view class="text-gray text">暂无数据</view>
+</view>
+
+<view class="cu-bar bg-white">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>网络错误
+  </view>
+</view>
+
+<view class="empty">
+  <text class="cuIcon-weblock text-gray icon"></text>
+  <view class="text-gray text">网络错误</view>
+</view>
+
+<view class="cu-bar bg-white">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>未知错误
+  </view>
+</view>
+
+<view class="empty">
+  <text class="cuIcon-evaluate text-gray icon"></text>
+  <view class="text-gray text">未知错误</view>
+</view>

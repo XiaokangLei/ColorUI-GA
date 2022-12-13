@@ -49,33 +49,33 @@
   </view>
 </view>
 
-<view class="margin radius bg-gradual-green shadow-blur">
+<view class="margin bg-gradual-green">
   <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-black response" style="height:100rpx"></image>
 </view>
 
 <view class="margin flex">
-  <view class="bg-black flex-sub margin-right radius shadow-lg">
+  <view class="bg-black flex-sub margin-right">
     <image src="https://image.meiye.art/FtVzlE42mb4MfUkz9qcbCKq8Qv_a?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFit" class="gif-black response" style="height:240rpx"></image>
   </view>
-  <view class="bg-white flex-sub radius shadow-lg">
+  <view class="bg-white flex-sub">
     <image src="https://image.meiye.art/FpKQhWyO0YoE1kZPmT9c_m8C4vJZ" mode="aspectFit" class="gif-white response" style="height:240rpx"></image>
   </view>
 </view>
 
 <view class="margin flex">
-  <view class="bg-gradual-blue flex-sub margin-right radius shadow-lg">
+  <view class="bg-gradual-blue flex-sub margin-right">
     <image src="https://image.meiye.art/Ftfhr4rPXzZM3Z8cBehxgQHH2Gj6?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFit" class="gif-black response" style="height:240rpx"></image>
   </view>
-  <view class="bg-white flex-sub radius shadow-lg">
+  <view class="bg-white flex-sub">
     <image src="https://image.meiye.art/Fv_9m3UnYTFOeiY79X01nBupGyKx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFit" class="gif-white response" style="height:240rpx"></image>
   </view>
 </view>
 
 <view class="margin flex">
-  <view class="bg-white flex-sub margin-right radius shadow-lg">
+  <view class="bg-white flex-sub margin-right">
     <image src="https://image.meiye.art/FhSukauLzxBHoNQUq_YCqRN0CCKz?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFit" class="gif-white response" style="height:240rpx"></image>
   </view>
-  <view class="bg-black flex-sub radius-df shadow-lg">
+  <view class="bg-black flex-sub">
     <image src="https://image.meiye.art/Fg7PS0IesulBHFZwCvfx9-pj6fgs?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFit" class="gif-black response" style="height:240rpx"></image>
   </view>
 </view>

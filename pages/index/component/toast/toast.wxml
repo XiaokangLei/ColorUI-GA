@@ -1,0 +1,92 @@
+<!--pages/index/component/toast/toast.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">轻提示</view>
+</cu-custom>
+
+<view class="cu-load bg-red {{statusTop == 'success' ? 'bg-green':'bg-red'}}" animation="{{animation}}" style="height: 0">
+  {{messageTop}} <text class="cuIcon-roundclose lg padding-right-xs" hidden="{{!statusTop == 'error'}}"></text>
+</view>
+
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text> 页面中心弹出
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>成功的消息框
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-blue shadow' bindtap='click1'>
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>错误的消息框
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-blue shadow' bindtap='click2'>
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>时间为5秒
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-blue shadow' bindtap='click3'>
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>触发回调方法
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-blue shadow' bindtap='click4'>
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="fixed-center" hidden="{{!show}}" style="z-index: 99;">
+  <view class="radius padding animation-slide-top {{status == 'success' ? 'bg-green light':'bg-red light'}}">
+    {{message}}
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text> 顶部弹出
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>成功的消息框
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-green shadow' bindtap='click5'>
+      点我
+    </button>
+  </view>
+</view>
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-title text-blue'></text>错误的消息框
+  </view>
+  <view class='action'>
+    <button class='cu-btn bg-green shadow' bindtap='click6'>
+      点我
+    </button>
+  </view>
+</view>
