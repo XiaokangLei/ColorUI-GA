@@ -1,6 +1,10 @@
 <!--pages/index/plugin/home/home.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
+<cu-custom noFixed="{{true}}" isLucency="{{true}}">
+  <view slot="content"><text class="">扩展样式</text></view>
+</cu-custom>
+
 <!-- 全屏背景图 -->
 <image src='/images/bg.png' mode='widthFix' class='bg-img-new'></image>
 

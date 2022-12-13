@@ -9,8 +9,8 @@
 </view>
 
 <swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
-  <swiper-item wx:for="{{4}}" wx:key="item">
-    <image src="/images/share.jpg" mode='aspectFill'></image>
+  <swiper-item wx:for="{{swiperList}}" wx:key="item">
+    <image src="{{item.url}}" mode='aspectFill'></image>
   </swiper-item>
 </swiper>
 

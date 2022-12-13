@@ -28,6 +28,14 @@ Component({
       type: String,
       default: ''
     },
+    isLucency: {
+      type: Boolean,
+      default: false
+    },
+    noFixed: {
+      type: Boolean,
+      default: false
+    },
   },
 
   /**

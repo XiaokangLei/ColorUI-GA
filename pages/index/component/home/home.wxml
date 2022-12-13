@@ -1,7 +1,10 @@
 <!--pages/index/component/home/home.wxml-->
-<!--pages/index/basics/home/home.wxml-->
 
 <import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom noFixed="{{true}}" isLucency="{{true}}">
+  <view slot="content"><text class="">组件设计</text></view>
+</cu-custom>
 
 <!-- 全屏背景图 -->
 <image src='/images/bg.png' mode='widthFix' class='bg-img-new'></image>
