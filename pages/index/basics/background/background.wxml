@@ -12,11 +12,11 @@
 
 <view class="grid col-4 padding-sm bg-white">
   <view class="padding-xs" wx:for="{{ColorListNew}}" wx:key="item" wx:for-item="items">
-  <block wx:for="{{10}}"  wx:key="item" wx:for-index="j">
-    <view class="bg-oc-{{items.name}}-{{j}} radius padding-tb-xs text-center margin-tb-xs">
-      <view class="text-sm">{{items.name}}-{{j}}</view>
-    </view>
-  </block>
+    <block wx:for="{{10}}" wx:key="item" wx:for-index="j">
+      <view class="bg-oc-{{items.name}}-{{j}} radius padding-tb-xs text-center margin-tb-xs">
+        <view class="text-sm">{{items.name}}-{{j}}</view>
+      </view>
+    </block>
   </view>
 </view>
 

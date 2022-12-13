@@ -1,7 +1,7 @@
 <!--pages/index/component/status/status.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">状态</view>
+  <view slot="content">状态提示</view>
 </cu-custom>
 
 <view class="cu-bar bg-white">

@@ -120,9 +120,4 @@ Page({
     })
   },
 
-  SetBlock(e) {
-    this.setData({
-      block: e.detail.value
-    })
-  }
 })

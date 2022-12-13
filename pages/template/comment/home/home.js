@@ -5,7 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    loading: true,
     elements: [{
       title: '未知',
       name: 'comment01',
@@ -26,11 +25,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    setTimeout(() => {
-      this.setData({
-        loading: false
-      })
-    }, 500);
+
   },
 
   /**

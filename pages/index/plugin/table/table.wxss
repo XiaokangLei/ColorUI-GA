@@ -1,12 +1,13 @@
 /* pages/index/plugin/table/table.wxss */
-.table{
+.table {
   width: 100%;
   display: flex;
   justify-content: center;
   /* align-items: center; */
   flex-direction: row;
 }
-.tr{
+
+.tr {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -17,7 +18,8 @@
   width: 100%;
   padding: 20rpx;
 }
-.th{
+
+.th {
   flex: 1;
   display: flex;
   justify-content: space-around;
@@ -26,7 +28,8 @@
   align-items: center;
   background-color: #fff;
 }
-.td{
+
+.td {
   flex: 1;
   display: flex;
   justify-content: space-around;
@@ -35,6 +38,7 @@
   align-items: center;
   background-color: #fff;
 }
-.grid{
+
+.grid {
   flex: 1;
 }

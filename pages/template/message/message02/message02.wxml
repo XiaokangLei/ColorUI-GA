@@ -14,7 +14,7 @@
           消息
         </view>
         <view class="flex align-center text-lg">
-          <view class="box-serach" style="width: 200rpx;">
+          <view class="box-serach" style="width: 220rpx;">
             <view class="cu-bar search radius-lg">
               <view class="search-form round">
                 <text class="cuIcon-search"></text>

@@ -70,6 +70,7 @@ Page({
       shadow: e.detail.value
     })
   },
+
   SetBorderSize(e) {
     this.setData({
       bordersize: e.detail.value

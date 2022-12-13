@@ -29,20 +29,20 @@
 </view>
 
 <view class="padding">
-  <view class="cu-avatar sm round margin-left bg-red"> A</view>
+  <view class="cu-avatar sm round margin-left bg-red">A</view>
   <view class="cu-avatar round margin-left bg-red">B</view>
   <view class="cu-avatar lg round margin-left bg-red">C</view>
   <view class="cu-avatar xl round margin-left bg-red">D</view>
 </view>
 
 <view class="padding">
-  <view class="cu-avatar sm round margin-left bg-blue"> 蔚</view>
-  <view class="cu-avatar round margin-left bg-blue">蓝</view>
+  <view class="cu-avatar sm round margin-left bg-blue">高</view>
+  <view class="cu-avatar round margin-left bg-blue">颜</view>
   <view class="cu-avatar lg round margin-left bg-blue">
-    <text>wl</text>
+    <text>值</text>
   </view>
   <view class="cu-avatar xl round margin-left bg-blue">
-    <text class="avatar-text">网络</text>
+    <text class="avatar-text">UI库</text>
   </view>
 </view>
 

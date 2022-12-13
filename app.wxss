@@ -174,3 +174,7 @@
   opacity: 0.2;
   transform: scale(0.9, 0.9);
 }
+
+.image-bg-ui {
+  min-height: 680rpx;
+}

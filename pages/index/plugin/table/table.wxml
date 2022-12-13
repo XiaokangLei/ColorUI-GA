@@ -16,7 +16,7 @@
 <view class="table">
   <block>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -39,24 +39,24 @@
 <view class="table">
   <block>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold solid" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
       <!-- <scroll-view scroll-y='true' style="height:1000rpx;"> -->
-      <view class="tr" wx:for="{{list}}" wx:key="item" wx:if="{{index % 2 == 0}}">
+      <view class="tr solid" wx:for="{{list}}" wx:key="item" wx:if="{{index % 2 == 0}}">
         <view class="td">{{item.number}}</view>
         <view class="td">{{item.score}}</view>
       </view>
       <!-- </scroll-view> -->
     </view>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold solid" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
       <!-- <scroll-view scroll-y='true' style="height:1000rpx;"> -->
-      <view class="tr" wx:for="{{list}}" wx:key="item" wx:if="{{index % 2 != 0}}">
+      <view class="tr solid" wx:for="{{list}}" wx:key="item" wx:if="{{index % 2 != 0}}">
         <view class="td">{{item.number}}</view>
         <view class="td">{{item.score}}</view>
       </view>
@@ -74,7 +74,7 @@
 <view class="table">
   <block>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -84,7 +84,7 @@
       </view>
     </view>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -94,7 +94,7 @@
       </view>
     </view>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -115,7 +115,7 @@
 <view class="table">
   <block>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -127,7 +127,7 @@
       <!-- </scroll-view> -->
     </view>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -139,7 +139,7 @@
       <!-- </scroll-view> -->
     </view>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -151,7 +151,7 @@
       <!-- </scroll-view> -->
     </view>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -174,7 +174,7 @@
 <view class="table">
   <block>
     <view class="grid">
-      <view class="tr" wx:for="{{header}}" wx:key="item">
+      <view class="tr text-bold" wx:for="{{header}}" wx:key="item">
         <view class="th">{{item.name}}</view>
         <view class="th">{{item.score}}</view>
       </view>
@@ -197,9 +197,9 @@
 <block wx:for="{{score}}" wx:key="item">
   <view class="flex bg-white padding-lr">
     <view class="flex flex-sub padding-lr align-center solid name">
-      <view class="flex-sub">{{item.name}}</view>
-      <view class="flex-sub">{{item.address}}</view>
-      <view class="flex-sub flex justify-end">
+      <view class="flex-sub text-bold">{{item.name}}</view>
+      <view class="flex-sub text-bold">{{item.address}}</view>
+      <view class="flex-sub flex justify-end text-bold">
         <view class="cu-tag bg-olive light">985</view>
         <view class="cu-tag bg-orange light">211</view>
       </view>
