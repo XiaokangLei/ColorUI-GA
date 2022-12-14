@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    InputBottom: 0
+
   },
 
   /**
@@ -62,17 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  InputFocus(e) {
-    this.setData({
-      InputBottom: e.detail.height
-    })
-  },
-
-  InputBlur(e) {
-    this.setData({
-      InputBottom: 0
-    })
   }
 })

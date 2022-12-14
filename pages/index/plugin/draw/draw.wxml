@@ -1,0 +1,51 @@
+<!--pages/index/plugin/draw/draw.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">抽奖</view>
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>UI示例
+  </view>
+</view>
+
+<view class="con flex-column">
+  <view class="draw_sc flex-row">
+    <swiper class="swiper" vertical="true" autoplay="true" circular="true" interval="3000" display-multiple-items='1'>
+      <block wx:for-index="idx" wx:for='{{2}}' wx:key="index">
+        <swiper-item>
+          <view class="padding-left">
+            <text>恭喜用户 </text>
+            <text class="text-blue">135XXXX5678</text>
+            <text> 抽中10元话费</text>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="box">
+    <view class="b_box">
+      <view class="flex-row j_b prize_box">
+        <block wx:for="{{prize_list}}" wx:key="index">
+          <!-- 抽奖 按钮-->
+          <block wx:if="{{index == 4}}">
+            <view class="prize_start prize_item margin-lr-xs solids radius-lg">
+              <view class="flex justify-center padding-sm padding-lr align-center" bindtap="lottery">
+                <view class="flex align-center text-xxl text-white">开 始 抽 奖</view>
+              </view>
+            </view>
+          </block>
+          <!-- 奖项 -->
+          <view class="prize_item flex-column margin-lr-xs solids radius-lg {{item.active?'ative':''}}">
+            <view class="prize_img">
+              <image class="radius-lg" src="{{item.icon}}" mode="aspectFill" />
+            </view>
+            <text class="text-white">{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="text-white">您还有<text class="text-blue"> {{remian_num}}次 </text>抽奖机会</view>
+</view>

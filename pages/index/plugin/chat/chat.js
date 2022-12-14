@@ -1,11 +1,11 @@
-// pages/about/appreciate/appreciate.js
+// pages/index/component/chat/chat.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    InputBottom: 0
   },
 
   /**
@@ -64,15 +64,15 @@ Page({
 
   },
 
-  CopyText(e) {
-    wx.setClipboardData({
-      data: e.currentTarget.dataset.link,
-      success: res => {
-        wx.showToast({
-          title: '已复制',
-          duration: 1000,
-        })
-      }
+  InputFocus(e) {
+    this.setData({
+      InputBottom: e.detail.height
     })
   },
+
+  InputBlur(e) {
+    this.setData({
+      InputBottom: 0
+    })
+  }
 })

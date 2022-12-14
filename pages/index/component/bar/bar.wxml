@@ -6,7 +6,7 @@
 <view class="cu-bar bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>
-    <text>顶部操作条</text>
+    <text class="text-bold">顶部操作条</text>
   </view>
 </view>
 
@@ -50,10 +50,10 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white">
+<view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>
-    <text>搜索操作条</text>
+    <text class="text-bold">搜索操作条</text>
   </view>
 </view>
 
@@ -104,7 +104,7 @@
 <view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>
-    <text>底部操作条</text>
+    <text class="text-bold">底部操作条</text>
   </view>
 </view>
 
@@ -277,10 +277,10 @@
 </view>
 
 
-<view class="cu-bar bg-white">
+<view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>
-    <text>输入操作条</text>
+    <text class="text-bold">输入操作条</text>
   </view>
 </view>
 

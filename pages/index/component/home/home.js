@@ -76,12 +76,6 @@ Component({
         icon: 'timefill'
       },
       {
-        title: '聊天',
-        name: 'chat',
-        color: 'green light',
-        icon: 'messagefill'
-      },
-      {
         title: '轮播',
         name: 'swiper',
         color: 'olive light',
@@ -110,6 +104,36 @@ Component({
         name: 'status',
         color: 'pink light',
         icon: 'sort'
+      },
+      {
+        title: '评分',
+        name: 'rate',
+        color: 'red light',
+        icon: 'favorfill'
+      },
+      {
+        title: '手风琴',
+        name: 'piano',
+        color: 'orange light',
+        icon: 'btn'
+      },
+      {
+        title: '滚动提示',
+        name: 'tips',
+        color: 'cyan light',
+        icon: 'noticefill'
+      },
+      {
+        title: '日历',
+        name: 'calendar',
+        color: 'green light',
+        icon: 'calendar'
+      },
+      {
+        title: '表格',
+        name: 'table',
+        color: 'purple light',
+        icon: 'list'
       },
     ],
   },

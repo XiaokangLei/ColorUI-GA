@@ -31,6 +31,12 @@
       </view>
       <view class="cuIcon-copy text-blue"></view>
     </view>
+    <view class="flex flex-wrap margin-top-sm" bindtap="CopyText" data-link="https://gitee.com/susuhhhhhh/wxmini_demo">
+      <view class="basis-xl">
+        <view class="text-cut" style="width:500rpx">WxminiDemo: https://gitee.com/susuhhhhhh/wxmini_demo</view>
+      </view>
+      <view class="cuIcon-copy text-blue"></view>
+    </view>
 
   </view>
 </view>

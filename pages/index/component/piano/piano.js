@@ -21,6 +21,7 @@ Page({
         checked: false
       },
     ],
+    value: false
   },
 
   /**
@@ -93,5 +94,10 @@ Page({
     this.setData({
       list
     });
+  },
+  checkboxChange(e) {
+    this.setData({
+      value: !this.data.value
+    })
   },
 })

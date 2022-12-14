@@ -64,46 +64,28 @@ Component({
         icon: 'newsfill'
       },
       {
+        title: '聊天',
+        name: 'chat',
+        color: 'green light',
+        icon: 'messagefill'
+      },
+      {
         title: '瀑布流',
         name: 'waterfall',
         color: 'blue light',
         icon: 'newsfill'
       },
       {
-        title: '评分',
-        name: 'rate',
-        color: 'red light',
-        icon: 'favorfill'
-      },
-      {
-        title: '手风琴',
-        name: 'piano',
-        color: 'orange light',
-        icon: 'btn'
-      },
-      {
-        title: '滚动提示',
-        name: 'tips',
-        color: 'cyan light',
-        icon: 'noticefill'
-      },
-      {
-        title: '日历',
-        name: 'calendar',
-        color: 'green light',
-        icon: 'calendar'
-      },
-      {
-        title: '表格',
-        name: 'table',
-        color: 'purple light',
-        icon: 'list'
-      },
-      {
         title: '卡片翻转',
         name: 'overturn',
         color: 'red light',
         icon: 'card'
+      },
+      {
+        title: '抽奖',
+        name: 'draw',
+        color: 'pink light',
+        icon: 'present'
       }
     ],
   },

@@ -1,0 +1,91 @@
+/* pages/index/plugin/piano/piano.wxss */
+.hidden-content {
+  display: none !important;
+}
+
+.wrapper {
+  display: flex;
+  margin: 30rpx auto;
+  width: 720rpx;
+  overflow: hidden;
+  padding: 15rpx;
+}
+
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+  position: relative;
+  line-height: 40rpx;
+  max-height: 160rpx;
+}
+
+.text::before {
+  content: '';
+  height: calc(100% - 20px);
+  float: right;
+}
+
+.btn {
+  position: relative;
+  float: right;
+  clear: both;
+  margin-left: 20rpx;
+  font-size: 25rpx;
+  padding: 0 12rpx;
+  background: #0081ff;
+  line-height: 42rpx;
+  border-radius: 8rpx;
+  height: 40rpx;
+  color: #fff;
+}
+
+.btn::before {
+  content: '...';
+  position: absolute;
+  left: -5rpx;
+  color: rgb(71, 71, 71);
+  transform: translateX(-100%)
+}
+
+.btn::after {
+  content: '展开'
+}
+
+.ative {
+  max-height: none;
+}
+
+.ative_label::after {
+  content: '收起'
+}
+
+.ative_label::before {
+  /*在展开状态下隐藏省略号*/
+  visibility: hidden;
+}
+
+.btn-icon {
+  position: relative;
+  float: right;
+  clear: both;
+  margin-left: 20rpx;
+  font-size: 25rpx;
+  padding: 0 15rpx;
+  line-height: 42rpx;
+  border-radius: 8rpx;
+  height: 42rpx;
+  color: #fff;
+}
+
+.btn-icon::before {
+  content: '...';
+  position: absolute;
+  left: -5rpx;
+  color: rgb(71, 71, 71);
+  transform: translateX(-100%)
+}
+
+.btn-icon::after {
+  visibility: hidden;
+}
