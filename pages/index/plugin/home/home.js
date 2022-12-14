@@ -98,6 +98,12 @@ Component({
         name: 'clockin',
         color: 'cyan light',
         icon: 'mobile'
+      },
+      {
+        title: '卡券',
+        name: 'coupon',
+        color: 'brown light',
+        icon: 'news'
       }
     ],
   },
