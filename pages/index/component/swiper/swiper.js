@@ -6,6 +6,7 @@ Page({
    */
   data: {
     cardCur: 0,
+    swiperCurrent:0,
     swiperList: [{
       id: 0,
       type: 'image',
@@ -157,5 +158,12 @@ Page({
         swiperList: list
       })
     }
-  }
+  },
+  swiperChange(e) {
+    if (e.detail.source == "touch" || e.detail.source == "autoplay") {
+      this.setData({
+        swiperCurrent: e.detail.current
+      })
+    }
+  },
 })

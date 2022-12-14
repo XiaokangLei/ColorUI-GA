@@ -104,6 +104,12 @@ Component({
         name: 'coupon',
         color: 'brown light',
         icon: 'news'
+      },
+      {
+        title: '商品滑动',
+        name: 'goods',
+        color: 'green light',
+        icon: 'shop'
       }
     ],
   },

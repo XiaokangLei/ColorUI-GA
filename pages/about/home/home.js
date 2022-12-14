@@ -74,7 +74,7 @@ Component({
         that.setData({
           starCount: that.coutNum(12),
           forksCount: that.coutNum(1056),
-          visitTotal: that.coutNum(38)
+          visitTotal: that.coutNum(40)
         })
       }
     }
