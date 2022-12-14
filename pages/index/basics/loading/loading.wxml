@@ -71,6 +71,58 @@
   </view>
 </view>
 
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-titles text-blue'></text>扩展样式
+  </view>
+</view>
+<view class="box">
+  <view class="loading1">
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+</view>
+
+<view class="box">
+  <view class="circle-line1">
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+  </view>
+</view>
+
+<view class="box">
+  <view class="circle-line-spin">
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+    <text></text>
+  </view>
+</view>
+
+<view class="load1-circle">
+  <view class="rect1"></view>
+  <view class="rect2"></view>
+  <view class="rect3"></view>
+  <view class="rect4"></view>
+  <view class="rect5"></view>
+</view>
+
 <view class='load-progress {{loadProgress!=0?"show":"hide"}}' style="top:{{CustomBar}}px;">
   <view class='load-progress-bar bg-green' style="transform: translate3d(-{{loadProgressPer}}, 0px, 0px);"></view>
   <view class='load-progress-spinner text-green'></view>

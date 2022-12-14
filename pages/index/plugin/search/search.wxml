@@ -1,0 +1,40 @@
+<!--pages/index/plugin/search/search.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">历史搜索</view>
+</cu-custom>
+
+<view class="cu-bar search bg-white">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="搜索内容" bindconfirm="getData" value="{{search}}"></input>
+  </view>
+  <view class="action" catchtap="clear_input">
+    <text>取消</text>
+  </view>
+</view>
+
+<view class="margin-top padding-lr">
+  <view class="text-black text-bold">热门搜索</view>
+  <view class="padding-tb flex">
+    <block wx:for="{{hot_list}}" wx:key="index">
+      <view class="padding-lr-xs" data-index="{{index}}" catchtap="getSearch">
+        <view class="cu-tag round bg-orange light">{{item}}</view>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class="margin-top padding-lr">
+  <view class="flex justify-between">
+    <view class="text-black text-bold">搜索历史</view>
+    <view class="cuIcon-delete text-gray" catchtap="clearHistory">清除历史</view>
+  </view>
+  <view class="padding-tb flex">
+    <block wx:for="{{list}}" wx:key="index">
+      <view class="padding-lr-xs" data-index="{{index}}" catchtap="getSearch">
+        <view class="cu-tag round bg-grey light">{{item}}</view>
+      </view>
+    </block>
+  </view>
+</view>

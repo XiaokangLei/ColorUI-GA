@@ -1,0 +1,11 @@
+<!--colorui/components/canvas2d-ring/canvas2d-ring.wxml-->
+<canvas style="width:{{canvasWidth}}px;height:{{canvasWidth}}px; position:relative" type="2d" id="myCanvas">
+  <view class="circle-bar" style="height:{{canvasWidth}}px;">
+    <view class="title_name">
+      {{title}}
+    </view>
+    <view class="title_val" style="color: {{valueColor}}; font-weight:{{f_weight}}; margin-top:{{show_tip?'10':'0'}}rpx;font-size:{{f_size}}px">
+      {{value}} {{suffix}}
+    </view>
+  </view>
+</canvas>

@@ -14,6 +14,37 @@ Page({
       title: "新增6种UI模板库、瀑布流样式",
       url: '/pages/about/about/about'
     }],
+    list: [{
+        create_time: "2021-1-1 12:00",
+        prize_name: "一等奖"
+      },
+      {
+        create_time: "2021-1-1 12:00",
+        prize_name: "三等奖"
+      }, {
+        create_time: "2021-1-1 12:00",
+        prize_name: "二等奖"
+      },
+      {
+        create_time: "2021-1-1 12:00",
+        prize_name: "四等奖"
+      },
+      {
+        create_time: "2021-1-1 12:00",
+        prize_name: "五等奖"
+      },
+      {
+        create_time: "2021-1-1 12:00",
+        prize_name: "参与奖"
+      }, {
+        create_time: "2021-1-1 12:00",
+        prize_name: "会员卡"
+      },
+      {
+        create_time: "2021-1-1 12:00",
+        prize_name: "优惠券"
+      },
+    ]
   },
 
   /**

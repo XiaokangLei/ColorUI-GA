@@ -6,7 +6,7 @@
 
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
-    <text class="cuIcon-titles text-blue"></text>进度条形状
+    <text class="cuIcon-titles text-blue"></text>条形进度条
   </view>
 </view>
 
@@ -20,6 +20,18 @@
   <view class="cu-progress round margin-top">
     <view class="bg-red" style="width:{{loading?'61.8%':''}};">61.8%</view>
   </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>环形进度条
+  </view>
+</view>
+
+<view class="head_box flex margin bg-white radius-lg">
+  <block wx:for="{{data_list}}" wx:key="item">
+    <canvas2d-ring type="2d" id="can{{index}}" canvasWidth="{{80}}" f_weight="bold" lineColor="{{'green'}}" value="{{item.value}}" valueColor="#333" f_size="15" lineWidth="{{3}}" title="{{'GA'}}"></canvas2d-ring>
+  </block>
 </view>
 
 <view class="cu-bar bg-white solid-bottom margin-top">

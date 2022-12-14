@@ -86,6 +86,12 @@ Component({
         name: 'draw',
         color: 'pink light',
         icon: 'present'
+      },
+      {
+        title: '历史搜索',
+        name: 'search',
+        color: 'mauve light',
+        icon: 'search'
       }
     ],
   },

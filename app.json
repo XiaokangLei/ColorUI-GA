@@ -64,7 +64,8 @@
     "pages/index/basics/border/border",
     "pages/template/music/music01/music01",
     "pages/template/message/message02/message02",
-    "pages/index/plugin/draw/draw"
+    "pages/index/plugin/draw/draw",
+    "pages/index/plugin/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -74,7 +75,7 @@
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {
-    "cu-custom": "/colorui/components/cu-custom"
+    "cu-custom": "/colorui/components/cu-custom/cu-custom"
   },
   "lazyCodeLoading": "requiredComponents",
   "sitemapLocation": "sitemap.json"

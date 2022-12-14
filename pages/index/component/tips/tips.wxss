@@ -10,3 +10,48 @@
   min-height: 60rpx;
   justify-content: space-between;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.s_box {
+  height: 66rpx;
+  line-height: 66rpx;
+}
+
+.new_swiper {
+  flex: 1;
+  height: 66rpx;
+}
+
+.bot_swiper {
+  width: 650rpx;
+  height: 120rpx;
+  font-size: 28rpx;
+  margin: 51rpx auto 0;
+  overflow: hidden;
+}
+
+.box {
+  width: 632rpx;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  padding: 9rpx;
+  margin-bottom: 25rpx;
+}
+
+.box_i {
+  width: 632rpx;
+  box-sizing: border-box;
+  height: 460rpx;
+}
+
+.swiper {
+  /* 不要加padding */
+  height: 460rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+}

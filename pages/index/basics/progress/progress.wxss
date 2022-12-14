@@ -1,1 +1,4 @@
 /* pages/index/basics/progress/progress.wxss */
+.head_box{
+  flex-wrap: wrap;
+}

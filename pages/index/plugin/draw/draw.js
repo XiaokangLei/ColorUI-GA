@@ -134,12 +134,12 @@ Page({
   nowRunIndex: 0, //ative样式的索引，
   luckChose(luckIndex) {
     return new Promise((resolve, reject) => {
-      console.log("中奖索引>>>", luckIndex)
+      // console.log("中奖索引>>>", luckIndex)
       let that = this
       let maxTime = this.randomRange(2500, 4000) //抽奖的时间2.5s-4s之间
-      console.log(maxTime)
+      // console.log(maxTime)
       let rI = 0.01
-      console.log(this.nowRunIndex)
+      // console.log(this.nowRunIndex)
       if (this.nowRunIndex == 0) { //初始化从索引0开始显示抽奖激活的边框
         this.setData({
           'prize_list[0].active': true
@@ -151,8 +151,8 @@ Page({
           let list = that.data.prize_list;
           ++that.nowRunIndex;
           that.nowRunIndex >= that.data.prizeListIndex.length ? that.nowRunIndex = 0 : '';
-          console.log(that.nowRunIndex >= that.data.prizeListIndex.length)
-          console.log(that.nowRunIndex)
+          // console.log(that.nowRunIndex >= that.data.prizeListIndex.length)
+          // console.log(that.nowRunIndex)
           let Pindex = that.data.prizeListIndex[that.nowRunIndex];
           list.map((item, index) => {
             item.active = Pindex == index;
@@ -160,8 +160,8 @@ Page({
           that.setData({
             prize_list: list
           })
-          console.log(that.LotteryEnd)
-          console.log(luckIndex == that.nowRunIndex)
+          // console.log(that.LotteryEnd)
+          // console.log(luckIndex == that.nowRunIndex)
           if (that.LotteryEnd && luckIndex == that.nowRunIndex) {
             clearTimeout(that.Timer);
             that.LotteryEnd = false;
