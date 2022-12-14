@@ -61,7 +61,8 @@
     "pages/index/component/toast/toast",
     "pages/index/component/status/status",
     "pages/index/plugin/calendar/calendar",
-    "pages/index/plugin/table/table"
+    "pages/index/plugin/table/table",
+    "pages/index/plugin/overturn/overturn"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -98,6 +98,12 @@ Component({
         name: 'table',
         color: 'purple light',
         icon: 'list'
+      },
+      {
+        title: '卡片翻转',
+        name: 'overturn',
+        color: 'red light',
+        icon: 'card'
       }
     ],
   },
