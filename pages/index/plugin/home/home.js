@@ -49,7 +49,7 @@ Component({
         title: '微动画 ',
         name: 'animation',
         color: 'mauve light',
-        icon: 'formfill'
+        icon: 'form'
       },
       {
         title: '全屏抽屉',
@@ -61,25 +61,25 @@ Component({
         title: '垂直导航',
         name: 'verticalnav',
         color: 'brown light',
-        icon: 'newsfill'
+        icon: 'news'
       },
       {
         title: '聊天',
         name: 'chat',
         color: 'green light',
-        icon: 'messagefill'
+        icon: 'message'
       },
       {
         title: '瀑布流',
         name: 'waterfall',
         color: 'blue light',
-        icon: 'newsfill'
+        icon: 'pic'
       },
       {
         title: '卡片翻转',
         name: 'overturn',
         color: 'red light',
-        icon: 'card'
+        icon: 'camerarotate'
       },
       {
         title: '抽奖',
@@ -92,6 +92,12 @@ Component({
         name: 'search',
         color: 'mauve light',
         icon: 'search'
+      },
+      {
+        title: '打卡',
+        name: 'clockin',
+        color: 'cyan light',
+        icon: 'mobile'
       }
     ],
   },

@@ -1,7 +1,7 @@
 /* pages/index/plugin/overturn/overturn.wxss */
 .main {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   width: 300px;
   height: 300px;

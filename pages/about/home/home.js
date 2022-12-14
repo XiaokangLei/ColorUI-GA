@@ -43,22 +43,6 @@ Component({
         }
       })
     },
-    showModal(e) {
-      this.setData({
-        modalName: e.currentTarget.dataset.target
-      })
-    },
-    hideModal(e) {
-      this.setData({
-        modalName: null
-      })
-    },
-    showQrcode() {
-      wx.previewImage({
-        urls: ['https://image.weilanwl.com/color2.0/zanCode.jpg'],
-        current: 'https://image.weilanwl.com/color2.0/zanCode.jpg' // 当前显示图片的http链接      
-      })
-    },
     toPage(e) {
       wx.navigateTo({
         url: e.currentTarget.dataset.url
@@ -67,7 +51,6 @@ Component({
   },
 
   attached() {
-    console.log("success")
     let that = this;
     wx.showLoading({
       title: '数据加载中',
@@ -91,7 +74,7 @@ Component({
         that.setData({
           starCount: that.coutNum(12),
           forksCount: that.coutNum(1056),
-          visitTotal: that.coutNum(28)
+          visitTotal: that.coutNum(38)
         })
       }
     }

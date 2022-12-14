@@ -1,5 +1,5 @@
 <!--pages/index/component/chat/chat.wxml-->
-<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">聊天</view>
 </cu-custom>

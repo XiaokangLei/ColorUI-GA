@@ -1,14 +1,10 @@
 <!--pages/index/plugin/draw/draw.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">抽奖</view>
 </cu-custom>
-
-<view class="cu-bar bg-white">
-  <view class="action">
-    <text class="cuIcon-titles text-blue"></text>UI示例
-  </view>
-</view>
 
 <view class="con flex-column">
   <view class="draw_sc flex-row">
@@ -48,4 +44,16 @@
     </view>
   </view>
   <view class="text-white">您还有<text class="text-blue"> {{remian_num}}次 </text>抽奖机会</view>
+</view>
+
+<view class="margin padding-top">
+  <view class="margin-top bg-white padding radius-lg">
+    <view class="text-black text-sm">操作说明：</view>
+    <view class="text-gray text-sm padding-top-xs">点击开始抽奖按钮，等待滚动停止，将会弹出抽奖结果。</view>
+  </view>
+</view>
+
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

@@ -1,40 +1,62 @@
 <!--pages/index/plugin/search/search.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">历史搜索</view>
 </cu-custom>
 
-<view class="cu-bar search bg-white">
-  <view class="search-form round">
-    <text class="cuIcon-search"></text>
-    <input type="text" placeholder="搜索内容" bindconfirm="getData" value="{{search}}"></input>
+<view class="bg-white margin-sm radius-lg" style="min-height: 65vh;">
+  <view class="cu-bar search ">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索内容" bindconfirm="getData" value="{{search}}"></input>
+    </view>
+    <view class="action" catchtap="clear_input">
+      <text>取消</text>
+    </view>
   </view>
-  <view class="action" catchtap="clear_input">
-    <text>取消</text>
+
+  <view class="margin-top padding-lr">
+    <view class="text-black text-bold">热门搜索</view>
+    <view class="padding-tb flex">
+      <block wx:for="{{hot_list}}" wx:key="index">
+        <view class="padding-lr-xs" data-index="{{index}}" catchtap="getSearch">
+          <view class="cu-tag round bg-orange light">{{item}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="margin-top padding-lr">
+    <view class="flex justify-between">
+      <view class="text-black text-bold">搜索历史</view>
+      <view class="cuIcon-delete text-gray" catchtap="clearHistory">清除历史</view>
+    </view>
+    <view class="padding-tb flex">
+      <block wx:for="{{list}}" wx:key="index">
+        <view class="padding-lr-xs" data-index="{{index}}" catchtap="getSearch">
+          <view class="cu-tag round bg-grey light">{{item}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="margin-top padding-lr">
+    <view class="flex justify-between">
+      <view class="text-black">操作说明</view>
+    </view>
+    <view class="padding-tb">
+      <view class="text-sm">1、搜索框内填入内容并Enter键进行搜索</view>
+      <view class="text-sm">2、搜索历史会显示之前搜索内容，最多保留12个</view>
+      <view class="text-sm">3、取消按钮会清除搜索框内的数据</view>
+      <view class="text-sm">4、点击热门搜索标签，快捷搜索热门信息</view>
+      <view class="text-sm">5、点击清除历史，将清除本地搜索缓存</view>
+    </view>
   </view>
 </view>
 
-<view class="margin-top padding-lr">
-  <view class="text-black text-bold">热门搜索</view>
-  <view class="padding-tb flex">
-    <block wx:for="{{hot_list}}" wx:key="index">
-      <view class="padding-lr-xs" data-index="{{index}}" catchtap="getSearch">
-        <view class="cu-tag round bg-orange light">{{item}}</view>
-      </view>
-    </block>
-  </view>
-</view>
-
-<view class="margin-top padding-lr">
-  <view class="flex justify-between">
-    <view class="text-black text-bold">搜索历史</view>
-    <view class="cuIcon-delete text-gray" catchtap="clearHistory">清除历史</view>
-  </view>
-  <view class="padding-tb flex">
-    <block wx:for="{{list}}" wx:key="index">
-      <view class="padding-lr-xs" data-index="{{index}}" catchtap="getSearch">
-        <view class="cu-tag round bg-grey light">{{item}}</view>
-      </view>
-    </block>
-  </view>
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

@@ -129,7 +129,7 @@
   </radio-group>
 
   <view class="cu-form-group margin-top">
-    <view class="title">复选选操作(checkbox)</view>
+    <view class="title">复选操作(checkbox)</view>
     <checkbox></checkbox>
   </view>
 
