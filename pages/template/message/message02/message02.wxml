@@ -1,12 +1,10 @@
 <!--pages/template/message/message02/message02.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">消息列表01模板</view>
 </cu-custom>
 
-<view class="scrollPage">
+<view class="">
   <view class="bg-white margin-xs radius-lg">
     <view class="radius-lg-top solid-bottom">
       <view class="flex padding-sm justify-between padding-lr">
@@ -139,11 +137,12 @@
       </view>
     </view>
 
-    <view class="margin-top-xl">
-      <template is="copyright"></template>
-    </view>
   </view>
-  <view class="margin radius-lg">
-    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
-  </view>
+
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-a4d24a2a79560267"></ad>
 </view>

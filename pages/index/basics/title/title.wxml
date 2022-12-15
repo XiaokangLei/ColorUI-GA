@@ -1,6 +1,4 @@
 <!--pages/index/basics/title/title.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">标题</view>
@@ -119,6 +117,8 @@
   </view>
 </view>
 
-<view class="margin-top-sm">
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
   <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

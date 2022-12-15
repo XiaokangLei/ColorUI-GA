@@ -1,6 +1,4 @@
 <!--pages/template/index/index02/index02.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">首页UI设计02</view>
@@ -154,9 +152,10 @@
     </view>
   </view>
 
-  <view class="margin-top-sm">
-    <template is="copyright"></template>
-    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
-  </view>
+</view>
 
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-a4d24a2a79560267"></ad>
 </view>

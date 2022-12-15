@@ -1,13 +1,11 @@
 <!--pages/template/user/user02/user02.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">个人中心02</view>
 </cu-custom>
 
 <!-- 页面 -->
-<view class="scrollPage">
+<view class="">
   <!-- 顶部个人信息 -->
   <view class="bg-white">
     <view class="flex padding">
@@ -111,9 +109,10 @@
     </view>
   </view>
 
-  <view class="margin">
-    <template is="copyright"></template>
-    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
-  </view>
+</view>
 
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-a4d24a2a79560267"></ad>
 </view>

@@ -16,7 +16,7 @@
 <view class="cu-card case {{isCard?'no-card':'margin'}}">
   <view class="cu-item shadow">
     <view class="image">
-      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="widthFix"></image>
+      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="widthFix" style="max-height: 360rpx;"></image>
       <view class="cu-tag bg-blue">史诗</view>
       <view class="cu-bar bg-shadeBottom">
         <text class="text-cut">我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。</text>
@@ -59,7 +59,7 @@
         <view class="content flex-sub">
           <view>格鲁</view>
           <view class="text-gray text-sm flex justify-between">
-            2019年12月3日
+            2022年12月3日
           </view>
         </view>
       </view>
@@ -84,14 +84,14 @@
           <view class="text-gray text-content text-df">
             格鲁，你被自己的光芒变的盲目。
           </view>
-          <view class="bg-grey padding-sm radius margin-top-sm  text-sm">
+          <view class="bg-gray padding-sm radius margin-top-sm  text-sm">
             <view class="flex">
               <view>格鲁：</view>
               <view class="flex-sub">妹妹，你在帮他们给黑暗找借口吗?</view>
             </view>
           </view>
           <view class="margin-top-sm flex justify-between">
-            <view class="text-gray text-df">2018年12月4日</view>
+            <view class="text-gray text-df">2022年12月4日</view>
             <view>
               <text class="cuIcon-appreciatefill text-red"></text>
               <text class="cuIcon-messagefill text-gray margin-left-sm"></text>
@@ -106,14 +106,14 @@
           <view class="text-gray text-content text-df">
             妹妹，如果不是为了飞翔，我们要这翅膀有什么用?
           </view>
-          <view class="bg-grey padding-sm radius margin-top-sm  text-sm">
+          <view class="bg-gray padding-sm radius margin-top-sm  text-sm">
             <view class="flex">
               <view>斯图尔特：</view>
               <view class="flex-sub">如果不能立足于大地，要这双脚又有何用?</view>
             </view>
           </view>
           <view class="margin-top-sm flex justify-between">
-            <view class="text-gray text-df">2018年12月4日</view>
+            <view class="text-gray text-df">2022年12月4日</view>
             <view>
               <text class="cuIcon-appreciate text-gray"></text>
               <text class="cuIcon-messagefill text-gray margin-left-sm"></text>
@@ -134,7 +134,7 @@
   </view>
 </view>
 
-<view class="cu-card article {{isCard?'no-card':'margin'}}">
+<view class="cu-card article {{isCard?'no-card':'margin'}} margin-top">
   <view class="cu-item shadow">
     <view class="title">
       <view class="text-cut">无意者 烈火焚身;以正义的烈火拔出黑暗。我有自己的正义，见证至高的烈火吧。</view>
@@ -150,4 +150,10 @@
       </view>
     </view>
   </view>
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
 </view>

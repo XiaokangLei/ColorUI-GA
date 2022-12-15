@@ -1,6 +1,4 @@
 <!--pages/index/basics/checkbox/checkbox.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">复选框</view>
@@ -62,12 +60,14 @@
   <checkbox class="green"></checkbox>
   <checkbox class="blue"></checkbox>
   <checkbox class="yellow"></checkbox>
-  <checkbox class="pink"></checkbox>
-  <checkbox class="purple"></checkbox>
-  <checkbox class="red"></checkbox>
+  <checkbox class="round pink"></checkbox>
+  <checkbox class="round purple"></checkbox>
+  <checkbox class="round red"></checkbox>
 </view>
 
+
+<import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
   <template is="copyright"></template>
-  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

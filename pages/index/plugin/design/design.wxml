@@ -1,13 +1,10 @@
 <!--pages/index/plugin/design/design.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">卡片设计</view>
 </cu-custom>
 
 <view class="container_index">
-
   <!-- 预览样式 -->
   <view class="grid col-1 padding-sm">
     <view class="padding-sm">
@@ -68,7 +65,6 @@
       <view class="flex-sub bg-grey light margin-xs radius-lg text-sl" style="display: flex;justify-content: center; text-align: center;align-items: center;" bindtap="jumpPageChoise" data-page="choiseEmoji" hover-class="item-hover" hover-stay-time="100">{{emoji}}
       </view>
     </view>
-
   </view>
 
   <view class="margin-lr padding bg-white radius-lg">
@@ -82,12 +78,12 @@
       <view class="text-sm padding-tb-xs">4、生成对应的卡片，可应用于倒数日、名片等场景</view>
     </view>
   </view>
-
 </view>
 
-<view class="margin-top-xs">
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
   <template is="copyright"></template>
-  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+  <ad unit-id="adunit-7e063c3c010456be"></ad>
 </view>
 
 <wxs module="m1">

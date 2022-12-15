@@ -64,3 +64,9 @@
     <text>{{item.name}}</text>
   </view>
 </view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+</view>

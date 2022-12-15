@@ -26,7 +26,7 @@
   <!-- 版权和广告 -->
   <view style="margin-top:34vh">
     <template is="copyright"></template>
-    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+    <ad unit-id="adunit-7e063c3c010456be"></ad>
   </view>
 
 </scroll-view>

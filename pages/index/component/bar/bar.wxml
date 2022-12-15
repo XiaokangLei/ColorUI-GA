@@ -64,7 +64,7 @@
       <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
     </view>
     <view class="action">
-      <button class="cu-btn bg-green shadow-blur round">搜索</button>
+      <button class="cu-btn bg-blue shadow-blur round">搜索</button>
     </view>
   </view>
   <view class="cu-bar search bg-white">
@@ -276,7 +276,6 @@
   </view>
 </view>
 
-
 <view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>
@@ -306,4 +305,10 @@
     </view>
     <button class="cu-btn bg-green shadow-blur">发送</button>
   </view>
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
 </view>

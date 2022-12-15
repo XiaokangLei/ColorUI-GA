@@ -73,8 +73,8 @@ Component({
       } else {
         that.setData({
           starCount: that.coutNum(12),
-          forksCount: that.coutNum(1056),
-          visitTotal: that.coutNum(42)
+          forksCount: that.coutNum(1072),
+          visitTotal: that.coutNum(44)
         })
       }
     }

@@ -1,6 +1,4 @@
 <!--pages/template/comment/comment01/comment01.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">评论页01模板</view>
@@ -100,7 +98,7 @@
       </view>
     </view>
 
-    <view class="cu-list menu-avatar no-padding">
+    <view class="cu-list menu-avatar no-padding padding-bottom">
       <view class="cu-item">
         <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">
@@ -125,11 +123,6 @@
       </view>
     </view>
 
-    <view class="margin">
-      <template is="copyright"></template>
-      <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
-    </view>
-
   </view>
 </view>
 
@@ -148,4 +141,10 @@
     <text class="cuIcon-forward text-black"></text>
   </view>
 
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-a4d24a2a79560267"></ad>
 </view>

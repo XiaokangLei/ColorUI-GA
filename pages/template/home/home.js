@@ -30,7 +30,7 @@ Component({
       id: 1,
       type: 'image',
       title: 'ColorUI GA',
-      des: '丰富的免费UI模板库',
+      des: '每周上新UI模板设计~',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
     }, {
       id: 2,
@@ -75,10 +75,10 @@ Component({
         icon: 'myfill'
       },
       // {
-      //   title: '旅行住宿',
-      //   name: 'progress',
+      //   title: '教育学习',
+      //   name: 'education',
       //   color: 'orange light',
-      //   icon: 'icloading'
+      //   icon: 'discover'
       // },
       // {
       //   title: '运动健身',
@@ -107,13 +107,19 @@ Component({
     ],
     Headlines: [{
       id: 1,
-      title: "ColorUI GA 最新版v2.0.7上线啦~"
+      title: "ColorUI GA 最新版v2.0.8上线啦~"
     }, {
       id: 2,
-      title: "新增4种UI模板库"
+      title: "新增日历、表格、轻提示、状态提示样式"
     }, {
       id: 3,
-      title: "新增滚动提示样式、手风琴样式"
+      title: "新增卡片翻转、骨架屏、抽奖、打卡样式"
+    }, {
+      id: 4,
+      title: "新增历史搜索、卡券、商品滑动、卡片设计"
+    }, {
+      id: 5,
+      title: "每周上新UI模板设计~"
     }],
   },
 

@@ -1,11 +1,19 @@
-// pages/index/component/chat/chat.js
+// pages/template/education/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    elements: [{
+      title: '未知',
+      name: 'education01',
+      url: 'https://image.meiye.art/pic_2giNnokMtR_pXbzmznMsj?imageMogr2/thumbnail/450x/interlace/1'
+    }, {
+      title: '未知',
+      name: 'education02',
+      url: 'https://image.meiye.art/pic_4MMZ9_Y8AVLIDsnloT6bM?imageMogr2/thumbnail/450x/interlace/1'
+    }],
   },
 
   /**

@@ -103,3 +103,9 @@
     </view>
   </scroll-view>
 </view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-7e063c3c010456be"></ad>
+</view>

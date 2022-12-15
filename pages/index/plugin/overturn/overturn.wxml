@@ -1,11 +1,8 @@
 <!--pages/index/plugin/overturn/overturn.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">卡片翻转</view>
 </cu-custom>
-
 
 <view class="main">
   <view class="box b1 radius-lg" catchtap="showb1" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);{{styleA}}"></view>
@@ -20,7 +17,8 @@
   </view>
 </view>
 
+<import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
   <template is="copyright"></template>
-  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+  <ad unit-id="adunit-7e063c3c010456be"></ad>
 </view>

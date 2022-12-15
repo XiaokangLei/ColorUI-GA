@@ -198,7 +198,7 @@
         <text class="cuIcon-titles text-blue"></text>简介
       </view>
     </view>
-    <view class="margin-xs bg-white padding radius">
+    <view class="margin-xs margin-top-sm bg-white padding radius-lg">
       <view>基本代码：display: table; 以表格的方式进行显示。</view>
       <view class="padding-top-sm">在宽度上会根据内容多少或设置来表现；在高度上，对齐最大的一个高度，因为在表格里面的一行，最大的一个高度会把这一行的高度给撑开。</view>
     </view>
@@ -207,7 +207,7 @@
         <text class="cuIcon-titles text-blue"></text>示例
       </view>
     </view>
-    <view class="bg-white padding margin-xs radius">
+    <view class="bg-white padding margin-xs radius margin-top">
       <view class="cf padding-sm">
         <view class="bg-blue light radius fl padding-sm">ColorUI fl</view>
         <view class="bg-blue light radius fr padding-sm">ColorUI fr</view>
@@ -222,4 +222,10 @@
     </view>
   </block>
 
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
 </view>

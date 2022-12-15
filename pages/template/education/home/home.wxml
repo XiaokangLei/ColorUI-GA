@@ -1,0 +1,25 @@
+<!--pages/template/education/home/home.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">评论页UI设计</view>
+</cu-custom>
+
+<!-- 页面 -->
+<scroll-view scroll-y class="scrollPage cu-timeline bg-gray">
+
+  <view class='nav-list margin-top'>
+    <navigator open-type="navigate" hover-class='none' url="/pages/template/comment/{{item.name}}/{{item.name}}" class="nav-lie" wx:for="{{elements}}" wx:key="item">
+      <image src='{{item.url}}' mode='widthFix' class='image-bg-ui radius-lg'></image>
+      <view class="flex justify-center">
+        <button class="cu-btn bg-blue light sm margin-top-xs">查 看</button>
+      </view>
+    </navigator>
+  </view>
+
+  <template is="copyright"></template>
+
+  <view class="cu-tabbar-height"></view>
+
+</scroll-view>

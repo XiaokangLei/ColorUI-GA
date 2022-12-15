@@ -19,7 +19,6 @@
     "pages/index/component/card/card",
     "pages/index/component/form/form",
     "pages/index/component/timeline/timeline",
-    "pages/index/component/chat/chat",
     "pages/index/component/swiper/swiper",
     "pages/index/component/modal/modal",
     "pages/index/component/steps/steps",
@@ -73,7 +72,8 @@
     "pages/index/basics/checkbox/checkbox",
     "pages/index/plugin/skeleton/skeleton",
     "pages/index/plugin/design/design",
-    "pages/index/plugin/design/choiseEmoji/choiseEmoji"
+    "pages/index/plugin/design/choiseEmoji/choiseEmoji",
+    "pages/template/education/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",

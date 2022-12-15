@@ -68,3 +68,9 @@
     Level {{index + 1}} <text class="num" data-index="{{index + 1}}"></text>
   </view>
 </scroll-view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
+</view>

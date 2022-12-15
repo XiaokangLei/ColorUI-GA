@@ -7,7 +7,6 @@ Page({
    */
   data: {
     CustomBar: app.globalData.CustomBar,
-    StatusBar: app.globalData.StatusBar,
     TabCur: 0,
     tabNav: ['基础布局', 'Flex布局', 'Grid布局', "表格布局"]
   },

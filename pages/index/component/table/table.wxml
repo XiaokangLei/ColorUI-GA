@@ -1,7 +1,4 @@
 <!--pages/index/plugin/table/table.wxml-->
-
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">表格样式</view>
@@ -225,3 +222,9 @@
     </view>
   </view>
 </block>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
+</view>

@@ -1,5 +1,5 @@
 <!--pages/index/component/swiper/swiper.wxml-->
-<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">轮播图</view>
 </cu-custom>
@@ -75,3 +75,9 @@
     <image src="{{item.url}}" class="{{swiperCurrent == index ? 'active' : 'no-active'}}" modex="heightFix" />
   </swiper-item>
 </swiper>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
+</view>

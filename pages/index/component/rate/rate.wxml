@@ -1,9 +1,7 @@
 <!--pages/index/plugin/rate/rate.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
-  <view slot="content">评分样式</view>
+  <view slot="content">评分</view>
 </cu-custom>
 
 <view class="cu-bar bg-white margin-top-xs">
@@ -130,4 +128,10 @@
   <view class="margin-left">
     <text class="text-red">{{active+1}}星</text>
   </view>
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
 </view>

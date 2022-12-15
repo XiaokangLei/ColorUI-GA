@@ -11,10 +11,10 @@
   <view class="UCenter-bg">
     <image src="/images/tabbar/basics_cur.png" class="png" mode="widthFix"></image>
     <view class="text-xl text-orange text-blod">ColorUI GA
-      <text class="text-df">v2.0.7</text>
+      <text class="text-df">v2.0.8</text>
     </view>
     <text class="margin-top-sm text-orange">By: L.</text>
-    <text class="margin-top-sm text-gray">最近更新：2022/12/12</text>
+    <text class="margin-top-sm text-gray">最近更新：2022/12/15</text>
   </view>
   <view class="margin">
     <view class="padding-tb flex text-center bg-white shadow radius-lg">

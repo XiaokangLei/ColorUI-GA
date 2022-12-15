@@ -127,3 +127,9 @@
   <view class='load-progress-bar bg-green' style="transform: translate3d(-{{loadProgressPer}}, 0px, 0px);"></view>
   <view class='load-progress-spinner text-green'></view>
 </view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+</view>

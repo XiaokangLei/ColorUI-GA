@@ -1,6 +1,4 @@
 <!--pages/index/plugin/coupon/coupon.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">会员卡/卡券</view>
@@ -97,7 +95,8 @@
 <!-- 样式6 -->
 <view class="card-6"></view>
 
+<import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
   <template is="copyright"></template>
-  <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
+  <ad unit-id="adunit-7e063c3c010456be"></ad>
 </view>

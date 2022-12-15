@@ -1,6 +1,4 @@
 <!--pages/template/userlist/userlist01/userlist01.wxml-->
-<import src="/pages/template/common/copyright.wxml" />
-
 <cu-custom bgColor="bg-white" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">通话记录</view>
@@ -36,8 +34,10 @@
       </view>
     </block>
   </view>
-  <view class="margin">
-    <template is="copyright"></template>
-    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
-  </view>
 </scroll-view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-a4d24a2a79560267"></ad>
+</view>
