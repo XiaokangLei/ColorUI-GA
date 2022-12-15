@@ -8,7 +8,7 @@
 
 <view class="cu-bar bg-white">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>单选
+    <text class='cuIcon-titles text-blue'></text>单选(只能选中一个)
   </view>
 </view>
 
@@ -51,7 +51,23 @@
   <checkbox class="round blue" checked></checkbox>
 </view>
 
-<view class="margin-top" style="margin-top: 13vh;">
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-titles text-blue'></text>边框颜色
+  </view>
+</view>
+
+<view class="cu-form-group margin-top">
+  <checkbox class="orange"></checkbox>
+  <checkbox class="green"></checkbox>
+  <checkbox class="blue"></checkbox>
+  <checkbox class="yellow"></checkbox>
+  <checkbox class="pink"></checkbox>
+  <checkbox class="purple"></checkbox>
+  <checkbox class="red"></checkbox>
+</view>
+
+<view class="margin-top">
   <template is="copyright"></template>
   <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
 </view>

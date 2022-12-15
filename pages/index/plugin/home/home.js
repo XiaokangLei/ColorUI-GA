@@ -82,6 +82,12 @@ Component({
         icon: 'camerarotate'
       },
       {
+        title: '骨架屏',
+        name: 'skeleton',
+        color: 'pink light',
+        icon: 'news'
+      },
+      {
         title: '抽奖',
         name: 'draw',
         color: 'pink light',
@@ -110,6 +116,12 @@ Component({
         name: 'goods',
         color: 'green light',
         icon: 'shop'
+      },
+      {
+        title: '卡片设计',
+        name: 'design',
+        color: 'blue light',
+        icon: 'pic'
       }
     ],
   },

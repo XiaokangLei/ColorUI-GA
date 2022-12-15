@@ -1,0 +1,20 @@
+/* pages/index/plugin/design/design.wxss */
+page {
+  width:100%;
+  height:100%;
+}
+.cu-form-group .title {
+  min-width: calc(4em + 30rpx);
+}
+
+.button_type {
+  height: 100rpx;    
+  line-height :100rpx;     
+  margin-left: 6%;   
+  bottom: 360rpx;   
+  font-size: large;      
+  position: fixed;    
+  width: 88%; 
+  text-align: center;
+  border-radius:25rpx;
+}

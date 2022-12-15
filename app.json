@@ -70,7 +70,10 @@
     "pages/index/plugin/coupon/coupon",
     "pages/index/plugin/goods/goods",
     "pages/index/basics/switch/switch",
-    "pages/index/basics/checkbox/checkbox"
+    "pages/index/basics/checkbox/checkbox",
+    "pages/index/plugin/skeleton/skeleton",
+    "pages/index/plugin/design/design",
+    "pages/index/plugin/design/choiseEmoji/choiseEmoji"
   ],
   "window": {
     "backgroundTextStyle": "light",

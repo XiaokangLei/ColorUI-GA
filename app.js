@@ -50,6 +50,7 @@ App({
     });
   },
   globalData: {
+    emoji: '🌈',
     ColorList: [{
         title: '嫣红',
         name: 'red',
