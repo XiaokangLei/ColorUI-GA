@@ -33,27 +33,3 @@
   mix-blend-mode: screen;
   height: 100rpx;
 }
-
-/* 
-map,.mapBox{
-  left: 0;
-  z-index: 99;
-  mix-blend-mode: screen;  
-  height: 100rpx;   
-}
-
-map,.mapBox{
-  width: 750rpx;
-  height: 300rpx;
-} */
-
-/* .user-center-card {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 480rpx;
-  background-image: url('https://cdn-we-retail.ym.tencent.com/miniapp/template/user-center-bg-v1.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-} */

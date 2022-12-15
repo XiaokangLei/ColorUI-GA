@@ -1,4 +1,6 @@
 <!--pages/index/plugin/drawer/drawer.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
 <scroll-view scroll-y class="DrawerPage {{modalName=='viewModal'?'show':''}}">
   <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
     <view slot="backText">返回</view>
@@ -6,24 +8,25 @@
   </cu-custom>
 
   <view class='padding margin text-center'>
-    <view class='cu-btn bg-green lg block shadow radius margin-xl' bindtap="showModal" data-target="viewModal">
+    <view class='cu-btn bg-blue lg block shadow radius margin-xl' bindtap="showModal" data-target="viewModal">
       打开抽屉
     </view>
   </view>
 
-  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
-    <view class="cu-item arrow" wx:for="{{20}}" wx:key="index">
-      <view class="content">
-        <text class="cuIcon-github text-grey"></text>
-        <text class="text-grey">{{index +1}}</text>
-      </view>
+  <view class="margin padding bg-white radius-lg">
+    <view class="flex justify-between">
+      <view class="text-black">操作说明</view>
+    </view>
+    <view class="padding-tb">
+      <view class="text-sm">1、点击『打开抽屉』左侧显示抽屉内容</view>
+      <view class="text-sm padding-tb-xs">2、点击抽屉右侧空白区域或右下键箭头标志，返回主页面</view>
+      <view class="text-sm">3、可用于展示商品大类、个人信息等场景</view>
     </view>
   </view>
-
-  <view class='padding margin text-center'>
-    <view class='cu-btn bg-green lg block shadow radius margin-xl' bindtap="showModal" data-target="viewModal">
-      打开抽屉
-    </view>
+  <!-- 版权和广告 -->
+  <view style="margin-top:34vh">
+    <template is="copyright"></template>
+    <ad unit-id="adunit-51e2e8351a3c07a2"></ad>
   </view>
 
 </scroll-view>
@@ -32,13 +35,6 @@
   <text class="cuIcon-pullright"></text>
 </view>
 
-<scroll-view scroll-y class="DrawerWindow {{modalName=='viewModal'?'show':''}}">
-  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
-    <view class="cu-item arrow" wx:for="{{20}}" wx:key="index">
-      <view class="content">
-        <text class="cuIcon-github text-grey"></text>
-        <text class="text-grey">{{index +1}}</text>
-      </view>
-    </view>
-  </view>
+<scroll-view scroll-y class="DrawerWindow {{modalName=='viewModal'?'show':''}} bg-white">
+  <homePage></homePage>
 </scroll-view>

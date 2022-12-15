@@ -90,59 +90,6 @@
     </picker>
   </view>
 
-  <view class="cu-form-group margin-top">
-    <view class="title">开关选择</view>
-    <switch></switch>
-  </view>
-
-  <view class="cu-form-group">
-    <view class="title">定义颜色</view>
-    <switch class="red sm" checked></switch>
-  </view>
-
-  <view class="cu-form-group">
-    <switch class="switch-sex" checked></switch>
-    <view class="title">定义图标</view>
-  </view>
-
-  <view class="cu-form-group">
-    <view class="title">方形开关</view>
-    <switch class="orange radius sm" checked></switch>
-  </view>
-
-  <radio-group class="block">
-    <view class="cu-form-group margin-top">
-      <view class="title">单选操作(radio)</view>
-      <radio checked></radio>
-    </view>
-    <view class="cu-form-group">
-      <view class="title">定义样式</view>
-      <radio class="radio"></radio>
-    </view>
-    <view class="cu-form-group">
-      <view class="title">定义颜色</view>
-      <view>
-        <radio class="blue radio"></radio>
-        <radio class="red margin-left-sm"></radio>
-      </view>
-    </view>
-  </radio-group>
-
-  <view class="cu-form-group margin-top">
-    <view class="title">复选操作(checkbox)</view>
-    <checkbox></checkbox>
-  </view>
-
-  <view class="cu-form-group">
-    <view class="title">定义形状</view>
-    <checkbox class="round" checked></checkbox>
-  </view>
-
-  <view class="cu-form-group">
-    <view class="title">定义颜色</view>
-    <checkbox class="round blue" checked></checkbox>
-  </view>
-
   <view class="cu-bar bg-white margin-top">
     <view class="action">
       图片上传

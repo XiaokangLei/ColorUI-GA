@@ -1,0 +1,84 @@
+<!--pages/index/basics/switch/switch.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">开关</view>
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class='action'>
+    <text class='cuIcon-titles text-blue'></text>基本样式
+  </view>
+</view>
+
+<view class="margin-tb">
+
+  <view class="cu-form-group">
+    <view class="title">默认关闭</view>
+    <switch></switch>
+  </view>
+  <view class="cu-form-group">
+    <view class="title">默认打开</view>
+    <switch checked></switch>
+  </view>
+
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-titles text-blue'></text>自定义
+  </view>
+</view>
+
+<view class="cu-form-group margin-top">
+  <view class="title">定义颜色</view>
+  <switch class="red" checked></switch>
+</view>
+
+<view class="cu-form-group">
+  <view class="title">定义图标</view>
+  <switch class="switch-sex" checked></switch>
+</view>
+
+<view class="cu-form-group">
+  <view class="title">定义图标2</view>
+  <switch class="switch-music" checked></switch>
+</view>
+
+<view class="cu-form-group">
+  <view class="title">方形开关</view>
+  <switch class="orange radius sm" checked></switch>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-titles text-blue'></text>绑定事件
+  </view>
+</view>
+
+<view class="cu-form-group margin-top">
+  <view class="title">当前值：{{sex}}</view>
+  <switch class="switch-sex" bindchange="switchSex"></switch>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class='action'>
+    <text class='cuIcon-titles text-blue'></text>扩展样式
+  </view>
+</view>
+
+<view class="flex justify-center margin">
+  <view catchtap="click">
+    <input id="egg-toggle" type="checkbox" />
+    <label for="egg-toggle">
+      <span id="egg" wx:if="{{ischecked==undefined}}"></span>
+      <span id="egg" wx:else class="{{ischecked?'flip':'unflip'}}"></span>
+    </label>
+  </view>
+</view>
+
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
+</view>

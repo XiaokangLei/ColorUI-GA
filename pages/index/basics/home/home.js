@@ -109,6 +109,18 @@ Component({
         color: 'pink light',
         icon: 'creative'
       },
+      {
+        title: '开关',
+        name: 'switch',
+        color: 'mauve light',
+        icon: 'command'
+      },
+      {
+        title: '复选框',
+        name: 'checkbox',
+        color: 'red light',
+        icon: 'squarecheck'
+      },
     ],
   },
 

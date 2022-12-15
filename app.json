@@ -68,7 +68,9 @@
     "pages/index/plugin/search/search",
     "pages/index/plugin/clockin/clockin",
     "pages/index/plugin/coupon/coupon",
-    "pages/index/plugin/goods/goods"
+    "pages/index/plugin/goods/goods",
+    "pages/index/basics/switch/switch",
+    "pages/index/basics/checkbox/checkbox"
   ],
   "window": {
     "backgroundTextStyle": "light",
