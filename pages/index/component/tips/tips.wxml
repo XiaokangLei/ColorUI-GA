@@ -128,7 +128,7 @@
     </view>
   </view>
 
-  <view class="box margin-tb margin-lr-xl">
+  <view class="box margin-tb margin-lr-sm">
     <view class="box_i bg-white radius-lg padding-lr">
       <swiper class="swiper" vertical="true" autoplay="{{true}}" circular="true" interval="3000" style="height: {{list.length  > 6 ? '460' : list.length *60}}rpx;" display-multiple-items='{{list.length > 6 ? 7 :list.length}}'>
         <block wx:for-index="idx" wx:for="{{list}}" wx:key="list">

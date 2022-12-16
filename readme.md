@@ -119,9 +119,13 @@ onLaunch: function() {
 ## 致谢
 
 ColorUI: <https://github.com/weilanwl/ColorUI>
+
 Lin-UI: <https://github.com/TaleLin/lin-ui>
+
 Vant: <https://github.com/vant-ui/vant-weapp>
+
 MeiYe: <https://www.meiye.art/inspiration>
+
 WxminiDemo: <https://gitee.com/susuhhhhhh/wxmini_demo>
 
 ## 支持

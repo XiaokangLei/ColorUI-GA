@@ -9,11 +9,11 @@
     <text class="cuIcon-titles text-blue"></text> 基本用法
   </view>
   <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="basicsSteps">下一步</button>
+    <button class="cu-btn bg-blue shadow" bindtap="basicsSteps">下一步</button>
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius margin-top-sm">
+<view class="bg-white margin-xs padding radius-lg margin-sm">
   <view class="cu-steps">
     <view class="cu-item {{index>basics?'':'text-red'}}" wx:for="{{basicsList}}" wx:key="item">
       <text class="cuIcon-{{item.icon}}"></text> {{item.name}}
@@ -21,7 +21,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius margin-top-sm">
+<view class="bg-white margin-xs padding radius-lg margin-sm">
   <view class="cu-steps">
     <view class="cu-item {{index>basics?'':'text-orange'}}" wx:for="{{basicsList}}" wx:key="item">
       <text class="cuIcon-{{index>basics?'title':item.icon}}"></text> {{item.name}}
@@ -29,7 +29,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius margin-top-sm">
+<view class="bg-white margin-xs padding radius-lg margin-sm">
   <view class="cu-steps steps-arrow">
     <view class="cu-item {{index>basics?'':'text-blue'}}" wx:for="{{basicsList}}" wx:key="item">
       <text class="cuIcon-{{item.icon}}"></text> {{item.name}}
@@ -42,11 +42,11 @@
     <text class="cuIcon-titles text-blue"></text> 数字完成
   </view>
   <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="numSteps">下一步</button>
+    <button class="cu-btn bg-blue shadow" bindtap="numSteps">下一步</button>
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius margin-top-sm">
+<view class="bg-white margin-xs padding radius-lg margin-sm">
   <view class="cu-steps">
     <view class="cu-item {{index>num?'':'text-blue'}}" wx:for="{{numList}}" wx:key="item">
       <text class="num {{index==2?'err':''}}" data-index="{{index + 1}}"></text> {{item.name}}
@@ -59,7 +59,7 @@
     <text class="cuIcon-titles text-blue"></text> 多级显示
   </view>
   <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="scrollSteps">下一步</button>
+    <button class="cu-btn bg-blue shadow" bindtap="scrollSteps">下一步</button>
   </view>
 </view>
 

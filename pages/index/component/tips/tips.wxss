@@ -28,15 +28,15 @@
 }
 
 .bot_swiper {
-  width: 650rpx;
+  width: 700rpx;
   height: 120rpx;
   font-size: 28rpx;
-  margin: 51rpx auto 0;
+  margin: 24rpx auto 0;
   overflow: hidden;
 }
 
 .box {
-  width: 632rpx;
+  width: 690rpx;
   border-radius: 30rpx;
   box-sizing: border-box;
   padding: 9rpx;
@@ -44,7 +44,7 @@
 }
 
 .box_i {
-  width: 632rpx;
+  width: 690rpx;
   box-sizing: border-box;
   height: 460rpx;
 }
