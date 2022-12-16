@@ -1,6 +1,8 @@
 # ColorUI GA
 
-ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 [Github Issues](https://github.com/XiaokangLei/ColorUI-GA/issues)。对于想要一起开发，补充CSS样式库的朋友，欢迎提交 PR。
+ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发的小程序原生css组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 [Github Issues](https://github.com/XiaokangLei/ColorUI-GA/issues)。对于想要一起开发，补充CSS样式库的朋友，欢迎提交 PR。
+
+非常感谢[ColorUI 2.0](https://github.com/weilanwl/coloruicss)作者开源代码，本代码在此基础上进行开发。
 
 ## 文档
 
@@ -21,25 +23,25 @@ ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组�
 - [X] fix 轮播图左侧图消失BUG
 - [X] 小程序检测到新版本主动更新
 - [X] 【基础样式】背景色修改、扩展
-- [X] 【基础样式】圆环形状进度条(canvas2D实现)[无预览]【请在小程序端查看】
-- [X] 【基础样式】虚线边框和蓝色边框样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/base/border)
-- [X] 【组件设计】手风琴向下展开样式&文本展开与收起[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/piano)
-- [X] 【组件设计】滚动Tips(单行、多行、左右、上下)[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/tips)
-- [X] 【组件设计】评分样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/rate)
-- [X] 【组件设计】轻提示[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/toast)
-- [X] 【组件设计】状态提示[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/status)
-- [X] 【组件设计】日历样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/calendar)
-- [X] 【组件设计】表格样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/table)
-- [X] 【扩展样式】瀑布流图片展示样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/waterfall)
-- [X] 【扩展样式】卡片翻转样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/overturn)
-- [X] 【扩展样式】滚动抽奖样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/draw)
-- [X] 【扩展样式】历史搜索样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/search)
-- [X] 【扩展样式】打卡签到样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/clockin)
-- [X] 【扩展样式】会员卡/卡券样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/coupon)
-- [X] 【扩展样式】商品滑动样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/goods)
-- [X] 【扩展样式】骨架屏样式[在线预览](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/skeleton)
-- [X] 【扩展样式】卡片设计[无预览]【请在小程序端查看】
-- [X] 【扩展样式】Emoji(卡片设计中已集成)[无预览]【请在小程序端查看】
+- [X] 【基础样式】圆环形状进度条(canvas2D实现) [无预览]【请在小程序端查看】
+- [X] 【基础样式】虚线边框和蓝色边框样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/base/border)
+- [X] 【组件设计】手风琴向下展开样式&文本展开与收起 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/piano)
+- [X] 【组件设计】滚动Tips(单行、多行、左右、上下) [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/tips)
+- [X] 【组件设计】评分样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/rate)
+- [X] 【组件设计】轻提示 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/toast)
+- [X] 【组件设计】状态提示 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/status)
+- [X] 【组件设计】日历样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/calendar)
+- [X] 【组件设计】表格样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/table)
+- [X] 【扩展样式】瀑布流图片展示样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/waterfall)
+- [X] 【扩展样式】卡片翻转样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/overturn)
+- [X] 【扩展样式】滚动抽奖样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/draw)
+- [X] 【扩展样式】历史搜索样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/search)
+- [X] 【扩展样式】打卡签到样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/clockin)
+- [X] 【扩展样式】会员卡/卡券样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/coupon)
+- [X] 【扩展样式】商品滑动样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/goods)
+- [X] 【扩展样式】骨架屏样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/skeleton)
+- [X] 【扩展样式】卡片设计 【无预览】【请在小程序端查看】
+- [X] 【扩展样式】Emoji(卡片设计中已集成) 【无预览】【请在小程序端查看】
 - [ ] 头像右下角标签设计
 - [ ] 广告条设计
 - [ ] 倒计时
@@ -113,6 +115,14 @@ onLaunch: function() {
 | backText |            返回时的文字            |
 | content  |              中间区域              |
 | right    | 右侧区域(小程序端可使用范围很窄！)   |
+
+## 致谢
+
+ColorUI: <https://github.com/weilanwl/ColorUI>
+Lin-UI: <https://github.com/TaleLin/lin-ui>
+Vant: <https://github.com/vant-ui/vant-weapp>
+MeiYe: <https://www.meiye.art/inspiration>
+WxminiDemo: <https://gitee.com/susuhhhhhh/wxmini_demo>
 
 ## 支持
 

@@ -10,7 +10,7 @@
   </view>
 </view>
 
-<view class="padding">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
   <view class="cu-avatar radius margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
 </view>
@@ -21,29 +21,33 @@
   </view>
 </view>
 
-<view class="padding">
-  <view class="cu-avatar sm round margin-left" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
-  <view class="cu-avatar round margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
-  <view class="cu-avatar lg round margin-left" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
-  <view class="cu-avatar xl round margin-left" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);"></view>
-</view>
+<view class="margin-sm bg-white radius-lg">
 
-<view class="padding">
-  <view class="cu-avatar sm round margin-left bg-red">A</view>
-  <view class="cu-avatar round margin-left bg-red">B</view>
-  <view class="cu-avatar lg round margin-left bg-red">C</view>
-  <view class="cu-avatar xl round margin-left bg-red">D</view>
-</view>
+  <view class="padding-sm">
+    <view class="cu-avatar sm round margin-left" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
+    <view class="cu-avatar round margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
+    <view class="cu-avatar lg round margin-left" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>
+    <view class="cu-avatar xl round margin-left" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);"></view>
+  </view>
 
-<view class="padding">
-  <view class="cu-avatar sm round margin-left bg-blue">高</view>
-  <view class="cu-avatar round margin-left bg-blue">颜</view>
-  <view class="cu-avatar lg round margin-left bg-blue">
-    <text>值</text>
+  <view class="padding-lr-sm">
+    <view class="cu-avatar sm round margin-left bg-red">A</view>
+    <view class="cu-avatar round margin-left bg-red">B</view>
+    <view class="cu-avatar lg round margin-left bg-red">C</view>
+    <view class="cu-avatar xl round margin-left bg-red">D</view>
   </view>
-  <view class="cu-avatar xl round margin-left bg-blue">
-    <text class="avatar-text">UI库</text>
+
+  <view class="padding-sm">
+    <view class="cu-avatar sm round margin-left bg-blue">高</view>
+    <view class="cu-avatar round margin-left bg-blue">颜</view>
+    <view class="cu-avatar lg round margin-left bg-blue">
+      <text>值</text>
+    </view>
+    <view class="cu-avatar xl round margin-left bg-blue">
+      <text class="avatar-text">UI库</text>
+    </view>
   </view>
+
 </view>
 
 <view class="cu-bar bg-white margin-top">
@@ -52,7 +56,7 @@
   </view>
 </view>
 
-<view class="padding">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-avatar radius">
     <text class="cuIcon-people"></text>
   </view>
@@ -76,7 +80,7 @@
   </view>
 </view>
 
-<view class="padding-sm">
+<view class="padding-sm margin-sm bg-white radius-lg">
   <view class="cu-avatar round lg bg-{{item.name}} margin-xs" wx:for="{{ColorList}}" wx:key="item">
     <text class="avatar-text">{{item.name}}</text>
   </view>
@@ -88,7 +92,7 @@
   </view>
 </view>
 
-<view class="padding">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-avatar-group">
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
@@ -109,7 +113,7 @@
   </view>
 </view>
 
-<view class="padding">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);">
     <view class="cu-tag badge cuIcon-female bg-blue"></view>
   </view>

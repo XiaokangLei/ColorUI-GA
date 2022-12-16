@@ -10,15 +10,23 @@
   </view>
 </view>
 
-<view class="margin-tb">
+<view class="margin-tb margin-lr-sm">
 
-  <view class="cu-form-group">
-    <view class="title">默认关闭</view>
+  <view class="cu-form-group radius-lg-top">
+    <view class="title">未启用</view>
     <switch></switch>
   </view>
   <view class="cu-form-group">
-    <view class="title">默认打开</view>
+    <view class="title">已启用</view>
     <switch checked></switch>
+  </view>
+  <view class="cu-form-group">
+    <view class="title">禁用-默认未启用</view>
+    <switch disabled></switch>
+  </view>
+  <view class="cu-form-group radius-lg-bottom">
+    <view class="title">禁用-默认已启用</view>
+    <switch checked disabled></switch>
   </view>
 
 </view>
@@ -29,24 +37,23 @@
   </view>
 </view>
 
-<view class="cu-form-group margin-top">
-  <view class="title">定义颜色</view>
-  <switch class="red" checked></switch>
-</view>
+<view class="margin-tb margin-lr-sm">
+  <view class="cu-form-group margin-top radius-lg-top">
+    <view class="title">定义颜色</view>
+    <switch class="red" checked></switch>
+    <switch class="blue" checked></switch>
+  </view>
 
-<view class="cu-form-group">
-  <view class="title">定义图标</view>
-  <switch class="switch-sex" checked></switch>
-</view>
+  <view class="cu-form-group">
+    <view class="title">定义图标</view>
+    <switch class="switch-sex" checked></switch>
+    <switch class="switch-music" checked></switch>
+  </view>
 
-<view class="cu-form-group">
-  <view class="title">定义图标2</view>
-  <switch class="switch-music" checked></switch>
-</view>
-
-<view class="cu-form-group">
-  <view class="title">方形开关</view>
-  <switch class="orange radius sm" checked></switch>
+  <view class="cu-form-group radius-lg-bottom">
+    <view class="title">方形开关</view>
+    <switch class="orange radius" checked></switch>
+  </view>
 </view>
 
 <view class="cu-bar bg-white margin-top">
@@ -55,7 +62,7 @@
   </view>
 </view>
 
-<view class="cu-form-group margin-top">
+<view class="cu-form-group margin-top margin-lr-sm radius-lg">
   <view class="title">当前值：{{sex}}</view>
   <switch class="switch-sex" bindchange="switchSex"></switch>
 </view>

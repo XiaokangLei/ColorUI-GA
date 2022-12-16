@@ -1,5 +1,4 @@
 <!--pages/index/basics/home/home.wxml-->
-
 <import src="/pages/template/common/copyright.wxml" />
 
 <cu-custom noFixed="{{true}}" isLucency="{{true}}">
@@ -25,6 +24,7 @@
             </view>
           </view>
         </view>
+        <!-- 图片不带文字 -->
         <!-- <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image> -->
         <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
       </view>

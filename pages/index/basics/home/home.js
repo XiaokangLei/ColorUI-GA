@@ -1,5 +1,6 @@
 // pages/index/basics/home/home.js
 const app = getApp();
+
 Component({
   options: {
     addGlobalClass: true,
@@ -40,13 +41,13 @@ Component({
     elements: [{
         title: '布局',
         name: 'layout',
-        color: 'cyan light',
+        color: 'blue light',
         icon: 'newsfill'
       },
       {
         title: '背景',
         name: 'background',
-        color: 'blue light',
+        color: 'cyan light',
         icon: 'colorlens'
       },
       {

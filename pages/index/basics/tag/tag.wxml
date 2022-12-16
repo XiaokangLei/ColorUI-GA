@@ -10,7 +10,7 @@
   </view>
 </view>
 
-<view class="padding bg-white solid-bottom">
+<view class="flex justify-around padding bg-white margin-sm radius-lg">
   <view class="cu-tag margin-right">默认</view>
   <view class="cu-tag round margin-right">椭圆</view>
   <view class="cu-tag radius margin-right">圆角</view>
@@ -22,7 +22,7 @@
   </view>
 </view>
 
-<view class="padding bg-white">
+<view class="padding bg-white margin-sm radius-lg flex justify-around">
   <view class="cu-tag radius sm margin-right">小尺寸</view>
   <view class="cu-tag radius margin-right">普通尺寸</view>
 </view>
@@ -33,7 +33,7 @@
   </view>
 </view>
 
-<view class="padding-sm flex flex-wrap">
+<view class="bg-white padding-sm flex flex-wrap margin-sm radius-lg">
   <view class="padding-xs" wx:for="{{ColorList}}" wx:key="item" wx:if="{{item.name!='gray'}}">
     <view class="cu-tag bg-{{item.name}} radius">{{item.title}}</view>
   </view>
@@ -48,7 +48,7 @@
   </view>
 </view>
 
-<view class="padding-sm flex flex-wrap">
+<view class="bg-white padding-sm flex flex-wrap margin-sm radius-lg">
   <view class="padding-xs" wx:for="{{ColorList}}" wx:key="item" wx:if="{{item.name!='white'}}">
     <view class="cu-tag line-{{item.name}}">{{item.title}}</view>
   </view>
@@ -63,7 +63,7 @@
   </view>
 </view>
 
-<view class="padding">
+<view class="bg-white padding-sm flex flex-wrap margin-sm radius-lg">
   <view class="margin-bottom">
     <view class="cu-capsule margin-right">
       <view class="cu-tag bg-red">
@@ -98,36 +98,38 @@
       </view>
     </view>
   </view>
-  <view class="cu-capsule radius margin-right">
-    <view class="cu-tag bg-orange ">
-      <text class="cuIcon-likefill"></text>
+  <view class="">
+    <view class="cu-capsule radius margin-right">
+      <view class="cu-tag bg-orange ">
+        <text class="cuIcon-likefill"></text>
+      </view>
+      <view class="cu-tag line-orange">
+        23
+      </view>
     </view>
-    <view class="cu-tag line-orange">
-      23
+    <view class="cu-capsule radius margin-right">
+      <view class="cu-tag bg-green ">
+        标签
+      </view>
+      <view class="cu-tag line-green">
+        23
+      </view>
     </view>
-  </view>
-  <view class="cu-capsule radius margin-right">
-    <view class="cu-tag bg-green ">
-      标签
+    <view class="cu-capsule radius margin-right">
+      <view class="cu-tag bg-brown sm">
+        <text class="cuIcon-likefill"></text>
+      </view>
+      <view class="cu-tag line-brown sm">
+        23
+      </view>
     </view>
-    <view class="cu-tag line-green">
-      23
-    </view>
-  </view>
-  <view class="cu-capsule radius margin-right">
-    <view class="cu-tag bg-brown sm">
-      <text class="cuIcon-likefill"></text>
-    </view>
-    <view class="cu-tag line-brown sm">
-      23
-    </view>
-  </view>
-  <view class="cu-capsule radius margin-left">
-    <view class="cu-tag bg-pink sm">
-      标签
-    </view>
-    <view class="cu-tag line-brown sm">
-      23
+    <view class="cu-capsule radius margin-left">
+      <view class="cu-tag bg-pink sm">
+        标签
+      </view>
+      <view class="cu-tag line-brown sm">
+        23
+      </view>
     </view>
   </view>
 </view>
@@ -138,7 +140,7 @@
   </view>
 </view>
 
-<view class="padding flex justify-between align-center">
+<view class="bg-white padding flex justify-between align-center margin-sm radius-lg">
   <view class="cu-avatar xl radius">
     L
     <view class="cu-tag badge">99+</view>
@@ -161,14 +163,16 @@
   </view>
 </view>
 
-<view class="cu-list grid col-4 no-border">
-  <view class="cu-item bg-gray" wx:for="{{iconList}}" wx:key="item">
-    <view class="cuIcon-{{item.icon}} text-{{item.color}}">
-      <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
-        <block wx:if="{{item.badge!=1}}">{{item.badge>99?"99+":item.badge}}</block>
+<view class="bg-white margin-sm radius-lg">
+  <view class="cu-list grid col-4 no-border margin-sm">
+    <view class="cu-item" wx:for="{{iconList}}" wx:key="item">
+      <view class="cuIcon-{{item.icon}} text-{{item.color}}">
+        <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
+          <block wx:if="{{item.badge!=1}}">{{item.badge>99?"99+":item.badge}}</block>
+        </view>
       </view>
+      <text>{{item.name}}</text>
     </view>
-    <text>{{item.name}}</text>
   </view>
 </view>
 

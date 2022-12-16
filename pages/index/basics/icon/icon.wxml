@@ -13,7 +13,7 @@
 
 <view class="cu-bar bg-white solid-bottom" style="margin-top:{{CustomBar+15}}rpx">
   <view class="action">
-    <text class="cuIcon-titles text-blue"></text>图标颜色
+    <text class="cuIcon-titles text-blue"></text>大小/颜色
   </view>
   <view class="action">
     <text class="text-df margin-right-sm">阴影</text>
@@ -21,47 +21,43 @@
   </view>
 </view>
 
-<view class="cu-list grid col-4">
+<view class="cu-list grid col-4 bg-white margin-sm radius-lg">
   <view class="cu-item" wx:for="{{iconList}}" wx:key="item">
     <view class="cuIcon-{{item.icon}} xl text-{{item.color}} {{shadow?'text-shadow':''}}">
       <text>{{item.icon}}</text>
     </view>
   </view>
-</view>
-
-<view class="cu-bar bg-white solid-bottom">
-  <view class="action">
-    <text class="cuIcon-titles text-blue"></text>图标大小
-  </view>
-  <view class="action"></view>
-</view>
-
-<view class="cu-list grid col-4">
   <view class="cu-item" wx:for="{{iconList}}" wx:key="item">
-    <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 64rpx;">
-      <text>{{item.icon}}</text>
-    </view>
+    <view class="cuIcon-{{item.icon}} text-{{item.color}} {{shadow?'text-shadow':''}}" style="font-size: 64rpx;"></view>
+    <text>{{item.icon}}</text>
   </view>
 </view>
 
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
-    <text class="cuIcon-titles text-blue"></text>图标
+    <text class="cuIcon-titles text-blue"></text>扩展
   </view>
   <view class="action"></view>
 </view>
 
-<view class="cu-list grid col-4">
-  <view class="cu-item text-xxxl" wx:for="{{iconNew}}" wx:key="item" wx:if="{{item.isShow}}">
+<view class="cu-list grid col-4 bg-white margin-sm radius-lg">
+  <view class="cu-item text-xxxl text-black" wx:for="{{iconNew}}" wx:key="item" wx:if="{{item.isShow}}">
     <view class="icon-{{item.name}}"></view>
-    <text>{{item.name}}</text>
+    <text class="text-cut padding-xs">{{item.name}}</text>
   </view>
 </view>
 
-<view class="cu-list grid col-4">
-  <view class="cu-item" wx:for="{{icon}}" wx:key="item" wx:if="{{item.isShow}}">
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>全部图标
+  </view>
+  <view class="action"></view>
+</view>
+
+<view class="cu-list grid col-4 bg-white margin-sm radius-lg">
+  <view class="cu-item text-black" wx:for="{{icon}}" wx:key="item" wx:if="{{item.isShow}}">
     <view class="cuIcon-{{item.name}} xl"></view>
-    <text>{{item.name}}</text>
+    <text class="text-cut padding-xs">{{item.name}}</text>
   </view>
 </view>
 

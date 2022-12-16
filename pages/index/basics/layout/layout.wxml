@@ -18,7 +18,7 @@
         <text class="cuIcon-titles text-blue"></text>固定尺寸
       </view>
     </view>
-    <view class="padding bg-white">
+    <view class="padding-xs bg-white margin-sm radius-lg">
       <view class="flex flex-wrap">
         <view class="basis-xs bg-blue light margin-xs padding-sm radius">xs(20%)</view>
         <view class="basis-df"></view>
@@ -35,7 +35,7 @@
         <text class="cuIcon-titles text-blue"></text>比例布局
       </view>
     </view>
-    <view class="padding bg-white">
+    <view class="padding-sm bg-white margin-sm radius-lg">
       <view class="flex">
         <view class="flex-sub bg-blue light padding-sm margin-xs radius">1/2</view>
         <view class="flex-sub bg-blue light padding-sm margin-xs radius">1/2</view>
@@ -63,24 +63,24 @@
         <text class="cuIcon-titles text-blue"></text>水平对齐(justify)
       </view>
     </view>
-    <view class="bg-white">
-      <view class="flex solid-bottom padding justify-start">
+    <view class="bg-white margin-sm radius-lg">
+      <view class="flex solid-bottom padding-sm justify-start">
         <view class="bg-blue light padding-sm margin-xs radius">start</view>
         <view class="bg-blue light padding-sm margin-xs radius">start</view>
       </view>
-      <view class="flex solid-bottom padding justify-end">
+      <view class="flex solid-bottom padding-sm justify-end">
         <view class="bg-blue light padding-sm margin-xs radius">end</view>
         <view class="bg-blue light padding-sm margin-xs radius">end</view>
       </view>
-      <view class="flex solid-bottom padding justify-center">
+      <view class="flex solid-bottom padding-sm justify-center">
         <view class="bg-blue light padding-sm margin-xs radius">center</view>
         <view class="bg-blue light padding-sm margin-xs radius">center</view>
       </view>
-      <view class="flex solid-bottom padding justify-between">
+      <view class="flex solid-bottom padding-sm justify-between">
         <view class="bg-blue light padding-sm margin-xs radius">between</view>
         <view class="bg-blue light padding-sm margin-xs radius">between</view>
       </view>
-      <view class="flex solid-bottom padding justify-around">
+      <view class="flex solid-bottom padding-sm justify-around">
         <view class="bg-blue light padding-sm margin-xs radius">around</view>
         <view class="bg-blue light padding-sm margin-xs radius">around</view>
       </view>
@@ -90,7 +90,7 @@
         <text class="cuIcon-titles text-blue"></text>垂直对齐(align)
       </view>
     </view>
-    <view class="bg-white">
+    <view class="bg-white margin-sm radius-lg">
       <view class="flex solid-bottom padding align-start">
         <view class="bg-blue light padding-lg margin-xs radius">ColorUI-GA</view>
         <view class="bg-blue light padding-sm margin-xs radius">start</view>
@@ -113,9 +113,9 @@
       </view>
       <view class="action"></view>
     </view>
-    <view class="bg-white padding">
+    <view class="bg-white padding margin-sm radius-lg">
       <view class="grid col-{{index+1}} margin-bottom text-center" wx:for="{{5}}" wx:key="item">
-        <view class="{{index%2==0?'bg-green light':'bg-blue light'}} padding solid-bottom" wx:for="{{(index+1)*2}}" wx:key="item">{{index+1}}</view>
+        <view class="{{index%2==0?'bg-green light':'bg-blue light'}} padding solid-bottom text-lg" wx:for="{{(index+1)*2}}" wx:key="item">{{index+1}}</view>
       </view>
     </view>
     <view class="cu-bar bg-white margin-top solid-bottom">
@@ -124,7 +124,7 @@
       </view>
       <view class="action"></view>
     </view>
-    <view class="bg-white padding">
+    <view class="bg-white padding-sm margin-sm radius-lg">
       <view class="grid col-4 grid-square">
         <view class="bg-img" wx:for="{{4}}" wx:key="item" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
       </view>
@@ -137,7 +137,7 @@
         <text class="cuIcon-titles text-blue"></text>简介
       </view>
     </view>
-    <view class="margin-xs bg-white padding radius-df">
+    <view class="margin-sm bg-white padding radius-lg">
       <view>{size}的尺寸有 xs、sm、df、lg、xl、xxl</view>
       <view class="padding-top-sm">对应大小分别为：10rpx、20rpx、30rpx、40rpx、50rpx、60rpx，df为默认大小，省略不写</view>
     </view>
@@ -146,44 +146,44 @@
         <text class="cuIcon-titles text-blue"></text>内外边距
       </view>
     </view>
-    <view class="bg-white margin-xs radius-df">
-      <view class="flex flex-wrap padding solid-top">
+    <view class="bg-white margin-sm radius-lg">
+      <view class="flex flex-wrap padding text-center">
         <view class="basis-df padding-bottom-xs">外边距</view>
         <view class="basis-df padding-bottom-xs">内边距</view>
         <view class="basis-df">.margin-{size}</view>
         <view class="basis-df">.padding-{size}</view>
       </view>
-      <view class="flex flex-wrap padding solid-top">
+      <view class="flex flex-wrap padding solid-top text-center">
         <view class="basis-df padding-bottom-xs">水平方向外边距</view>
         <view class="basis-df padding-bottom-xs">水平方向内边距</view>
         <view class="basis-df">.margin-lr-{size}</view>
         <view class="basis-df">.padding-lr-{size}</view>
       </view>
-      <view class="flex flex-wrap padding solid-top">
+      <view class="flex flex-wrap padding solid-top text-center">
         <view class="basis-df padding-bottom-xs">垂直方向外边距</view>
         <view class="basis-df padding-bottom-xs">垂直方向内边距</view>
         <view class="basis-df">.margin-tb-{size}</view>
         <view class="basis-df">.padding-tb-{size}</view>
       </view>
-      <view class="flex flex-wrap padding solid-top">
+      <view class="flex flex-wrap padding solid-top text-center">
         <view class="basis-df padding-bottom-xs">上外边距</view>
         <view class="basis-df padding-bottom-xs">上内边距</view>
         <view class="basis-df">.margin-top-{size}</view>
         <view class="basis-df">.padding-top-{size}</view>
       </view>
-      <view class="flex flex-wrap padding solid-top">
+      <view class="flex flex-wrap padding solid-top text-center">
         <view class="basis-df padding-bottom-xs">右外边距</view>
         <view class="basis-df padding-bottom-xs">右内边距</view>
         <view class="basis-df">.margin-right-{size}</view>
         <view class="basis-df">.padding-right-{size}</view>
       </view>
-      <view class="flex flex-wrap padding solid-top">
+      <view class="flex flex-wrap padding solid-top text-center">
         <view class="basis-df padding-bottom-xs">下外边距</view>
         <view class="basis-df padding-bottom-xs">下内边距</view>
         <view class="basis-df">margin-bottom-{size}</view>
         <view class="basis-df">.padding-bottom-{size}</view>
       </view>
-      <view class="flex flex-wrap padding solid-top">
+      <view class="flex flex-wrap padding solid-top text-center">
         <view class="basis-df padding-bottom-xs">左外边距</view>
         <view class="basis-df padding-bottom-xs">左内边距</view>
         <view class="basis-df">.margin-left-{size}</view>
@@ -198,7 +198,7 @@
         <text class="cuIcon-titles text-blue"></text>简介
       </view>
     </view>
-    <view class="margin-xs margin-top-sm bg-white padding radius-lg">
+    <view class="margin-sm bg-white padding radius-lg">
       <view>基本代码：display: table; 以表格的方式进行显示。</view>
       <view class="padding-top-sm">在宽度上会根据内容多少或设置来表现；在高度上，对齐最大的一个高度，因为在表格里面的一行，最大的一个高度会把这一行的高度给撑开。</view>
     </view>
@@ -207,7 +207,7 @@
         <text class="cuIcon-titles text-blue"></text>示例
       </view>
     </view>
-    <view class="bg-white padding margin-xs radius margin-top">
+    <view class="bg-white padding-sm margin-sm radius-lg margin-top">
       <view class="cf padding-sm">
         <view class="bg-blue light radius fl padding-sm">ColorUI fl</view>
         <view class="bg-blue light radius fr padding-sm">ColorUI fr</view>

@@ -228,6 +228,7 @@
   height: 60px;
   margin: 50rpx auto 0;
 }
+
 .load1-circle>view{
   background-color: #a8c992;
   height: 10px;

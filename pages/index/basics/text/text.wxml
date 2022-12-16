@@ -10,7 +10,7 @@
   </view>
 </view>
 
-<view class="padding">
+<view class="padding-sm">
   <view class="bg-white padding-xs flex align-center radius-df">
     <view class="flex-sub text-center">
       <view class="solid-bottom text-xsl padding">
@@ -68,7 +68,7 @@
   <view class="bg-white padding-xs margin-top flex align-center radius-df">
     <view class="flex-sub text-center">
       <view class="solid-bottom text-xs padding">
-        <text class="text-gray">我于杀戮之中绽放 亦如黎明中的花朵</text>
+        <text class="text-gray">谢谢你 在这世界的角落 发现了我</text>
       </view>
       <view class="padding">字号：10，说明文本，标签文字等关注度低的文字</view>
     </view>
@@ -81,7 +81,7 @@
   </view>
 </view>
 
-<view class="grid col-5 padding-sm">
+<view class="grid col-5 bg-white margin-sm padding-sm radius-lg">
   <view class="padding-sm" wx:for="{{list}}" wx:key="item" wx:if="{{item.name!='white'}}">
     <view class="text-{{item.name}} text-center">
       {{item.title}}
@@ -95,7 +95,7 @@
   </view>
 </view>
 
-<view class="grid col-5 padding-sm">
+<view class="grid col-5 bg-white margin-sm padding-sm radius-lg">
   <view class="padding-sm" wx:for="{{list}}" wx:key="item" wx:if="{{item.name!='white'}}">
     <view class="text-center text-shadow text-{{item.name}}">
       <view class="cuIcon-ellipse text-xxl"></view>
@@ -109,7 +109,7 @@
   </view>
 </view>
 
-<view class="padding bg-white">
+<view class="bg-white margin-sm padding-sm radius-lg">
   <view class="text-cut padding bg-blue light radius" style="width:220px">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</view>
   <view class="padding bg-blue light radius margin-top" style="width:220px"><text class="text-cut-2">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</text></view>
 </view>
@@ -120,10 +120,10 @@
   </view>
 </view>
 
-<view class="padding bg-white">
-  <view class="text-left padding">我于杀戮之中绽放 ,亦如黎明中的花朵</view>
-  <view class="text-center padding">我于杀戮之中绽放 ,亦如黎明中的花朵</view>
-  <view class="text-right padding">我于杀戮之中绽放 ,亦如黎明中的花朵</view>
+<view class="bg-white margin-sm padding-sm radius-lg">
+  <view class="text-left padding">谢谢你 在这世界的角落 发现了我</view>
+  <view class="text-center padding">谢谢你 在这世界的角落 发现了我</view>
+  <view class="text-right padding">谢谢你 在这世界的角落 发现了我</view>
 </view>
 
 <view class="cu-bar bg-white solid-bottom margin-top">
@@ -132,7 +132,7 @@
   </view>
 </view>
 
-<view class="padding text-center">
+<view class="padding-sm text-center">
   <view class="padding-lr bg-white radius-df">
     <view class="solid-bottom padding">
       <text class="text-price">80.00</text>

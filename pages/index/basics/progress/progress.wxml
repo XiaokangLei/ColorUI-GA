@@ -10,7 +10,7 @@
   </view>
 </view>
 
-<view class="padding bg-white">
+<view class="padding bg-white margin-sm radius-lg">
   <view class="cu-progress">
     <view class="bg-red" style="width:{{loading?'61.8%':''}};">61.8%</view>
   </view>
@@ -40,7 +40,7 @@
   </view>
 </view>
 
-<view class="padding bg-white">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-progress round">
     <view class="bg-red" style="width:{{loading?'61.8%':''}};"></view>
   </view>
@@ -62,7 +62,7 @@
   </view>
 </view>
 
-<view class="padding {{color=='white'?'bg-grey':'bg-white'}}">
+<view class="padding margin-sm radius-lg {{color=='white'?'bg-grey':'bg-white'}}">
   <view class="cu-progress round">
     <view class="bg-{{color}}" style="width:{{loading?'61.8%':''}};"></view>
   </view>
@@ -78,12 +78,12 @@
   </view>
 </view>
 
-<view class="padding bg-white">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-progress round sm striped {{active?'active':''}}">
     <view class="bg-green" style="width:{{loading?'60%':''}};"></view>
   </view>
   <view class="cu-progress round sm margin-top-sm striped {{active?'active':''}}">
-    <view class="bg-black" style="width:{{loading?'40%':''}};"></view>
+    <view class="bg-orange" style="width:{{loading?'40%':''}};"></view>
   </view>
   <view class="cu-progress round sm margin-top-sm striped {{active?'active':''}}">
     <view class="bg-blue" style="width:{{loading?'80%':''}};"></view>
@@ -96,7 +96,7 @@
   </view>
 </view>
 
-<view class="padding bg-white">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="cu-progress radius striped active">
     <view class="bg-red" style="width:{{loading?'30%':''}};">30%</view>
     <view class="bg-olive" style="width:{{loading?'45%':''}};">45%</view>
@@ -115,7 +115,7 @@
   </view>
 </view>
 
-<view class="padding bg-white ">
+<view class="padding margin-sm bg-white radius-lg">
   <view class="flex">
     <view class="cu-progress round">
       <view class="bg-green" style="width:{{loading?'100%':''}};"></view>
