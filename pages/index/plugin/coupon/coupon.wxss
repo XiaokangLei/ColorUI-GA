@@ -190,3 +190,79 @@ page {
   -webkit-mask-composite: destination-out;
   background: linear-gradient(45deg, var(--c1), var(--c2));
 }
+
+/* 样式7 */
+
+.card {
+  width: 683rpx;
+  height: 856rpx;
+  background: #FFFFFF;
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  padding: 0 24rpx;
+}
+
+.top {
+  box-sizing: border-box;
+  height: 475rpx;
+  padding-top: 40rpx;
+  border-bottom: 1px dashed #66E0FE;
+  position: relative;
+}
+
+.top::before {
+  content: '';
+  position: absolute;
+  width: 22rpx;
+  height: 44rpx;
+  background: #57D4F4;
+  left: -24rpx;
+  bottom: -24rpx;
+  border-radius: 0 22rpx 22rpx 0;
+  /* 左上、右上、右下、左下 */
+}
+
+.top::after {
+  content: '';
+  position: absolute;
+  width: 22rpx;
+  height: 44rpx;
+  background: #57D4F4;
+  right: -24rpx;
+  bottom: -24rpx;
+  border-radius: 22rpx 0 0 22rpx;
+  /* 左上、右上、右下、左下 */
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title text {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #147ABE;
+  padding: 0 13rpx 0 20rpx;
+}
+
+.title span {
+  width: 21rpx;
+  height: 21rpx;
+  background: #7FE0F7;
+  border-radius: 50%;
+  position: relative;
+}
+
+.title span::after {
+  content: '';
+  position: absolute;
+  width: 14rpx;
+  height: 14rpx;
+  background: rgba(255, 190, 85, 0.58);
+  border-radius: 50%;
+  bottom: 0;
+  right: -7rpx;
+}

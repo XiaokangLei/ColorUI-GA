@@ -4,7 +4,7 @@
   <view slot="content">会员卡/卡券</view>
 </cu-custom>
 
-<view class="cu-bar solid-bottom">
+<view class="cu-bar solid-bottom bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>样式1
   </view>
@@ -39,7 +39,7 @@
   </view>
 </view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>样式2
   </view>
@@ -59,7 +59,7 @@
   </view>
 </view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>样式3
   </view>
@@ -68,7 +68,7 @@
 <!-- 样式3 -->
 <view class="card-3"></view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>样式4
   </view>
@@ -77,7 +77,7 @@
 <!-- 样式4 -->
 <view class="card-4"></view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>样式5
   </view>
@@ -86,7 +86,7 @@
 <!-- 样式5 -->
 <view class="card-5"></view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>样式6
   </view>
@@ -94,6 +94,26 @@
 
 <!-- 样式6 -->
 <view class="card-6"></view>
+
+<view class="cu-bar solid-bottom margin-top bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>样式7
+  </view>
+</view>
+
+<!-- 样式7 -->
+<view class="padding-tb-sm flex justify-center" style="background-color: #57D4F4;">
+<view class="card">
+  <view class="top">
+    <view class="title">
+      <span></span>
+      <text>活动规则</text>
+      <span></span>
+    </view>
+  </view>
+  <view class="bottom"></view>
+</view>
+</view>
 
 <import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">

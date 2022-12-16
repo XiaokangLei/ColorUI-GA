@@ -1,6 +1,6 @@
 <!--pages/index/component/bar/bar.wxml-->
-<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
-  <view slot="content">操作条UI设计</view>
+<cu-custom bgColor="bg-gradual-blue" isCustom="{{true}}">
+  <view slot="content">操作条</view>
 </cu-custom>
 
 <view class="cu-bar bg-white">
@@ -16,7 +16,7 @@
       <text class="cuIcon-back text-gray"></text> 返回
     </view>
     <view class="content text-bold">
-      操作条
+      ColorUI GA
     </view>
   </view>
   <view class="cu-bar bg-white">
@@ -24,10 +24,9 @@
       <text class="cuIcon-homefill text-gray"></text> 首页
     </view>
     <view class="content text-bold">
-      鲜亮的高饱和色彩，专注视觉的小程序组件库
+      ColorUI GA
     </view>
     <view class="action">
-      <text class="cuIcon-cardboardfill text-grey"></text>
       <text class="cuIcon-recordfill text-red"></text>
     </view>
   </view>
@@ -36,13 +35,13 @@
       <text class="cuIcon-close"></text> 关闭
     </view>
     <view class="content text-bold">
-      海蓝
+      ColorUI GA
     </view>
   </view>
   <view class="cu-bar bg-blue light search">
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="content">
-      ColorUI-GA
+      ColorUI GA
     </view>
     <view class="action">
       <text class="cuIcon-more"></text>
@@ -61,7 +60,7 @@
   <view class="cu-bar search bg-white">
     <view class="search-form round">
       <text class="cuIcon-search"></text>
-      <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
+      <input type="text" placeholder="搜索内容" confirm-type="search"></input>
     </view>
     <view class="action">
       <button class="cu-btn bg-blue shadow-blur round">搜索</button>
@@ -71,10 +70,10 @@
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="search-form round">
       <text class="cuIcon-search"></text>
-      <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
+      <input type="text" placeholder="搜索内容" confirm-type="search"></input>
     </view>
     <view class="action">
-      <text>广州</text>
+      <text>北京</text>
       <text class="cuIcon-triangledownfill"></text>
     </view>
   </view>
@@ -82,17 +81,17 @@
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="search-form radius">
       <text class="cuIcon-search"></text>
-      <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
+      <input type="text" placeholder="搜索内容" confirm-type="search"></input>
     </view>
     <view class="action">
-      <text>广州</text>
+      <text>北京</text>
       <text class="cuIcon-triangledownfill"></text>
     </view>
   </view>
   <view class="cu-bar bg-cyan search">
     <view class="search-form radius">
       <text class="cuIcon-search"></text>
-      <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
+      <input type="text" placeholder="搜索内容" confirm-type="search"></input>
     </view>
     <view class="action">
       <text class="cuIcon-close"></text>
@@ -292,7 +291,7 @@
     <view class="action">
       <text class="cuIcon-emojifill text-grey"></text>
     </view>
-    <button class="cu-btn bg-green shadow-blur">发送</button>
+    <button class="cu-btn bg-blue shadow-blur">发送</button>
   </view>
   <view class="cu-bar input">
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
@@ -303,7 +302,7 @@
     <view class="action">
       <text class="cuIcon-emojifill text-grey"></text>
     </view>
-    <button class="cu-btn bg-green shadow-blur">发送</button>
+    <button class="cu-btn bg-blue shadow-blur">发送</button>
   </view>
 </view>
 

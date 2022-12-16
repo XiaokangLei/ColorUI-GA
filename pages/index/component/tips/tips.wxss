@@ -3,20 +3,6 @@
   height: 80rpx;
 }
 
-.cu-bar-new {
-  display: flex;
-  position: relative;
-  align-items: center;
-  min-height: 60rpx;
-  justify-content: space-between;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .s_box {
   height: 66rpx;
   line-height: 66rpx;

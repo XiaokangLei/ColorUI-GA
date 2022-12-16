@@ -15,7 +15,7 @@
   <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
-        <view class="cu-bar-new radius-lg bg-orange light">
+        <view class="radius-lg bg-orange light">
           <view class='padding-xs text-xl'>
             <text class='cuIcon-magic text-orange'></text>
             <text class="text-df"> {{item.title}}</text>
@@ -25,11 +25,11 @@
     </block>
   </swiper>
 
-  <view class="flex-row s_box margin-bottom">
+  <view class="s_box margin-bottom">
     <swiper class="new_swiper" vertical="true" autoplay="true" circular="true" interval="3000" duration="500" display-multiple-items='1' easing-function="easeInOutCubic">
       <block wx:for-index="idx" wx:for='{{5}}' wx:key="index">
         <swiper-item>
-          <view class="padding-left cu-bar-new bg-orange light"><text class='cuIcon-magic text-orange'> 这是一条消息提示消息提示~</text></view>
+          <view class="padding-left bg-orange light"><text class='cuIcon-magic text-orange'> 这是一条消息提示消息提示~</text></view>
         </swiper-item>
       </block>
     </swiper>
@@ -44,7 +44,7 @@
   <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
-        <view class="cu-bar-new radius bg-orange light">
+        <view class="radius bg-orange light">
           <view class='padding-xs text-xl'>
             <text class='cuIcon-magic text-orange'></text>
             <text class="text-df"> {{item.title}}</text>
@@ -57,7 +57,7 @@
   <swiper class="swiperitem margin-tb" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
-        <view class="cu-bar-new bg-pink light">
+        <view class="bg-pink light">
           <view class='padding-xs text-xl'>
             <text class='cuIcon-magic text-pink'></text>
             <text class="text-df"> {{item.title}}</text>
@@ -76,7 +76,7 @@
   <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
-        <view class="cu-bar-new bg-pink light">
+        <view class="bg-pink light">
           <view class='padding-xs text-xl'>
             <text class='cuIcon-magic text-pink'></text>
             <text class="text-df"> {{item.title}}</text>
@@ -95,7 +95,7 @@
   <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="item">
       <swiper-item catchtouchmove='false' bindtap="linesclick" data-url="{{item.url}}">
-        <view class="cu-bar-new bg-orange light">
+        <view class="bg-orange light">
           <view class='padding-xs text-xl'>
             <text class='cuIcon-magic text-orange'></text>
             <text class="text-df"> {{item.title}}</text>

@@ -73,7 +73,7 @@
   </view>
 </view>
 
-<view class="flex justify-center margin">
+<view class="flex justify-center margin-sm bg-white padding-sm radius-lg">
   <view catchtap="click">
     <input id="egg-toggle" type="checkbox" />
     <label for="egg-toggle">

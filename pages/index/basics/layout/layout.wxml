@@ -134,17 +134,12 @@
   <block wx:if="{{TabCur==0}}">
     <view class="cu-bar bg-white margin-top solid-bottom">
       <view class="action">
-        <text class="cuIcon-titles text-blue"></text>简介
+        <text class="cuIcon-titles text-blue"></text>内外边距
       </view>
     </view>
     <view class="margin-sm bg-white padding radius-lg">
-      <view>{size}的尺寸有 xs、sm、df、lg、xl、xxl</view>
-      <view class="padding-top-sm">对应大小分别为：10rpx、20rpx、30rpx、40rpx、50rpx、60rpx，df为默认大小，省略不写</view>
-    </view>
-    <view class="cu-bar bg-white margin-top solid-bottom">
-      <view class="action">
-        <text class="cuIcon-titles text-blue"></text>内外边距
-      </view>
+      <view>内外边距{size}的尺寸有 xs、sm、默认、lg、xl、xxl</view>
+      <view class="padding-top-sm">对应大小分别为：10rpx、20rpx、30rpx、40rpx、50rpx、60rpx</view>
     </view>
     <view class="bg-white margin-sm radius-lg">
       <view class="flex flex-wrap padding text-center">
@@ -188,6 +183,37 @@
         <view class="basis-df padding-bottom-xs">左内边距</view>
         <view class="basis-df">.margin-left-{size}</view>
         <view class="basis-df">.padding-left-{size}</view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white margin-top solid-bottom">
+      <view class="action">
+        <text class="cuIcon-titles text-blue"></text>圆角样式
+      </view>
+    </view>
+    <view class="margin-sm bg-white padding radius-lg">
+      <view>圆角{size}的尺寸有 默认、df、lg、xl</view>
+      <view class="padding-top-sm">对应大小分别为：8rpx、16rpx、24rpx、32rpx</view>
+    </view>
+    <view class="bg-white margin-sm radius-lg">
+      <view class="flex flex-wrap padding text-center">
+        <view class="basis-df padding-bottom-xs">四角</view>
+        <view class="basis-df">.radius-{size}</view>
+      </view>
+      <view class="flex flex-wrap padding solid-top text-center">
+        <view class="basis-df padding-bottom-xs">顶部两角</view>
+        <view class="basis-df">.radius-{size}-top</view>
+      </view>
+      <view class="flex flex-wrap padding solid-top text-center">
+        <view class="basis-df padding-bottom-xs">底部两角</view>
+        <view class="basis-df">.radius-{size}-bottom</view>
+      </view>
+      <view class="flex flex-wrap padding solid-top text-center">
+        <view class="basis-df padding-bottom-xs">左上右下两角</view>
+        <view class="basis-df">.radius-{size}-top-left</view>
+      </view>
+      <view class="flex flex-wrap padding solid-top text-center">
+        <view class="basis-df padding-bottom-xs">右上坐下两角</view>
+        <view class="basis-df">.radius-{size}-top-right</view>
       </view>
     </view>
   </block>

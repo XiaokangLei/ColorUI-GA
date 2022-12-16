@@ -4,13 +4,13 @@
   <view slot="content">评分</view>
 </cu-custom>
 
-<view class="cu-bar bg-white margin-top-xs">
+<view class="cu-bar bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>基础样式
   </view>
 </view>
 
-<view class="rate padding text-xxl flex align-center">
+<view class="padding text-xxl flex align-center margin-sm bg-white radius-lg">
   <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
     <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
   </view>
@@ -19,84 +19,90 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top-xs">
+<view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>大小
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
+<view class="margin-sm bg-white radius-lg">
+  <view class="padding-lr padding-tb-sm text-xl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}星</text>
+    </view>
   </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}星</text>
+
+  <view class="padding-lr padding-tb-sm text-xxl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}星</text>
+    </view>
+  </view>
+
+  <view class="padding-lr padding-tb-sm text-xxxl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}星</text>
+    </view>
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xxl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
-  </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}星</text>
-  </view>
-</view>
-
-<view class="rate padding-lr padding-tb-sm text-xxxl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
-  </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}星</text>
-  </view>
-</view>
-
-<view class="cu-bar bg-white margin-top-xs">
+<view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>颜色
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-orange"></text>
+<view class="margin-sm bg-white radius-lg">
+  <view class="padding-lr padding-tb-sm text-xl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-orange"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}星</text>
+    </view>
   </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}星</text>
+
+  <view class="padding-lr padding-tb-sm text-xl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-yellow"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}星</text>
+    </view>
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-yellow"></text>
-  </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}星</text>
-  </view>
-</view>
-
-<view class="cu-bar bg-white margin-top-xs">
+<view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>图标
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-like' : 'cuIcon-likefill'}} {{extraClass}} text-red"></text>
+<view class="margin-sm bg-white radius-lg">
+  <view class="padding-lr padding-tb-sm text-xl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-like' : 'cuIcon-likefill'}} {{extraClass}} text-red"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}星</text>
+    </view>
   </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}星</text>
-  </view>
-</view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
-  <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
-    <text class="{{index > active ? 'cuIcon-notification' : 'cuIcon-notificationfill'}} {{extraClass}} text-red"></text>
-  </view>
-  <view class="margin-left">
-    <text class="text-red">{{active+1}}</text>
+  <view class="padding-lr padding-tb-sm text-xl flex align-center">
+    <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
+      <text class="{{index > active ? 'cuIcon-notification' : 'cuIcon-notificationfill'}} {{extraClass}} text-red"></text>
+    </view>
+    <view class="margin-left">
+      <text class="text-red">{{active+1}}</text>
+    </view>
   </view>
 </view>
 
@@ -106,7 +112,7 @@
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
+<view class="padding-lr padding-tb-sm text-xl flex align-center margin-sm bg-white radius-lg">
   <view wx:for="{{count_muti}}" bindtap="click_muti" data-index="{{index}}" wx:key="item">
     <text class="{{index > active_muti ? 'cuIcon-like' : 'cuIcon-likefill'}} {{extraClass}} text-red"></text>
   </view>
@@ -121,7 +127,7 @@
   </view>
 </view>
 
-<view class="rate padding-lr padding-tb-sm text-xl flex align-center">
+<view class="padding-lr padding-tb-sm text-xl flex align-center margin-sm bg-white radius-lg">
   <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
     <text class="{{index > active ? 'cuIcon-like' : 'cuIcon-likefill'}} {{extraClass}} text-red padding-lr-xs"></text>
   </view>

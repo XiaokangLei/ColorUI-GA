@@ -1,17 +1,1 @@
 /* pages/index/component/status/status.wxss */
-.empty {
-  height: 300rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.empty .icon {
-  font-size: 100rpx;
-  padding-bottom: 20rpx;
-}
-
-.empty .text {
-  padding-bottom: 40rpx;
-}

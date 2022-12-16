@@ -10,9 +10,13 @@
   </view>
 </view>
 
-<view class="empty">
-  <text class="cuIcon-searchlist text-gray icon"></text>
-  <view class="text-gray text">暂无数据</view>
+<view class="margin-tb-sm padding-top-lg padding-bottom-xl">
+  <view class="flex justify-center text-xsl">
+    <view class="cuIcon-searchlist text-gray icon"></view>
+  </view>
+  <view class="flex justify-center padding-top-sm">
+    <view class="text-gray text">暂无数据</view>
+  </view>
 </view>
 
 <view class="cu-bar bg-white">
@@ -21,9 +25,13 @@
   </view>
 </view>
 
-<view class="empty">
-  <text class="cuIcon-weblock text-gray icon"></text>
-  <view class="text-gray text">网络错误</view>
+<view class="margin-tb-sm padding-top-lg padding-bottom-xl">
+  <view class="flex justify-center text-xsl">
+    <view class="cuIcon-weblock text-gray icon"></view>
+  </view>
+  <view class="flex justify-center padding-top-sm">
+    <view class="text-gray text">网络错误</view>
+  </view>
 </view>
 
 <view class="cu-bar bg-white">
@@ -32,9 +40,13 @@
   </view>
 </view>
 
-<view class="empty">
-  <text class="cuIcon-evaluate text-gray icon"></text>
-  <view class="text-gray text">未知错误</view>
+<view class="margin-tb-sm padding-top-lg padding-bottom-xl">
+  <view class="flex justify-center text-xsl">
+    <view class="cuIcon-evaluate text-gray icon"></view>
+  </view>
+  <view class="flex justify-center padding-top-sm">
+    <view class="text-gray text">未知错误</view>
+  </view>
 </view>
 
 <import src="/pages/template/common/copyright.wxml" />

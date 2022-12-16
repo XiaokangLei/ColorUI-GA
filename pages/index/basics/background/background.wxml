@@ -26,7 +26,7 @@
   </view>
 </view>
 
-<view class="grid col-4 padding-sm bg-white margin-sm radius-lg">
+<view class="grid col-4 padding-sm margin-sm">
   <view class="padding-xs" wx:for="{{ColorList}}" wx:key="item">
     <view class="bg-{{item.name}} padding-sm radius-lg text-center shadow-blur">
       <view class="padding-top-xs">{{item.name}}</view>

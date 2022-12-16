@@ -4,7 +4,7 @@
   <view slot="content">轻提示</view>
 </cu-custom>
 
-<view class="cu-load bg-red {{statusTop == 'success' ? 'bg-green':'bg-red'}}" animation="{{animation}}" style="height: 0">
+<view class="cu-load {{statusTop == 'success' ? 'bg-green light':'bg-red light'}}" animation="{{animation}}" style="height: 0">
   {{messageTop}} <text class="cuIcon-roundclose lg padding-right-xs" hidden="{{!statusTop == 'error'}}"></text>
 </view>
 
@@ -59,8 +59,8 @@
 </view>
 
 <view class="fixed-center" hidden="{{!show}}" style="z-index: 99;">
-  <view class="radius padding animation-slide-top {{status == 'success' ? 'bg-green light':'bg-red light'}}">
-    {{message}}
+  <view class="radius-lg padding animation-slide-top text-lg {{status == 'success' ? 'bg-green light':'bg-red light'}}">
+    <text class="cuIcon-info"></text> {{message}}
   </view>
 </view>
 

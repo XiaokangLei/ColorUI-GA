@@ -1,5 +1,1 @@
 /* pages/index/plugin/rate/rate.wxss */
-.rate{
-  display: flex;
-  flex-direction: row;
-}

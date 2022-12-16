@@ -4,6 +4,8 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 非常感谢[ColorUI 2.0](https://github.com/weilanwl/coloruicss)作者开源代码，本代码在此基础上进行开发。
 
+**如果本项目能为您提供帮助，请右上角star给予支持！**
+
 ## 文档
 
 - 在线预览：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
@@ -95,7 +97,7 @@ onLaunch: function() {
 - 3、`xxx.wxml`页面调用
 
 ```html
-<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">导航栏</view>
 </cu-custom>

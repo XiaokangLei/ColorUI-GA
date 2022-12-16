@@ -300,6 +300,14 @@ image {
   border-radius: 0rpx 0rpx 8rpx 8rpx;
 }
 
+.radius-top-left {
+  border-radius: 8rpx 0rpx 8rpx 0rpx;
+}
+
+.radius-top-right {
+  border-radius: 0rpx 8rpx 0rpx 8rpx;
+}
+
 .radius-df {
   border-radius: 16rpx;
 }
@@ -310,6 +318,14 @@ image {
 
 .radius-df-bottom {
   border-radius: 0rpx 0rpx 16rpx 16rpx;
+}
+
+.radius-df-top-left {
+  border-radius: 16rpx 0rpx 16rpx 0rpx;
+}
+
+.radius-df-top-right {
+  border-radius: 0rpx 16rpx 0rpx 16rpx;
 }
 
 .radius-lg {
@@ -324,6 +340,14 @@ image {
   border-radius: 0rpx 0rpx 24rpx 24rpx;
 }
 
+.radius-lg-top-left {
+  border-radius: 24rpx 0rpx 24rpx 0rpx;
+}
+
+.radius-lg-top-right {
+  border-radius: 0rpx 24rpx 0rpx 24rpx;
+}
+
 .radius-xl {
   border-radius: 32rpx;
 }
@@ -334,6 +358,14 @@ image {
 
 .radius-xl-bottom {
   border-radius: 0rpx 0rpx 32rpx 32rpx;
+}
+
+.radius-xl-top-left {
+  border-radius: 32rpx 0rpx 32rpx 0rpx;
+}
+
+.radius-xl-top-right {
+  border-radius: 0rpx 32rpx 0rpx 32rpx;
 }
 
 /* ==================
@@ -3867,7 +3899,7 @@ scroll-view.cu-steps .cu-item {
 
 .bg-yellow {
   background-color: var(--yellow);
-  color: var(--black);
+  color: var(--white);
 }
 
 .bg-olive {

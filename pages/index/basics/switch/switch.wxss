@@ -7,29 +7,6 @@
   content: "\e6db";
 }
 
-.tips {
-  position: absolute;
-  top: 30rpx;
-  left: 30rpx;
-  color: #2b2222;
-}
-
-.tips view:first-child {
-  background: linear-gradient(#f09da1, #ebc3be);
-  border-radius: 30rpx;
-  padding: 10rpx 30rpx;
-  display: inline-block;
-  color: #fff;
-  margin-bottom: 10rpx;
-}
-
-
-
-view {
-  box-sizing: border-box;
-}
-
-
 input {
   display: none;
 }

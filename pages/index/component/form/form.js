@@ -57,9 +57,9 @@ Page({
       ]
     ],
     multiIndex: [0, 0, 0],
-    time: '12:01',
-    date: '2018-12-25',
-    region: ['广东省', '广州市', '海珠区'],
+    time: '13:01',
+    date: '2022-12-25',
+    region: ['北京市', '北京市', '朝阳区'],
     imgList: [],
     modalName: null,
     textareaAValue: '',
@@ -234,10 +234,10 @@ Page({
   },
   DelImg(e) {
     wx.showModal({
-      title: '召唤师',
-      content: '确定要删除这段回忆吗？',
-      cancelText: '再看看',
-      confirmText: '再见',
+      title: '提示',
+      content: '确定要删除图片吗？',
+      cancelText: '取消',
+      confirmText: '确定',
       success: res => {
         if (res.confirm) {
           this.data.imgList.splice(e.currentTarget.dataset.index, 1);

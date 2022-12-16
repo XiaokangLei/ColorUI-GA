@@ -1,11 +1,18 @@
 <!--pages/index/component/form/form.wxml-->
-<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="backText">返回</view>
   <view slot="content">表单</view>
 </cu-custom>
 
 <form>
-  <view class="cu-form-group margin-top">
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>
+      <text class="text-bold">输入框</text>
+    </view>
+  </view>
+
+  <view class="cu-form-group margin-top-sm">
     <view class="title">邮件</view>
     <input placeholder="两字短标题"></input>
   </view>
@@ -45,6 +52,13 @@
     </view>
   </view>
 
+  <view class="cu-bar bg-white margin-top">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>
+      <text class="text-bold">选择器</text>
+    </view>
+  </view>
+
   <view class="cu-form-group margin-top">
     <view class="title">普通选择</view>
     <picker bindchange="PickerChange" value="{{index}}" range="{{picker}}">
@@ -65,7 +79,7 @@
 
   <view class="cu-form-group">
     <view class="title">时间选择</view>
-    <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="TimeChange">
+    <picker mode="time" value="{{time}}" start="00:01" end="23:59" bindchange="TimeChange">
       <view class="picker">
         {{time}}
       </view>
@@ -74,7 +88,7 @@
 
   <view class="cu-form-group">
     <view class="title">日期选择</view>
-    <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="DateChange">
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2024-09-01" bindchange="DateChange">
       <view class="picker">
         {{date}}
       </view>
@@ -91,6 +105,13 @@
   </view>
 
   <view class="cu-bar bg-white margin-top">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>
+      <text class="text-bold">图片选择</text>
+    </view>
+  </view>
+
+  <view class="cu-bar bg-white margin-top-sm">
     <view class="action">
       图片上传
     </view>
@@ -113,17 +134,24 @@
     </view>
   </view>
 
-  <view class="cu-form-group margin-top">
+  <!-- <view class="cu-form-group margin-top">
     <view class="title">头像</view>
     <view class="cu-avatar radius bg-gray"></view>
+  </view> -->
+
+  <view class="cu-bar bg-white margin-top">
+    <view class="action">
+      <text class="cuIcon-titles text-blue"></text>
+      <text class="text-bold">多行文本输入</text>
+    </view>
   </view>
 
   <!-- !!!!! placeholder 在ios表现有偏移 建议使用 第一种样式 -->
-  <view class="cu-form-group margin-top">
+  <view class="cu-form-group margin-top-sm">
     <textarea maxlength="-1" disabled="{{modalName!=null}}" bindinput="textareaAInput" placeholder="多行文本输入框"></textarea>
   </view>
 
-  <view class="cu-form-group align-start">
+  <view class="cu-form-group align-start margin-top-sm">
     <view class="title">文本框</view>
     <textarea maxlength="-1" disabled="{{modalName!=null}}" bindinput="textareaBInput" placeholder="多行文本输入框"></textarea>
   </view>

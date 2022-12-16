@@ -87,7 +87,7 @@ Page({
    * @param {*} time 
    * @param {*} fun 
    */
-  setShow(status, message, time = 1500, fun = false) {
+  setShow(status, message, time = 2000, fun = false) {
     if (loading) {
       return
     }
@@ -124,7 +124,7 @@ Page({
     this.setShow("error", "提交失败");
   },
   click3() {
-    this.setShow("success", "时间为5秒", 5000);
+    this.setShow("success", "停留时间5秒", 5000);
   },
   click4() {
     this.setShow("success", "提交成功，我们将在1个工作日内通知您", 3000, true);
@@ -159,7 +159,7 @@ Page({
    * @param {*} messageTop 
    * @param {*} timeTop 
    */
-  setShowTop(statusTop, messageTop, timeTop = 2000) {
+  setShowTop(statusTop, messageTop, timeTop = 3000) {
     if (loadingTop) {
       return
     }

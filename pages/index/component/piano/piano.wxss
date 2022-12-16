@@ -3,19 +3,9 @@
   display: none !important;
 }
 
-.wrapper {
-  display: flex;
-  margin: 30rpx auto;
-  width: 720rpx;
-  overflow: hidden;
-  padding: 15rpx;
-}
-
 .text {
   overflow: hidden;
-  text-overflow: ellipsis;
   text-align: justify;
-  position: relative;
   line-height: 40rpx;
   max-height: 160rpx;
 }
@@ -30,20 +20,13 @@
   position: relative;
   float: right;
   clear: both;
-  margin-left: 20rpx;
-  font-size: 25rpx;
-  padding: 0 12rpx;
-  background: #0081ff;
-  line-height: 42rpx;
-  border-radius: 8rpx;
-  height: 40rpx;
-  color: #fff;
 }
 
 .btn::before {
   content: '...';
   position: absolute;
-  left: -5rpx;
+  left: 4rpx;
+  font-size: 32rpx;
   color: rgb(71, 71, 71);
   transform: translateX(-100%)
 }
@@ -60,8 +43,8 @@
   content: '收起'
 }
 
+/*在展开状态下隐藏省略号*/
 .ative_label::before {
-  /*在展开状态下隐藏省略号*/
   visibility: hidden;
 }
 
@@ -69,19 +52,15 @@
   position: relative;
   float: right;
   clear: both;
-  margin-left: 20rpx;
   font-size: 25rpx;
-  padding: 0 15rpx;
-  line-height: 42rpx;
-  border-radius: 8rpx;
   height: 42rpx;
-  color: #fff;
 }
 
 .btn-icon::before {
   content: '...';
   position: absolute;
-  left: -5rpx;
+  left: 8rpx;
+  font-size: 32rpx;
   color: rgb(71, 71, 71);
   transform: translateX(-100%)
 }
