@@ -1,6 +1,5 @@
 <!--pages/index/plugin/animation/animation.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">微动画</view>
 </cu-custom>
 

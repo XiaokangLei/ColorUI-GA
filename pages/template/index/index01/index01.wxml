@@ -1,6 +1,5 @@
 <!--pages/template/index/index01/index01.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">首页01模板</view>
 </cu-custom>
 

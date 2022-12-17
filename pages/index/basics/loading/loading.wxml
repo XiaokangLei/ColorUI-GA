@@ -1,6 +1,5 @@
 <!--pages/index/basics/loading/loading.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">加载</view>
   <view class="action" slot="right">
     <view class="cu-load load-icon {{!isLoad?'loading':'over'}}"></view>

@@ -1,6 +1,5 @@
 <!--pages/index/plugin/overturn/overturn.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">卡片翻转</view>
 </cu-custom>
 

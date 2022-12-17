@@ -1,6 +1,5 @@
 <!--pages/index/basics/checkbox/checkbox.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">复选框</view>
 </cu-custom>
 

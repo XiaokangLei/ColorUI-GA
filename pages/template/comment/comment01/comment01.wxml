@@ -1,6 +1,5 @@
 <!--pages/template/comment/comment01/comment01.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">评论页01模板</view>
 </cu-custom>
 

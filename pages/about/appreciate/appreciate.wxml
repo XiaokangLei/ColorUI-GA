@@ -1,6 +1,5 @@
 <!--pages/about/appreciate/appreciate.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">致谢</view>
 </cu-custom>
 

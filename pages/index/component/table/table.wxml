@@ -1,6 +1,5 @@
 <!--pages/index/plugin/table/table.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">表格样式</view>
 </cu-custom>
 

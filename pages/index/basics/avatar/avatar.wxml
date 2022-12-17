@@ -1,6 +1,5 @@
 <!--pages/index/basics/avatar/avatar.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">头像</view>
 </cu-custom>
 

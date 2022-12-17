@@ -1,7 +1,6 @@
 <!--pages/index/basics/layout/layout.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
-  <view slot="content">布局Layout</view>
+  <view slot="content">布局</view>
 </cu-custom>
 
 <view class="padding-top-xxl" style="top:{{CustomBar}}px">

@@ -1,6 +1,5 @@
 <!--pages/index/plugin/design/design.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">卡片设计</view>
 </cu-custom>
 

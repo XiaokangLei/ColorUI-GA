@@ -1,6 +1,5 @@
 <!--pages/index/basics/tag/tag.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">标签</view>
 </cu-custom>
 

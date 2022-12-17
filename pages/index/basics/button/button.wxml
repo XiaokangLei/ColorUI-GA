@@ -1,6 +1,5 @@
 <!--pages/index/basics/button/button.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">按钮</view>
 </cu-custom>
 
@@ -14,7 +13,7 @@
   </navigator>
 </view>
 
-<view class="padding flex flex-wrap justify-between align-center bg-white margin-sm radius-lg">
+<view class="padding flex flex-wrap justify-between align-center bg-white margin-sm radius-df">
   <button class="cu-btn">默认</button>
   <button class="cu-btn round">圆角</button>
   <button class="cu-btn icon">
@@ -28,7 +27,7 @@
   </view>
 </view>
 
-<view class="padding flex flex-wrap justify-between align-center bg-white margin-sm radius-lg">
+<view class="padding flex flex-wrap justify-between align-center bg-white margin-sm radius-df">
   <button class="cu-btn round sm">小尺寸</button>
   <button class="cu-btn round">默认</button>
   <button class="cu-btn round lg">大尺寸</button>
@@ -126,7 +125,7 @@
 
 <view class="padding-xl bg-white margin-sm radius-lg">
   <button class="cu-btn block line-orange lg">
-    <text class="cuIcon-upload"></text>图标
+    <text class="cuIcon-upload"></text> 上传
   </button>
   <button class="cu-btn block bg-blue margin-tb-sm lg">
     <text class="cuIcon-loading2 iconfont-spin"></text> 加载</button>

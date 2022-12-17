@@ -1,6 +1,5 @@
 <!--pages/template/index/index02/index02.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">首页UI设计02</view>
 </cu-custom>
 

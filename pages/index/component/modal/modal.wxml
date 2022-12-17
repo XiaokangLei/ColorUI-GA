@@ -1,6 +1,5 @@
 <!--pages/index/component/modal/modal.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">模态窗口</view>
 </cu-custom>
 

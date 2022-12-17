@@ -1,5 +1,1 @@
 /* pages/index/component/steps/steps.wxss */
-.steps-bottom.cu-steps .cu-item .num::before {
-  content: "\e668";
-  font-family: 'iconfont';
-}

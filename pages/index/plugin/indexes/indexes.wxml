@@ -1,6 +1,5 @@
 <!--pages/index/plugin/indexes/indexes.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">索引</view>
 </cu-custom>
 
@@ -18,7 +17,7 @@
   <block wx:for="{{list}}" wx:key="item">
     <view class="padding indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">{{list[index]}}</view>
     <view class="cu-list menu-avatar no-padding">
-      <view class="cu-item" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
+      <view class="cu-item bg-white" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
         <view class="cu-avatar round lg bg-blue light">{{list[index]}}</view>
         <view class="content">
           <view class="text-black">{{list[index]}}

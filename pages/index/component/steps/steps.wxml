@@ -1,6 +1,5 @@
 <!--pages/index/component/steps/steps.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">步骤条</view>
 </cu-custom>
 
@@ -13,7 +12,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius-lg margin-sm">
+<view class="bg-white margin-xs padding radius-df margin-sm">
   <view class="cu-steps">
     <view class="cu-item {{index>basics?'':'text-red'}}" wx:for="{{basicsList}}" wx:key="item">
       <text class="cuIcon-{{item.icon}}"></text> {{item.name}}
@@ -21,7 +20,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius-lg margin-sm">
+<view class="bg-white margin-xs padding radius-df margin-sm">
   <view class="cu-steps">
     <view class="cu-item {{index>basics?'':'text-orange'}}" wx:for="{{basicsList}}" wx:key="item">
       <text class="cuIcon-{{index>basics?'title':item.icon}}"></text> {{item.name}}
@@ -29,7 +28,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius-lg margin-sm">
+<view class="bg-white margin-xs padding radius-df margin-sm">
   <view class="cu-steps steps-arrow">
     <view class="cu-item {{index>basics?'':'text-blue'}}" wx:for="{{basicsList}}" wx:key="item">
       <text class="cuIcon-{{item.icon}}"></text> {{item.name}}
@@ -46,7 +45,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-xs padding radius-lg margin-sm">
+<view class="bg-white margin-xs padding radius-df margin-sm">
   <view class="cu-steps">
     <view class="cu-item {{index>num?'':'text-blue'}}" wx:for="{{numList}}" wx:key="item">
       <text class="num {{index==2?'err':''}}" data-index="{{index + 1}}"></text> {{item.name}}

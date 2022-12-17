@@ -11,40 +11,64 @@ Page({
     canvasW: 220,
     canvasH: 220,
     data_list: [{
-        value: 0
+        value: 0,
+        lineColor:'red',
+        lineWidth: 2
       },
       {
-        value: 10
+        value: 10,
+        lineColor:'red',
+        lineWidth: 2
       },
       {
-        value: 20
+        value: 20,
+        lineColor:'red',
+        lineWidth: 2
       },
       {
-        value: 30
+        value: 30,
+        lineColor:'red',
+        lineWidth: 3
       },
       {
-        value: 40
+        value: 40,
+        lineColor:'green',
+        lineWidth: 3
       },
       {
-        value: 50
+        value: 50,
+        lineColor:'green',
+        lineWidth: 3
       },
       {
-        value: 60
+        value: 60,
+        lineColor:'green',
+        lineWidth: 3
       },
       {
-        value: 70
+        value: 70,
+        lineColor:'green',
+        lineWidth: 4
       },
       {
-        value: 80
+        value: 80,
+        lineColor:'#37c0fe',
+        lineWidth: 4
       },
       {
-        value: 90
+        value: 90,
+        lineColor:'#37c0fe',
+        lineWidth: 4
       },
       {
-        value: 100
+        value: 100,
+        lineColor:'#37c0fe',
+        lineWidth: 4
       },
       {
-        value: 101
+        value: 101,
+        lineColor:'#37c0fe',
+        lineWidth: 5
       },
     ],
   },

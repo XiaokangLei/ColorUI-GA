@@ -1,6 +1,5 @@
 <!--pages/index/plugin/rate/rate.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">评分</view>
 </cu-custom>
 

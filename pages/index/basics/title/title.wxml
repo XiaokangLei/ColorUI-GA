@@ -1,6 +1,5 @@
 <!--pages/index/basics/title/title.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">标题</view>
 </cu-custom>
 

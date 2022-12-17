@@ -1,6 +1,5 @@
 <!--pages/index/component/toast/toast.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">轻提示</view>
 </cu-custom>
 

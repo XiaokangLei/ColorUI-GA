@@ -1,6 +1,5 @@
 <!--pages/index/basics/switch/switch.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">开关</view>
 </cu-custom>
 

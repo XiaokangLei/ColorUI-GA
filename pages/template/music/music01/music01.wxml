@@ -1,6 +1,5 @@
 <!--pages/template/music/music01/music01.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">音乐播放01模板</view>
 </cu-custom>
 

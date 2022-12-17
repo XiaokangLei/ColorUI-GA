@@ -1,6 +1,5 @@
 <!--pages/index/plugin/goods/goods.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">商品滑动</view>
 </cu-custom>
 

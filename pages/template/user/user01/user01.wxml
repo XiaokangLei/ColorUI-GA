@@ -1,6 +1,5 @@
 <!--pages/template/user/user01/user01.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">个人中心01</view>
 </cu-custom>
 

@@ -1,6 +1,5 @@
 <!--pages/index/plugin/waterfall/waterfall.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">瀑布流</view>
 </cu-custom>
 

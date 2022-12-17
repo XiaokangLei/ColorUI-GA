@@ -1,6 +1,5 @@
 <!--pages/index/plugin/search/search.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">历史搜索</view>
 </cu-custom>
 

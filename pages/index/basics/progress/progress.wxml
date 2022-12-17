@@ -1,6 +1,5 @@
 <!--pages/index/basics/progress/progress.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">进度条</view>
 </cu-custom>
 
@@ -28,9 +27,9 @@
   </view>
 </view>
 
-<view class="head_box flex margin bg-white radius-lg">
+<view class="flex flex-wrap margin-sm bg-white radius-lg">
   <block wx:for="{{data_list}}" wx:key="item">
-    <canvas2d-ring type="2d" id="can{{index}}" canvasWidth="{{80}}" f_weight="bold" lineColor="{{'green'}}" value="{{item.value}}" valueColor="#333" f_size="15" lineWidth="{{3}}" title="{{'GA'}}"></canvas2d-ring>
+    <canvas2d-ring type="2d" id="can{{index}}" canvasWidth="{{80}}" f_weight="bold" lineColor="{{item.lineColor}}" value="{{item.value}}" valueColor="#333" f_size="15" lineWidth="{{item.lineWidth}}" title="{{'GA'}}"></canvas2d-ring>
   </block>
 </view>
 

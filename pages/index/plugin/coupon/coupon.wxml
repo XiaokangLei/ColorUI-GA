@@ -1,6 +1,5 @@
 <!--pages/index/plugin/coupon/coupon.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">会员卡/卡券</view>
 </cu-custom>
 

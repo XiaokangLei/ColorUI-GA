@@ -1,7 +1,1 @@
 /* pages/index/basics/button/design.wxss */
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200rpx;
-}

@@ -1,6 +1,5 @@
 <!--pages/index/basics/shadow/shadow.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">阴影</view>
 </cu-custom>
 

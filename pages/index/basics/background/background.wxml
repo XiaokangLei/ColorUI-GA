@@ -1,7 +1,6 @@
 <!--pages/index/basics/background/background.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="backText">返回</view>
-  <view slot="content">背景颜色</view>
+  <view slot="content">背景</view>
 </cu-custom>
 
 <view class="cu-bar solid-bottom bg-white">

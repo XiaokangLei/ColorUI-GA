@@ -1,6 +1,5 @@
 <!--pages/index/plugin/calendar/calendar.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack>
-  <view slot="backText">返回</view>
   <view slot="content">日历</view>
 </cu-custom>
 
@@ -10,14 +9,14 @@
   </view>
 </view>
 
-<view class="padding-tb padding-lr-sm">
-  <view class="margin-tb bg-white radius-lg">
+<view class="margin-tb padding-lr-sm">
+  <view class="bg-white radius-lg">
     <view class="bg-blue radius-lg-top text-center light title">
       <view class="text-xl" bindtap="last"><text class="cuIcon-back"></text></view>
       <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
       <view class="text-xl" bindtap="next"><text class="cuIcon-right"></text></view>
     </view>
-    <view class="main">
+    <view class="padding-xs">
       <view class="main-title">
         <view>MON</view>
         <view>TUE</view>
@@ -64,12 +63,12 @@
   <view class="cu-dialog" catchtap>
     <view class="padding-lr-xs">
       <view class="margin-tb bg-white radius-lg">
-        <view class="bg-blue radius-lg-top text-center light title">
+        <view class="bg-blue radius-lg text-center light title">
           <view class="text-xl" bindtap="last"><text class="cuIcon-back"></text></view>
           <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
           <view class="text-xl" bindtap="next"><text class="cuIcon-right"></text></view>
         </view>
-        <view class="main">
+        <view class="padding-xs">
           <view class="main-title">
             <view>MON</view>
             <view>TUE</view>

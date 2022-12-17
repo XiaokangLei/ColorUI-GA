@@ -1,6 +1,5 @@
 <!--pages/template/message/message02/message02.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="backText">返回</view>
   <view slot="content">消息列表01模板</view>
 </cu-custom>
 

@@ -1,5 +1,4 @@
 <!--pages/template/home/home.wxml-->
-
 <import src="/pages/template/common/copyright.wxml" />
 
 <cu-custom noFixed="{{true}}" isLucency="{{true}}">
