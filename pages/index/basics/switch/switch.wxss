@@ -1,11 +1,4 @@
 /* pages/index/basics/switch/switch.wxss */
-.switch-music::after {
-  content: "\e66a";
-}
-
-.switch-music::before {
-  content: "\e6db";
-}
 
 input {
   display: none;

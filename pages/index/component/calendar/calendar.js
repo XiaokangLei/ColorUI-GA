@@ -9,7 +9,9 @@ Page({
     month: 0,
     today: 0,
     space: 0,
-    week: ""
+    week: "",
+    dateString: "",
+    spot: ['2021/11/6', '2020/8/9', '2020/8/20', '2020/9/12']
   },
 
   /**
@@ -205,6 +207,11 @@ Page({
   hideModal(e) {
     this.setData({
       show: false
+    })
+  },
+  dateChange(e) {
+    this.setData({
+      dateString: e.detail.dateString
     })
   },
 })

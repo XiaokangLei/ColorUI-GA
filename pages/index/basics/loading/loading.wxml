@@ -78,40 +78,19 @@
 <view class="margin-sm bg-white radius-lg">
   <view class="box">
     <view class="loading1">
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
+      <view wx:for="{{8}}" wx:key="item"></view>
     </view>
   </view>
 
   <view class="box">
     <view class="circle-line1">
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
+      <text wx:for="{{8}}" wx:key="item"></text>
     </view>
   </view>
 
   <view class="box">
     <view class="circle-line-spin">
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
-      <text></text>
+      <text wx:for="{{8}}" wx:key="item"></text>
     </view>
   </view>
 

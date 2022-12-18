@@ -569,6 +569,14 @@ radio.radio[checked]::after {
   content: "\e71a";
 }
 
+.switch-music::after {
+  content: "\e66a";
+}
+
+.switch-music::before {
+  content: "\e6db";
+}
+
 .switch-sex .wx-switch-input {
   background: var(--red) !important;
   border-color: var(--red) !important;
@@ -780,52 +788,42 @@ radio.white[checked] .wx-radio-input {
 
 checkbox.red .wx-checkbox-input{
 	border-color: var(--red) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.orange .wx-checkbox-input{
 	border-color: var(--orange) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.blue .wx-checkbox-input{
 	border-color: var(--blue) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.green .wx-checkbox-input{
 	border-color: var(--green) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.yellow .wx-checkbox-input{
 	border-color: var(--yellow) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.olive .wx-checkbox-input{
 	border-color: var(--olive) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.cyan .wx-checkbox-input{
 	border-color: var(--cyan) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.purple .wx-checkbox-input{
 	border-color: var(--purple) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.mauve .wx-checkbox-input{
 	border-color: var(--mauve) !important;
-	border: 3px solid #ddd;
 }
 
 checkbox.pink .wx-checkbox-input{
 	border-color: var(--pink) !important;
-	border: 3px solid #ddd;
 }
 
 /* ==================

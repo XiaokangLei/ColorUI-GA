@@ -96,6 +96,20 @@
   </view>
 </view>
 
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>日历样式二
+  </view>
+</view>
+
+<calendar bind:change="dateChange" spot="{{spot}}" defaultTime=""></calendar>
+<!-- <view class="date-string">当前选中的日期是：{{dateString}}</view> -->
+<view class="padding-sm">
+  <view class="padding-lg text-center shadow-blur l-card">
+    选中日期为：{{dateString}}
+  </view>
+</view>
+
 <import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
   <template is="copyright"></template>
