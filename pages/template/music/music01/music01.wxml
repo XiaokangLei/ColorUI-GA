@@ -14,7 +14,7 @@
         <view class="flex justify-center cuIcon-more text-blace"></view>
       </view>
     </view>
-    <view class="bg-white padding-bottom radius-xl" style="margin-top:260rpx;z-index: -1;height:900rpx">
+    <view class="bg-white padding-bottom radius-xl" style="margin-top:320rpx;z-index: -1;height:960rpx">
       <view style="padding-top:300rpx">
         <view class="text-xl text-black text-center">降E大调第1三重奏鸣曲</view>
         <view class="text-center padding-top-sm"><text class="text-sm text-gray text-center">Trio Sonata for organ No. 1 in E fat major</text></view>
@@ -39,8 +39,8 @@
             <view class="margin-left text-xxxl text-black flex align-center"><text class="cuIcon-play_forward_fill"></text></view>
           </view>
         </view>
-        <view class="padding-lr-xs margin-xxl">
-          <view class="shadow-blur bg-img radius-lg" style="background-image: url('https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1');height: 540rpx;margin-top:-1180rpx;z-index:99;position:relative;"></view>
+        <view class="padding-lr margin-xxl">
+          <view class="shadow-blur bg-img radius-lg" style="background-image: url('https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1');height: 560rpx;margin-top:-1200rpx;z-index:99;position:relative;"></view>
         </view>
       </view>
     </view>

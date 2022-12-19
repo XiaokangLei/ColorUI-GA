@@ -61,7 +61,7 @@
   </view>
 </view>
 
-<view class="cu-form-group margin-top margin-lr-sm radius-lg">
+<view class="cu-form-group margin-top margin-lr-sm radius-df">
   <view class="title">当前值：{{sex}}</view>
   <switch class="switch-sex" bindchange="switchSex"></switch>
 </view>
@@ -72,7 +72,7 @@
   </view>
 </view>
 
-<view class="flex justify-center margin-sm bg-white padding-sm radius-lg">
+<view class="flex justify-center margin-sm bg-white padding-sm radius-df">
   <view catchtap="click">
     <input id="egg-toggle" type="checkbox" />
     <label for="egg-toggle">

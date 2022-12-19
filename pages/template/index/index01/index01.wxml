@@ -4,30 +4,28 @@
 </cu-custom>
 
 <!-- 页面 -->
-<view class="scrollPage cu-timeline margin-sm radius-lg">
+<view class="cu-timeline margin-sm radius-lg">
 
   <view class="box-serach">
     <view class="cu-bar search bg-white radius-lg">
       <view class="action text-black">
-        <text>重庆</text>
+        <text>北京</text>
         <text class="cuIcon-triangledownfill"></text>
       </view>
       <view class="search-form round">
         <text class="cuIcon-search"></text>
         <input type="text" placeholder="报酬高" confirm-type="search"></input>
       </view>
-      <view class="flex padding-sm text-xxl text-black"><text class="cuIcon-message"></text></view>
-
+      <view class="flex padding-sm text-xxl text-black">
+        <text class="cuIcon-message"></text>
+      </view>
     </view>
   </view>
 
-  <view class="margin-lr-xs">
-
-  </view>
   <!-- 滚动图片 -->
-  <swiper class="screen-swiper margin {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper class="screen-swiper margin-lr-sm {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
     <swiper-item wx:for="{{swiperList}}" wx:key="item">
-      <image src="{{item.url}}" class="radius-df" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <image src="{{item.url}}" class="radius" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
       <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
     </swiper-item>
   </swiper>
@@ -48,49 +46,21 @@
     <text class="text-lg text-gray">更多任务<text class="cuIcon-right"></text></text>
   </view>
 
-  <view class="flex margin-lr padding-top-xs justify-between">
-    <view class="flex">
-      <text class="text-xl text-black">找人来帮我搬家</text>
-      <view class="cu-tag bg-orange sm radius">金牌雇主</view>
+  <view class="margin-lr" wx:for="{{newList}}" wx:key="item">
+    <view class="flex padding-top-xs justify-between">
+      <view class="flex">
+        <text class="text-xl text-black">{{item.title}}</text>
+        <view class="cu-tag bg-orange sm radius" wx:if="{{item.tag}}">{{item.tag}}</view>
+      </view>
+      <text class="text-xxl text-red"><text class="text-bold">{{item.pay}}</text><text class="text-gray text-lg">/时</text></text>
     </view>
-    <text class="text-xxl text-red"><text class="text-bold">60</text><text class="text-gray text-lg">/时</text></text>
-  </view>
-  <view class="flex margin-lr padding-bottom-sm justify-start">
-    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
-    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 3~5小时</text>
-  </view>
-  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
-    <view class="cu-tag line-blue radius">高信用</view>
-    <view class="cu-tag line-blue radius">加急</view>
-  </view>
-
-  <view class="flex margin-lr padding-top-xs justify-between">
-    <view class="flex">
-      <text class="text-xl text-black">明天需要一台车,有没有闲的</text>
+    <view class="flex padding-bottom-sm justify-start">
+      <text class="text-gray"><text class="cuIcon-location"></text> {{item.location}}</text>
+      <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> {{item.time}}</text>
     </view>
-    <text class="text-xxl text-red"><text class="text-bold">100</text><text class="text-gray text-lg">/时</text></text>
-  </view>
-  <view class="flex margin-lr padding-bottom-sm justify-start">
-    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
-    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 24小时</text>
-  </view>
-  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
-    <view class="cu-tag line-blue radius">高信用</view>
-    <view class="cu-tag line-blue radius">高报酬</view>
-  </view>
-
-  <view class="flex margin-lr padding-top-xs justify-between">
-    <view class="flex">
-      <text class="text-xl text-black">急找|附近有没有要打游戏的？</text>
+    <view class="flex solid-bottom padding-bottom justify-start">
+      <view class="cu-tag line-blue radius" wx:for="{{item.tagList}}" wx:key="item">{{item}}</view>
     </view>
-    <text class="text-xxl text-red"><text class="text-bold">5</text><text class="text-gray text-lg">/时</text></text>
-  </view>
-  <view class="flex margin-lr padding-bottom-sm justify-start">
-    <text class="text-gray"><text class="cuIcon-location"></text> 江北·五里店</text>
-    <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> 2小时</text>
-  </view>
-  <view class="flex solid-bottom margin-lr padding-bottom justify-start">
-    <view class="cu-tag line-blue radius">高信用</view>
   </view>
 
 </view>

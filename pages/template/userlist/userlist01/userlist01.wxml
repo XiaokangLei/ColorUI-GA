@@ -4,7 +4,7 @@
 </cu-custom>
 
 <scroll-view scroll-y class="indexes">
-  <view class="bg-white margin-top-sm margin-xs radius-lg">
+  <view class="bg-white margin-xs radius-lg">
     <block wx:for="{{list}}" wx:key="item">
       <view class="flex padding-tb-sm">
         <view class="flex-treble">

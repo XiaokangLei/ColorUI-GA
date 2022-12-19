@@ -16,7 +16,7 @@
       </view>
     </view>
 
-    <view class="cu-list menu-avatar padding-tb-sm solid-bottom">
+    <view class="cu-list menu-avatar padding-bottom-sm solid-bottom">
       <!-- 个人信息：头像、昵称、日期和会员等级 -->
       <view class="cu-item">
         <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
@@ -89,7 +89,7 @@
       </view>
     </view>
 
-    <view class="cu-list menu-avatar padding-tb-sm solid-bottom">
+    <view class="cu-list menu-avatar padding-bottom solid-bottom">
       <!-- 个人信息：头像、昵称、日期和会员等级 -->
       <view class="cu-item">
         <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);"></view>

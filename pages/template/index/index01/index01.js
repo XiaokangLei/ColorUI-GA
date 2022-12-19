@@ -47,6 +47,28 @@ Page({
       name: '排行榜',
       bindtap: "bindPoint"
     }],
+    newList: [{
+      title: "制定同频色板",
+      tag: "金牌雇主",
+      location: "江北·五里店",
+      pay: "60",
+      time: "3~5小时",
+      tagList: ["高信用", "加急"]
+    }, {
+      title: "制定同色系色阶",
+      tag: "",
+      location: "江北·五里店",
+      pay: "100",
+      time: "24小时",
+      tagList: ["高信用", "高报酬"]
+    }, {
+      title: "UI辅助色彩校正",
+      tag: "",
+      location: "江北·五里店",
+      pay: "5",
+      time: "2小时",
+      tagList: ["高信用"]
+    }]
 
   },
 

@@ -4,22 +4,22 @@
 </cu-custom>
 
 <!-- 页面 -->
-<view class="scrollPage bg-white margin-sm radius-lg">
+<view class="bg-white margin-sm radius-lg">
   <!-- 顶部个人信息 -->
-  <view class="bg-white margin-lr-xs radius-lg">
-    <view class="flex padding justify-between">
+  <view class="bg-white radius-lg">
+    <view class="flex padding-sm justify-between">
       <view class="padding-xs text-xxl text-black">
         <view>张子栋<text class="text-gray text-df"> / 平台运营</text></view>
-        <view class="text-gray text-df padding-top">北京仓颉数源网络文化有限公司</view>
+        <view class="text-gray text-df padding-top-sm">北京仓颉数源网络文化有限公司</view>
       </view>
-      <view class="padding-lr-xs">
+      <view class="">
         <view class="cu-avatar xl round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
         </view>
       </view>
     </view>
   </view>
   <!-- 基本数据 -->
-  <view class="cu-list grid col-4 no-border padding-lr-xs margin-sm radius-lg padding-top-xs">
+  <view class="cu-list grid col-4 no-border padding-xs">
     <view class="cu-item">
       <view class="text-black text-bold text-xxl">
         500
@@ -46,7 +46,7 @@
     </view>
   </view>
   <!-- 助力/推荐/邀请 -->
-  <view class="margin-top-xs padding-lr">
+  <view class="margin-top-xs padding-lr-sm">
     <view class="bg-gradual-pinknew radius-lg shadow-blur">
       <view class="flex padding-sm justify-between">
         <view class="padding-xs text-xxl">
@@ -100,7 +100,7 @@
     </view>
   </view>
   <!-- 常用功能 -->
-  <view class="cu-bar margin-top">
+  <view class="cu-bar margin-top-sm">
     <view class="action">
       <text class="text-xl">常用功能</text>
     </view>
@@ -116,7 +116,7 @@
     </view>
   </view>
   <!-- 其他功能 -->
-  <view class="cu-bar margin-top">
+  <view class="cu-bar margin-top-xs">
     <view class="action">
       <text class="text-xl">其他功能</text>
     </view>

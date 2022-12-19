@@ -60,7 +60,7 @@
   </view>
 </view>
 
-<view class="cu-form-group margin-top margin-sm bg-white radius-lg">
+<view class="cu-form-group margin-top margin-sm bg-white radius-df">
   <checkbox class="orange"></checkbox>
   <checkbox class="green"></checkbox>
   <checkbox class="blue"></checkbox>

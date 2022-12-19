@@ -74,12 +74,12 @@ Component({
         color: 'green light',
         icon: 'myfill'
       },
-      // {
-      //   title: '教育学习',
-      //   name: 'education',
-      //   color: 'orange light',
-      //   icon: 'discover'
-      // },
+      {
+        title: '读书学习',
+        name: 'education',
+        color: 'orange light',
+        icon: 'discover'
+      },
       // {
       //   title: '运动健身',
       //   name: 'shadow',

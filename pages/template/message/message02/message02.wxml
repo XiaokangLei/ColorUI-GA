@@ -1,6 +1,6 @@
 <!--pages/template/message/message02/message02.wxml-->
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="content">消息列表01模板</view>
+  <view slot="content">消息列表02模板</view>
 </cu-custom>
 
 <view class="">
@@ -19,10 +19,10 @@
               </view>
             </view>
           </view>
-          <view class="padding-sm text-xxxl">
+          <view class="padding-sm text-xxl">
             <view class="flex justify-center cuIcon-friend text-blace"></view>
           </view>
-          <view class="padding-sm text-xxxl">
+          <view class="padding-sm text-xxl">
             <view class="flex justify-center cuIcon-settings text-blace"></view>
           </view>
         </view>

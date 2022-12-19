@@ -9,7 +9,7 @@
   </view>
 </view>
 
-<view class="flex justify-around padding bg-white margin-sm radius-lg">
+<view class="flex justify-around padding bg-white margin-sm radius-df">
   <view class="cu-tag margin-right">默认</view>
   <view class="cu-tag round margin-right">椭圆</view>
   <view class="cu-tag radius margin-right">圆角</view>
@@ -21,7 +21,7 @@
   </view>
 </view>
 
-<view class="padding bg-white margin-sm radius-lg flex justify-around">
+<view class="padding bg-white margin-sm radius-df flex justify-around">
   <view class="cu-tag radius sm margin-right">小尺寸</view>
   <view class="cu-tag radius margin-right">普通尺寸</view>
 </view>
@@ -162,7 +162,7 @@
   </view>
 </view>
 
-<view class="bg-white margin-sm radius-lg">
+<view class="bg-white margin-sm radius-df">
   <view class="cu-list grid col-4 no-border margin-sm">
     <view class="cu-item" wx:for="{{iconList}}" wx:key="item">
       <view class="cuIcon-{{item.icon}} text-{{item.color}}">

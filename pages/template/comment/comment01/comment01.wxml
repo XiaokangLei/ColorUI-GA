@@ -5,28 +5,28 @@
 
 <view class="scrollPage">
   <view class="bg-white margin-xs radius-lg">
-    <view class="flex padding-sm justify-between">
+    <view class="flex padding-tb-sm padding-lr-xs justify-between">
       <view class="flex">
         <view class="padding-right-sm text-xxl padding-top-xs">
           <text class="cuIcon-back_android text-black"></text>
         </view>
         <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
         </view>
-        <view class="padding-lr-xs text-xl text-black">
+        <view class="padding-lr-xs text-xl text-black flex justify-center align-center">
           <view>yiche朱涛</view>
         </view>
       </view>
-      <view class="flex text-xxl">
-        <view class="cu-btn round bg-blue margin-right-xs"><text class="cuIcon-add"> 关注</text></view>
-        <view class="cuIcon-more text-black padding-top-xs"></view>
+      <view class="flex text-xxl justify-center align-center">
+        <view class="cu-btn round bg-blue sm margin-right-xs"><text class="cuIcon-add"> 关注</text></view>
+        <view class="cuIcon-more text-black"></view>
       </view>
     </view>
-    <view class="cu-bar margin-top-sm">
-      <view class="text-black text-xxl padding-lr">
+    <view class="cu-bar">
+      <view class="text-black text-xxl padding-lr-sm">
         热门评论
       </view>
     </view>
-    <view class="cu-list menu-avatar no-padding">
+    <view class="cu-list menu-avatar">
       <view class="cu-item">
         <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content">

@@ -73,7 +73,8 @@
     "pages/index/plugin/skeleton/skeleton",
     "pages/index/plugin/design/design",
     "pages/index/plugin/design/choiseEmoji/choiseEmoji",
-    "pages/template/education/home/home"
+    "pages/template/education/home/home",
+    "pages/template/education/education01/education01"
   ],
   "window": {
     "backgroundTextStyle": "light",
