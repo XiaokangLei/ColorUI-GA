@@ -6,19 +6,19 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 **如果本项目能为您提供帮助，请右上角star给予支持！**
 
-## 文档
+## 文档&在线预览
 
-- 在线预览：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+***注意：个别预览样式与真机存在少许差距，以小程序客户端实际样式为准***
+
+- 在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
 - 文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)【努力更新中...】
-- 小程序预览
+- 微信扫描预览（或微信小程序搜索ColorUI GA）
 
 <div align=center>
   <img width="160px" style="border-radius: 5%;" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
 </div>
 
 ## 待办
-
-***注意：个别预览样式与真机存在少许差距，以小程序客户端实际样式为准*** 
 
 - [ ] 长期：模板设计（每周上新1-2个模板），当前UI模板个数：12
 - [ ] 长期：样式调整与设计。大小、颜色、padding、margin等
@@ -53,6 +53,7 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 - 1、下载 [源码](https://github.com/XiaokangLei/ColorUI-GA) 并解压，复制`/colorui`文件夹到项目根目录
 - 2、`app.wxss`引入关键css：`main.wxss`,`icon.wxss`
+- 3、【注意】部分样式需要page中的wxss样式一起使用才能看到完整效果，请注意查看源码
 
 ```js
 // 根目录 app.wxss 文件

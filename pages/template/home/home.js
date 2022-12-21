@@ -75,7 +75,7 @@ Component({
         icon: 'myfill'
       },
       {
-        title: '读书学习',
+        title: '书籍学习',
         name: 'education',
         color: 'orange light',
         icon: 'discover'
