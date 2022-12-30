@@ -107,10 +107,8 @@ Page({
   },
   createDay() {
     let day = [];
-    let time = new Date();
-    time.setMonth(this.data.month);
-    time.setDate(0);
-    let len = time.getDate();
+    let time = new Date(this.data.year, this.data.month, 0)
+    let len = time.getDate()
     for (let i = 1; i <= len; i++) {
       time.setDate(i);
       // 获取农历日期
@@ -148,7 +146,7 @@ Page({
     this.getSpace();
     this.createDay();
     this.check();
-    // this.emit();
+    this.emit();
   },
   // 今月选择31，下月只有30，那么选择的today更改为30
   check() {
@@ -228,7 +226,7 @@ Page({
       case 6:
         return '六';
       case 0:
-        return '七';
+        return '日';
     }
   },
   setShow() {
