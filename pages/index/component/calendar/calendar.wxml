@@ -28,8 +28,10 @@
       </view>
       <view class="main-center">
         <view wx:for="{{space}}" wx:key="item"></view>
-        <view wx:for="{{day}}" wx:key="item" data-today="{{item}}" bindtap="click" class="{{today == item? 'bg-blue padding radius light text-bold' : ''}}">
-          {{item}}
+        <view wx:for="{{day}}" wx:key="item" data-today="{{item.day}}" bindtap="click" class="{{today == item.day? 'bg-blue padding radius light text-bold' : ''}}" style="height: 76rpx;">
+          <view class="flex flex-wrap">{{item.day}}
+            <view class="text-xs" style="margin-top: -10rpx; padding-bottom: 6rpx;">{{item.lunar}}</view>
+          </view>
         </view>
       </view>
     </view>
@@ -39,7 +41,7 @@
 <view class="grid col-1 bg-white margin-bottom margin-lr-sm radius-lg">
   <view class="padding-sm">
     <view class="padding-lg text-center shadow-blur l-card">
-      选中日期为：<text class="text-blue">{{year}}</text> 年 <text class="text-blue">{{month}}</text> 月 <text class="text-blue">{{today}}</text> 日，周<text class="text-blue">{{week}}</text>
+      选中日期为：<text class="text-blue">{{year}}</text> 年 <text class="text-blue">{{month}}</text> 月 <text class="text-blue">{{today}}</text> 日，周<text class="text-blue">{{week}}</text>, 农历：<text class="text-blue">{{lunarDate}}</text>
     </view>
   </view>
 </view>
@@ -80,9 +82,11 @@
           </view>
           <view class="main-center-mini">
             <view wx:for="{{space}}" wx:key="item"></view>
-            <view wx:for="{{day}}" wx:key="item" data-today="{{item}}" bindtap="click" class="{{today == item? 'bg-blue padding radius light text-bold' : ''}}">
-              {{item}}
-            </view>
+            <view wx:for="{{day}}" wx:key="item" data-today="{{item.day}}" bindtap="click" class="{{today == item.day? 'bg-blue padding radius light text-bold' : ''}}" style="height: 76rpx;">
+          <view class="flex flex-wrap">{{item.day}}
+            <view class="text-xs" style="margin-top: -10rpx; padding-bottom: 6rpx;">{{item.lunar}}</view>
+          </view>
+        </view>
           </view>
         </view>
       </view>
@@ -96,7 +100,7 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white">
+<view class="cu-bar bg-white margin-top">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>日历样式二
   </view>
