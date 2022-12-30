@@ -44,6 +44,7 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 - [X] 【扩展样式】骨架屏样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/skeleton)
 - [X] 【扩展样式】卡片设计 【无预览】【请在小程序端查看】
 - [X] 【扩展样式】Emoji(卡片设计中已集成) 【无预览】【请在小程序端查看】
+- [X] 【组件设计】日历样式新增农历 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/calendar)
 - [ ] 头像右下角标签设计
 - [ ] 广告条设计
 - [ ] 倒计时
@@ -118,6 +119,18 @@ onLaunch: function() {
 | backText |            返回时的文字            |
 | content  |              中间区域              |
 | right    | 右侧区域(小程序端可使用范围很窄！)   |
+
+## 导航收录
+
+- Iconfont 阿里巴巴矢量图标: <https://www.iconfont.cn/>
+- 谷歌压缩图片: <https://squoosh.app/>
+- tinypng图片压缩: <https://tinypng.com/>
+- ezgif图片视频处理神器: <https://ezgif.com/>
+- 渐变配色: <https://webgradients.com/>
+- 在线抠图: <https://www.remove.bg/>
+- 新拟态生成: <https://yousiqiexing.com/softui>
+- 美叶UI参考: <https://www.meiye.art/inspiration>
+- 200+免费格式转换: <https://www.alltoall.net/>
 
 ## 致谢
 
