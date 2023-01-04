@@ -1,19 +1,11 @@
-// pages/template/education/home/home.js
+// pages/template/education/education02/education02.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    elements: [{
-      title: '未知',
-      name: 'education01',
-      url: 'https://image.meiye.art/FmLFwcasCk8AdQVo_RKCIXRzNLlk?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      title: '未知',
-      name: 'education02',
-      url: 'https://image.meiye.art/Fsc2hoRcsbBFKeDUfX8AgZQCL4Y9?imageMogr2/thumbnail/450x/interlace/1'
-    }],
+
   },
 
   /**

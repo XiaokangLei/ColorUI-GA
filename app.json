@@ -74,7 +74,8 @@
     "pages/index/plugin/design/design",
     "pages/index/plugin/design/choiseEmoji/choiseEmoji",
     "pages/template/education/home/home",
-    "pages/template/education/education01/education01"
+    "pages/template/education/education01/education01",
+    "pages/template/education/education02/education02"
   ],
   "window": {
     "backgroundTextStyle": "light",

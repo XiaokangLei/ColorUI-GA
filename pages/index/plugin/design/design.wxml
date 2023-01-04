@@ -8,9 +8,8 @@
   <view class="grid col-1 padding-sm">
     <view class="padding-sm">
       <view class="bg-{{bg_color}} padding-sm radius-lg text-center light">
-        <view class="flex padding-sm justify-between">
-          <view class="padding-xs radius text-xsl">{{emoji}}
-          </view>
+        <view class="flex padding-xs justify-between">
+          <view class="text-xsl">{{emoji}}</view>
           <view>
             <view class="padding-xs radius text-right " style="margin-top: -20rpx;">
               <text>{{date}}</text>
@@ -34,13 +33,13 @@
     <!-- 选配色 -->
     <view class="grid col-1 margin-bottom text-center">
       <view class="flex">
-        <view>
-          <view class="text-sm padding-top-xs">浅色</view>
-          <view class="text-sm padding-top">深色</view>
+        <view class="padding-left-sm">
+          <view class="text-df padding-top-xs">浅色</view>
+          <view class="text-df padding-top-sm">深色</view>
         </view>
         <checkbox-group class="flex-sub radius" bindchange="checkboxChange">
           <label class="margin-xs" wx:for="{{checkboxItems}}" wx:key="value">
-            <checkbox class="round {{item.name}}" value="{{item.value}}" checked="{{item.checked}}" />
+            <checkbox class="round padding-bottom-xs {{item.name}}" value="{{item.value}}" checked="{{item.checked}}" />
           </label>
         </checkbox-group>
       </view>

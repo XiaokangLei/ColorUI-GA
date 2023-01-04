@@ -18,6 +18,18 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
   <img width="160px" style="border-radius: 5%;" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
 </div>
 
+## 模板
+
+最近更新：2023/1/4，预览地址：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+
+- 首页UI设计模板：2个
+- 个人中心UI设计模板：2个
+- 用户列表UI设计模板：2个
+- 评论页UI设计模板：3个
+- 消息列表UI设计模板：2个
+- 音乐播放UI设计模板：1个
+- 书籍学习UI设计模板：2个
+
 ## 待办
 
 - [ ] 长期：模板设计（每周上新1-2个模板），当前UI模板个数：12
@@ -131,18 +143,15 @@ onLaunch: function() {
 - 新拟态生成: <https://yousiqiexing.com/softui>
 - 美叶UI参考: <https://www.meiye.art/inspiration>
 - 200+免费格式转换: <https://www.alltoall.net/>
+- 50种高质量渐变配色案例: <https://svggradients.com/>
 
 ## 致谢
 
-ColorUI: <https://github.com/weilanwl/ColorUI>
-
-Lin-UI: <https://github.com/TaleLin/lin-ui>
-
-Vant: <https://github.com/vant-ui/vant-weapp>
-
-MeiYe: <https://www.meiye.art/inspiration>
-
-WxminiDemo: <https://gitee.com/susuhhhhhh/wxmini_demo>
+- ColorUI: <https://github.com/weilanwl/ColorUI>
+- Lin-UI: <https://github.com/TaleLin/lin-ui>
+- Vant: <https://github.com/vant-ui/vant-weapp>
+- MeiYe: <https://www.meiye.art/inspiration>
+- WxminiDemo: <https://gitee.com/susuhhhhhh/wxmini_demo>
 
 ## 支持
 

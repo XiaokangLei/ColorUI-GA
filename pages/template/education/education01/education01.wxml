@@ -3,9 +3,7 @@
   <view slot="content">书籍学习01模板</view>
 </cu-custom>
 
-<!-- 页面 -->
 <view class="">
-  <!-- 顶部个人信息 -->
   <view class="bg-white margin-xs radius-lg">
     <view class="flex padding-xs justify-between">
       <view class="flex">
@@ -22,7 +20,6 @@
         <view class="cuIcon-forward text-black padding-top-xs"></view>
       </view>
     </view>
-
     <view class="flex margin-lr-sm padding-tb justify-start">
       <view class="bg-img radius margin-lr-xs" style="background-image: url('https://image.meiye.art/pic_CYD_28h6ew2rYJFmR9Neh?imageMogr2/thumbnail/450x/interlace/1');height: 230rpx; width: 160rpx;">
       </view>
