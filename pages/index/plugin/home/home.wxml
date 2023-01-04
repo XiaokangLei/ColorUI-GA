@@ -35,7 +35,7 @@
       <view class="nav-title">{{item.title}}</view>
       <view class="flex">
         <view class="flex-sub nav-name">{{item.name}}</view>
-        <view class="flex-twice nav-des text-right align-end">
+        <view class="flex-sub nav-des text-right align-end">
           扩展
         </view>
       </view>

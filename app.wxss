@@ -95,7 +95,7 @@
   height: 6rpx;
   background: #fff;
   bottom: 0;
-  right: 0;
+  left: 0;
   opacity: 0.5;
 }
 
@@ -103,7 +103,7 @@
   content: "";
   position: absolute;
   display: block;
-  width: 100rpx;
+  width: 90rpx;
   height: 1px;
   background: #fff;
   bottom: 0;

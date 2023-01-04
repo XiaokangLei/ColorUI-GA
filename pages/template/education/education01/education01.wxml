@@ -15,7 +15,7 @@
       </view>
       <view class="flex">
         <view class="padding-tb-xs text-lg text-black">
-          <view>电子书  </view>
+          <view>电子书 </view>
         </view>
       </view>
       <view class="flex text-xxl">
@@ -23,142 +23,74 @@
       </view>
     </view>
 
-    <view class="flex margin-lr-sm padding-tb justify-between">
-      <text class="text-xl text-black">回复<text class="text-gray text-lg"> 12</text></text>
-      <text class="text-lg text-gray">默认排序<text class="cuIcon-sort"></text></text>
+    <view class="flex margin-lr-sm padding-tb justify-start">
+      <view class="bg-img radius margin-lr-xs" style="background-image: url('https://image.meiye.art/pic_CYD_28h6ew2rYJFmR9Neh?imageMogr2/thumbnail/450x/interlace/1');height: 230rpx; width: 160rpx;">
+      </view>
+      <view class="text-black margin-left-sm" style="width: 480rpx;">
+        <view class="text-right">
+          <view class="cu-avatar round bg-black">書</view>
+        </view>
+        <view class="text-left margin-top-sm">
+          <text class="text-xl text-black text-bold">聪明人的才华战略</text>
+        </view>
+        <view class="text-left margin-top-xs">
+          <text class="text-black">你多才多艺却一事无成的人生，需要一份才华战略来拯救！</text>
+        </view>
+      </view>
     </view>
 
-    <view class="cu-list menu-avatar">
-      <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
+    <view class="padding-tb solid-bottom">
+      <view class="flex text-center bg-white">
+        <view class="flex flex-sub flex-direction">
+          <view class="text-xl text-black text-bold">14.2万</view>
+          <view class="margin-top-xs text-sm text-gray">
+            字数
+          </view>
+        </view>
+        <view class="flex flex-sub flex-direction">
+          <view class="text-xl text-black text-bold">5.8MB</view>
+          <view class="margin-top-xs text-sm text-gray">
+            文件大小
+          </view>
+        </view>
+        <view class="flex flex-sub flex-direction">
+          <view class="text-xl text-black text-bold">754</view>
+          <view class="margin-top-xs text-sm text-gray">
+            阅读次数
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="margin-tb-sm margin-left text-black text-bold text-lg">
+      作者
+    </view>
+
+    <view class="cu-list menu margin-tb-lg padding-bottom solid-bottom">
+      <view class="cu-item arrow" style="height: 120rpx;">
         <view class="content">
-          <view class="text-lg text-bold">蓝冰雪</view>
-          <view class="text-gray text-sm">8小时前</view>
+          <image src="https://image.meiye.art/pic__Y1hiTPzdjSL1bvsUODgK?imageMogr2/thumbnail/450x/interlace/1" class="png radius" style="height: 120rpx;width: 100rpx;"></image>
+          <text class="text-black text-bold padding-lr-sm">莱昂纳多·洛斯佩纳托</text>
         </view>
-        <view class="action text-xxl">
-          <view class="cuIcon-more"></view>
-        </view>
-      </view>
-      <view class="margin-left padding-left-xl text-black">
-        <view class="margin-lr padding-left">
-          <text>不错，你还得研发一个可以让怪站着给你打的连招</text>
-        </view>
-        <view class="margin-left-xl margin-right padding-lr bg-gray radius">
-          <view class="margin-tb-xs padding-tb-sm bg-gray">
-            <text class="text-blue">Amini：</text>
-            <text class="text-black">这不是?</text>
-          </view>
-        </view>
-      </view>
-      <view class="flex solid-bottom padding-lr padding-tb-sm justify-end">
-        <view class="action text-xl text-black">
-          <view class="cuIcon-comment"></view>
-        </view>
-        <text class="text-gray">回复</text>
-        <view class="action text-xl text-black margin-left">
-          <view class="cuIcon-appreciate"></view>
-        </view>
-        <text class="text-gray">赞</text>
-        <view class="action text-xl text-black margin-left">
-          <view class="cuIcon-footprint"></view>
-        </view>
-        <text class="text-gray">踩</text>
       </view>
     </view>
 
-    <view class="cu-list menu-avatar no-padding">
-      <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1);"></view>
+    <view class="cu-list menu margin-tb-lg padding-bottom solid-bottom">
+      <view class="cu-item arrow" style="height: 120rpx;">
         <view class="content">
-          <view class="text-lg text-bold">wendy</view>
-          <view class="text-gray text-sm">7-31</view>
-        </view>
-        <view class="action text-xxl">
-          <view class="cuIcon-more"></view>
-        </view>
-      </view>
-      <view class="margin-left padding-left-xl text-black">
-        <view class="margin-lr padding-left">
-          <text>我崛起原版太刀开荒打到毕业就是用的你说的大连招樱花。一般就是起手拔刀二连斩-纳刀-大居合(小居合) -樱花-纳刀-大居合-樱花-纳刀-小居合-体操-纳刀-大居合-体操...</text>
-        </view>
-        <view class="margin-left-xl margin-right padding-lr bg-gray radius">
-          <view class="margin-tb-xs padding-tb-sm bg-gray">
-            <text class="text-blue">L.</text>
-            <view class="cu-tag bg-blue light round sm">作者</view>
-            <text class="text-blue">：</text>
-            <text class="text-black">冷却太长</text>
+          <view class="icon-plant text-black text-bold">
+            <text class="text-black text-bold padding-lr-sm">免费试读</text>
           </view>
-        </view>
-        <view class="flex solid-bottom padding-lr padding-tb-sm justify-end">
-          <view class="action text-xl text-black">
-            <view class="cuIcon-comment"></view>
-          </view>
-          <text class="text-gray">回复</text>
-          <view class="action text-xl text-black margin-left">
-            <view class="cuIcon-appreciate"></view>
-          </view>
-          <text class="text-gray">赞</text>
-          <view class="action text-xl text-black margin-left">
-            <view class="cuIcon-footprint"></view>
-          </view>
-          <text class="text-gray">踩</text>
         </view>
       </view>
     </view>
-
-    <view class="cu-list menu-avatar no-padding">
-      <view class="cu-item">
-        <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FgaFNs-YNxw_vRtqCbvQru3z6s3P?imageMogr2/thumbnail/450x/interlace/1);"></view>
-        <view class="content">
-          <view class="text-lg text-bold">
-            Kenny Lee
-          </view>
-          <view class="text-gray text-sm">
-            7-29
-          </view>
-        </view>
-        <view class="action text-xxl">
-          <view class="cuIcon-more"></view>
-        </view>
-      </view>
-      <view class="margin-left padding-left-xl text-black">
-        <view class="margin-lr padding-left">
-          <text>怪物猎人崛起里面的兔团子，每个团子都有一个发动几率，有高有低。举个例子，有一个加快吃肉速度的团子，概率是好像是70%，意思是出进任务有70%的概率触发吗？</text>
-        </view>
-      </view>
-      <view class="flex solid-bottom padding-lr padding-tb-sm justify-end">
-        <view class="action text-xl text-black">
-          <view class="cuIcon-comment"></view>
-        </view>
-        <text class="text-gray">回复</text>
-        <view class="action text-xl text-black margin-left">
-          <view class="cuIcon-appreciate"></view>
-        </view>
-        <text class="text-gray">赞</text>
-        <view class="action text-xl text-black margin-left">
-          <view class="cuIcon-footprint"></view>
-        </view>
-        <text class="text-gray">踩</text>
-      </view>
+    <view class="margin-tb-xs margin-left text-black text-bold text-lg">
+      电子书简介
     </view>
-
+    <view class="margin padding-bottom" style="line-height: 45rpx;">
+      你是不是经常心血来潮，兴趣、工作换了一个又一个？你是不是知道自己不要什么，但不知道想要什么？你是不是还在寻找能够与自己的天赋和才华匹配的人生使命？你多才多艺却一事无成的人生，需要一份才华战略来拯救！
+    </view>
   </view>
-</view>
-
-<view class="cu-bar foot input {{InputBottom!=0?'cur':''}}" style="bottom:{{InputBottom}}px">
-  <view class="action">
-    <text class="cuIcon-write text-gray"></text>
-  </view>
-
-  <input class="solid-bottom" placeholder="回复TA" bindfocus="InputFocus" bindblur="InputBlur" adjust-position="{{false}}" focus="{{false}}" maxlength="300" cursor-spacing="10"></input>
-
-  <view class="action">
-    <text class="cuIcon-emoji text-black"></text><text class="text-lg padding-right-sm">Fun</text>
-    <text class="cuIcon-appreciate text-black"></text><text class="text-lg padding-right-sm">赞</text>
-    <text class="cuIcon-footprint text-black"></text><text class="text-lg padding-right-sm">踩</text>
-    <text class="cuIcon-favor text-black"></text><text class="text-lg">3</text>
-  </view>
-
 </view>
 
 <import src="/pages/template/common/copyright.wxml" />

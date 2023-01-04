@@ -2,7 +2,7 @@
 <import src="/pages/template/common/copyright.wxml" />
 
 <cu-custom bgColor="bg-white" isBack="{{true}}">
-  <view slot="content">评论页UI设计</view>
+  <view slot="content">书籍学习UI设计</view>
 </cu-custom>
 
 <!-- 页面 -->
