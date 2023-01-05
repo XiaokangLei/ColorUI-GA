@@ -75,7 +75,10 @@
     "pages/index/plugin/design/choiseEmoji/choiseEmoji",
     "pages/template/education/home/home",
     "pages/template/education/education01/education01",
-    "pages/template/education/education02/education02"
+    "pages/template/education/education02/education02",
+    "pages/template/login/home/home",
+    "pages/template/login/login01/login01",
+    "pages/template/login/login02/login02"
   ],
   "window": {
     "backgroundTextStyle": "light",

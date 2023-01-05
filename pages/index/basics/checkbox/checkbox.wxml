@@ -9,9 +9,9 @@
   </view>
 </view>
 
-<view class="margin-sm bg-white radius-lg">
-  <radio-group class="block margin-sm">
-    <view class="cu-form-group margin-top">
+<view class="bg-white">
+  <radio-group class="block margin-xs">
+    <view class="cu-form-group">
       <view class="title">单选(radio)</view>
       <radio checked></radio>
     </view>
@@ -26,18 +26,26 @@
         <radio class="red margin-left-sm"></radio>
       </view>
     </view>
+    <view class="cu-form-group">
+      <view class="title">定义大小</view>
+      <view>
+        <radio class="red margin-left-sm" style="transform: scale(0.5,0.5);"></radio>
+        <radio class="red margin-left-sm" style="transform: scale(0.7,0.7);"></radio>
+        <radio class="red margin-left-sm" style="transform: scale(0.9,0.9);"></radio>
+      </view>
+    </view>
   </radio-group>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-xs">
   <view class='action'>
     <text class='cuIcon-titles text-blue'></text>复选/多选
   </view>
 </view>
 
-<view class="margin-sm bg-white radius-lg">
-  <view class=" margin-sm">
-    <view class="cu-form-group margin-top">
+<view class="bg-white">
+  <view class="margin-xs">
+    <view class="cu-form-group">
       <view class="title">复选(checkbox)</view>
       <checkbox></checkbox>
     </view>
@@ -51,16 +59,24 @@
       <view class="title">定义颜色</view>
       <checkbox class="round blue" checked></checkbox>
     </view>
+    <view class="cu-form-group">
+      <view class="title">定义大小</view>
+      <view>
+        <checkbox class="red margin-left-sm" style="transform: scale(0.5,0.5);"></checkbox>
+        <checkbox class="red margin-left-sm" style="transform: scale(0.7,0.7);"></checkbox>
+        <checkbox class="red margin-left-sm" style="transform: scale(0.9,0.9);"></checkbox>
+      </view>
+    </view>
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-xs">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>边框颜色
+    <text class='cuIcon-titles text-blue'></text>边框/背景颜色
   </view>
 </view>
 
-<view class="cu-form-group margin-top margin-sm bg-white radius-df">
+<view class="cu-form-group margin-top-xs bg-white">
   <checkbox class="orange"></checkbox>
   <checkbox class="green"></checkbox>
   <checkbox class="blue"></checkbox>

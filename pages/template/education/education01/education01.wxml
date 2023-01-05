@@ -3,8 +3,8 @@
   <view slot="content">书籍学习01模板</view>
 </cu-custom>
 
-<view class="">
-  <view class="bg-white margin-xs radius-lg">
+<view class="margin-xs">
+  <view class="bg-white radius-lg">
     <view class="flex padding-xs justify-between">
       <view class="flex">
         <view class="padding-right-sm text-xl padding-top-xs">
@@ -84,7 +84,7 @@
     <view class="margin-tb-xs margin-left text-black text-bold text-lg">
       电子书简介
     </view>
-    <view class="margin padding-bottom" style="line-height: 45rpx;">
+    <view class="margin padding-bottom" style="line-height: 48rpx;">
       你是不是经常心血来潮，兴趣、工作换了一个又一个？你是不是知道自己不要什么，但不知道想要什么？你是不是还在寻找能够与自己的天赋和才华匹配的人生使命？你多才多艺却一事无成的人生，需要一份才华战略来拯救！
     </view>
   </view>

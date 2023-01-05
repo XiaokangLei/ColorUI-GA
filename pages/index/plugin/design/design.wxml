@@ -37,7 +37,7 @@
           <view class="text-df padding-top-xs">浅色</view>
           <view class="text-df padding-top-sm">深色</view>
         </view>
-        <checkbox-group class="flex-sub radius" bindchange="checkboxChange">
+        <checkbox-group class="flex-sub" bindchange="checkboxChange">
           <label class="margin-xs" wx:for="{{checkboxItems}}" wx:key="value">
             <checkbox class="round padding-bottom-xs {{item.name}}" value="{{item.value}}" checked="{{item.checked}}" />
           </label>
@@ -47,7 +47,7 @@
 
     <!-- 设定标题 -->
     <view class="flex p-xs margin-bottom-sm mb-sm">
-      <view class="flex-sub padding-xs margin-xs radius text-xl">📄<text class="text-gray">标题</text></view>
+      <view class="flex-sub padding-xs margin-xs radius text-xl">📄<text class="text-black">标题</text></view>
       <view class="flex-treble bg-grey light padding-xs margin-xs radius"><input class="text-grey" placeholder-style="color:grey;" bindinput="bindKeyInput" maxlength="7" placeholder="请输入标题(8字以内)"></input></view>
     </view>
 

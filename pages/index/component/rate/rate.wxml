@@ -9,7 +9,7 @@
   </view>
 </view>
 
-<view class="padding text-xxl flex align-center margin-sm bg-white radius-lg">
+<view class="padding text-xxl flex align-center margin-sm bg-white radius-df">
   <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
     <text class="{{index > active ? 'cuIcon-favor' : 'cuIcon-favorfill'}} {{extraClass}} text-red"></text>
   </view>
@@ -111,7 +111,7 @@
   </view>
 </view>
 
-<view class="padding-lr padding-tb-sm text-xl flex align-center margin-sm bg-white radius-lg">
+<view class="padding-lr padding-tb-sm text-xl flex align-center margin-sm bg-white radius-df">
   <view wx:for="{{count_muti}}" bindtap="click_muti" data-index="{{index}}" wx:key="item">
     <text class="{{index > active_muti ? 'cuIcon-like' : 'cuIcon-likefill'}} {{extraClass}} text-red"></text>
   </view>
@@ -126,7 +126,7 @@
   </view>
 </view>
 
-<view class="padding-lr padding-tb-sm text-xl flex align-center margin-sm bg-white radius-lg">
+<view class="padding-lr padding-tb-sm text-xl flex align-center margin-sm bg-white radius-df">
   <view wx:for="{{count}}" bindtap="click" data-index="{{index}}" wx:key="item">
     <text class="{{index > active ? 'cuIcon-like' : 'cuIcon-likefill'}} {{extraClass}} text-red padding-lr-xs"></text>
   </view>

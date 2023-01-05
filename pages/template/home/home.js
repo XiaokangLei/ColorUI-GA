@@ -43,49 +43,49 @@ Component({
         title: '首页',
         name: 'index',
         color: 'purple light',
-        icon: 'font'
+        icon: 'homefill'
       }, {
         title: '个人中心',
         name: 'user',
         color: 'red light',
-        icon: 'colorlens'
+        icon: 'profilefill'
       },
       {
         title: '用户列表 ',
         name: 'userlist',
         color: 'mauve light',
-        icon: 'icon'
+        icon: 'friendfill'
       },
       {
         title: '评论页',
         name: 'comment',
         color: 'pink light',
-        icon: 'btn'
+        icon: 'communityfill'
       },
       {
         title: '消息列表',
         name: 'message',
         color: 'brown light',
-        icon: 'commentfill'
+        icon: 'messagefill'
       },
       {
         title: '音乐播放',
         name: 'music',
         color: 'green light',
-        icon: 'myfill'
+        icon: 'musicfill'
       },
       {
         title: '书籍学习',
         name: 'education',
         color: 'orange light',
-        icon: 'discover'
+        icon: 'formfill'
       },
-      // {
-      //   title: '运动健身',
-      //   name: 'shadow',
-      //   color: 'olive light',
-      //   icon: 'copy'
-      // },
+      {
+        title: '登录注册',
+        name: 'login',
+        color: 'blue light',
+        icon: 'myfill'
+      },
       // {
       //   title: '新闻资讯',
       //   name: 'loading',
@@ -107,16 +107,16 @@ Component({
     ],
     Headlines: [{
       id: 1,
-      title: "ColorUI GA 最新版v2.0.8上线啦~"
+      title: "ColorUI GA 最新版v2.0.9上线啦~"
     }, {
       id: 2,
-      title: "新增日历、表格、轻提示、状态提示样式"
+      title: "新增日历农历、常用公司logo图标"
     }, {
       id: 3,
-      title: "新增卡片翻转、骨架屏、抽奖、打卡样式"
+      title: "新增书籍学习模板+2"
     }, {
       id: 4,
-      title: "新增历史搜索、卡券、商品滑动、卡片设计"
+      title: "新增登录注册模板+2"
     }, {
       id: 5,
       title: "每周上新UI模板设计~"

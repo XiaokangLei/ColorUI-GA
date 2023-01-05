@@ -9,7 +9,7 @@
   </view>
 </view>
 
-<view class="padding text-center margin-sm bg-white radius-lg">
+<view class="padding text-center margin-sm bg-white radius-df">
   <view class="padding-xl radius shadow bg-white radius-df">默认阴影</view>
 </view>
 

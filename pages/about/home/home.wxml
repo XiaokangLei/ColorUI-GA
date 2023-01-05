@@ -11,28 +11,34 @@
   <view class="UCenter-bg">
     <image src="/images/tabbar/basics_cur.png" class="png" mode="widthFix"></image>
     <view class="text-xl text-orange text-blod">ColorUI GA
-      <text class="text-df">v2.0.8</text>
+      <text class="text-df">v2.0.9</text>
     </view>
     <text class="margin-top-sm text-orange">By: L.</text>
-    <text class="margin-top-sm text-gray">最近更新：2022/12/15</text>
+    <text class="margin-top-sm text-gray">最近更新：2023/1/5</text>
   </view>
   <view class="margin">
-    <view class="padding-tb flex text-center bg-white shadow radius-lg">
-      <view class="flex flex-sub flex-direction solid-right text-orange">
-        <view class="text-xxl">{{visitTotal}}</view>
-        <view class="margin-top-sm">
+    <view class="padding-bottom flex text-center">
+      <view class="flex flex-sub flex-direction text-orange">
+        <view class="text-xxl text-bold">{{modelTotal}}</view>
+        <view class="margin-top-xs">
           <text class="cuIcon-circlefill"></text> 样式
         </view>
       </view>
-      <view class="flex flex-sub flex-direction solid-right text-blue">
-        <view class="text-xxl">{{starCount}}</view>
-        <view class="margin-top-sm">
+      <view class="flex flex-sub flex-direction text-blue">
+        <view class="text-xxl text-bold">{{templateCount}}</view>
+        <view class="margin-top-xs">
           <text class="cuIcon-newsfill"></text> 模板
         </view>
       </view>
+      <view class="flex flex-sub flex-direction text-pink">
+        <view class="text-xxl text-bold">{{visitTotal}}</view>
+        <view class="margin-top-xs">
+          <text class="cuIcon-attentionfill"></text> 访问
+        </view>
+      </view>
       <view class="flex flex-sub flex-direction text-green">
-        <view class="text-xxl">{{forksCount}}</view>
-        <view class="margin-top-sm">
+        <view class="text-xxl text-bold">{{usersCount}}</view>
+        <view class="margin-top-xs">
           <text class="cuIcon-myfill"></text> 用户
         </view>
       </view>

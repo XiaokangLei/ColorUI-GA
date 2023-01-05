@@ -20,7 +20,9 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 ## 模板
 
-最近更新：2023/1/4，预览地址：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+最近更新：2023/1/5，预览地址：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+
+***注意：线上小程序发布周期较慢，最新样式请下载代码运行程序进行预览***
 
 - 首页UI设计模板：2个
 - 个人中心UI设计模板：2个
@@ -29,10 +31,11 @@ ColorUI GA是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 - 消息列表UI设计模板：2个
 - 音乐播放UI设计模板：1个
 - 书籍学习UI设计模板：2个
+- 登录注册UI设计模板：2个
 
 ## 待办
 
-- [ ] 长期：模板设计（每周上新1-2个模板），当前UI模板个数：12
+- [ ] 长期：模板设计（每周上新1-2个模板），当前UI模板个数：16
 - [ ] 长期：样式调整与设计。大小、颜色、padding、margin等
 - [X] fix 轮播图左侧图消失BUG
 - [X] 小程序检测到新版本主动更新
@@ -143,7 +146,7 @@ onLaunch: function() {
 - 新拟态生成: <https://yousiqiexing.com/softui>
 - 美叶UI参考: <https://www.meiye.art/inspiration>
 - 200+免费格式转换: <https://www.alltoall.net/>
-- 50种高质量渐变配色案例: <https://svggradients.com/>
+- 50种高质量SVG渐变配色案例: <https://svggradients.com/>
 
 ## 致谢
 

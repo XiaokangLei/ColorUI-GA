@@ -969,7 +969,31 @@ Page({
     }, {
       name: 'send',
       isShow: true
-    }]
+    }, {
+      name: 'wechat',
+      isShow: true
+    }, {
+      name: 'sina-weibo',
+      isShow: true
+    }, {
+      name: 'tencent-qq',
+      isShow: true
+    }, {
+      name: 'apple',
+      isShow: true
+    }, {
+      name: 'browser-chrome',
+      isShow: true
+    }, {
+      name: 'alipay',
+      isShow: true
+    }, {
+      name: 'android2',
+      isShow: true
+    }, {
+      name: 'twitter',
+      isShow: true
+    },]
   },
 
   /**

@@ -9,7 +9,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm bg-white radius-lg">
+<view class="padding margin-sm bg-white radius-df">
   <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
   <view class="cu-avatar radius margin-left" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
 </view>
@@ -55,7 +55,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm bg-white radius-lg">
+<view class="padding margin-sm bg-white radius-df">
   <view class="cu-avatar radius">
     <text class="cuIcon-people"></text>
   </view>
@@ -91,7 +91,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm bg-white radius-lg">
+<view class="padding margin-sm bg-white radius-df">
   <view class="cu-avatar-group">
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);"></view>
     <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
@@ -112,7 +112,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm bg-white radius-lg">
+<view class="padding margin-sm bg-white radius-df">
   <view class="cu-avatar round lg margin-left" style="background-image:url(https://image.meiye.art/FiLUT-wb9DP0-dpxRQH19HJOOJOW?imageMogr2/thumbnail/450x/interlace/1);">
     <view class="cu-tag badge cuIcon-female bg-blue"></view>
   </view>

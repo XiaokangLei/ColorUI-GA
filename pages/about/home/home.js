@@ -14,8 +14,9 @@ Component({
    * 组件的初始数据
    */
   data: {
-    starCount: 0,
-    forksCount: 0,
+    templateCount: 0,
+    usersCount: 0,
+    modelTotal: 0,
     visitTotal: 0,
   },
 
@@ -63,8 +64,9 @@ Component({
       if (i < 20) {
         setTimeout(function () {
           that.setData({
-            starCount: i,
-            forksCount: i,
+            templateCount: i,
+            usersCount: i,
+            modelTotal: i,
             visitTotal: i
           })
           i++
@@ -72,9 +74,10 @@ Component({
         }, 20)
       } else {
         that.setData({
-          starCount: that.coutNum(14),
-          forksCount: that.coutNum(1208),
-          visitTotal: that.coutNum(44)
+          templateCount: that.coutNum(16),
+          usersCount: that.coutNum(1208),
+          modelTotal: that.coutNum(44),
+          visitTotal: that.coutNum(1968),
         })
       }
     }

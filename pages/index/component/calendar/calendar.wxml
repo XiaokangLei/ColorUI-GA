@@ -40,8 +40,9 @@
 
 <view class="grid col-1 bg-white margin-bottom margin-lr-sm radius-lg">
   <view class="padding-sm">
-    <view class="padding-lg text-center shadow-blur l-card">
-      选中日期为：<text class="text-blue">{{year}}</text> 年 <text class="text-blue">{{month}}</text> 月 <text class="text-blue">{{today}}</text> 日，周<text class="text-blue">{{week}}</text>, 农历：<text class="text-blue">{{lunarDate}}</text>
+    <view class="padding-lg shadow-blur l-card">
+      <view class="padding-bottom-xs">选中日期为：</view>
+      <text class="text-blue">{{year}}</text>年<text class="text-blue">{{month}}</text>月 <text class="text-blue">{{today}}</text>日，周<text class="text-blue">{{week}}</text>, 农历：<text class="text-blue">{{lunarDate}}</text>
     </view>
   </view>
 </view>

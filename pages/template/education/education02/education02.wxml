@@ -3,8 +3,8 @@
   <view slot="content">书籍学习02模板</view>
 </cu-custom>
 
-<view class="">
-  <view class="bg-white margin-xs radius-lg">
+<view class="margin-xs">
+  <view class="bg-white radius-lg">
     <view class="flex padding-xs justify-between">
       <view class="flex">
         <view class="padding-right-sm text-xl padding-top-xs">
@@ -18,7 +18,7 @@
     </view>
     <view class="bg-white radius-lg">
       <view class="bg-img bg-mask padding-sm margin-sm radius-lg" style="background-image: url('https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1');height: 360rpx;">
-        <view class="padding text-white">
+        <view class="padding-sm text-white">
           <view class="padding-xs text-xl">
             《要领》校长的领导力讲义
           </view>
@@ -36,7 +36,7 @@
     <view class="padding-tb padding-lr ">
       <view class="flex justify-between">
         <text class="text-xl text-black text-bold">所有有声书</text>
-        <view class="text-df text-gray">
+        <view class="text-df text-gray flex align-center">
           <checkbox class="grey" style="transform: scale(0.58,0.58);"></checkbox>仅显示未收听
         </view>
       </view>

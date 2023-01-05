@@ -9,7 +9,7 @@
   </view>
 </view>
 
-<view class="grid col-4 padding-sm bg-white margin-sm radius-lg">
+<view class="grid col-4 padding-xs bg-white margin-sm radius-lg">
   <view class="padding-xs" wx:for="{{ColorListNew}}" wx:key="item" wx:for-item="items">
     <block wx:for="{{10}}" wx:key="item" wx:for-index="j">
       <view class="bg-oc-{{items.name}}-{{j}} radius padding-tb-xs text-center margin-tb-xs">
@@ -25,9 +25,9 @@
   </view>
 </view>
 
-<view class="grid col-4 padding-sm margin-sm">
-  <view class="padding-xs" wx:for="{{ColorList}}" wx:key="item">
-    <view class="bg-{{item.name}} padding-sm radius-lg text-center shadow-blur">
+<view class="grid col-3 padding-sm margin-sm bg-white radius-lg">
+  <view class="padding-sm" wx:for="{{ColorList}}" wx:key="item">
+    <view class="bg-{{item.name}} padding-sm radius-lg text-center">
       <view class="padding-top-xs">{{item.name}}</view>
     </view>
   </view>
