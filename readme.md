@@ -107,7 +107,7 @@ onLaunch: function() {
   "navigationStyle": "custom"
 },
 "usingComponents": {
-  "cu-custom":"/colorui/components/cu-custom"
+  "cu-custom":"/colorui/components/cu-custom/cu-custom"
 }
 ```
 
