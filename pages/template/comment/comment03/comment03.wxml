@@ -4,7 +4,7 @@
 </cu-custom>
 
 <view class="">
-  <view class="bg-white margin-xs radius-lg">
+  <view class="bg-white margin-xs radius-lg" style="min-height: 90vh;">
     <view class="flex padding-sm justify-between solid-bottom">
       <view class="flex padding-top-xs">
         <view class="cu-avatar round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">

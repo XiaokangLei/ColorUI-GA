@@ -1,4 +1,6 @@
 <!--pages/about/about/about.wxml-->
+<import src="/pages/template/common/copyright.wxml" />
+
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="content">关于</view>
 </cu-custom>
@@ -21,6 +23,10 @@
     <view class='text-content text-center' bindtap="support">
       <button class="cu-btn bg-orange light lg">点击观看15秒视频支持作者~</button>
     </view>
+  </view>
+
+  <view class="margin-top">
+    <template is="copyright"></template>
   </view>
 
 </scroll-view>

@@ -52,8 +52,10 @@
     <text class="cuIcon-titles text-blue "></text> 对话窗口
   </view>
   <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DialogModal1">Dialog</button>
-    <button class="cu-btn bg-blue shadow margin-left" bindtap="showModal" data-target="DialogModal2">Dialog</button>
+    <view class="margin-right">
+      <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DialogModal1">Dialog</button>
+    </view>
+    <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="DialogModal2">Dialog</button>
   </view>
 </view>
 
@@ -177,7 +179,9 @@
     <text class="cuIcon-titles text-blue "></text> 侧边抽屉
   </view>
   <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DrawerModalL">Left</button>
+    <view class="margin-right">
+      <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DrawerModalL">Left</button>
+    </view>
     <button class="cu-btn bg-blue shadow margin-left" bindtap="showModal" data-target="DrawerModalR">Right</button>
   </view>
 </view>

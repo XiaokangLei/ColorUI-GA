@@ -4,7 +4,7 @@
 </cu-custom>
 
 <view class="margin-xs">
-  <view class="bg-white radius-lg" style="min-height: 80vh;">
+  <view class="bg-white radius-lg" style="min-height: 90vh;">
     <view class="padding-tb padding-lr">
       <text class="text-xxl text-black">欢迎使用</text>
       <text class="text-xxl text-black text-bold"> 滴答顺风车</text>

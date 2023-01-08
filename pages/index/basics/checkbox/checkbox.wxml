@@ -81,6 +81,16 @@
   <checkbox class="green"></checkbox>
   <checkbox class="blue"></checkbox>
   <checkbox class="yellow"></checkbox>
+  <checkbox class="pink"></checkbox>
+  <checkbox class="purple"></checkbox>
+  <checkbox class="red"></checkbox>
+</view>
+
+<view class="cu-form-group bg-white">
+  <checkbox class="round orange"></checkbox>
+  <checkbox class="round green"></checkbox>
+  <checkbox class="round blue"></checkbox>
+  <checkbox class="round yellow"></checkbox>
   <checkbox class="round pink"></checkbox>
   <checkbox class="round purple"></checkbox>
   <checkbox class="round red"></checkbox>

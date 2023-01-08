@@ -18,7 +18,7 @@
       <text class="cuIcon-{{item['checked'] ? 'unfold' : 'right'}}"></text>
     </view>
   </view>
-  <view class="cu-item {{item['checked'] ? '' : 'hidden-content'}}" wx:for="{{item.content}}" wx:for-item="child" wx:key="item">
+  <view class="cu-item {{item['checked'] ? '' : 'piano-hidden-content'}}" wx:for="{{item.content}}" wx:for-item="child" wx:key="item">
     <view class="content">
       <text>{{ child }}</text>
     </view>
@@ -38,8 +38,8 @@
 </view>
 
 <view class="bg-white radius-df margin-sm padding-xs flex">
-  <view class="text {{value?'ative':''}}">
-    <label class="btn {{value?'ative_label':''}} text-white radius bg-blue padding-lr-xs text-sm margin-left-sm" bindtap="checkboxChange"></label>
+  <view class="piano-text {{value?'piano-ative':''}}">
+    <label class="piano-btn {{value?'piano-ative_label':''}} text-white radius bg-blue padding-lr-xs text-sm margin-left-sm" bindtap="checkboxChange"></label>
     ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组件库的基础上会增加部分样式和模板，代码全部开源，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 Github Issues。对于想要一起开发，补充CSS样式库的朋友，欢迎提交 PR。
   </view>
 </view>
@@ -51,8 +51,8 @@
 </view>
 
 <view class="bg-white radius-df margin-sm padding-xs flex" bindtap="checkboxChange">
-  <view class="text {{value?'ative':''}}">
-    <label class="btn-icon {{value?'ative_label':''}} text-white padding-lr-xs text-sm margin-left-sm"></label>
+  <view class="piano-text {{value?'piano-ative':''}}">
+    <label class="piano-btn-icon {{value?'piano-ative_label':''}} text-white padding-lr-xs text-sm margin-left-sm"></label>
     ColorUI GA是基于ColorUI 2.0开发的小程序原生css组件库。在原组件库的基础上会增加部分样式和模板，代码全部开源，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 Github Issues。对于想要一起开发，补充CSS样式库的朋友，欢迎提交 PR。
   </view>
 </view>

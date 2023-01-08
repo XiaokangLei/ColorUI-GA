@@ -12,65 +12,71 @@ Page({
     canvasH: 220,
     data_list: [{
         value: 0,
-        lineColor:'red',
+        lineColor: 'red',
         lineWidth: 2
       },
       {
         value: 10,
-        lineColor:'red',
+        lineColor: 'red',
         lineWidth: 2
       },
       {
         value: 20,
-        lineColor:'red',
+        lineColor: 'red',
         lineWidth: 2
       },
       {
         value: 30,
-        lineColor:'red',
+        lineColor: 'red',
         lineWidth: 3
       },
       {
         value: 40,
-        lineColor:'green',
+        lineColor: 'green',
         lineWidth: 3
       },
       {
         value: 50,
-        lineColor:'green',
+        lineColor: 'green',
         lineWidth: 3
       },
       {
         value: 60,
-        lineColor:'green',
+        lineColor: 'green',
         lineWidth: 3
       },
       {
         value: 70,
-        lineColor:'green',
+        lineColor: 'green',
         lineWidth: 4
       },
       {
         value: 80,
-        lineColor:'#37c0fe',
+        lineColor: '#37c0fe',
         lineWidth: 4
       },
       {
         value: 90,
-        lineColor:'#37c0fe',
+        lineColor: '#37c0fe',
         lineWidth: 4
       },
       {
         value: 100,
-        lineColor:'#37c0fe',
+        lineColor: '#37c0fe',
         lineWidth: 4
       },
       {
         value: 101,
-        lineColor:'#37c0fe',
+        lineColor: '#37c0fe',
         lineWidth: 5
       },
     ],
+    // 环形进度条参数
+    circleDiam: 80, // 圆环直径
+    cententDiam: 70, // 中心圆直径
+    bgColor: '#e9e9e9',
+    curColor: 'linear-gradient(#7affaf, #7a88ff)',
+    value: 70
   },
 
   /**
@@ -82,7 +88,8 @@ Page({
       that.setData({
         loading: true
       })
-    }, 500)
+    }, 500);
+    this.rotateCircle(that.data.value);
   },
 
   /**
@@ -192,5 +199,39 @@ Page({
     ctx.beginPath();
     ctx.arc(110, 110, 100, 0, 2 * Math.PI, false);
     ctx.stroke();
+  },
+  // 环形进度条
+  rotateCircle(value) {
+    let rotateLeft = '';
+    let rotateRight = '';
+    let backgroundRight = '';
+    let durationLeft = '0s';
+    let durationRight = '0s';
+
+    if (value >= 50) {
+      rotateLeft = `rotate(${((value - 50) / 100) * 360}deg)`;
+      rotateRight = `rotate(0deg)`;
+      backgroundRight = 'inherit';
+      durationLeft = '0.25s';
+      durationRight = '0s';
+    } else {
+      rotateLeft = 'rotate(0deg)';
+      rotateRight = `rotate(${(value / 100) * 360}deg)`;
+      backgroundRight = this.data.bgColor;
+      durationLeft = '0';
+      durationRight = '0.25s';
+      if (this.oldValue >= 50) {
+        durationRight = '0s';
+      }
+    }
+    // 记录上次的值
+    this.oldValue = value;
+    this.setData({
+      rotateLeft,
+      rotateRight,
+      backgroundRight,
+      durationLeft,
+      durationRight
+    });
   }
 })

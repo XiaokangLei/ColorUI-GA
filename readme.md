@@ -116,7 +116,7 @@ onLaunch: function() {
 - [x] fix 轮播图左侧图消失 BUG
 - [x] 小程序检测到新版本主动更新
 - [x] 【基础样式】背景色修改、扩展
-- [x] 【基础样式】圆环形状进度条(canvas2D 实现) [无预览]【请在小程序端查看】
+- [x] 【基础样式】圆环形状进度条(canvas2D 实现+非canvas2D 实现) [无预览]【请在小程序端查看】
 - [x] 【基础样式】虚线边框和蓝色边框样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/base/border)
 - [x] 【组件设计】手风琴向下展开样式&文本展开与收起 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/piano)
 - [x] 【组件设计】滚动 Tips(单行、多行、左右、上下) [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/tips)

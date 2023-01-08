@@ -1,8 +1,11 @@
 <!--pages/index/basics/switch/switch.wxml-->
+
+<!-- 顶部自定义导航栏 -->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
   <view slot="content">开关</view>
 </cu-custom>
 
+<!-- 基本样式 -->
 <view class="cu-bar bg-white">
   <view class='action'>
     <text class='cuIcon-titles text-blue'></text>基本样式
@@ -30,6 +33,7 @@
 
 </view>
 
+<!-- 自定义颜色、图标、样式 -->
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
     <text class='cuIcon-titles text-blue'></text>自定义
@@ -55,6 +59,7 @@
   </view>
 </view>
 
+<!-- 绑定事件 -->
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
     <text class='cuIcon-titles text-blue'></text>绑定事件
@@ -66,22 +71,24 @@
   <switch class="switch-sex" bindchange="switchSex"></switch>
 </view>
 
+<!-- 扩展样式 -->
 <view class="cu-bar bg-white margin-top">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>扩展样式
+    <text class='cuIcon-titles text-blue'></text>扩展样式(蛋黄派开关)
   </view>
 </view>
 
 <view class="flex justify-center margin-sm bg-white padding-sm radius-df">
-  <view catchtap="click">
-    <input id="egg-toggle" type="checkbox" />
-    <label for="egg-toggle">
+  <view catchtap="eggClick">
+    <egg-input id="egg-toggle" type="checkbox" />
+    <egg-label for="egg-toggle">
       <span id="egg" wx:if="{{ischecked==undefined}}"></span>
-      <span id="egg" wx:else class="{{ischecked?'flip':'unflip'}}"></span>
-    </label>
+      <span id="egg" wx:else class="{{ischecked?'egg-flip':'unegg-flip'}}"></span>
+    </egg-label>
   </view>
 </view>
 
+<!-- 底部版权信息&广告 -->
 <import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
   <template is="copyright"></template>

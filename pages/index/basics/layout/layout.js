@@ -8,7 +8,7 @@ Page({
   data: {
     CustomBar: app.globalData.CustomBar,
     TabCur: 0,
-    tabNav: ['基础布局', 'Flex布局', 'Grid布局', "表格布局"]
+    tabNav: ['基础布局', 'Flex布局', 'Grid布局', "float布局"]
   },
 
   /**
@@ -75,5 +75,15 @@ Page({
       TabCur: e.currentTarget.dataset.id,
       scrollLeft: (e.currentTarget.dataset.id - 1) * 60
     })
-  }
+  },
+  handleSwiper(e) {
+    console.log(e)
+    let {current,source} = e.detail
+    if (source === 'autoplay' || source === 'touch') {
+      const TabCur = current
+      this.setData({
+        TabCur
+      })
+    }
+  },
 })

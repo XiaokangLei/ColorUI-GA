@@ -56,19 +56,19 @@
 </view>
 
 <view class="padding margin-sm bg-white radius-df">
-  <view class="cu-avatar radius">
+  <view class="cu-avatar radius bg-gray">
     <text class="cuIcon-people"></text>
   </view>
-  <view class="cu-avatar radius  margin-left">
+  <view class="cu-avatar radius margin-left bg-gray">
     <text>新</text>
   </view>
-  <view class="cu-avatar radius  margin-left">
+  <view class="cu-avatar radius margin-left bg-gray">
     <text>年</text>
   </view>
-  <view class="cu-avatar radius  margin-left">
+  <view class="cu-avatar radius margin-left bg-gray">
     <text>快</text>
   </view>
-  <view class="cu-avatar radius  margin-left">
+  <view class="cu-avatar radius margin-left bg-gray">
     <text>乐</text>
   </view>
 </view>

@@ -55,7 +55,7 @@
       </view>
     </view>
 
-    <view class="cu-list menu-avatar padding-tb-sm bg-gray">
+    <view class="cu-list menu-avatar padding-tb-sm bg-gray" style="min-height: 64vh;">
 
       <view class="cu-item">
         <view class="cu-avatar round lg bg-oc-red-6">

@@ -5,13 +5,13 @@
 
 <view class="scrollPage">
 
-  <view class="cu-bar bg-white margin-top-xs">
+  <view class="cu-bar bg-white">
     <view class="action">
       <text class="cuIcon-titles text-blue"></text>基础样式
     </view>
   </view>
 
-  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
+  <swiper class="tips-swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="radius-lg bg-orange light">
@@ -24,8 +24,8 @@
     </block>
   </swiper>
 
-  <view class="s_box margin-bottom">
-    <swiper class="new_swiper" vertical="true" autoplay="true" circular="true" interval="3000" duration="500" display-multiple-items='1' easing-function="easeInOutCubic">
+  <view class="tips-box margin-bottom">
+    <swiper class="tips-new-swiper" vertical="true" autoplay="true" circular="true" interval="3000" duration="500" display-multiple-items='1' easing-function="easeInOutCubic">
       <block wx:for-index="idx" wx:for='{{5}}' wx:key="index">
         <swiper-item>
           <view class="padding-left bg-orange light"><text class='cuIcon-magic text-orange'> 这是一条消息提示消息提示~</text></view>
@@ -40,7 +40,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
+  <swiper class="tips-swiperitem margin" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="radius bg-orange light">
@@ -53,7 +53,7 @@
     </block>
   </swiper>
 
-  <swiper class="swiperitem margin-tb" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
+  <swiper class="tips-swiperitem margin-tb" autoplay="true" vertical="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="bg-pink light">
@@ -72,7 +72,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
+  <swiper class="tips-swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="index">
       <swiper-item catchtouchmove='false'>
         <view class="bg-pink light">
@@ -91,7 +91,7 @@
     </view>
   </view>
 
-  <swiper class="swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
+  <swiper class="tips-swiperitem margin-tb" autoplay="true" circular="true" interval="2000" duration="500">
     <block wx:for="{{Headlines}}" wx:key="item">
       <swiper-item catchtouchmove='false' bindtap="linesclick" data-url="{{item.url}}">
         <view class="bg-orange light">
@@ -110,7 +110,7 @@
     </view>
   </view>
 
-  <swiper class="bot_swiper bg-white radius-lg padding-left-sm" vertical="true" autoplay="{{true}}" circular="true" interval="3000" display-multiple-items='2'>
+  <swiper class="tips-bot-swiper bg-white radius-df padding-left-sm" vertical="true" autoplay="{{true}}" circular="true" interval="3000" display-multiple-items='2'>
     <block wx:for-index="idx" wx:for='{{3}}' wx:key="item">
       <swiper-item>
         <view class="flex text-orange" style="align-items: baseline;">
@@ -127,9 +127,9 @@
     </view>
   </view>
 
-  <view class="box margin-tb margin-lr-sm">
-    <view class="box_i bg-white radius-lg padding-lr">
-      <swiper class="swiper" vertical="true" autoplay="{{true}}" circular="true" interval="3000" style="height: {{list.length  > 6 ? '460' : list.length *60}}rpx;" display-multiple-items='{{list.length > 6 ? 7 :list.length}}'>
+  <view class="tips-boxs margin-tb margin-lr-sm">
+    <view class="tips-box_i bg-white radius-lg padding-lr padding-top-xs">
+      <swiper class="tips-swiper" vertical="true" autoplay="{{true}}" circular="true" interval="3000" style="height: {{list.length  > 6 ? '460' : list.length *60}}rpx;" display-multiple-items='{{list.length > 6 ? 7 :list.length}}'>
         <block wx:for-index="idx" wx:for="{{list}}" wx:key="list">
           <swiper-item>
             <view class="flex" style="align-items: baseline;">

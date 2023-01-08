@@ -1,11 +1,4 @@
 /* pages/index/plugin/skeleton/skeleton.wxss */
-/* .container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background: #fff;
-} */
-
 
 /* 双列 */
 .double-column{

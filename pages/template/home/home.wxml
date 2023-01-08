@@ -58,21 +58,6 @@
     </navigator>
   </view>
 
-  <!-- <navigator open-type="navigate" hover-class='none' url="/pages/template/{{item.name}}/home/home" wx:for="{{elements}}" wx:key="item">
-    <view class="cu-card case bg-white margin-lg radius-df">
-      <view class="cu-item shadow">
-        <view class="image">
-          <image src="{{item.url}}" mode="widthFix"></image>
-          <view class="cu-tag bg-orange">热门</view>
-        </view>
-        <view class="padding-sm">
-          <text class="text-xl">『{{item.title}}』UI设计模板 </text><text class="bi-house-door text-xxl text-red"></text>
-        </view>
-
-      </view>
-
-    </view>
-  </navigator> -->
   <template is="copyright"></template>
   <view class="cu-tabbar-height"></view>
 </scroll-view>

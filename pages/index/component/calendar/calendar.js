@@ -178,7 +178,7 @@ Page({
     this.getSpace();
     this.createDay();
     this.check();
-    // this.emit();
+    this.emit();
   },
   /**
    * 点击日期

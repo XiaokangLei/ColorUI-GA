@@ -5,9 +5,7 @@
 <!-- 背景图 -->
 <image src='/images/bg.png' mode='widthFix' class='bg-img-new'></image>
 
-<!-- 页面 -->
 <scroll-view scroll-y class="scrollPage">
-  <!-- logo&信息 -->
   <view class="UCenter-bg">
     <image src="/images/tabbar/basics_cur.png" class="png" mode="widthFix"></image>
     <view class="text-xl text-orange text-blod">ColorUI GA

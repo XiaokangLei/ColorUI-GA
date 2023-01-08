@@ -1,16 +1,15 @@
 /* pages/index/plugin/drawer/drawer.wxss */
-page {
+/* page {
   background-image: var(--gradualBlue);
   width: 100vw;
   overflow: hidden;
-}
+} */
 
 .DrawerPage {
   position: fixed;
   width: 100vw;
   height: 100vh;
   left: 0vw;
-  background-color: #f1f1f1;
   transition: all 0.4s;
 }
 

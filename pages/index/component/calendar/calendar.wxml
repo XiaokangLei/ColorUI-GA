@@ -11,26 +11,26 @@
 
 <view class="margin-tb padding-lr-sm">
   <view class="bg-white radius-lg">
-    <view class="bg-blue radius-lg-top text-center light title">
+    <view class="bg-blue radius-lg-top text-center light flex justify-between padding">
       <view class="text-xl" bindtap="last"><text class="cuIcon-back"></text></view>
       <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
       <view class="text-xl" bindtap="next"><text class="cuIcon-right"></text></view>
     </view>
     <view class="padding-xs">
-      <view class="main-title">
-        <view>MON</view>
-        <view>TUE</view>
-        <view>WED</view>
-        <view>THU</view>
-        <view>FRI</view>
-        <view>SAT</view>
-        <view>SUN</view>
+      <view class="flex justify-center padding-tb-xs">
+        <view class="padding-lr-sm">MON</view>
+        <view class="padding-lr-sm">TUE</view>
+        <view class="padding-lr-sm">WED</view>
+        <view class="padding-lr-sm">THU</view>
+        <view class="padding-lr-sm">FRI</view>
+        <view class="padding-lr-sm">SAT</view>
+        <view class="padding-lr-sm">SUN</view>
       </view>
-      <view class="main-center">
+      <view class="calendar-main-center flex flex-wrap">
         <view wx:for="{{space}}" wx:key="item"></view>
-        <view wx:for="{{day}}" wx:key="item" data-today="{{item.day}}" bindtap="click" class="{{today == item.day? 'bg-blue padding radius light text-bold' : ''}}" style="height: 76rpx;">
+        <view wx:for="{{day}}" wx:key="item" data-today="{{item.day}}" bindtap="click" class="{{today == item.day? 'bg-blue padding radius light text-bold' : ''}} flex" style="height: 76rpx;">
           <view class="flex flex-wrap">{{item.day}}
-            <view class="text-xs" style="margin-top: -10rpx; padding-bottom: 8rpx;">{{item.lunar}}</view>
+            <view class="flex text-xs" style="margin-top: -10rpx; padding-bottom: 8rpx;">{{item.lunar}}</view>
           </view>
         </view>
       </view>
@@ -66,28 +66,28 @@
   <view class="cu-dialog" catchtap>
     <view class="padding-lr-xs">
       <view class="margin-tb bg-white radius-lg">
-        <view class="bg-blue radius-lg text-center light title">
+        <view class="bg-blue radius-lg text-center light flex justify-between padding">
           <view class="text-xl" bindtap="last"><text class="cuIcon-back"></text></view>
           <view class="text-lg">{{year}} 年 {{month}} 月 {{today}} 日</view>
           <view class="text-xl" bindtap="next"><text class="cuIcon-right"></text></view>
         </view>
         <view class="padding-xs">
-          <view class="main-title">
-            <view>MON</view>
-            <view>TUE</view>
-            <view>WED</view>
-            <view>THU</view>
-            <view>FRI</view>
-            <view>SAT</view>
-            <view>SUN</view>
+          <view class="flex justify-center padding-tb-xs">
+            <view class="padding-lr-sm">MON</view>
+            <view class="padding-lr-xs">TUE</view>
+            <view class="padding-lr-sm">WED</view>
+            <view class="padding-lr-xs">THU</view>
+            <view class="padding-lr-sm">FRI</view>
+            <view class="padding-lr-xs">SAT</view>
+            <view class="padding-lr-sm">SUN</view>
           </view>
-          <view class="main-center-mini">
+          <view class="calendar-main-center-mini flex flex-wrap">
             <view wx:for="{{space}}" wx:key="item"></view>
-            <view wx:for="{{day}}" wx:key="item" data-today="{{item.day}}" bindtap="click" class="{{today == item.day? 'bg-blue padding radius light text-bold' : ''}}" style="height: 76rpx;">
-          <view class="flex flex-wrap">{{item.day}}
-            <view class="text-xs" style="margin-top: -10rpx; padding-bottom: 6rpx;">{{item.lunar}}</view>
-          </view>
-        </view>
+            <view wx:for="{{day}}" wx:key="item" data-today="{{item.day}}" bindtap="click" class="{{today == item.day? 'bg-blue padding radius light text-bold' : ''}} flex" style="height: 76rpx;">
+              <view class="flex flex-wrap">{{item.day}}
+                <view class="flex text-xs" style="margin-top: -10rpx; padding-bottom: 6rpx;">{{item.lunar}}</view>
+              </view>
+            </view>
           </view>
         </view>
       </view>

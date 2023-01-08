@@ -31,6 +31,16 @@
   <block wx:for="{{data_list}}" wx:key="item">
     <canvas2d-ring type="2d" id="can{{index}}" canvasWidth="{{80}}" f_weight="bold" lineColor="{{item.lineColor}}" value="{{item.value}}" valueColor="#333" f_size="15" lineWidth="{{item.lineWidth}}" title="{{'GA'}}"></canvas2d-ring>
   </block>
+  <view class="padding">
+    <view class="cu-progress__circle" style="background:{{curColor}}; height: {{circleDiam}}px; width: {{circleDiam}}px;">
+      <view class="cu-progress__circle--left" style="transform:{{rotateLeft}}; width: {{circleDiam}}px; height: {{circleDiam}}px; clip:rect(0, {{circleDiam / 2}}px, auto, 0); background:{{bgColor}}; transition-duration:{{durationLeft}};"></view>
+      <view class="cu-progress__circle--right" style="transform:{{rotateRight}}; width: {{circleDiam}}px; height: {{circleDiam}}px; clip:rect(0, auto, auto, {{circleDiam / 2}}px); background: {{backgroundRight}}; transition-duration:{{durationRight}};"></view>
+      <!-- 内部圆环背景色、高宽、中心点 -->
+      <view class="cu-progress__mask bg-white" style="width: {{cententDiam}}px; height: {{cententDiam}}px; left: {{(circleDiam - cententDiam) / 2}}px; top: {{(circleDiam - cententDiam) / 2}}px">
+        <text class="cu-progress__circle__percent text-black">{{value}}%</text>
+      </view>
+    </view>
+  </view>
 </view>
 
 <view class="cu-bar bg-white solid-bottom margin-top">
@@ -61,7 +71,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm radius-lg {{color=='white'?'bg-grey':'bg-white'}}">
+<view class="padding margin-sm radius-df {{color=='white'?'bg-grey':'bg-white'}}">
   <view class="cu-progress round">
     <view class="bg-{{color}}" style="width:{{loading?'61.8%':''}};"></view>
   </view>
@@ -95,7 +105,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm bg-white radius-lg">
+<view class="padding margin-sm bg-white radius-df">
   <view class="cu-progress radius striped active">
     <view class="bg-red" style="width:{{loading?'30%':''}};">30%</view>
     <view class="bg-olive" style="width:{{loading?'45%':''}};">45%</view>
@@ -114,7 +124,7 @@
   </view>
 </view>
 
-<view class="padding margin-sm bg-white radius-lg">
+<view class="padding margin-sm bg-white radius-df">
   <view class="flex">
     <view class="cu-progress round">
       <view class="bg-green" style="width:{{loading?'100%':''}};"></view>

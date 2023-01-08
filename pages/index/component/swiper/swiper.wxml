@@ -69,7 +69,7 @@
   </view>
 </view>
 
-<swiper class="swiper" current="{{swiperCurrent}}" circular previous-margin="100" next-margin="100" bindanimationfinish="swiperChange" circular="true" autoplay="true" interval="5000" duration="500">
+<swiper class="swiper-3d" current="{{swiperCurrent}}" circular previous-margin="100" next-margin="100" bindanimationfinish="swiperChange" circular="true" autoplay="true" interval="5000" duration="500">
   <swiper-item class="item" wx:for="{{swiperList}}" wx:index="{{index}}" wx:key="list">
     <image src="{{item.url}}" class="{{swiperCurrent == index ? 'active' : 'no-active'}}" modex="heightFix" />
   </swiper-item>

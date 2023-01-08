@@ -57,7 +57,7 @@
   </view>
 </view>
 
-<view class="fixed-center" hidden="{{!show}}" style="z-index: 99;">
+<view class="toast-fixed-center" hidden="{{!show}}" style="z-index: 99;">
   <view class="radius-lg padding animation-slide-top text-lg {{status == 'success' ? 'bg-green light':'bg-red light'}}">
     <text class="cuIcon-info"></text> {{message}}
   </view>

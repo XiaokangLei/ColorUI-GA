@@ -4,7 +4,7 @@
 </cu-custom>
 
 <view class="margin-xs">
-  <view class="bg-white radius-lg">
+  <view class="bg-white radius-lg" style="min-height: 90vh;">
     <view class="flex padding-xs justify-between">
       <view class="flex">
         <view class="padding-right-sm text-xl padding-top-xs">

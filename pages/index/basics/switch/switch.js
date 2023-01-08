@@ -80,7 +80,8 @@ Page({
       });
     }
   },
-  click() {
+  // 蛋黄派开关
+  eggClick() {
     this.setData({
       ischecked: !this.data.ischecked
     })

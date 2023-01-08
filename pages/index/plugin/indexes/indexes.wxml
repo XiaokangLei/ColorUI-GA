@@ -1,6 +1,6 @@
 <!--pages/index/plugin/indexes/indexes.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="content">索引</view>
+  <view slot="content">索引列表</view>
 </cu-custom>
 
 <view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px;">
@@ -13,28 +13,30 @@
   </view>
 </view>
 
-<scroll-view scroll-y class="indexes" scroll-into-view="indexes-{{listCurID}}" style="height:calc(100vh - {{CustomBar}}px - 50px)" scroll-with-animation="true" enable-back-to-top="true">
-  <block wx:for="{{list}}" wx:key="item">
-    <view class="padding indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">{{list[index]}}</view>
-    <view class="cu-list menu-avatar no-padding">
-      <view class="cu-item bg-white" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
-        <view class="cu-avatar round lg bg-blue light">{{list[index]}}</view>
-        <view class="content">
-          <view class="text-black">{{list[index]}}
-            <text class="text-abc">{{list[sub]}}</text>iniac
-          </view>
-          <view class="text-gray text-sm">
-            12月15日 响铃{{sub+6}}声
+<view class="margin-top-xxl padding-top">
+  <scroll-view scroll-y class="indexes" scroll-into-view="indexes-{{listCurID}}" style="height:calc(100vh - {{CustomBar}}px - 50px)" scroll-with-animation="true" enable-back-to-top="true">
+    <block wx:for="{{list}}" wx:key="item">
+      <view class="padding indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">{{list[index]}}</view>
+      <view class="cu-list menu-avatar no-padding">
+        <view class="cu-item bg-white" wx:for="{{2}}" wx:key="item" wx:for-index="sub">
+          <view class="cu-avatar round lg bg-blue light">{{list[index]}}</view>
+          <view class="content">
+            <view class="text-black">{{list[index]}}
+              <text class="text-abc">{{list[sub]}}</text>iniac
+            </view>
+            <view class="text-gray text-sm">
+              12月15日 响铃{{sub+6}}声
+            </view>
           </view>
         </view>
       </view>
-    </view>
-  </block>
-</scroll-view>
+    </block>
+  </scroll-view>
+</view>
 
-<view class="indexBar" style="height:calc(100vh - {{CustomBar}}px - 50px)">
-  <view class="indexBar-box" bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
-    <view class="indexBar-item" wx:for="{{list}}" wx:key="item" id="{{index}}" bindtouchstart="getCur" bindtouchend="setCur">{{list[index]}}</view>
+<view class="indexBar flex align-center" style="height:calc(100vh - {{CustomBar}}px - 50px)">
+  <view class="indexBar-box bg-white flex flex-direction radius shadow" bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
+    <view class="indexBar-item flex justify-center " wx:for="{{list}}" wx:key="item" id="{{index}}" bindtouchstart="getCur" bindtouchend="setCur">{{list[index]}}</view>
   </view>
 </view>
 

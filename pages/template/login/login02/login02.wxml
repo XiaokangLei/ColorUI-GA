@@ -4,7 +4,7 @@
 </cu-custom>
 
 <view class="margin-xs">
-  <view class="bg-white radius-lg" style="min-height: 80vh;">
+  <view class="bg-white radius-lg" style="min-height: 90vh;">
     <view class="padding-tb padding-lr text-center">
       <text class="text-xxl text-black">手机号快捷登录</text>
     </view>

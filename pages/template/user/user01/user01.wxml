@@ -4,7 +4,7 @@
 </cu-custom>
 
 <!-- 页面 -->
-<view class="bg-white margin-sm radius-lg">
+<view class="bg-white margin-sm radius-lg" style="min-height: 90vh;">
   <!-- 顶部个人信息 -->
   <view class="bg-white radius-lg">
     <view class="flex padding-sm justify-between">
