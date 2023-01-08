@@ -1,9 +1,8 @@
 <!--pages/index/plugin/drawer/drawer.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
-<scroll-view scroll-y class="DrawerPage {{modalName=='viewModal'?'show':''}}">
+<scroll-view scroll-y class="cu-drawer-page {{modalName=='viewModal'?'show':''}}">
   <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-    <view slot="backText">返回</view>
     <view slot="content">全屏抽屉</view>
   </cu-custom>
 
@@ -31,10 +30,10 @@
 
 </scroll-view>
 
-<view class="DrawerClose {{modalName=='viewModal'?'show':''}}" bindtap="hideModal">
+<view class="cu-drawer-close {{modalName=='viewModal'?'show':''}}" bindtap="hideModal">
   <text class="cuIcon-pullright"></text>
 </view>
 
-<scroll-view scroll-y class="DrawerWindow {{modalName=='viewModal'?'show':''}} bg-white">
+<scroll-view scroll-y class="cu-drawer-window {{modalName=='viewModal'?'show':''}} bg-white">
   <homePage></homePage>
 </scroll-view>

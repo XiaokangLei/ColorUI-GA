@@ -20,7 +20,7 @@
     </view>
 
     <view class="padding-tb-xxl padding-top padding-lr-xs">
-      <view class="flex flex-direction margin-sm">
+      <view class="flex flex-column margin-sm">
         <button class="cu-btn xxl bg-gradual-pinknew round">登录</button>
       </view>
       <view class="padding-top text-center text-blue text-lg padding-bottom-xxl">

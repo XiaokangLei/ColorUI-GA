@@ -3,7 +3,7 @@
   <view slot="content">打卡</view>
 </cu-custom>
 
-<view class="bg-white margin-sm radius-lg" style="min-height: 65vh;">
+<view class="bg-white margin-sm radius-lg" style="min-height: 86vh;">
   <!-- 顶部个人信息-头像、布局 -->
   <view class="flex padding-sm justify-between solid-bottom">
     <view class="flex">
@@ -45,18 +45,18 @@
   <!-- 打卡按钮 -->
   <view class="margin-top-xl">
     <view class="flex justify-center">
-      <view class="clock_time flex justify-center align-center" animation="{{animationData}}" catchtap="clockInStart" wx:if="{{status==0}}">
+      <view class="cu-clockin-time flex justify-center align-center" animation="{{animationData}}" catchtap="clockInStart" wx:if="{{status==0}}">
         <view class="text-white" style="z-index: 99;">
           <text>上班打卡 {{now_time}}</text>
         </view>
       </view>
-      <view class="clock_time_over flex justify-center align-center" catchtap="clockInStart" wx:if="{{status==1}}">
+      <view class="cu-clockin-time_over flex justify-center align-center" catchtap="clockInStart" wx:if="{{status==1}}">
         <text class="text-white" style="z-index: 99;">已打卡 {{now_time_stop}}</text>
       </view>
-      <view class="clock_time flex justify-center align-center" catchtap="clockInEnd" wx:if="{{status==2}}">
+      <view class="cu-clockin-time flex justify-center align-center" catchtap="clockInEnd" wx:if="{{status==2}}">
         <text class="text-white" style="z-index: 99;">下班打卡 {{now_time}}</text>
       </view>
-      <view class="clock_time_over flex justify-center align-center" catchtap="clockInStart" wx:if="{{status==3}}">
+      <view class="cu-clockin-time_over flex justify-center align-center" catchtap="clockInStart" wx:if="{{status==3}}">
         <text class="text-white" style="z-index: 99;">已打卡 {{now_time_stop_end}}</text>
       </view>
     </view>

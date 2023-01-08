@@ -3,8 +3,8 @@
   <view slot="content">瀑布流</view>
 </cu-custom>
 
-<view class="container-waterfall bg-white">
-  <view class="left">
+<view class="cu-waterfall bg-white padding-bottom-xl">
+  <view class="flex-sub">
     <view class="flow">
       <view class="cu-card case no-card" wx:for="{{leftData}}" wx:key="item">
         <view class="cu-item">
@@ -16,7 +16,7 @@
     </view>
   </view>
 
-  <view class="right">
+  <view class="flex-sub">
     <view class="flow">
       <view class="cu-card case no-card" wx:for="{{rightData}}" wx:key="item">
         <view class="cu-item shadow">

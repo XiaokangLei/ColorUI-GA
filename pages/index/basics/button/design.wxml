@@ -4,7 +4,7 @@
 </cu-custom>
 
 <view class="padding-xl">
-  <view class="flex justify-center align-center bg-white text-center radius-lg {{block?'flex-direction':''}}" style="height: 280rpx;">
+  <view class="flex justify-center align-center bg-white text-center radius-lg {{block?'flex-column':''}}" style="height: 280rpx;">
     <button class="cu-btn {{border?'line':'bg'}}{{bordersize?bordersize:''}}-{{color}} {{round?'round':''}} {{size}} {{shadow?'shadow':''}} {{block?'block':''}}">我是一个按钮</button>
   </view>
   <view class="padding text-center"> class="cu-btn<text wx:if="{{color}}"> {{border?'line':'bg'}}{{bordersize?bordersize:''}}-{{color}} {{round?'round':''}} {{size}} {{shadow?'shadow':''}} {{block?'block':''}}</text>" </view>

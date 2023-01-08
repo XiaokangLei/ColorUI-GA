@@ -15,7 +15,7 @@
       </view>
     </view>
     <view class="padding-bottom-xxl padding-top padding-lr">
-      <view class="flex flex-direction margin-sm">
+      <view class="flex flex-column margin-sm">
         <button class="cu-btn xxl bg-gradual-blue round"><text class="icon-wechat" decode="{{true}}">&nbsp;</text>微信用户一键登录</button>
       </view>
       <view class="padding-top-xs text-center text-black text-lg padding-bottom-xxl">

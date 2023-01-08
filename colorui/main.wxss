@@ -743,8 +743,12 @@ image {
   flex: 3;
 }
 
-.flex-direction {
+.flex-column {
   flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-wrap {
@@ -5662,6 +5666,142 @@ movable-view.indexBar-item::before {
 }
 
 /* ==================
+    扩展样式-全屏抽屉
+ ==================== */
+
+.cu-drawer-page {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0vw;
+  transition: all 0.4s;
+}
+
+.cu-drawer-page.show {
+  transform: scale(0.9, 0.9);
+  left: 85vw;
+  box-shadow: 0 0 60rpx rgba(0, 0, 0, 0.2);
+  transform-origin: 0;
+}
+
+.cu-drawer-window {
+  position: absolute;
+  width: 85vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  transform: scale(0.9, 0.9) translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.cu-drawer-window.show {
+  transform: scale(1, 1) translateX(0%);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.cu-drawer-close {
+  position: absolute;
+  width: 40vw;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  color: transparent;
+  padding-bottom: 30rpx;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.6));
+  letter-spacing: 5px;
+  font-size: 50rpx;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.cu-drawer-close.show {
+  opacity: 1;
+  pointer-events: all;
+  width: 15vw;
+  color: #fff;
+}
+
+.cu-drawer-page .cu-bar.tabbar .action button.icon {
+  width: 64rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin: 0;
+  display: inline-block;
+}
+
+.cu-drawer-page .cu-bar.tabbar .action .cu-avatar {
+  margin: 0;
+}
+
+.cu-drawer-page .nav {
+  flex: 1;
+}
+
+.cu-drawer-page .nav .cu-item.cur {
+  border-bottom: 0;
+  position: relative;
+}
+
+.cu-drawer-page .nav .cu-item.cur::after {
+  content: "";
+  width: 10rpx;
+  height: 10rpx;
+  background-color: currentColor;
+  position: absolute;
+  bottom: 10rpx;
+  border-radius: 10rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.cu-drawer-page .cu-bar.tabbar .action {
+  flex: initial;
+}
+
+/* ==================
+    扩展样式-垂直导航
+ ==================== */
+
+.cu-vertical-nav.nav {
+  width: 200rpx;
+  white-space: initial;
+}
+
+.cu-vertical-nav.nav .cu-item {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  border: none;
+  height: 50px;
+  position: relative;
+}
+
+.cu-vertical-nav.nav .cu-item.cur {
+  background-color: #f1f1f1;
+}
+
+.cu-vertical-nav.nav .cu-item.cur::after {
+  content: "";
+  width: 8rpx;
+  height: 30rpx;
+  border-radius: 10rpx 0 0 10rpx;
+  position: absolute;
+  background-color: currentColor;
+  top: 0;
+  right: 0rpx;
+  bottom: 0;
+  margin: auto;
+}
+
+/* ==================
     扩展样式-聊天
  ==================== */
 
@@ -5789,9 +5929,547 @@ movable-view.indexBar-item::before {
   line-height: 1.4;
 }
 
+
+/* ==================
+    扩展样式-瀑布流
+ ==================== */
+
+.cu-waterfall {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+/* ==================
+    扩展样式-卡片翻转
+ ==================== */
+
+.cu-overturn-box {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  transition: all 1s;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.cu-b2 {
+  transform: rotateY(-180deg);
+}
+
+/* ==================
+    扩展样式-骨架屏
+ ==================== */
+
+.skeleton-double-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #fff;
+}
+
+.skeleton-double-column .cu-card {
+  width: 50%;
+}
+
+/* ==================
+    扩展样式-抽奖
+ ==================== */
+
+.cu-draw-con {
+  margin: 30rpx auto;
+  width: 704rpx;
+  border-radius: 30rpx;
+  background: linear-gradient(0deg, pink 0%, #e95c74 100%);
+  box-shadow: 0px 14px 4px 0 #e95c74;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+
+.cu-draw-draw_sc {
+  width: 637rpx;
+  height: 69rpx;
+  background: rgba(236, 215, 219, 0.53);
+  border-radius: 34rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+}
+
+.cu-draw-swiper {
+  height: 100%;
+  font-size: 28rpx;
+  color: #fff;
+  flex: 1;
+  line-height: 69rpx;
+}
+
+.cu-draw-box {
+  width: 632rpx;
+  box-shadow: -6px 8px 81px 0px rgb(255, 192, 203, .73), 0px 0px 24px 0px #FFFFFF inset;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  padding: 9rpx;
+  margin-bottom: 25rpx;
+}
+
+.cu-draw-b_box {
+  width: 614rpx;
+  border-radius: 30rpx;
+  box-shadow: 0px 0px 10px 0px rgb(255, 192, 203, .53), 0px 0px 27px 0px #FFFFFF inset;
+  box-sizing: border-box;
+  padding: 19rpx 15rpx;
+}
+
+.cu-draw-prize_box {
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 99;
+}
+
+.cu-draw-prize_item {
+  width: 175rpx;
+  height: 164rpx;
+  margin-bottom: 14rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-top: 10rpx;
+}
+
+.cu-draw-prize_start {
+  padding-top: 0 !important;
+}
+
+.cu-draw-prize_img image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.cu-draw-active {
+  position: relative;
+  border: 2rpx solid transparent;
+  box-shadow: none;
+}
+
+.cu-draw-active::after {
+  content: '';
+  position: absolute;
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  z-index: -1;
+}
+
+/* ==================
+    扩展样式-打卡
+ ==================== */
+
+.cu-clockin-time {
+  width: 300rpx;
+  height: 300rpx;
+  position: relative;
+}
+
+.cu-clockin-time::after {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  background: rgba(48, 124, 237, 0.08);
+  animation: clock-scale 1s infinite alternate-reverse;
+}
+
+.cu-clockin-time::before {
+  position: absolute;
+  z-index: 11;
+  content: '';
+  width: 280rpx;
+  height: 280rpx;
+  background: rgb(48, 124, 237, 0.79);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cu-clockin-time_over {
+  width: 300rpx;
+  height: 300rpx;
+  margin-bottom: 30rpx;
+  border-radius: 50%;
+  background: rgba(48, 124, 237, 0.08);
+  position: relative;
+}
+
+.cu-clockin-time_over::after {
+  position: absolute;
+  z-index: 11;
+  content: '';
+  width: 280rpx;
+  height: 280rpx;
+  background: #C6CED9;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes clock-scale {
+
+  0% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 样式1 */
+.cu-coupon-box {
+  width: 700rpx;
+  height: 360rpx;
+  overflow: hidden;
+  box-sizing: border-box;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+  /*  mask 裁剪的图形需要在外层嵌套一层父级，不然投影会被 mask 直接裁剪掉 */
+  position: relative;
+}
+
+.cu-coupon-box::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(35deg, var(--orange), var(--pink));
+  -webkit-mask: radial-gradient(circle at 20rpx 65%, transparent 20rpx, red 0) -20rpx;
+  /* red 0 ：后面颜色的位置只需要小于等于前面颜色的位置就行了 */
+  mask: radial-gradient(circle at 20rpx 65%, transparent 20rpx, red 0) -20rpx;
+  z-index: -1;
+  animation: bgchange 3s infinite ease-in-out alternate-reverse;
+}
+
+@keyframes bgchange {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(-50deg);
+  }
+}
+
+/* ==================
+    扩展样式-卡券
+ ==================== */
+
+.cu-coupon-content {
+  align-items: baseline;
+  position: relative;
+}
+
+.cu-coupon-content::before {
+  content: '';
+  width: 600rpx;
+  height: 3rpx;
+  position: absolute;
+  background-image: linear-gradient(90deg, var(--mauve) 50%, transparent 50%);
+  background-size: 30rpx 30rpx;
+  left: calc(50% - 300rpx);
+  bottom: -30rpx;
+}
+
+.cu-coupon-content text:nth-child(2) {
+  font-size: 80rpx;
+  line-height: 90rpx;
+  letter-spacing: 2rpx;
+  margin: 0px 20rpx;
+}
+
+/* 样式 */
+.cu-coupon-box2 {
+  width: 700rpx;
+  height: 220rpx;
+  overflow: hidden;
+  position: relative;
+  background: radial-gradient(circle at right top, transparent 18rpx, var(--pinkLight) 0) top left / 215rpx 51% no-repeat,
+    radial-gradient(circle at right bottom, transparent 18rpx, var(--pinkLight) 0) bottom left /215rpx 51% no-repeat,
+    radial-gradient(circle at left top, transparent 18rpx, var(--cyanLight) 0) top right /487rpx 51% no-repeat,
+    radial-gradient(circle at left bottom, transparent 18rpx, var(--cyanLight) 0) bottom right /487rpx 51% no-repeat;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+  margin: 20px auto;
+  /* 解决filter-导致border-radius生效 */
+  transform: translate3d(0, 0, 0);
+}
+
+.cu-coupon-box2::after {
+  content: '';
+  height: 184rpx;
+  width: 3rpx;
+  background-image: linear-gradient(0deg, #fff 50%, transparent 50%);
+  background-size: 20rpx 20rpx;
+  position: absolute;
+  left: 212rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* 样式3 */
+.cu-coupon-card3 {
+  margin: 20px auto;
+  width: 700rpx;
+  height: 200rpx;
+  position: relative;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .2));
+}
+
+.cu-coupon-card3::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  -webkit-mask: radial-gradient(circle at 30rpx 30rpx, transparent 30rpx, red 0) -30rpx -30rpx;
+  mask: radial-gradient(circle at 30rpx 30rpx, transparent 30rpx, red 0) -30rpx -30rpx;
+  background-image: linear-gradient(to right, var(--cyanLight) 0%, var(--pinkLight) 100%);
+}
+
+/* 样式4 */
+.cu-coupon-card4 {
+  margin: 20px auto;
+  width: 700rpx;
+  height: 200rpx;
+  position: relative;
+  border-radius: 20rpx;
+  background: radial-gradient(circle at 30rpx 25rpx, transparent 10rpx, #f77062 0, #fe5196 100%) top left/700rpx 40rpx;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .2));
+}
+
+/* 样式5 */
+.cu-coupon-card5 {
+  margin: 20px auto;
+  width: 700rpx;
+  height: 250rpx;
+  position: relative;
+  border-radius: 20rpx;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .3));
+}
+
+.cu-coupon-card5::after {
+  content: '';
+  border-radius: 20rpx;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-mask-image: radial-gradient(circle at 9px 46px, transparent 9px, red 9.5px),
+    linear-gradient(90deg, transparent 25%, red 0, red 75%, transparent 0);
+  mask-image: radial-gradient(circle at 9px 46px, transparent 9px, red 9.5px),
+    linear-gradient(90deg, transparent 25%, red 0, red 75%, transparent 0);
+  -webkit-mask-size: 100%, 8px 3px;
+  mask-size: 100%, 8px 3px;
+  -webkit-mask-repeat: repeat, repeat-x;
+  mask-repeat: repeat, repeat-x;
+  -webkit-mask-position: -9px, 50% 44.5px;
+  mask-position: -9px, 50% 44.5px;
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  background: linear-gradient(45deg, var(--pink), var(--pinkLight));
+}
+
+/* 样式6 */
+.cu-coupon-card6 {
+  margin: 20px auto;
+  width: 700rpx;
+  height: 220rpx;
+  position: relative;
+  border-radius: 20rpx;
+  filter: drop-shadow(8rpx 8rpx 0 rgba(34, 34, 34, .1));
+}
+
+.cu-coupon-card6::after {
+  content: '';
+  border-radius: 20rpx;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-mask: radial-gradient(circle at 50%, red 5rpx, #0000 0) 50% 50% / 100% 20rpx,
+    radial-gradient(circle at 20rpx 20rpx, #0000 20rpx, red 0) -20rpx -20rpx / 50%;
+  -webkit-mask-composite: destination-out;
+  background: linear-gradient(45deg, var(--orange), var(--pink));
+}
+
+/* 样式7 */
+
+.cu-coupon-card7 {
+  width: 683rpx;
+  height: 856rpx;
+  background: #FFFFFF;
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  padding: 0 24rpx;
+}
+
+.cu-coupon-top {
+  box-sizing: border-box;
+  height: 475rpx;
+  padding-top: 40rpx;
+  border-bottom: 1px dashed #66E0FE;
+  position: relative;
+}
+
+.cu-coupon-top::before {
+  content: '';
+  position: absolute;
+  width: 22rpx;
+  height: 44rpx;
+  background: #57D4F4;
+  left: -24rpx;
+  bottom: -24rpx;
+  border-radius: 0 22rpx 22rpx 0;
+}
+
+.cu-coupon-top::after {
+  content: '';
+  position: absolute;
+  width: 22rpx;
+  height: 44rpx;
+  background: #57D4F4;
+  right: -24rpx;
+  bottom: -24rpx;
+  border-radius: 22rpx 0 0 22rpx;
+}
+
+.cu-coupon-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.cu-coupon-title text {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #147ABE;
+  padding: 0 13rpx 0 20rpx;
+}
+
+.cu-coupon-title span {
+  width: 21rpx;
+  height: 21rpx;
+  background: #7FE0F7;
+  border-radius: 50%;
+  position: relative;
+}
+
+.cu-coupon-title span::after {
+  content: '';
+  position: absolute;
+  width: 14rpx;
+  height: 14rpx;
+  background: rgba(255, 190, 85, 0.58);
+  border-radius: 50%;
+  bottom: 0;
+  right: -7rpx;
+}
+
+/* ==================
+    扩展样式-商品滑动
+ ==================== */
+
+.cu-good-act {
+  overflow: hidden;
+  position: relative;
+  height: 228rpx;
+  border-radius: 20rpx;
+}
+
+.cu-good-point-con {
+  position: absolute;
+  top: 19rpx;
+  left: 107rpx;
+  width: 84%;
+  white-space: nowrap;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.cu-good-point-con .swiper-box {
+  height: 192rpx;
+  overflow: hidden;
+}
+
+.cu-good-point-flex {
+  float: left;
+  width: 33.33%;
+  height: 192rpx;
+  text-align: center;
+}
+
+.cu-good-point-img {
+  display: block;
+  width: 145rpx;
+  height: 150rpx;
+  margin: 0 auto;
+  margin-bottom: 9rpx;
+}
+
+.cu-good-t-box {
+  width: 110rpx;
+  height: 100%;
+  text-align: center;
+}
+
+.cu-good-t-box:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.cu-good-title {
+  white-space: pre-wrap;
+  width: 50rpx;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 30rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cu-good-point-flex-w {
+  float: left;
+  width: 100%;
+  height: 192rpx;
+  text-align: center;
+}
+
+.cu-good-wd1 {
+  width: 28%;
+}
+
+.cu-good-wd2 {
+  width: 56%;
+}
+
 /* ==================
     其他样式-底部
  ==================== */
+
 .colorui-text {
   font-size: 20rpx;
   color: #cecece;
@@ -5802,7 +6480,7 @@ movable-view.indexBar-item::before {
     其他样式-图片
  ==================== */
 
- image {
+image {
   max-width: 100%;
   display: inline-block;
   position: relative;

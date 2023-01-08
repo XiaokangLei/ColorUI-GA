@@ -16,25 +16,25 @@
   </view>
   <view class="margin">
     <view class="padding-bottom flex text-center">
-      <view class="flex flex-sub flex-direction text-orange">
+      <view class="flex flex-sub flex-column text-orange">
         <view class="text-xxl text-bold">{{modelTotal}}</view>
         <view class="margin-top-xs">
           <text class="cuIcon-circlefill"></text> 样式
         </view>
       </view>
-      <view class="flex flex-sub flex-direction text-blue">
+      <view class="flex flex-sub flex-column text-blue">
         <view class="text-xxl text-bold">{{templateCount}}</view>
         <view class="margin-top-xs">
           <text class="cuIcon-newsfill"></text> 模板
         </view>
       </view>
-      <view class="flex flex-sub flex-direction text-pink">
+      <view class="flex flex-sub flex-column text-pink">
         <view class="text-xxl text-bold">{{visitTotal}}</view>
         <view class="margin-top-xs">
           <text class="cuIcon-attentionfill"></text> 访问
         </view>
       </view>
-      <view class="flex flex-sub flex-direction text-green">
+      <view class="flex flex-sub flex-column text-green">
         <view class="text-xxl text-bold">{{usersCount}}</view>
         <view class="margin-top-xs">
           <text class="cuIcon-myfill"></text> 用户

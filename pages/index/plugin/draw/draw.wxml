@@ -3,9 +3,9 @@
   <view slot="content">抽奖</view>
 </cu-custom>
 
-<view class="con flex-column">
-  <view class="draw_sc flex-row">
-    <swiper class="swiper" vertical="true" autoplay="true" circular="true" interval="3000" display-multiple-items='1'>
+<view class="cu-draw-con flex flex-column align-center">
+  <view class="cu-draw-draw_sc flex flex-row align-center">
+    <swiper class="cu-draw-swiper" vertical="true" autoplay="true" circular="true" interval="3000" display-multiple-items='1'>
       <block wx:for-index="idx" wx:for='{{2}}' wx:key="index">
         <swiper-item>
           <view class="padding-left">
@@ -17,21 +17,21 @@
       </block>
     </swiper>
   </view>
-  <view class="box">
-    <view class="b_box">
-      <view class="flex-row j_b prize_box">
+  <view class="cu-draw-box">
+    <view class="cu-draw-b_box">
+      <view class="flex flex-row align-center j_b cu-draw-prize_box">
         <block wx:for="{{prize_list}}" wx:key="index">
           <!-- 抽奖 按钮-->
           <block wx:if="{{index == 4}}">
-            <view class="prize_start prize_item margin-lr-xs solids radius-lg">
+            <view class="cu-draw-prize_start cu-draw-prize_item margin-lr-xs solids radius-lg">
               <view class="flex justify-center padding-sm padding-lr align-center" bindtap="lottery">
                 <view class="flex align-center text-xxl text-white">开 始 抽 奖</view>
               </view>
             </view>
           </block>
           <!-- 奖项 -->
-          <view class="prize_item flex-column margin-lr-xs solids radius-lg {{item.active?'ative':''}}">
-            <view class="prize_img">
+          <view class="cu-draw-prize_item flex flex-column align-center margin-lr-xs solids radius-lg {{item.active?'cu-draw-active':''}}">
+            <view class="cu-draw-prize_img">
               <image class="radius-lg" src="{{item.icon}}" mode="aspectFill" />
             </view>
             <text class="text-white">{{item.name}}</text>

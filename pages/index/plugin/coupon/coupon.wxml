@@ -11,12 +11,12 @@
 
 <!-- 样式1 -->
 <view class="flex solid-bottom margin-top justify-center">
-  <view class="card-box radius-lg padding-sm">
+  <view class="cu-coupon-box radius-lg padding-sm">
     <view class="flex justify-between">
       <view class="text-white text-xl text-bold">ColorUI-GA会员卡</view>
       <view class="cu-tag line-white round text-df padding-lr-sm">VIP</view>
     </view>
-    <view class="flex justify-center align-end padding-tb card-content text-white">
+    <view class="flex justify-center align-end padding-tb cu-coupon-content text-white">
       <text class="text-lg padding-bottom-xs">余额</text>
       <text class="text-sl"> 1688 </text>
       <text class="text-lg padding-bottom-xs">元</text>
@@ -45,7 +45,7 @@
 </view>
 
 <!-- 样式2 -->
-<view class="coupon-box radius-lg">
+<view class="cu-coupon-box2 radius-lg">
   <view class="cu-tag bg-orange radius text-df padding-lr-sm">即将过期</view>
   <view class="flex p-xs margin-bottom-sm mb-sm">
     <view class="flex-sub padding-sm padding-top margin-xs text-red">
@@ -65,7 +65,7 @@
 </view>
 
 <!-- 样式3 -->
-<view class="card-3"></view>
+<view class="cu-coupon-card3"></view>
 
 <view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
@@ -74,7 +74,7 @@
 </view>
 
 <!-- 样式4 -->
-<view class="card-4"></view>
+<view class="cu-coupon-card4"></view>
 
 <view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
@@ -83,7 +83,7 @@
 </view>
 
 <!-- 样式5 -->
-<view class="card-5"></view>
+<view class="cu-coupon-card5"></view>
 
 <view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
@@ -92,7 +92,7 @@
 </view>
 
 <!-- 样式6 -->
-<view class="card-6"></view>
+<view class="cu-coupon-card6"></view>
 
 <view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
@@ -102,16 +102,16 @@
 
 <!-- 样式7 -->
 <view class="padding-tb-sm flex justify-center" style="background-color: #57D4F4;">
-<view class="card">
-  <view class="top">
-    <view class="title">
-      <span></span>
-      <text>活动规则</text>
-      <span></span>
+  <view class="cu-coupon-card7">
+    <view class="cu-coupon-top">
+      <view class="cu-coupon-title">
+        <span></span>
+        <text>活动规则</text>
+        <span></span>
+      </view>
     </view>
+    <view class="bottom"></view>
   </view>
-  <view class="bottom"></view>
-</view>
 </view>
 
 <import src="/pages/template/common/copyright.wxml" />

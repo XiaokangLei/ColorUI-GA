@@ -34,7 +34,7 @@
   </view>
 </view>
 
-<view class="bg-white double-column">
+<view class="bg-white skeleton-double-column">
   <view class="cu-card case no-card" wx:for="{{_data}}" wx:key="item">
     <cu-skeleton loading="{{item.loading}}" column="4" columnWidth="{{['50%','90%','70%','80%']}}" endHeight="36rpx">
       <view class="padding">

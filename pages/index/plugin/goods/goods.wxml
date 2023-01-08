@@ -9,15 +9,15 @@
   </view>
 </view>
 
-<view class="act margin-sm bg-purple light">
-  <view class="t_box bg-oc-pink-3">
-    <view class="title">精选商品</view>
+<view class="cu-good-act margin-sm bg-purple light">
+  <view class="cu-good-t-box bg-oc-pink-3">
+    <view class="cu-good-title">精选商品</view>
   </view>
-  <view class="point_con">
+  <view class="cu-good-point-con">
     <swiper class="swiper-box" indicator-dots="{{false}}" autoplay="{{true}}" interval="{{5000}}" duration="{{1000}}" circular="true">
       <swiper-item wx:for="{{goods_list}}" wx:key="index">
-        <view class="point_flex" wx:for="{{item.goods}}" wx:for-item="its" wx:key="key">
-          <image class="point_img radius-lg" src="{{its.img}}"></image>
+        <view class="cu-good-point-flex" wx:for="{{item.goods}}" wx:for-item="its" wx:key="key">
+          <image class="cu-good-point-img radius-lg" src="{{its.img}}"></image>
           <view>30积分</view>
         </view>
       </swiper-item>
@@ -31,15 +31,15 @@
   </view>
 </view>
 
-<view class="act margin-sm bg-purple light">
-  <view class="t_box bg-oc-pink-3">
-    <view class="title">精选商品</view>
+<view class="cu-good-act margin-sm bg-purple light">
+  <view class="cu-good-t-box bg-oc-pink-3">
+    <view class="cu-good-title">精选商品</view>
   </view>
-  <view class="point_con">
+  <view class="cu-good-point-con">
     <swiper class="swiper-box" vertical="true" indicator-dots="{{false}}" autoplay="{{true}}" interval="{{5000}}" duration="{{1000}}" circular="true">
       <swiper-item wx:for="{{goods_list}}" wx:key="index">
-        <view class="point_flex" wx:for="{{item.goods}}" wx:for-item="its" wx:key="key">
-          <image class="point_img radius-lg" src="{{its.img}}"></image>
+        <view class="cu-good-point-flex" wx:for="{{item.goods}}" wx:for-item="its" wx:key="key">
+          <image class="cu-good-point-img radius-lg" src="{{its.img}}"></image>
           <view>30积分</view>
         </view>
       </swiper-item>
@@ -53,15 +53,15 @@
   </view>
 </view>
 
-<view class="act margin-sm bg-purple light">
-  <view class="t_box bg-oc-pink-3">
-    <view class="title">精选商品</view>
+<view class="cu-good-act margin-sm bg-purple light">
+  <view class="cu-good-t-box bg-oc-pink-3">
+    <view class="cu-good-title">精选商品</view>
   </view>
-  <view class="point_con {{d_num==1?'wd1':d_num==2?'wd2':''}}">
+  <view class="cu-good-point-con {{d_num==1?'cu-good-wd1':d_num==2?'cu-good-wd2':''}}">
     <swiper class="swiper-box" indicator-dots="{{false}}" autoplay="{{true}}" interval="{{1500}}" duration="{{1000}}" circular="true" display-multiple-items="{{d_num}}">
       <swiper-item wx:for="{{g_list}}" wx:key="index">
-        <view class="point_flex_w">
-          <image class="point_img radius-lg" src="{{item.img}}"></image>
+        <view class="cu-good-point-flex-w">
+          <image class="cu-good-point-img radius-lg" src="{{item.img}}"></image>
           <view>{{40}}积分</view>
         </view>
       </swiper-item>

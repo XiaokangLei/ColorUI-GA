@@ -1,12 +1,1 @@
 /* pages/index/plugin/skeleton/skeleton.wxss */
-
-/* 双列 */
-.double-column{
-	display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background: #fff;
-}
-.double-column .cu-card{
-	width: 50%;
-}

@@ -1,31 +1,22 @@
 <!--pages/index/plugin/verticalnav/verticalnav.wxml-->
-<!-- <view class='cu-custom'>
-  <view class="cu-bar fixed bg-shadeTop" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
-      <text class='cuIcon-back'></text> 返回
-    </navigator>
-    <view class='content' style='top:{{StatusBar}}px;'>Tab索引</view>
-  </view>
-</view> -->
-
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="content">Tab索引</view>
+  <view slot="content">垂直导航</view>
 </cu-custom>
 
-<swiper class="screen-swiper round-dot margin" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+<swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
   <swiper-item wx:for="{{swiperList}}" wx:key="item">
-    <image class="radius" src="{{item.url}}" mode='aspectFill'></image>
+    <image src="{{item.url}}" mode='aspectFill'></image>
   </swiper-item>
 </swiper>
 
-<view class="VerticalBox">
-  <scroll-view class="VerticalNav nav cu-timeline" scroll-y scroll-with-animation scroll-top="{{VerticalNavTop}}" style="height:calc(100vh - 375rpx)">
+<view class="flex margin-top-xs">
+  <scroll-view class="cu-vertical-nav nav cu-timeline" scroll-y scroll-with-animation scroll-top="{{cu-vertical-navTop}}" style="height:calc(100vh - 375rpx)">
     <view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:for="{{list}}" wx:key="item" bindtap='tabSelect' data-id="{{index}}">
       Tab-{{item.name}}
     </view>
   </scroll-view>
 
-  <scroll-view class="VerticalMain" scroll-y scroll-with-animation style="height:calc(100vh - 375rpx)" scroll-into-view="main-{{MainCur}}" bindscroll="VerticalMain">
+  <scroll-view class="bg-ghostWhite" scroll-y scroll-with-animation style="height:calc(100vh - 375rpx)" scroll-into-view="main-{{MainCur}}" bindscroll="VerticalMain">
     <view class="padding-top padding-lr" wx:for="{{list}}" wx:key="item" id="main-{{index}}">
       <view class='cu-bar solid-bottom bg-white'>
         <view class='action'>

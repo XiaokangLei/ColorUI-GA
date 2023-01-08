@@ -38,19 +38,19 @@
 
     <view class="padding-tb solid-bottom">
       <view class="flex text-center bg-white">
-        <view class="flex flex-sub flex-direction">
+        <view class="flex flex-sub flex-column">
           <view class="text-xl text-black text-bold">14.2万</view>
           <view class="margin-top-xs text-sm text-gray">
             字数
           </view>
         </view>
-        <view class="flex flex-sub flex-direction">
+        <view class="flex flex-sub flex-column">
           <view class="text-xl text-black text-bold">5.8MB</view>
           <view class="margin-top-xs text-sm text-gray">
             文件大小
           </view>
         </view>
-        <view class="flex flex-sub flex-direction">
+        <view class="flex flex-sub flex-column">
           <view class="text-xl text-black text-bold">754</view>
           <view class="margin-top-xs text-sm text-gray">
             阅读次数

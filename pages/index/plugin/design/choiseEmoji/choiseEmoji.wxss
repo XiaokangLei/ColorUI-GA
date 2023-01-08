@@ -1,8 +1,4 @@
 /* pages/index/plugin/design/choiseEmoji/choiseEmoji.wxss */
-page {
-  width: 100%;
-  height: 100%;
-}
 
 .button_type {
   height: 100rpx;
