@@ -2,13 +2,11 @@
 
 ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发的小程序原生 css 组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 [Github Issues](https://github.com/XiaokangLei/ColorUI-GA/issues)。对于想要一起开发，补充 CSS 样式库的朋友，欢迎提交 PR。
 
-非常感谢[ColorUI 2.0](https://github.com/weilanwl/coloruicss)作者开源代码，本代码在此基础上进行开发。
-
-**如果本项目能为您提供帮助，请右上角 star 给予支持！**
+**`开源不易，需要鼓励。给 ColorUI GA 项目点个 star 吧！`**
 
 ## 文档&在线预览
 
-**_注意：个别预览样式与真机存在少许差距，以小程序客户端实际样式为准_**
+**_注意：个别H5预览样式与真机存在差异，以小程序客户端实际样式为准_**
 
 - 在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
 - 文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)【努力更新中...】
@@ -54,6 +52,7 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 ## Demo 快速体验
 
 - 基础表单组件库使用示例，v2.0.9 版本 Demo[下载链接](https://github.com/XiaokangLei/ColorUI-GA/releases/download/v2.0.9/demo.zip)
+- 详细使用说明：[【链接】](https://zhuanlan.zhihu.com/p/597197882)
 
 ## 自定义顶部导航栏(可选)
 
@@ -116,7 +115,7 @@ onLaunch: function() {
 - [x] fix 轮播图左侧图消失 BUG
 - [x] 小程序检测到新版本主动更新
 - [x] 【基础样式】背景色修改、扩展
-- [x] 【基础样式】圆环形状进度条(canvas2D 实现+非canvas2D 实现) [无预览]【请在小程序端查看】
+- [x] 【基础样式】圆环形状进度条(canvas2D 实现+非 canvas2D 实现) [无预览]【请在小程序端查看】
 - [x] 【基础样式】虚线边框和蓝色边框样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/base/border)
 - [x] 【组件设计】手风琴向下展开样式&文本展开与收起 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/piano)
 - [x] 【组件设计】滚动 Tips(单行、多行、左右、上下) [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/tips)

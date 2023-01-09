@@ -8,7 +8,7 @@
   <view class="cu-overturn-box cu-b2 radius-lg" catchtap="showb2" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);{{styleB}}"></view>
 </view>
 
-<view class="margin padding-top" style="margin-top: 50vh;">
+<view class="margin padding-top" style="margin-top: 40vh;">
   <view class="margin-top bg-white padding radius-lg">
     <view class="text-sm text-black">操作说明：</view>
     <view class="text-gray text-sm padding-top-xs">点击图片将会翻转图片显示另一张图片。</view>
@@ -17,7 +17,7 @@
 </view>
 
 <import src="/pages/template/common/copyright.wxml" />
-<view class="margin-top">
+<view class="margin-top" style="margin-top: 24vh;">
   <template is="copyright"></template>
   <ad unit-id="adunit-7e063c3c010456be"></ad>
 </view>

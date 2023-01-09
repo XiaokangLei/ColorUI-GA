@@ -25,19 +25,22 @@ Component({
       type: 'image',
       title: '索引列表',
       des: '索引跳转列表样式',
-      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/index/plugin/indexes/indexes'
     }, {
       id: 1,
       type: 'image',
-      title: '布局UI设计',
-      des: 'Flex、Grid及基础样式',
+      title: '瀑布流',
+      des: '图片瀑布流样式',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/index/plugin/waterfall/waterfall'
     }, {
       id: 2,
       type: 'image',
       title: '全屏抽屉',
       des: '侧边展示抽屉',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/index/plugin/drawer/drawer'
     }],
     elementsPlugins: [{
         title: '索引列表',
@@ -133,6 +136,12 @@ Component({
     cardSwiper(e) {
       this.setData({
         cardCur: e.detail.current
+      })
+    },
+    // 轮播图跳转
+    jumpTo(e) {
+      return wx.navigateTo({
+        url: e.currentTarget.dataset.page
       })
     }
   }

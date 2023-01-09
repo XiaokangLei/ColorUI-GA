@@ -11,7 +11,7 @@
 <!-- 常规底部加载 -->
 <view class="cu-bar bg-white">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>常规底部加载
+    <text class='cuIcon-title text-blue'></text>常规底部加载
   </view>
 </view>
 
@@ -20,7 +20,7 @@
 <!-- 颜色/背景 -->
 <view class="cu-bar bg-white">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>颜色/背景
+    <text class='cuIcon-title text-blue'></text>颜色/背景
   </view>
 </view>
 
@@ -30,7 +30,7 @@
 <!-- 加载状态 -->
 <view class="cu-bar bg-white">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>加载状态
+    <text class='cuIcon-title text-blue'></text>加载状态
   </view>
   <view class='action'>
     <text class="text-df margin-right-sm">加载完成</text>
@@ -43,21 +43,22 @@
 <!-- 加载错误 -->
 <view class="cu-bar bg-white">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>加载错误
+    <text class='cuIcon-title text-blue'></text>加载错误
   </view>
 </view>
 
 <view class="cu-load bg-red erro"></view>
 
 <!-- 弹框加载 -->
-<view class="cu-bar bg-white">
+<view class="cu-bar bg-white margin-top-xs">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>弹框加载
+    <text class='cuIcon-title text-blue'></text>弹框加载
   </view>
-  <view class='action'>
-    <button class='cu-btn bg-green shadow' bindtap='loadModal'>
-      点我
-    </button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap='loadModal' style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
 </view>
 
@@ -69,19 +70,25 @@
 <!-- 顶部进度条加载 -->
 <view class="cu-bar bg-white margin-top-xs">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>顶部进度条加载
+    <text class='cuIcon-title text-blue'></text>顶部进度条加载
   </view>
-  <view class='action'>
-    <button class='cu-btn bg-green shadow' bindtap='loadProgress'>
-      点我
-    </button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap='loadProgress' style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
+</view>
+
+<view class='load-progress {{loadProgress!=0?"show":"hide"}}' style="top:{{CustomBar}}px;">
+  <view class='load-progress-bar bg-green' style="transform: translate3d(-{{100-loadProgress}}%, 0px, 0px);"></view>
+  <view class='load-progress-spinner text-green'></view>
 </view>
 
 <!-- 扩展样式 -->
 <view class="cu-bar bg-white margin-top-xs">
   <view class='action'>
-    <text class='cuIcon-titles text-blue'></text>扩展样式
+    <text class='cuIcon-title text-blue'></text>扩展样式
   </view>
 </view>
 

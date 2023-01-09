@@ -25,19 +25,22 @@ Component({
       type: 'image',
       title: '操作条',
       des: '顶部、底部操作条',
-      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/index/component/bar/bar'
     }, {
       id: 1,
       type: 'image',
       title: '导航栏',
       des: '滑动、静态Tab样式',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/index/component/nav/nav'
     }, {
       id: 2,
       type: 'image',
       title: '列表',
       des: '宫格列表、菜单列表、消息列表',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/index/component/list/list'
     }],
     elementsComponents: [{
         title: '操作条',
@@ -145,6 +148,12 @@ Component({
     cardSwiper(e) {
       this.setData({
         cardCur: e.detail.current
+      })
+    },
+    // 轮播图跳转
+    jumpTo(e) {
+      return wx.navigateTo({
+        url: e.currentTarget.dataset.page
       })
     }
   }

@@ -56,7 +56,7 @@
   </view>
 </view>
 
-<view class="bg-white padding-top">
+<view class="bg-white padding-tb">
   <view class="cu-card article no-card" wx:for="{{_data}}" wx:key="item">
     <cu-skeleton loading="{{item.loading}}" avatar column="4" columnWidth="{{['60%','90%','70%','70%']}}" endHeight="36rpx">
       <view class="flex">

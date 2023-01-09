@@ -4,7 +4,7 @@
 </cu-custom>
 
 <view class="">
-  <view class="bg-white margin-xs radius-lg" style="min-height: 90vh;">
+  <view class="bg-white margin-xs radius-lg" style="min-height: 86vh;">
     <view class="radius-lg" style="background-image: linear-gradient(to top, #fffcf8 0%, #fae7c9 100%);">
       <view class="flex padding-sm justify-between">
         <view class="flex padding-top-xs text-xl text-black">

@@ -19,7 +19,7 @@
   </view>
   <view class='action'>
     <button class='cu-btn bg-blue shadow' bindtap='click1'>
-      点我
+      演示
     </button>
   </view>
 </view>
@@ -30,7 +30,7 @@
   </view>
   <view class='action'>
     <button class='cu-btn bg-blue shadow' bindtap='click2'>
-      点我
+      演示
     </button>
   </view>
 </view>
@@ -41,7 +41,7 @@
   </view>
   <view class='action'>
     <button class='cu-btn bg-blue shadow' bindtap='click3'>
-      点我
+      演示
     </button>
   </view>
 </view>
@@ -52,7 +52,7 @@
   </view>
   <view class='action'>
     <button class='cu-btn bg-blue shadow' bindtap='click4'>
-      点我
+      演示
     </button>
   </view>
 </view>
@@ -74,8 +74,8 @@
     <text class='cuIcon-title text-blue'></text>成功的消息框
   </view>
   <view class='action'>
-    <button class='cu-btn bg-green shadow' bindtap='click5'>
-      点我
+    <button class='cu-btn bg-blue shadow' bindtap='click5'>
+      演示
     </button>
   </view>
 </view>
@@ -84,8 +84,8 @@
     <text class='cuIcon-title text-blue'></text>错误的消息框
   </view>
   <view class='action'>
-    <button class='cu-btn bg-green shadow' bindtap='click6'>
-      点我
+    <button class='cu-btn bg-blue shadow' bindtap='click6'>
+      演示
     </button>
   </view>
 </view>

@@ -23,7 +23,7 @@
     </view>
   </view>
   <!-- 版权和广告 -->
-  <view style="margin-top:34vh">
+  <view style="margin-top:40vh">
     <template is="copyright"></template>
     <ad unit-id="adunit-7e063c3c010456be"></ad>
   </view>

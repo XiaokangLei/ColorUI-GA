@@ -3,7 +3,7 @@
   <view slot="content">商品滑动</view>
 </cu-custom>
 
-<view class="cu-bar solid-bottom">
+<view class="cu-bar solid-bottom bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>同组水平滑动
   </view>
@@ -25,7 +25,7 @@
   </view>
 </view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>同组垂直滑动
   </view>
@@ -47,7 +47,7 @@
   </view>
 </view>
 
-<view class="cu-bar solid-bottom margin-top">
+<view class="cu-bar solid-bottom margin-top bg-white">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text>单个滑动
   </view>
@@ -70,7 +70,7 @@
 </view>
 
 <import src="/pages/template/common/copyright.wxml" />
-<view class="margin-top">
+<view class="margin-top" style="margin-top: 20vh;">
   <template is="copyright"></template>
   <ad unit-id="adunit-7e063c3c010456be"></ad>
 </view>

@@ -3,7 +3,7 @@
   <view slot="content">历史搜索</view>
 </cu-custom>
 
-<view class="bg-white margin-sm radius-lg" style="min-height: 65vh;">
+<view class="bg-white margin-sm radius-lg" style="min-height: 80vh;">
   <view class="cu-bar search ">
     <view class="search-form round">
       <text class="cuIcon-search"></text>

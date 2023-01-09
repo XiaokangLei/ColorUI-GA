@@ -12,7 +12,7 @@
 <scroll-view scroll-y class="scrollPage">
   <!-- 滚动图片 -->
   <swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" previousMargin="0.01rpx" indicator-color="#8799a3" indicator-active-color="#0081ff" style='margin-top: {{StatusBar + CustomBar}}rpx;'>
-    <swiper-item wx:for="{{swiperList}}" wx:key="item" class="{{cardCur==index?'cur':''}}">
+    <swiper-item wx:for="{{swiperList}}" wx:key="item" class="{{cardCur==index?'cur':''}}" bindtap='jumpTo' data-page='{{item.page}}'>
       <view class="swiper-item">
         <view class="bg-img radius-lg" style="background-image: url({{item.url}});height: 360rpx;">
           <view class="padding-xl text-white">

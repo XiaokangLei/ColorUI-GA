@@ -25,19 +25,22 @@ Component({
       type: 'image',
       title: 'ColorUI GA',
       des: '轻量、可靠的UI组件库',
-      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1'
+      url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/about/about/about'
     }, {
       id: 1,
       type: 'image',
       title: 'ColorUI GA',
       des: '每周上新UI模板设计~',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/template/login/home/home'
     }, {
       id: 2,
       type: 'image',
       title: 'ColorUI GA',
       des: 'CSS样式、适合多种平台',
-      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
+      url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1',
+      page: '/pages/about/about/about'
     }],
     elements: [{
         title: '首页',
@@ -132,5 +135,11 @@ Component({
         cardCur: e.detail.current
       })
     },
+    // 轮播图跳转
+    jumpTo(e) {
+      return wx.navigateTo({
+        url: e.currentTarget.dataset.page
+      })
+    }
   }
 })

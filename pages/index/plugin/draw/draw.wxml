@@ -51,7 +51,7 @@
 </view>
 
 <import src="/pages/template/common/copyright.wxml" />
-<view class="margin-top">
+<view class="margin-top" style="margin-top: 24vh;">
   <template is="copyright"></template>
   <ad unit-id="adunit-7e063c3c010456be"></ad>
 </view>

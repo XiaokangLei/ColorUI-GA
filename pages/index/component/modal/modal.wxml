@@ -1,14 +1,17 @@
 <!--pages/index/component/modal/modal.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="content">模态窗口</view>
+  <view slot="content">模态框</view>
 </cu-custom>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 普通窗口
+    <text class="cuIcon-title text-blue "></text> 普通窗口
   </view>
-  <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="Modal">Modal</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap='showModal' data-target="Modal" style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
 </view>
 
@@ -26,12 +29,15 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-sm">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 底部窗口
+    <text class="cuIcon-title text-blue "></text> 底部窗口
   </view>
-  <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="bottomModal">Bottom</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="bottomModal" style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
 </view>
 
@@ -47,34 +53,34 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-sm">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 对话窗口
+    <text class="cuIcon-title text-blue "></text> 对话窗口
   </view>
-  <view class="action">
-    <view class="margin-right">
-      <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DialogModal1">Dialog</button>
-    </view>
-    <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="DialogModal2">Dialog</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="DialogModal1" style="height: 84rpx;"><text class="text-lg">演示1</text></button>
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="DialogModal2" style="height: 84rpx;"><text class="text-lg">演示2</text></button>
   </view>
 </view>
 
 <view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
   <view class="cu-dialog">
     <view class="cu-bar bg-white justify-end">
-      <view class="content">Modal标题</view>
+      <view class="content">ColorUI GA</view>
       <view class="action" bindtap="hideModal">
         <text class="cuIcon-close text-red"></text>
       </view>
     </view>
-    <view class="padding-xl">
-      Modal 内容。
+    <view class="padding-xl text-left">
+      ColorUI GA 是基于ColorUI 2.0开发的轻量、可靠、开源的小程序原生css组件库，理论上适用于其他支持css库的所有平台。
     </view>
     <view class="cu-bar bg-white justify-end">
       <view class="action">
         <button class="cu-btn line-green text-green" bindtap="hideModal">取消</button>
         <button class="cu-btn bg-green margin-left" bindtap="hideModal">确定</button>
-
       </view>
     </view>
   </view>
@@ -83,13 +89,13 @@
 <view class="cu-modal {{modalName=='DialogModal2'?'show':''}}">
   <view class="cu-dialog">
     <view class="cu-bar bg-white justify-end">
-      <view class="content">Modal标题</view>
+      <view class="content">ColorUI GA</view>
       <view class="action" bindtap="hideModal">
         <text class="cuIcon-close text-red"></text>
       </view>
     </view>
-    <view class="padding-xl">
-      Modal 内容。
+    <view class="padding-xl text-left">
+      ColorUI GA 是基于ColorUI 2.0开发的轻量、可靠、开源的小程序原生css组件库，理论上适用于其他支持css库的所有平台。
     </view>
     <view class="cu-bar bg-white">
       <view class="action margin-0 flex-sub text-green " bindtap="hideModal">
@@ -101,18 +107,21 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-sm">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 图片窗口
+    <text class="cuIcon-title text-blue "></text> 图片窗口
   </view>
-  <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="Image">Image</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="Image" style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
 </view>
 
 <view class="cu-modal {{modalName=='Image'?'show':''}}">
   <view class="cu-dialog">
-    <view class="bg-img" style="background-image: url('https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1">
+    <view class="bg-img" style="background-image: url('https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1');height: 360rpx;">
       <view class="cu-bar justify-end text-white">
         <view class="action" bindtap="hideModal">
           <text class="cuIcon-close "></text>
@@ -125,12 +134,15 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-sm">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 单选窗口
+    <text class="cuIcon-title text-blue "></text> 单选窗口
   </view>
-  <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="RadioModal">Radio</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="RadioModal" style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
 </view>
 
@@ -149,12 +161,15 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-sm">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 多选窗口
+    <text class="cuIcon-title text-blue "></text> 多选窗口(底部弹出)
   </view>
-  <view class="action">
-    <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="ChooseModal">Choose</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="ChooseModal" style="height: 84rpx;"><text class="text-lg">演示</text></button>
   </view>
 </view>
 
@@ -174,15 +189,20 @@
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white margin-top-sm">
   <view class="action">
-    <text class="cuIcon-titles text-blue "></text> 侧边抽屉
+    <text class="cuIcon-title text-blue "></text> 侧边抽屉
   </view>
-  <view class="action">
-    <view class="margin-right">
-      <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DrawerModalL">Left</button>
-    </view>
-    <button class="cu-btn bg-blue shadow margin-left" bindtap="showModal" data-target="DrawerModalR">Right</button>
+</view>
+
+<view class="bg-white padding-tb">
+  <view class="cu-bar btn-group">
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="DrawerModalL" style="height: 84rpx;">
+      <text class="text-lg">左侧弹出演示</text>
+    </button>
+    <button class="cu-btn round text-green line-blue shadow" bindtap="showModal" data-target="DrawerModalR" style="height: 84rpx;">
+      <text class="text-lg">右侧弹出演示</text>
+    </button>
   </view>
 </view>
 
