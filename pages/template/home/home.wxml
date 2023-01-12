@@ -44,18 +44,6 @@
     </block>
   </swiper>
 
-  <!-- <view class="cu-card case margin-lr-lg margin-tb-xs">
-    <view class="cu-item shadow" data-page="/pages/template/uitemplate/home/home" bindtap="jumpTo">
-      <view class="image">
-        <image src="https://image.meiye.art/pic_V_46b2kM6sbHGcP_hIc_1?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill" style="max-height: 360rpx;"></image>
-        <view class="cu-tag bg-orange radius">热门</view>
-        <view class="cu-bar bg-shadeBottom">
-          <text class="text-cut padding-tb-sm text-lg">完整UI模板，包括商城、影视等多种模板。</text>
-        </view>
-      </view>
-    </view>
-  </view> -->
-
   <view class='nav-list'>
     <navigator open-type="navigate" hover-class='none' url="/pages/template/uitemplate/home/home" class="nav-li-new bg-mauve light">
       <image src='/images/0004.svg' mode='scaleToFill' class='image-bg' style="z-index: -2; margin: -24rpx 0rpx 0rpx -40rpx"></image>
