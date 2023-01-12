@@ -29,4 +29,6 @@
     <template is="copyright"></template>
   </view>
 
+  <ad unit-id="adunit-51012464dc9a71e9" ad-type="video" ad-theme="white"></ad>
+
 </scroll-view>

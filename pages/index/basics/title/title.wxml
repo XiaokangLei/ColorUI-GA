@@ -88,6 +88,34 @@
   </view>
 </view>
 
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>
+    <text class="text-xl text-black">居中</text>
+  </view>
+</view>
+
+<view class="margin-sm radius-lg bg-white">
+  <view class="cu-bar radius-lg-top flex justify-center">
+    <view class="action border-title">
+      <text class="text-xl text-bold">示例标题1</text>
+      <text class="bg-grey" style="width:2rem"></text>
+    </view>
+  </view>
+  <view class="cu-bar flex justify-center">
+    <view class="action border-title">
+      <text class="text-xl text-bold text-blue">示例标题2</text>
+      <text class="bg-gradual-blue" style="width:3rem"></text>
+    </view>
+  </view>
+  <view class="cu-bar flex justify-center">
+    <view class="action sub-title">
+      <text class="text-xl text-bold text-green">示例标题3</text>
+      <text class="bg-green"></text>
+    </view>
+  </view>
+</view>
+
 <import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
   <template is="copyright"></template>

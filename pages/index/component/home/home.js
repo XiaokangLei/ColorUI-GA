@@ -138,6 +138,18 @@ Component({
         color: 'purple light',
         icon: 'list'
       },
+      {
+        title: '步进器',
+        name: 'stepper',
+        color: 'brown light',
+        icon: 'list'
+      },
+      {
+        title: '倒计时',
+        name: 'countdown',
+        color: 'pink light',
+        icon: 'list'
+      },
     ],
   },
 

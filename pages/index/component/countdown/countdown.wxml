@@ -1,0 +1,81 @@
+<!--pages/index/component/countdown/countdown.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="content">倒计时</view>
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>基础样式
+  </view>
+</view>
+
+<view class="bg-white">
+  <view class="flex justify-center align-center padding text-lg">
+    <view class="cu-tag radius bg-orange light">{{left_time_list[0]}}</view>天
+    <view class="cu-tag radius bg-orange light">{{left_time_list[1]}}</view>时
+    <view class="cu-tag radius bg-orange light">{{left_time_list[2]}}</view>分
+    <view class="cu-tag radius bg-orange light">{{left_time_list[3]}}</view>秒
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top-sm">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>自定义
+  </view>
+</view>
+
+<view class="bg-white">
+  <view class="flex justify-center align-center padding text-lg">
+    <view class="cu-tag radius bg-pink light">{{left_time_list[0]}}</view>天
+    <view class="cu-tag radius bg-pink light">{{left_time_list[1]}}</view>时
+    <view class="cu-tag radius bg-pink light">{{left_time_list[2]}}</view>分
+    <view class="cu-tag radius bg-pink light">{{left_time_list[3]}}</view>秒
+  </view>
+</view>
+
+<view class="bg-white">
+  <view class="flex justify-center align-center padding text-lg">
+    <view class="cu-tag round bg-orange">{{left_time_list[0]}}</view>天
+    <view class="cu-tag round bg-orange">{{left_time_list[1]}}</view>时
+    <view class="cu-tag round bg-orange">{{left_time_list[2]}}</view>分
+    <view class="cu-tag round bg-orange">{{left_time_list[3]}}</view>秒
+  </view>
+</view>
+
+<view class="bg-white">
+  <view class="flex justify-center align-center padding text-lg">
+    <view class="solid padding-xs">{{left_time_list[0]}}</view>天
+    <view class="solid padding-xs">{{left_time_list[1]}}</view>时
+    <view class="solid padding-xs">{{left_time_list[2]}}</view>分
+    <view class="solid padding-xs">{{left_time_list[3]}}</view>秒
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top-sm">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text>拆分显示
+  </view>
+</view>
+
+<view class="bg-white">
+  <view class="flex justify-center align-center padding text-lg">
+    <block wx:for="{{left_time_list_date[0]}}" wx:key="item">
+      <view class="cu-tag radius bg-orange">{{item}}</view>
+    </block>天
+    <block wx:for="{{left_time_list_date[1]}}" wx:key="item">
+      <view class="cu-tag radius bg-orange">{{item}}</view>
+    </block>时
+    <block wx:for="{{left_time_list_date[2]}}" wx:key="item">
+      <view class="cu-tag radius bg-orange">{{item}}</view>
+    </block>分
+    <block wx:for="{{left_time_list_date[3]}}" wx:key="item">
+      <view class="cu-tag radius bg-orange">{{item}}</view>
+    </block>秒
+  </view>
+</view>
+
+<import src="/pages/template/common/copyright.wxml" />
+<view class="margin-top">
+  <template is="copyright"></template>
+  <ad unit-id="adunit-548518d3cd8c2bc3"></ad>
+</view>

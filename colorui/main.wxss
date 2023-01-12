@@ -3177,7 +3177,7 @@ swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active {
 }
 
 .screen-swiper {
-  min-height: 320rpx;
+  min-height: 360rpx;
 }
 
 .screen-swiper image,
@@ -5493,7 +5493,7 @@ image {
 }
 
 .bg-shadeBottom {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 1));
+  background-image: linear-gradient(rgba(64, 64, 64, 0.01), rgba(64, 64, 64, 1));
   color: var(--white);
 }
 

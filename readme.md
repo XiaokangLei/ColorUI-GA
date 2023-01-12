@@ -8,7 +8,8 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 **_注意：个别H5预览样式与真机存在差异，以小程序客户端实际样式为准_**
 
-- 在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+- UI组件在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+- 商城UI模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
 - 文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)【努力更新中...】
 - 微信扫描预览（或微信小程序搜索 ColorUI GA）
 
@@ -18,10 +19,15 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 ## 模板
 
-最近更新：2023/1/5，预览地址：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+持续更新，最近更新日期：2023/1/12，预览地址：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
 
 **_注意：线上小程序发布周期较慢，最新样式请下载代码运行程序进行预览_**
 
+**完整UI模板**
+
+- 商城UI模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+
+**单页模板**
 - 首页 UI 设计模板：2 个
 - 个人中心 UI 设计模板：2 个
 - 用户列表 UI 设计模板：2 个
@@ -47,7 +53,6 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 ```
 
 - 3、如果使用新版的组件样式`app.json`里面的`"style": "v2"`，部分样式将失效，请确保删除全局`app.json`里面的`"style": "v2"`。如确实需要使用新版样式，可在`page`中的`.json`文件中添加`"style": "v2"`。
-- 4、【注意】部分样式需要 page 中的 wxss 样式一起使用才能看到完整效果，请注意查看源码
 
 ## Demo 快速体验
 
@@ -101,6 +106,7 @@ onLaunch: function() {
 | isBack   |   是否开启返回   | Boolean | false  |
 | isCustom | 是否开启左侧胶囊 | Boolean | false  |
 | bgImage  |   背景图片路径   | String  |   ''   |
+| isLucency|   背景透明       | Boolean | false  |
 
 | slot 块  |                作用                |
 | -------- | :--------------------------------: |
@@ -135,9 +141,10 @@ onLaunch: function() {
 - [x] 【扩展样式】卡片设计 【无预览】【请在小程序端查看】
 - [x] 【扩展样式】Emoji(卡片设计中已集成) 【无预览】【请在小程序端查看】
 - [x] 【组件设计】日历样式新增农历 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/calendar)
+- [x] 【组件设计】新增步进器样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/stepper)
+- [x] 【组件设计】新增倒计时样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/countdown)
 - [ ] 头像右下角标签设计
 - [ ] 广告条设计
-- [ ] 倒计时
 - [ ] 图片下载前显示自定义图片
 
 ## 导航收录
@@ -174,7 +181,7 @@ onLaunch: function() {
   <img width="160px" style="border-radius: 5%; margin:0 10%" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
 </div>
 
-<!-- **请作者喝咖啡**
+**请作者喝咖啡**
 <div align=center>
     <img width="50%" style="border-radius: 5%" bor src="https://pic3.zhimg.com/80/v2-a1225a9a1ea9b01aeb77ca915811fb5e_1440w.webp">
-</div> -->
+</div>

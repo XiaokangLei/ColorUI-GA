@@ -38,7 +38,7 @@ Component({
         data: e.currentTarget.dataset.link,
         success: res => {
           wx.showToast({
-            title: '已复制',
+            title: '链接已复制',
             duration: 1000,
           })
         }
@@ -75,9 +75,9 @@ Component({
       } else {
         that.setData({
           templateCount: that.coutNum(16),
-          usersCount: that.coutNum(1208),
-          modelTotal: that.coutNum(44),
-          visitTotal: that.coutNum(1968),
+          usersCount: that.coutNum(1306),
+          modelTotal: that.coutNum(46),
+          visitTotal: that.coutNum(2264),
         })
       }
     }

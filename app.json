@@ -78,7 +78,10 @@
     "pages/template/education/education02/education02",
     "pages/template/login/home/home",
     "pages/template/login/login01/login01",
-    "pages/template/login/login02/login02"
+    "pages/template/login/login02/login02",
+    "pages/index/component/stepper/stepper",
+    "pages/index/component/countdown/countdown",
+    "pages/template/uitemplate/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",
