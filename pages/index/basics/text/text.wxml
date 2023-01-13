@@ -109,8 +109,8 @@
 </view>
 
 <view class="bg-white margin-sm padding-sm radius-lg">
-  <view class="text-cut padding bg-blue light radius" style="width:220px">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</view>
-  <view class="padding bg-blue light radius margin-top" style="width:220px"><text class="text-cut-2">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</text></view>
+  <view class="text-cut padding bg-blue light radius" style="width:480rpx">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</view>
+  <view class="padding bg-blue light radius margin-top" style="width:480rpx"><text class="text-cut-2">ColorUi GA 轻量、可靠的小程序原生css组件库，每周更新UI模板库</text></view>
 </view>
 
 <view class="cu-bar bg-white solid-bottom margin-top">

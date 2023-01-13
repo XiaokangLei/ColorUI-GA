@@ -44,7 +44,14 @@ Component({
   data: {
     StatusBar: app.globalData.StatusBar,
     CustomBar: app.globalData.CustomBar,
-    Custom: app.globalData.Custom
+    Custom: app.globalData.Custom,
+    mode: 'default'
+  },
+
+  pageLifetimes: {
+    show() {
+      this.getInfo()
+    }
   },
 
   /**
@@ -60,6 +67,14 @@ Component({
       wx.reLaunch({
         url: '/pages/index/index',
       })
+    },
+    getInfo() {
+      var that = this
+      if (getCurrentPages().length === 1) {
+        that.setData({
+          mode: 'singlePage'
+        })
+      }
     }
   }
 })
