@@ -6,10 +6,10 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 ## 文档&在线预览
 
-**_注意：个别H5预览样式与真机存在差异，以小程序客户端实际样式为准_**
+**_注意：个别 H5 预览样式与真机存在差异，以小程序客户端实际样式为准_**
 
-- UI组件在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
-- 商城UI模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+- UI 组件在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+- 商城 UI 模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
 - 文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)【努力更新中...】
 - 微信扫描预览（或微信小程序搜索 ColorUI GA）
 
@@ -23,11 +23,12 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 **_注意：线上小程序发布周期较慢，最新样式请下载代码运行程序进行预览_**
 
-**完整UI模板**
+**完整 UI 模板**
 
-- 商城UI模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+- 商城 UI 模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
 
 **单页模板**
+
 - 首页 UI 设计模板：2 个
 - 个人中心 UI 设计模板：2 个
 - 用户列表 UI 设计模板：2 个
@@ -100,17 +101,19 @@ onLaunch: function() {
 
 - 4、参数
 
-| 参数     |       作用       |  类型   | 默认值 |
-| -------- | :--------------: | :-----: | :----: |
-| bgColor  |   背景颜色类名   | String  |   ''   |
-| isBack   |   是否开启返回   | Boolean | false  |
-| isCustom | 是否开启左侧胶囊 | Boolean | false  |
-| bgImage  |   背景图片路径   | String  |   ''   |
-| isLucency|   背景透明       | Boolean | false  |
+| 参数      |         作用         |  类型   | 默认值 |
+| --------- | :------------------: | :-----: | :----: |
+| bgColor   |     背景颜色类名     | String  |   ''   |
+| isBack    |     是否开启返回     | Boolean | false  |
+| isCustom  |   是否开启左侧胶囊   | Boolean | false  |
+| bgImage   |     背景图片路径     | String  |   ''   |
+| isLucency |       背景透明       | Boolean | false  |
+| homePage  | 分享时自定义返回页面 | String  |   ''   |
 
 | slot 块  |                作用                |
 | -------- | :--------------------------------: |
 | backText |            返回时的文字            |
+| homeText |         分享时的左上角文字         |
 | content  |              中间区域              |
 | right    | 右侧区域(小程序端可使用范围很窄！) |
 
@@ -162,11 +165,44 @@ onLaunch: function() {
 
 ## 致谢
 
+开源/资源库
+
 - ColorUI: <https://github.com/weilanwl/ColorUI>
 - Lin-UI: <https://github.com/TaleLin/lin-ui>
 - Vant: <https://github.com/vant-ui/vant-weapp>
 - MeiYe: <https://www.meiye.art/inspiration>
 - WxminiDemo: <https://gitee.com/susuhhhhhh/wxmini_demo>
+
+Issues 突出贡献者
+
+<table>
+    <tbody>
+        <tr>
+            <td align="center" valign="middle">
+                <a href="https://github.com/echome123" target="_blank">
+                    <img width="60px" src="https://avatars.githubusercontent.com/u/103982793?v=4" alt="@echome123">
+                    <div>@echome123</div>
+                </a>
+            </td>
+            <td align="center" valign="middle">
+                <a href="https://github.com/a328093070" target="_blank">
+                    <img width="60px" src="https://avatars.githubusercontent.com/u/20756596?v=4" alt="@a328093070">
+                    <div>@a328093070</div>
+                </a>
+            </td>
+            <td align="center" valign="middle">
+                <a href="https://github.com/kongxiyi" target="_blank">
+                    <img width="60px" src="https://avatars.githubusercontent.com/u/62090058?v=4" alt="@kongxiyi">
+                    <div>@kongxiyi</div>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+star 的朋友们：
+
+[![Stargazers repo roster for @XiaokangLei/ColorUI-GA](https://reporoster.com/stars/XiaokangLei/ColorUI-GA)](https://github.com/XiaokangLei/ColorUI-GA/stargazers)
 
 ## 支持
 
@@ -181,7 +217,11 @@ onLaunch: function() {
   <img width="160px" style="border-radius: 5%; margin:0 10%" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
 </div>
 
-**请作者喝咖啡**
+<!-- **请作者喝咖啡**
 <div align=center>
     <img width="50%" style="border-radius: 5%" bor src="https://pic3.zhimg.com/80/v2-a1225a9a1ea9b01aeb77ca915811fb5e_1440w.webp">
-</div>
+</div> -->
+
+## License
+
+MIT © [ColorUI GA](https://github.com/XiaokangLei/ColorUI-GA)
