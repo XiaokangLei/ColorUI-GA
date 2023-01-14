@@ -36,6 +36,10 @@ Component({
       type: Boolean,
       default: false
     },
+    homePage: {
+      type: String,
+      default: '/pages/index/index'
+    }
   },
 
   /**
@@ -63,10 +67,17 @@ Component({
         delta: 1
       });
     },
-    toHome() {
-      wx.reLaunch({
-        url: '/pages/index/index',
-      })
+    toHome(e) {
+      if(e.currentTarget.dataset.url != ''){
+        wx.reLaunch({
+          url: e.currentTarget.dataset.url
+        })
+      }
+      else{
+        wx.reLaunch({
+          url: '/pages/index/index'
+        })
+      }
     },
     getInfo() {
       var that = this
