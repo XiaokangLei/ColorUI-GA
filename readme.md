@@ -150,6 +150,10 @@ onLaunch: function() {
 - [ ] 广告条设计
 - [ ] 图片下载前显示自定义图片
 
+BUG待办：
+
+- [X] 【扩展样式】全屏抽屉Android(小米)手机卡顿【2023/1/27】
+
 ## 导航收录
 
 - Iconfont 阿里巴巴矢量图标: <https://www.iconfont.cn/>
@@ -204,6 +208,12 @@ star 的朋友们：
 
 [![Stargazers repo roster for @XiaokangLei/ColorUI-GA](https://reporoster.com/stars/XiaokangLei/ColorUI-GA)](https://github.com/XiaokangLei/ColorUI-GA/stargazers)
 
+## 使用了ColorUI GA的项目
+
+<p align="center">
+    <a href="https://github.com/XiaokangLei/ColorUI-GA/discussions/9"> >> 我的项目想展示在这里<< </a>
+</p>
+
 ## 支持
 
 **如果本项目能为您提供帮助，请给予支持！**
@@ -217,10 +227,10 @@ star 的朋友们：
   <img width="160px" style="border-radius: 5%; margin:0 10%" bor src="https://s1.ax1x.com/2022/11/30/zwKDdU.jpg">
 </div>
 
-<!-- **请作者喝咖啡**
+**请作者喝咖啡**
 <div align=center>
     <img width="50%" style="border-radius: 5%" bor src="https://pic3.zhimg.com/80/v2-a1225a9a1ea9b01aeb77ca915811fb5e_1440w.webp">
-</div> -->
+</div>
 
 ## License
 

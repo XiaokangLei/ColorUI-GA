@@ -3780,6 +3780,7 @@ movable-view.indexBar-item::before {
 
 .cu-drawer-page.show {
   transform: scale(0.9, 0.9);
+  will-change: transform;
   left: 85vw;
   box-shadow: 0 0 60rpx rgba(0, 0, 0, 0.2);
   transform-origin: 0;
@@ -3792,6 +3793,7 @@ movable-view.indexBar-item::before {
   left: 0;
   top: 0;
   transform: scale(0.9, 0.9) translateX(-100%);
+  will-change: transform;
   opacity: 0;
   pointer-events: none;
   transition: all 0.4s;
@@ -3799,6 +3801,7 @@ movable-view.indexBar-item::before {
 
 .cu-drawer-window.show {
   transform: scale(1, 1) translateX(0%);
+  will-change: transform;
   opacity: 1;
   pointer-events: all;
 }

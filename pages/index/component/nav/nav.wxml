@@ -3,10 +3,6 @@
   <view slot="content">导航栏</view>
 </cu-custom>
 
-<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-grey padding margin text-center">
-  Tab{{index}}
-</view>
-
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text> 默认
@@ -19,6 +15,10 @@
   </view>
 </scroll-view>
 
+<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-blue light padding padding-tb-xxl margin-sm text-center radius">
+  Tab-{{index}}
+</view>
+
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text> 居中
@@ -30,6 +30,10 @@
     Tab{{index}}
   </view>
 </scroll-view>
+
+<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-blue light padding padding-tb-xxl margin-sm text-center radius">
+  Tab-{{index}}
+</view>
 
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
@@ -45,6 +49,10 @@
   </view>
 </scroll-view>
 
+<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-blue light padding padding-tb-xxl margin-sm text-center radius">
+  Tab-{{index}}
+</view>
+
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text> 背景
@@ -57,10 +65,18 @@
   </view>
 </scroll-view>
 
+<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-blue light padding padding-tb-xxl margin-sm text-center radius">
+  Tab-{{index}}
+</view>
+
 <view class="cu-bar bg-white margin-top solid-bottom">
   <view class="action">
     <text class="cuIcon-titles text-blue"></text> 图标
   </view>
+</view>
+
+<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-blue light padding padding-tb-xxl margin-sm text-center radius">
+  Tab-{{index}}
 </view>
 
 <scroll-view scroll-x class="bg-blue nav text-center">
@@ -74,6 +90,10 @@
     <text class="cuIcon-clothesfill"></text> 皮肤
   </view>
 </scroll-view>
+
+<view wx:for="{{10}}" wx:key="index" wx:if="{{index==TabCur}}" class="bg-blue light padding padding-tb-xxl margin-sm text-center radius">
+  Tab-{{index}}
+</view>
 
 <import src="/pages/template/common/copyright.wxml" />
 <view class="margin-top">
