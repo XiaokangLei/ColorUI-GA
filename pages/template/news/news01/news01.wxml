@@ -1,0 +1,59 @@
+<!--pages/template/news/news01/news01.wxml-->
+
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="content">新闻资讯01</view>
+</cu-custom>
+
+<view class="cu-timeline margin-xs radius-lg" style="min-height: 92vh;">
+  <!-- 搜索 -->
+  <view class="box-serach">
+    <view class="cu-bar search bg-white radius-lg">
+      <view class="flex padding-left-sm text-xxl text-black"><text class="cuIcon-form"></text></view>
+      <view class="search-form round text-center">
+        <text class="cuIcon-search"></text>
+        <input type="text" placeholder="大家都在搜：腾讯" confirm-type="search"></input>
+      </view>
+    </view>
+  </view>
+  <scroll-view scroll-x class="bg-white nav">
+    <view class="flex text-center">
+      <view class="cu-item flex-sub {{index==TabCur?'text-blue cur text-bold':''}}" wx:for="{{tabList}}" wx:key="item" bindtap="tabSelect" data-id="{{item.id}}">
+        {{item.name}}
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- 滚动图片 -->
+  <swiper class="screen-swiper margin-sm round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key="item">
+      <view class="bg-img radius" style="background-image: url({{item.url}});height: 310rpx;">
+        <view class="padding-xl text-white">
+          <view class="padding-xs text-xl">
+            {{item.title}}
+          </view>
+          <view class="padding-xs">
+            {{item.des}}
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+
+  <view class="cu-card article no-card margin-top solid-bottom" wx:for="{{newsList}}" wx:key="item">
+    <view class="cu-item shadow">
+      <view class="content">
+        <view class="desc">
+          <view class="text-black text-bold text-lg">{{item.title}}</view>
+          <view class="flex justify-between">
+            <view class="text-gray text-sm">{{item.user}} · {{item.date}}</view>
+            <view class="text-gray text-sm padding-right">{{item.collection}} 收藏</view>
+          </view>
+        </view>
+        <view>
+          <image src="{{item.url}}" mode="aspectFill" class="radius" style="height: 160rpx;width: 190rpx;"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

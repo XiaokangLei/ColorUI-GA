@@ -18,14 +18,14 @@
       <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="widthFix" style="max-height: 360rpx;"></image>
       <view class="cu-tag bg-blue">史诗</view>
       <view class="cu-bar bg-shadeBottom">
-        <text class="text-cut">我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。我已天理为凭，踏入这片荒芜，不再受凡人的枷锁遏制。</text>
+        <text class="text-cut">从自己的生活里找，先能打动自己，才有可能打动别人。</text>
       </view>
     </view>
     <view class="cu-list menu-avatar">
       <view class="cu-item">
         <view class="cu-avatar round lg" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);"></view>
         <view class="content flex-sub">
-          <view class="text-grey">正义天使 格鲁</view>
+          <view class="text-grey">创意无限 格鲁</view>
           <view class="text-gray text-sm flex justify-between">
             十天前
             <view class="text-gray text-sm">
@@ -64,7 +64,7 @@
       </view>
     </view>
     <view class="text-content">
-      折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！
+      创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。
     </view>
     <view class="grid flex-sub padding-lr {{isCard?'col-3 grid-square':'col-1'}}">
       <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url(https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1);" wx:for="{{isCard?9:1}}" wx:key="item">
@@ -136,17 +136,35 @@
 <view class="cu-card article {{isCard?'no-card':'margin'}} margin-top">
   <view class="cu-item shadow">
     <view class="title">
-      <view class="text-cut">无意者 烈火焚身;以正义的烈火拔出黑暗。我有自己的正义，见证至高的烈火吧。</view>
+      <view class="text-cut">每一个创意都是重新思考。</view>
     </view>
     <view class="content">
       <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
       <view class="desc">
-        <view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+        <view class="text-content"> 创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
         <view>
-          <view class="cu-tag bg-red light sm round">正义天使</view>
+          <view class="cu-tag bg-red light sm round">创意无限</view>
           <view class="cu-tag bg-green light sm round">史诗</view>
         </view>
       </view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-card article {{isCard?'no-card':'margin'}} margin-top">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">每一个创意都是重新思考。</view>
+    </view>
+    <view class="content">
+      <view class="desc padding-right-xs">
+        <view class="text-content"> 创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">创意无限</view>
+          <view class="cu-tag bg-green light sm round">史诗</view>
+        </view>
+      </view>
+      <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
     </view>
   </view>
 </view>

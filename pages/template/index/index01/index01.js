@@ -11,16 +11,10 @@ Page({
     CustomBar: app.globalData.CustomBar,
     cardCur: 0,
     swiperList: [{
-      id: 0,
-      type: 'image',
       url: 'https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1'
     }, {
-      id: 1,
-      type: 'image',
       url: 'https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1',
     }, {
-      id: 2,
-      type: 'image',
       url: 'https://image.meiye.art/FhHGe9NyO0uddb6D4203jevC_gzc?imageMogr2/thumbnail/450x/interlace/1',
     }],
     iconList: [{

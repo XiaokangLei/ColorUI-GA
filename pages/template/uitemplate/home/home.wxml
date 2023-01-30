@@ -14,7 +14,7 @@
   <view class="cu-card case margin-sm">
     <view class="cu-item shadow">
       <view class="image" bindtap="showModal" data-target="DialogModal2">
-        <image src="https://image.meiye.art/pic_V_46b2kM6sbHGcP_hIc_1?imageMogr2/thumbnail/450x/interlace/1" mode="widthFix" style="max-height: 450rpx;"></image>
+        <image src="https://image.meiye.art/pic_V_46b2kM6sbHGcP_hIc_1?imageMogr2/thumbnail/450x/interlace/1" mode="widthFix" style="max-height: 360rpx;"></image>
         <view class="cu-tag bg-orange radius">热门</view>
         <view class="cu-bar bg-shadeBottom">
           <text class="text-cut text-xl">商城UI模板《北岛小店》 v1.0</text>

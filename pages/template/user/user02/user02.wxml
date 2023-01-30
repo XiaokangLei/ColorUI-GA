@@ -46,7 +46,7 @@
     </view>
   </view>
   <!-- 助力/推荐/邀请 -->
-  <view class="margin-top-sm padding-lr-sm">
+  <view class="margin-top-sm padding-lr-xs">
     <view class="bg-brown light radius-lg shadow-blur">
       <view class="flex padding-tb-sm padding-lr-sm justify-between">
         <view class="padding-xs">
@@ -59,7 +59,7 @@
     </view>
   </view>
   <!-- 常用功能 -->
-  <view class="cu-bar margin-lr-sm margin-top-sm grid col-4 no-border bg-white radius-lg-top">
+  <view class="cu-bar margin-lr-xs margin-top-sm grid col-4 no-border bg-white radius-lg-top">
     <view class="action">
       <text class="text-xl text-black">我的订单</text>
     </view>
@@ -67,7 +67,7 @@
       <text class="text-lg">全部订单<text class="cuIcon-right"></text></text>
     </view>
   </view>
-  <view class="cu-list grid col-4 no-border text-black margin-lr-sm padding-bottom radius-lg-bottom">
+  <view class="cu-list grid col-4 no-border text-black margin-lr-xs padding-bottom radius-lg-bottom">
     <view class="cu-item" wx:for="{{iconList}}" wx:key="idx" bindtap="{{item.bindtap}}">
       <view class="cuIcon-{{item.icon}} text-{{item.color}} text-shadow" style="font-size: 56rpx;">
         <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
@@ -78,7 +78,7 @@
     </view>
   </view>
 
-  <view class="margin-top-sm padding-lr-sm">
+  <view class="margin-top-sm padding-lr-xs">
     <view class="bg-white light radius-lg shadow-blur">
       <view class="flex padding-tb-sm padding-lr-sm justify-between">
         <view class="padding-xs">
@@ -92,7 +92,7 @@
     </view>
   </view>
   <!-- 其他功能 -->
-  <view class="cu-bar margin-lr-sm margin-top grid col-4 no-border bg-white radius-lg-top">
+  <view class="cu-bar margin-lr-xs margin-top grid col-4 no-border bg-white radius-lg-top">
     <view class="action">
       <text class="text-xl">其他功能</text>
     </view>

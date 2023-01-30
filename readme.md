@@ -37,6 +37,7 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 - 音乐播放 UI 设计模板：1 个
 - 书籍学习 UI 设计模板：2 个
 - 登录注册 UI 设计模板：2 个
+- 新闻资讯 UI 设计模板：1 个
 
 ## 快速开始
 
@@ -119,7 +120,7 @@ onLaunch: function() {
 
 ## 待办
 
-- [ ] 长期：模板设计（每周上新 1-2 个模板），当前 UI 模板个数：16
+- [ ] 长期：模板设计（每周上新 1-2 个模板），当前 UI 模板个数：17
 - [ ] 长期：样式调整与设计。大小、颜色、padding、margin 等
 - [x] fix 轮播图左侧图消失 BUG
 - [x] 小程序检测到新版本主动更新
@@ -198,6 +199,12 @@ Issues 突出贡献者
                 <a href="https://github.com/kongxiyi" target="_blank">
                     <img width="60px" src="https://avatars.githubusercontent.com/u/62090058?v=4" alt="@kongxiyi">
                     <div>@kongxiyi</div>
+                </a>
+            </td>
+            <td align="center" valign="middle">
+                <a href="https://github.com/VolnaTime" target="_blank">
+                    <img width="60px" src="https://avatars.githubusercontent.com/u/89766481?v=4" alt="@VolnaTime">
+                    <div>@VolnaTime</div>
                 </a>
             </td>
         </tr>

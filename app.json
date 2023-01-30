@@ -81,7 +81,10 @@
     "pages/template/login/login02/login02",
     "pages/index/component/stepper/stepper",
     "pages/index/component/countdown/countdown",
-    "pages/template/uitemplate/home/home"
+    "pages/template/uitemplate/home/home",
+    "pages/template/news/home/home",
+    "pages/template/news/news01/news01",
+    "pages/template/news/news02/news02"
   ],
   "window": {
     "backgroundTextStyle": "light",

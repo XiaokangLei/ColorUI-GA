@@ -89,12 +89,12 @@ Component({
         color: 'blue light',
         icon: 'myfill'
       },
-      // {
-      //   title: '新闻资讯',
-      //   name: 'loading',
-      //   color: 'green light',
-      //   icon: 'loading2'
-      // },
+      {
+        title: '新闻资讯',
+        name: 'news',
+        color: 'pink light',
+        icon: 'news'
+      },
       // {
       //   title: '教育学习',
       //   name: 'shadow',

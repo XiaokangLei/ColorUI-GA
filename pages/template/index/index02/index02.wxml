@@ -4,7 +4,7 @@
 </cu-custom>
 
 <!-- 页面 -->
-<view class="cu-timeline margin-sm radius-lg" style="min-height: 92vh;">
+<view class="cu-timeline margin-xs radius-lg" style="min-height: 92vh;">
   <!-- 搜索 -->
   <view class="box-serach">
     <view class="cu-bar search bg-white radius-lg">
@@ -12,8 +12,7 @@
         <text class="cuIcon-search"></text>
         <input type="text" placeholder="搜索内容" confirm-type="search"></input>
       </view>
-      <view class="flex padding-sm text-xxl text-black"><text class="cuIcon-message"></text></view>
-
+      <view class="flex padding-right-sm text-xxl text-black"><text class="cuIcon-message"></text></view>
     </view>
   </view>
   <scroll-view scroll-x class="bg-white nav">
@@ -24,10 +23,9 @@
     </view>
   </scroll-view>
   <!-- 滚动图片 -->
-  <swiper class="screen-swiper margin-sm {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper class="screen-swiper margin-sm square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
     <swiper-item wx:for="{{swiperList}}" wx:key="item">
-      <image src="{{item.url}}" class="radius" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
-      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+      <image src="{{item.url}}" class="radius" mode="aspectFill" style="height: 350rpx;"></image>
     </swiper-item>
   </swiper>
   <!-- 常用功能 -->
