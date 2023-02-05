@@ -74,10 +74,10 @@ Component({
         }, 20)
       } else {
         that.setData({
-          templateCount: that.coutNum(17),
-          usersCount: that.coutNum(1411),
+          templateCount: that.coutNum(20),
+          usersCount: that.coutNum(1480),
           modelTotal: that.coutNum(46),
-          visitTotal: that.coutNum(2702),
+          visitTotal: that.coutNum(3676),
         })
       }
     }

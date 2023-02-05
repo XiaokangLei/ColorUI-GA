@@ -110,18 +110,12 @@ Component({
     ],
     Headlines: [{
       id: 1,
-      title: "ColorUI GA 最新版v2.1.0上线啦~"
+      title: "ColorUI GA 最新版v2.1.1上线啦~"
     }, {
       id: 2,
-      title: "新增完整UI模板《北岛小店》"
+      title: "新增新闻资讯模板+3"
     }, {
       id: 3,
-      title: "新增倒计时样式"
-    }, {
-      id: 4,
-      title: "新增进步器样式"
-    }, {
-      id: 5,
       title: "每周上新UI模板设计~"
     }],
   },

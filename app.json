@@ -84,7 +84,8 @@
     "pages/template/uitemplate/home/home",
     "pages/template/news/home/home",
     "pages/template/news/news01/news01",
-    "pages/template/news/news02/news02"
+    "pages/template/news/news02/news02",
+    "pages/template/news/news03/news03"
   ],
   "window": {
     "backgroundTextStyle": "light",

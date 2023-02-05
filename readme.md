@@ -25,7 +25,8 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 **完整 UI 模板**
 
-- 商城 UI 模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+- 商城 UI 模板《北岛小店》：[H5预览链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+- 获取源码：小程序首页-->完整UI模板
 
 **单页模板**
 
@@ -37,7 +38,7 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 - 音乐播放 UI 设计模板：1 个
 - 书籍学习 UI 设计模板：2 个
 - 登录注册 UI 设计模板：2 个
-- 新闻资讯 UI 设计模板：1 个
+- 新闻资讯 UI 设计模板：3 个
 
 ## 快速开始
 
@@ -58,7 +59,7 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 ## Demo 快速体验
 
-- 基础表单组件库使用示例，v2.0.9 版本 Demo[下载链接](https://github.com/XiaokangLei/ColorUI-GA/releases/download/v2.0.9/demo.zip)
+- 基础表单使用示例，v2.0.9 版本 Demo[下载链接](https://github.com/XiaokangLei/ColorUI-GA/releases/download/v2.0.9/demo.zip)
 - 详细使用说明：[【链接】](https://zhuanlan.zhihu.com/p/597197882)
 
 ## 自定义顶部导航栏(可选)
@@ -120,7 +121,7 @@ onLaunch: function() {
 
 ## 待办
 
-- [ ] 长期：模板设计（每周上新 1-2 个模板），当前 UI 模板个数：17
+- [ ] 长期：模板设计（每周上新 1-2 个模板），当前 UI 模板个数：20
 - [ ] 长期：样式调整与设计。大小、颜色、padding、margin 等
 - [x] fix 轮播图左侧图消失 BUG
 - [x] 小程序检测到新版本主动更新

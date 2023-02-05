@@ -1,23 +1,11 @@
-// pages/template/news/home/home.js
+// pages/template/news/news03/news03.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    elements: [{
-      title: '未知',
-      name: 'news01',
-      url: 'https://image.meiye.art/Fo_HyTiSjyaC0L-fpf4RXEI7eN3b?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      title: '未知',
-      name: 'news02',
-      url: 'https://image.meiye.art/FjjAKItzS-QGvz2A5Wd5oBGsnNkm?imageMogr2/thumbnail/450x/interlace/1'
-    }, {
-      title: '未知',
-      name: 'news03',
-      url: 'https://image.meiye.art/FpqquGpGUNwtHNY5R_s7ugcDjmUE?imageMogr2/thumbnail/470x/interlace/1'
-    }],
+
   },
 
   /**
