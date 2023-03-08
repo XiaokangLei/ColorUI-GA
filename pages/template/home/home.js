@@ -95,12 +95,12 @@ Component({
         color: 'pink light',
         icon: 'news'
       },
-      // {
-      //   title: '教育学习',
-      //   name: 'shadow',
-      //   color: 'blue light',
-      //   icon: 'brand'
-      // },
+      {
+        title: '榜单',
+        name: 'rank',
+        color: 'mauve light',
+        icon: 'rankfill'
+      },
       // {
       //   title: '医疗健康',
       //   name: 'emoji',

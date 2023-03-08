@@ -5,7 +5,7 @@
 
 <view class="cu-timeline margin-xs radius-lg">
 
-  <view class="padding-sm">
+  <view class="padding-sm text-center">
     <text class="text-xxl text-bold text-black">高速上开车千万不要打开它，不但耗油，还很容易发生车祸!</text>
   </view>
 
