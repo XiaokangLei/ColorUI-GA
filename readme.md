@@ -1,4 +1,4 @@
-# ColorUI GA
+# ColorUI GA [文档](https://one.x-artspace.cn/ColorUI-GA-Docs/#/README)
 
 ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发的小程序原生 css 组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 [Github Issues](https://github.com/XiaokangLei/ColorUI-GA/issues)。对于想要一起开发，补充 CSS 样式库的朋友，欢迎提交 PR。
 
