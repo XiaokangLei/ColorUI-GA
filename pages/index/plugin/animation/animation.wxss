@@ -1,7 +1,0 @@
-/* pages/index/plugin/animation/animation.wxss */
-@import "../../../../colorui/animation.wxss";
-
-image[class*="gif-"] {
-  border-radius: 6rpx;
-  display: block;
-}

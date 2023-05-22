@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "basics": "/pages/index/basics/home/home",
-    "component": "/pages/index/component/home/home",
-    "templates": "/pages/template/home/home",
-    "plugin": "/pages/index/plugin/home/home",
-    "about": "/pages/about/home/home"
-  }
-}

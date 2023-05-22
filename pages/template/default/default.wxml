@@ -1,9 +1,0 @@
-<!--pages/template/default/default.wxml-->
-
-<import src="/pages/template/common/nodata.wxml" />
-
-<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
-  <view slot="content">敬请期待</view>
-</cu-custom>
-
-<template is="nodata"></template>
