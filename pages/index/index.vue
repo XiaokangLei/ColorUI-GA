@@ -38,35 +38,35 @@
         <view class="cu-bar tabbar shadow foot bg-blur">
             <view class="action" @tap="NavChange" data-cur="basics">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/images/tabbar/navi' + (PageCur == 'basics' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/images/tabbar/basics' + (PageCur == 'basics' ? '_cur.png' : '.png')"></image>
                 </view>
                 <view :class="PageCur == 'basics' ? 'text-blue' : 'text-gray'">基础</view>
             </view>
 
             <view class="action" @tap="NavChange" data-cur="component">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/images/tabbar/component' + (PageCur == 'component' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/images/tabbar/component' + (PageCur == 'component' ? '_cur.png' : '.png')"></image>
                 </view>
                 <view :class="PageCur == 'component' ? 'text-blue' : 'text-gray'">组件</view>
             </view>
 
             <view class="action" @tap="NavChange" data-cur="templates">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/images/tabbar/basics' + (PageCur == 'templates' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/images/tabbar/navi' + (PageCur == 'templates' ? '_cur.png' : '.png')"></image>
                 </view>
                 <view :class="PageCur == 'templates' ? 'text-blue' : 'text-gray'">设计</view>
             </view>
 
             <view class="action" @tap="NavChange" data-cur="plugin">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/images/tabbar/chat' + (PageCur == 'plugin' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/images/tabbar/chat' + (PageCur == 'plugin' ? '_cur.png' : '.png')"></image>
                 </view>
                 <view :class="PageCur == 'plugin' ? 'text-blue' : 'text-gray'">扩展</view>
             </view>
 
             <view class="action" @tap="NavChange" data-cur="about">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/images/tabbar/about' + (PageCur == 'about' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/images/tabbar/about' + (PageCur == 'about' ? '_cur.png' : '.png')"></image>
                 </view>
                 <view :class="PageCur == 'about' ? 'text-blue' : 'text-gray'">关于</view>
             </view>
