@@ -1,0 +1,153 @@
+开始转换……
+小程序路径:  C:/Users/ay/Downloads/ColorUI-GA-master/ColorUI-GA-master
+搜索到505个文件(含目录)，耗时：17ms
+
+开始分析文件
+分析文件信息完成，共103组数据
+开始转换文件组为vue文件
+转换进度: 1 / 206   fileKey：app
+转换进度: 2 / 206   fileKey：colorui/animation
+转换进度: 3 / 206   fileKey：colorui/components/calendar/calendar
+转换进度: 4 / 206   fileKey：colorui/components/canvas2d-ring/canvas2d-ring
+[ERROR]prop canvasWidth 的默认值 undefined 与类型 Number 不一致。    fileKey: colorui/components/canvas2d-ring/canvas2d-ring
+转换进度: 5 / 206   fileKey：colorui/components/cu-custom/cu-custom
+转换进度: 6 / 206   fileKey：colorui/components/skeleton/skeleton
+转换进度: 7 / 206   fileKey：colorui/dark
+转换进度: 8 / 206   fileKey：colorui/icon-new
+转换进度: 9 / 206   fileKey：colorui/icon
+转换进度: 10 / 206   fileKey：colorui/main
+转换进度: 11 / 206   fileKey：pages/about/about/about
+转换进度: 12 / 206   fileKey：pages/about/appreciate/appreciate
+转换进度: 13 / 206   fileKey：pages/about/home/home
+转换进度: 14 / 206   fileKey：pages/about/log/log
+转换进度: 15 / 206   fileKey：pages/index/basics/avatar/avatar
+转换进度: 16 / 206   fileKey：pages/index/basics/background/background
+转换进度: 17 / 206   fileKey：pages/index/basics/border/border
+转换进度: 18 / 206   fileKey：pages/index/basics/button/button
+转换进度: 19 / 206   fileKey：pages/index/basics/button/design
+转换进度: 20 / 206   fileKey：pages/index/basics/checkbox/checkbox
+转换进度: 21 / 206   fileKey：pages/index/basics/home/home
+转换进度: 22 / 206   fileKey：pages/index/basics/icon/icon
+转换进度: 23 / 206   fileKey：pages/index/basics/layout/layout
+转换进度: 24 / 206   fileKey：pages/index/basics/loading/loading
+转换进度: 25 / 206   fileKey：pages/index/basics/progress/progress
+转换进度: 26 / 206   fileKey：pages/index/basics/shadow/shadow
+转换进度: 27 / 206   fileKey：pages/index/basics/switch/switch
+转换进度: 28 / 206   fileKey：pages/index/basics/tag/tag
+转换进度: 29 / 206   fileKey：pages/index/basics/text/text
+转换进度: 30 / 206   fileKey：pages/index/basics/title/title
+转换进度: 31 / 206   fileKey：pages/index/component/bar/bar
+转换进度: 32 / 206   fileKey：pages/index/component/calendar/calendar
+转换进度: 33 / 206   fileKey：pages/index/component/card/card
+转换进度: 34 / 206   fileKey：pages/index/component/countdown/countdown
+转换进度: 35 / 206   fileKey：pages/index/component/form/form
+
+[Tip] 检测到组件picker的mode为 region ，在App和H5里未实现，已使用组件region-picker进行替换。
+                    虽然已替换，但仍需注意picker在<form/>组件里面的取值问题(可能在formSubmit拿不address，需手动调整)。
+                    详情请参阅相关文档, file: pages/index/component/form/form
+转换进度: 36 / 206   fileKey：pages/index/component/home/home
+转换进度: 37 / 206   fileKey：pages/index/component/list/list
+转换进度: 38 / 206   fileKey：pages/index/component/modal/modal
+转换进度: 39 / 206   fileKey：pages/index/component/nav/nav
+转换进度: 40 / 206   fileKey：pages/index/component/piano/piano
+转换进度: 41 / 206   fileKey：pages/index/component/rate/rate
+转换进度: 42 / 206   fileKey：pages/index/component/status/status
+转换进度: 43 / 206   fileKey：pages/index/component/stepper/stepper
+转换进度: 44 / 206   fileKey：pages/index/component/steps/steps
+转换进度: 45 / 206   fileKey：pages/index/component/swiper/swiper
+转换进度: 46 / 206   fileKey：pages/index/component/table/table
+转换进度: 47 / 206   fileKey：pages/index/component/timeline/timeline
+转换进度: 48 / 206   fileKey：pages/index/component/tips/tips
+转换进度: 49 / 206   fileKey：pages/index/component/toast/toast
+转换进度: 50 / 206   fileKey：pages/index/index
+[WARN] 文件 pages/index/.png 不存在，但仍然对路径进行转换为相对于static目录，运行时需注意！   fileKey: pages/index/index
+[WARN] 文件 pages/index/.png 不存在，但仍然对路径进行转换为相对于static目录，运行时需注意！   fileKey: pages/index/index
+[WARN] 文件 pages/index/.png 不存在，但仍然对路径进行转换为相对于static目录，运行时需注意！   fileKey: pages/index/index
+[WARN] 文件 pages/index/.png 不存在，但仍然对路径进行转换为相对于static目录，运行时需注意！   fileKey: pages/index/index
+[WARN] 文件 pages/index/.png 不存在，但仍然对路径进行转换为相对于static目录，运行时需注意！   fileKey: pages/index/index
+转换进度: 51 / 206   fileKey：pages/index/plugin/animation/animation
+转换进度: 52 / 206   fileKey：pages/index/plugin/chat/chat
+转换进度: 53 / 206   fileKey：pages/index/plugin/clockin/clockin
+转换进度: 54 / 206   fileKey：pages/index/plugin/coupon/coupon
+转换进度: 55 / 206   fileKey：pages/index/plugin/design/choiseEmoji/choiseEmoji
+转换进度: 56 / 206   fileKey：pages/index/plugin/design/design
+转换进度: 57 / 206   fileKey：pages/index/plugin/draw/draw
+转换进度: 58 / 206   fileKey：pages/index/plugin/drawer/drawer
+转换进度: 59 / 206   fileKey：pages/index/plugin/goods/goods
+转换进度: 60 / 206   fileKey：pages/index/plugin/home/home
+转换进度: 61 / 206   fileKey：pages/index/plugin/indexes/indexes
+转换进度: 62 / 206   fileKey：pages/index/plugin/overturn/overturn
+转换进度: 63 / 206   fileKey：pages/index/plugin/search/search
+转换进度: 64 / 206   fileKey：pages/index/plugin/skeleton/skeleton
+转换进度: 65 / 206   fileKey：pages/index/plugin/verticalnav/verticalnav
+转换进度: 66 / 206   fileKey：pages/index/plugin/waterfall/waterfall
+转换进度: 67 / 206   fileKey：pages/template/comment/comment01/comment01
+转换进度: 68 / 206   fileKey：pages/template/comment/comment02/comment02
+转换进度: 69 / 206   fileKey：pages/template/comment/comment03/comment03
+转换进度: 70 / 206   fileKey：pages/template/comment/home/home
+转换进度: 71 / 206   fileKey：pages/template/common/copyright
+转换进度: 72 / 206   fileKey：pages/template/common/nodata
+转换进度: 73 / 206   fileKey：pages/template/default/default
+转换进度: 74 / 206   fileKey：pages/template/education/education01/education01
+转换进度: 75 / 206   fileKey：pages/template/education/education02/education02
+转换进度: 76 / 206   fileKey：pages/template/education/home/home
+转换进度: 77 / 206   fileKey：pages/template/home/home
+转换进度: 78 / 206   fileKey：pages/template/index/home/home
+转换进度: 79 / 206   fileKey：pages/template/index/index01/index01
+转换进度: 80 / 206   fileKey：pages/template/index/index02/index02
+转换进度: 81 / 206   fileKey：pages/template/login/home/home
+转换进度: 82 / 206   fileKey：pages/template/login/login01/login01
+转换进度: 83 / 206   fileKey：pages/template/login/login02/login02
+转换进度: 84 / 206   fileKey：pages/template/message/home/home
+转换进度: 85 / 206   fileKey：pages/template/message/message01/message01
+转换进度: 86 / 206   fileKey：pages/template/message/message02/message02
+转换进度: 87 / 206   fileKey：pages/template/music/home/home
+转换进度: 88 / 206   fileKey：pages/template/music/music01/music01
+转换进度: 89 / 206   fileKey：pages/template/news/home/home
+转换进度: 90 / 206   fileKey：pages/template/news/news01/news01
+转换进度: 91 / 206   fileKey：pages/template/news/news02/news02
+转换进度: 92 / 206   fileKey：pages/template/news/news03/news03
+转换进度: 93 / 206   fileKey：pages/template/uitemplate/home/home
+转换进度: 94 / 206   fileKey：pages/template/user/home/home
+转换进度: 95 / 206   fileKey：pages/template/user/user01/user01
+转换进度: 96 / 206   fileKey：pages/template/user/user02/user02
+转换进度: 97 / 206   fileKey：pages/template/userlist/home/home
+转换进度: 98 / 206   fileKey：pages/template/userlist/userlist01/userlist01
+转换进度: 99 / 206   fileKey：pages/template/userlist/userlist02/userlist02
+转换进度: 100 / 206   fileKey：pages/utils/utils
+转换进度: 101 / 206   fileKey：project.config
+转换进度: 102 / 206   fileKey：project.private.config
+转换进度: 103 / 206   fileKey：sitemap
+开始二次遍历及生成vue文件
+write pages.json success!
+write manifest.json success!
+write main.js success!
+write package.json success!
+
+
+统计信息：
+
+Component数量: 9
+Page数量: 82
+支付api数量: 0
+登录api数量: 0
+chooseMedia数量: 0
+getLocation数量: 4
+getRelationNodes数量: 4
+<ad/>数量: 67
+<map/>数量: 0
+<video/>数量: 8
+Vant组件: ， 数量：0
+
+项目转换完成！
+用时: 27.845s
+工具版本：v2.2.3
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+使用说明：
+    1.因各种原因，本工具并非100%完美转换！部分语法仍需人工处理！
+    2.工具转换原理及说明文档参考：https://l4rz4zwpx7.k.topthink.com/@kmrvzg72lx/
+    3.如遇运行报错，请添加QQ群(五群：536178289)带图反馈或https://github.com/zhangdaren/miniprogram-to-uniapp提交Issue！
+    4.转换后请查阅_uni目录或_uni-cli目录里的 README.md 和 transform.log
+
+

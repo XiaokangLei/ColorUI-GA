@@ -1,0 +1,376 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/layout/layout",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/background/background",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/text/text",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/icon/icon",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/button/button",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/button/design",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/tag/tag",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/avatar/avatar",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/loading/loading",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/progress/progress",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/shadow/shadow",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/home/home",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/index/component/bar/bar",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/nav/nav",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/list/list",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/card/card",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/form/form",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/timeline/timeline",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/swiper/swiper",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/modal/modal",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/steps/steps",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/toast/toast",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/status/status",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/calendar/calendar",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/table/table",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/rate/rate",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/tips/tips",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/piano/piano",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/home/home",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/index/plugin/indexes/indexes",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/animation/animation",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/drawer/drawer",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/verticalnav/verticalnav",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/chat/chat",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/waterfall/waterfall",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/index/plugin/overturn/overturn",
+			"style": {}
+		},
+		{
+			"path": "pages/about/home/home",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/about/log/log",
+			"style": {}
+		},
+		{
+			"path": "pages/about/about/about",
+			"style": {}
+		},
+		{
+			"path": "pages/template/home/home",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/template/default/default",
+			"style": {}
+		},
+		{
+			"path": "pages/template/user/home/home",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/template/user/user01/user01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/user/user02/user02",
+			"style": {}
+		},
+		{
+			"path": "pages/template/index/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/index/index01/index01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/index/index02/index02",
+			"style": {}
+		},
+		{
+			"path": "pages/about/appreciate/appreciate",
+			"style": {}
+		},
+		{
+			"path": "pages/template/userlist/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/userlist/userlist01/userlist01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/userlist/userlist02/userlist02",
+			"style": {}
+		},
+		{
+			"path": "pages/template/comment/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/comment/comment01/comment01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/comment/comment02/comment02",
+			"style": {}
+		},
+		{
+			"path": "pages/template/comment/comment03/comment03",
+			"style": {}
+		},
+		{
+			"path": "pages/template/message/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/message/message01/message01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/music/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/title/title",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/border/border",
+			"style": {}
+		},
+		{
+			"path": "pages/template/music/music01/music01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/message/message02/message02",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/draw/draw",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/search/search",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/clockin/clockin",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/coupon/coupon",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/goods/goods",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/switch/switch",
+			"style": {}
+		},
+		{
+			"path": "pages/index/basics/checkbox/checkbox",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/skeleton/skeleton",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/design/design",
+			"style": {}
+		},
+		{
+			"path": "pages/index/plugin/design/choiseEmoji/choiseEmoji",
+			"style": {}
+		},
+		{
+			"path": "pages/template/education/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/education/education01/education01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/education/education02/education02",
+			"style": {}
+		},
+		{
+			"path": "pages/template/login/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/login/login01/login01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/login/login02/login02",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/stepper/stepper",
+			"style": {}
+		},
+		{
+			"path": "pages/index/component/countdown/countdown",
+			"style": {}
+		},
+		{
+			"path": "pages/template/uitemplate/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/news/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/template/news/news01/news01",
+			"style": {}
+		},
+		{
+			"path": "pages/template/news/news02/news02",
+			"style": {}
+		},
+		{
+			"path": "pages/template/news/news03/news03",
+			"style": {}
+		}
+	],
+	"lazyCodeLoading": "requiredComponents",
+	"sitemapLocation": "sitemap.json",
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^cu-custom$": "@/colorui/components/cu-custom/cu-custom"
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "ColorUI GA",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}
