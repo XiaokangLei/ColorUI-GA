@@ -1,6 +1,0 @@
-/* colorui/components/cu-custom.wxss */
-.lucency{
-  /* position: absolute;
-  z-index: 1; */
-  background-color: transparent !important;
-}
