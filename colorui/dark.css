@@ -1,0 +1,168 @@
+/* 暗黑模式下应用的样式 */
+@media (prefers-color-scheme: dark) {
+    page {
+        /* 暗黑模式背景色 */
+        --darkBlack: #111111;
+        --lightGray: #222222;
+        --darkGray: #333333;
+        /* 暗黑模式按钮颜色 */
+        --btnGray: #444444;
+        /* 暗黑模式字体颜色 */
+        --darkTitle: rgba(255, 255, 255, 0.85);
+        --darkPrimaryText: rgba(255, 255, 255, 0.65);
+        --darkSecondaryText: rgba(255, 255, 255, 0.45);
+        --darkDisable: rgba(255, 255, 255, 0.1);
+        /* 暗黑模式渐变色 */
+        --darkGradualRed: linear-gradient(45deg, #f43f3b, #ec008c);
+        --darkGradualOrange: linear-gradient(45deg, #ff9700, #ed1c24);
+        --darkGradualGreen: linear-gradient(45deg, #39b54a, #8dc63f);
+        --darkGradualPurple: linear-gradient(45deg, #9000ff, #5e00ff);
+        --darkGradualPink: linear-gradient(45deg, #ec008c, #6739b6);
+        --darkGradualBlue: linear-gradient(45deg, #112a45, #1765ad);
+        /* 阴影透明色 */
+        --ShadowSize: 6rpx 6rpx 8rpx;
+        --redShadow: rgba(204, 69, 59, 0.8);
+        --orangeShadow: rgba(217, 109, 26, 0.8);
+        --yellowShadow: rgba(224, 170, 7, 0.8);
+        --oliveShadow: rgba(124, 173, 55, 0.8);
+        --greenShadow: rgba(48, 156, 63, 0.8);
+        --cyanShadow: rgba(28, 187, 180, 0.8);
+        --blueShadow: rgba(0, 102, 204, 0.8);
+        --purpleShadow: rgba(88, 48, 156, 0.8);
+        --mauveShadow: rgba(133, 33, 150, 0.8);
+        --pinkShadow: rgba(199, 50, 134, 0.8);
+        --brownShadow: rgba(140, 88, 53, 0.8);
+        --greyShadow: rgba(114, 130, 138, 0.8);
+        --grayShadow: rgba(114, 130, 138, 0.8);
+        --blackShadow: rgba(26, 26, 26, 0.8);
+    }
+
+    page {
+        background-color: var(--darkBlack);
+        color: var(--darkPrimaryText);
+    }
+
+    .bg-gradual-blue {
+        background-image: var(--darkGradualBlue);
+    }
+
+    .bg-white {
+        color: var(--gray);
+        background-color: var(--darkGray);
+    }
+
+    .cu-list.menu > .cu-item {
+        background-color: var(--lightGray);
+    }
+
+    .text-black,
+    .line-black,
+    .lines-black {
+        color: var(--darkTitle);
+    }
+
+    .solids::after {
+        border: 8rpx solid var(--darkDisable);
+    }
+
+    .solids-top::after {
+        border-top: 8rpx solid var(--darkDisable);
+    }
+
+    .solids-right::after {
+        border-right: 8rpx solid var(--darkDisable);
+    }
+
+    .solids-bottom::after {
+        border-bottom: 8rpx solid var(--darkDisable);
+    }
+
+    .solids-left::after {
+        border-left: 8rpx solid var(--darkDisable);
+    }
+
+    .cu-bar .search-form {
+        background-color: var(--lightGray);
+        color: var(--darkPrimaryText);
+    }
+
+    .cu-list.grid {
+        background-color: var(--darkGray);
+    }
+
+    .cu-btn:not([class*='bg-']) {
+        background-color: var(--btnGray);
+    }
+
+    radio.radio[checked]::after {
+        border: 8px solid var(--darkDisable) !important;
+    }
+
+    .cu-progress {
+        background-color: #424242;
+    }
+
+    .cu-progress view {
+        color: var(--darkPrimaryText);
+    }
+
+    .cu-load.load-modal {
+        background-color: var(--lightGray);
+        color: var(--darkPrimaryText);
+    }
+
+    .cu-load.load-modal::after {
+        background-color: var(--lightGray);
+    }
+
+    .cu-bar {
+        background-color: var(--lightGray);
+    }
+
+    .cu-bar,
+    .cu-bar.input {
+        background-color: var(--lightGray);
+    }
+
+    .cu-chat .cu-item > .main .content:not([class*='bg-']) {
+        background-color: var(--lightGray);
+        color: var(--darkPrimaryText);
+    }
+
+    .cu-chat .cu-info {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: var(--darkPrimaryText);
+    }
+
+    .cu-list.menu-avatar > .cu-item {
+        background-color: var(--lightGray);
+    }
+
+    .cu-card.dynamic > .cu-item {
+        background-color: var(--lightGray);
+    }
+
+    .cu-card > .cu-item {
+        background-color: var(--lightGray);
+    }
+
+    .cu-timeline {
+        background-color: var(--lightGray);
+    }
+
+    .cu-timeline > .cu-item::before {
+        background-color: var(--lightGray);
+    }
+
+    .cu-timeline > .cu-item[class*='cuIcon-']::before {
+        background-color: var(--lightGray);
+    }
+
+    .cu-form-group {
+        background-color: var(--lightGray);
+    }
+
+    .cu-form-group + .cu-form-group {
+        border-top: 1rpx solid var(--darkDisable);
+    }
+}
