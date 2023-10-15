@@ -13,38 +13,24 @@ Page({
     leftData: [],
     rightData: [],
     orgData: [{
-        title: "瀑布流示例1",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic_0NF_MgX2DptxYFGoM0SUv?imageMogr2/thumbnail/450x/interlace/1"
       },
       {
-        title: "瀑布流示例2",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic_AcXKfK5Fr6Dl5i_tr5Vwy?imageMogr2/thumbnail/450x/interlace/1"
       },
       {
-        title: "瀑布流示例3",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic_6vP65kAdE8pqGbI9cqYNm?imageMogr2/thumbnail/450x/interlace/1"
       },
       {
-        title: "瀑布流示例4",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic__Y1hiTPzdjSL1bvsUODgK?imageMogr2/thumbnail/450x/interlace/1"
       },
       {
-        title: "瀑布流示例4",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic_z7UntCMyEWdzIGVQUhfBu?imageMogr2/thumbnail/450x/interlace/1"
       },
       {
-        title: "瀑布流示例4",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic_sKe8npGuQpHFSHa3HS91t?imageMogr2/thumbnail/450x/interlace/1"
       },
       {
-        title: "瀑布流示例4",
-        name: "WaterFall",
         image: "https://image.meiye.art/pic_j-BV0e4xP0zOHz2WNgBac?imageMogr2/thumbnail/450x/interlace/1"
       }
     ]

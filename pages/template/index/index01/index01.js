@@ -43,7 +43,7 @@ Page({
     }],
     newList: [{
       title: "制定同频色板",
-      tag: "金牌雇主",
+      tag: "金牌",
       location: "江北·五里店",
       pay: "60",
       time: "3~5小时",

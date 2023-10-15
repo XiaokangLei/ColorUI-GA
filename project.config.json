@@ -32,7 +32,8 @@
     },
     "disableUseStrict": false,
     "useCompilerPlugins": false,
-    "minifyWXML": true
+    "minifyWXML": true,
+    "condition": false
   },
   "condition": {},
   "editorSetting": {

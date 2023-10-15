@@ -2632,7 +2632,7 @@ egg-label>span::after {
   box-sizing: border-box;
   width: 200%;
   height: 200%;
-  border-bottom: 1rpx solid #ddd;
+  border-bottom: 1px solid #ddd;
   border-radius: inherit;
   content: " ";
   transform: scale(.5);
@@ -2728,7 +2728,9 @@ egg-label>span::after {
 
 .cu-list.menu.sm-border>.cu-item:after {
   left: 30rpx;
-  width: calc(200% - 120rpx)
+  width: calc(200% - 120rpx);
+  /* left: 5%;
+  width: 180% */
 }
 
 .cu-list.grid>.cu-item {

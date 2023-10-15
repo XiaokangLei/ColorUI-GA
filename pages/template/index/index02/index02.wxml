@@ -119,9 +119,9 @@
           </view>
         </view>
       </view>
-      <view class="flex margin-lr-xs padding-bottom-sm justify-between">
+      <view class="flex margin-lr-xs padding-bottom-sm justify-between align-center">
         <text class="text-lg text-yellow">进入小鹏社区 <text class="cuIcon-right"></text></text>
-        <text class="text-lg text-yellow">收起 <text class="cuIcon-fold"></text></text>
+        <text class="text-sm text-yellow">收起 <text class="cuIcon-fold"></text></text>
       </view>
     </view>
   </view>

@@ -12,8 +12,8 @@
         <view>张子栋<text class="text-gray text-df"> / 平台运营</text></view>
         <view class="text-gray text-df padding-top-sm">北京仓颉数源网络文化有限公司</view>
       </view>
-      <view class="">
-        <view class="cu-avatar xl round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
+      <view class="flex align-center">
+        <view class="cu-avatar lg round" style="background-image:url(https://image.meiye.art/Fha6tqRTIwHtlLW3xuZBJj8ZXSX3?imageMogr2/thumbnail/450x/interlace/1);">
         </view>
       </view>
     </view>
@@ -48,11 +48,11 @@
   <!-- 助力/推荐/邀请 -->
   <view class="margin-top-xs padding-lr-sm">
     <view class="bg-gradual-pinknew radius-lg shadow-blur">
-      <view class="flex padding-sm justify-between">
-        <view class="padding-xs text-xxl">
+      <view class="flex padding-sm justify-between align-center">
+        <view class="padding-lr-xs text-xxl">
           <view>挖贝提速</view>
         </view>
-        <view class="padding-sm">
+        <view class="padding-lr-sm">
           <view>当前加速：30%</view>
         </view>
       </view>
@@ -87,13 +87,13 @@
         </view>
       </view>
       <view class="flex padding-sm justify-between">
-        <view class="padding-xs text-xxl">
+        <view class="padding-lr-xs text-xxl">
           <view class="flex">
             <view class="cu-btn round line">助力明细</view>
             <view class="cu-btn round line margin-left-sm">我的推荐</view>
           </view>
         </view>
-        <view class="padding-xs">
+        <view class="padding-lr-xs">
           <view class="cu-btn round bg-white text-red">邀新助力</view>
         </view>
       </view>

@@ -40,26 +40,28 @@
     </view>
   </view>
 
-  <view class="flex solid-bottom margin-lr padding-tb justify-between">
+  <view class="flex solid-bottom margin-lr padding-tb-sm justify-between align-center">
     <text class="text-xl text-black">最新任务</text>
-    <text class="text-lg text-gray">更多任务<text class="cuIcon-right"></text></text>
+    <text class="text-gray">更多<text class="cuIcon-right"></text></text>
   </view>
 
-  <view class="margin-lr" wx:for="{{newList}}" wx:key="item">
-    <view class="flex padding-top-xs justify-between">
-      <view class="flex padding-top-xs">
-        <text class="text-xl text-black">{{item.title}}</text>
-        <view class="cu-tag bg-orange sm radius" wx:if="{{item.tag}}">{{item.tag}}</view>
+  <view class="margin-lr flex justify-between align-center" wx:for="{{newList}}" wx:key="item">
+    <view class="">
+      <view class="flex padding-top-xs justify-between">
+        <view class="flex">
+          <text class="text-xl text-black">{{item.title}}</text>
+          <view class="cu-tag bg-orange sm radius" wx:if="{{item.tag}}">{{item.tag}}</view>
+        </view>
       </view>
-      <text class="text-xxl text-red padding-top-xs"><text class="text-bold">{{item.pay}}</text><text class="text-gray text-lg">/时</text></text>
+      <view class="flex padding-tb-sm justify-start text-sm">
+        <text class="text-gray"><text class="cuIcon-location"></text> {{item.location}}</text>
+        <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> {{item.time}}</text>
+      </view>
+      <view class="flex solid-bottom padding-bottom-sm justify-start">
+        <view class="cu-tag line-blue sm radius" wx:for="{{item.tagList}}" wx:key="item">{{item}}</view>
+      </view>
     </view>
-    <view class="flex padding-bottom-sm justify-start">
-      <text class="text-gray"><text class="cuIcon-location"></text> {{item.location}}</text>
-      <text class="margin-left-lg text-gray"><text class="cuIcon-time"></text> {{item.time}}</text>
-    </view>
-    <view class="flex solid-bottom padding-bottom justify-start">
-      <view class="cu-tag line-blue radius" wx:for="{{item.tagList}}" wx:key="item">{{item}}</view>
-    </view>
+    <text class="text-xxl text-red"><text class="text-bold">{{item.pay}}</text><text class="text-gray text-df">元/时</text></text>
   </view>
 
 </view>
