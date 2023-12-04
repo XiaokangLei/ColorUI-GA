@@ -10,9 +10,9 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 **_注意：个别 H5 预览样式与真机存在差异，以小程序客户端实际样式为准_**
 
-- UI 组件在线预览（模板&样式）：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
-- 商城 UI 模板《北岛小店》：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
-- 文档地址：[链接](http://one.x-artspace.cn/ColorUI-GA-Docs/)【努力更新中...】
+- UI 组件在线预览（模板&样式）：[链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/demo.html)
+- 商城 UI 模板《北岛小店》：[链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+- 文档地址：[链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/)【努力更新中...】
 - 微信扫描预览（或微信小程序搜索 ColorUI GA）
 
 <div align=center>
@@ -21,13 +21,13 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 ## 模板
 
-持续更新，最近更新日期：2023/1/12，预览地址：[链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/demo.html)
+持续更新，最近更新日期：2023/1/12，预览地址：[链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/demo.html)
 
 **_注意：线上小程序发布周期较慢，最新样式请下载代码运行程序进行预览_**
 
 **完整 UI 模板**
 
-- 商城 UI 模板《北岛小店》：[H5 预览链接](https://one.x-artspace.cn/ColorUI-GA-Docs/h5/northlandshop/demo.html)
+- 商城 UI 模板《北岛小店》：[H5 预览链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/northlandshop/demo.html)
 - 获取源码：小程序首页-->完整 UI 模板
 
 **单页模板**
@@ -184,27 +184,27 @@ onLaunch: function() {
 - [x] 小程序检测到新版本主动更新
 - [x] 【基础样式】背景色修改、扩展
 - [x] 【基础样式】圆环形状进度条(canvas2D 实现+非 canvas2D 实现) [无预览]【请在小程序端查看】
-- [x] 【基础样式】虚线边框和蓝色边框样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/base/border)
-- [x] 【组件设计】手风琴向下展开样式&文本展开与收起 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/piano)
-- [x] 【组件设计】滚动 Tips(单行、多行、左右、上下) [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/tips)
-- [x] 【组件设计】评分样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/rate)
-- [x] 【组件设计】轻提示 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/toast)
-- [x] 【组件设计】状态提示 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/status)
-- [x] 【组件设计】日历样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/calendar)
-- [x] 【组件设计】表格样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/table)
-- [x] 【扩展样式】瀑布流图片展示样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/waterfall)
-- [x] 【扩展样式】卡片翻转样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/overturn)
-- [x] 【扩展样式】滚动抽奖样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/draw)
-- [x] 【扩展样式】历史搜索样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/search)
-- [x] 【扩展样式】打卡签到样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/clockin)
-- [x] 【扩展样式】会员卡/卡券样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/coupon)
-- [x] 【扩展样式】商品滑动样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/goods)
-- [x] 【扩展样式】骨架屏样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/expand/skeleton)
+- [x] 【基础样式】虚线边框和蓝色边框样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/base/border)
+- [x] 【组件设计】手风琴向下展开样式&文本展开与收起 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/piano)
+- [x] 【组件设计】滚动 Tips(单行、多行、左右、上下) [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/tips)
+- [x] 【组件设计】评分样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/rate)
+- [x] 【组件设计】轻提示 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/toast)
+- [x] 【组件设计】状态提示 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/status)
+- [x] 【组件设计】日历样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/calendar)
+- [x] 【组件设计】表格样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/table)
+- [x] 【扩展样式】瀑布流图片展示样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/waterfall)
+- [x] 【扩展样式】卡片翻转样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/overturn)
+- [x] 【扩展样式】滚动抽奖样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/draw)
+- [x] 【扩展样式】历史搜索样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/search)
+- [x] 【扩展样式】打卡签到样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/clockin)
+- [x] 【扩展样式】会员卡/卡券样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/coupon)
+- [x] 【扩展样式】商品滑动样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/goods)
+- [x] 【扩展样式】骨架屏样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/expand/skeleton)
 - [x] 【扩展样式】卡片设计 【无预览】【请在小程序端查看】
 - [x] 【扩展样式】Emoji(卡片设计中已集成) 【无预览】【请在小程序端查看】
-- [x] 【组件设计】日历样式新增农历 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/calendar)
-- [x] 【组件设计】新增步进器样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/stepper)
-- [x] 【组件设计】新增倒计时样式 [【在线预览】](https://one.x-artspace.cn/ColorUI-GA-Docs/#/component/countdown)
+- [x] 【组件设计】日历样式新增农历 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/calendar)
+- [x] 【组件设计】新增步进器样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/stepper)
+- [x] 【组件设计】新增倒计时样式 [【在线预览】](https://xiaokanglei.github.io/ColorUI-GA-Docs/#/component/countdown)
 - [ ] 头像右下角标签设计
 - [ ] 广告条设计
 - [ ] 图片下载前显示自定义图片
