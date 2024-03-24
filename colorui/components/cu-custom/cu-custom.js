@@ -24,6 +24,18 @@ Component({
       type: Boolean,
       default: false
     },
+    isBlur: {
+      type: Boolean,
+      default: false
+    },
+    isTop: {
+      type: Boolean,
+      default: false
+    },
+    icon: {
+      type: String,
+      default: ''
+    },
     bgImage: {
       type: String,
       default: ''
@@ -39,6 +51,10 @@ Component({
     homePage: {
       type: String,
       default: '/pages/index/index'
+    },
+    scrollTop:{
+      type: Number,
+      default: 0
     }
   },
 
@@ -49,6 +65,8 @@ Component({
     StatusBar: app.globalData.StatusBar,
     CustomBar: app.globalData.CustomBar,
     Custom: app.globalData.Custom,
+    // 系统tabbar高度
+    sysNavBar: app.globalData.sysNavBar,
     mode: 'default'
   },
 

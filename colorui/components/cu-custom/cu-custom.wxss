@@ -4,3 +4,15 @@
   z-index: 1; */
   background-color: transparent !important;
 }
+
+.blur-top-1 {
+  background: hsla(0, 0%, 100%, .75);
+  -webkit-backdrop-filter: blur(4rpx);
+  backdrop-filter: blur(4rpx);
+}
+
+.blur-top {
+  background: hsla(0, 0%, 100%, .75);
+  -webkit-backdrop-filter: blur(16rpx);
+  backdrop-filter: blur(16rpx);
+}

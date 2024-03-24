@@ -1,6 +1,6 @@
 <!--colorui/components/cu-custom.wxml-->
-<view class="cu-custom {{isLucency == true?'lucency':''}}" style="height:{{isLucency == true?0:CustomBar}}px">
-  <view class="cu-bar {{noFixed ? '' : 'fixed'}} {{bgImage!=''?'none-bg text-white bg-img':''}} {{bgColor}}" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;{{bgImage?'background-image:url(' + bgImage+')':''}}">
+<view class="cu-custom {{isLucency == true?'lucency':''}}" style="height:{{isLucency == true?0:CustomBar}}px;z-index: 99999;">
+  <view class="cu-bar {{noFixed ? '' : 'fixed'}} {{bgImage!=''?'none-bg text-white bg-img':''}} {{bgColor}}" wx:if="{{isBlur==true}}" style="background: hsla(0, 0%, 100%, {{scrollTop/(2.5*CustomBar) > 0.6? 0.6:(scrollTop/(2.5*CustomBar) < 0.02? 0.02:scrollTop/(2.5*CustomBar))}});-webkit-backdrop-filter: blur({{scrollTop/CustomBar*2}}rpx);backdrop-filter: blur({{scrollTop/CustomBar*2}}rpx);height:{{CustomBar}}px;padding-top:{{StatusBar}}px;{{bgImage?'background-image:url(' + bgImage+')':''}}">
     <view class="action" bindtap="BackPage" wx:if="{{isBack && mode != 'singlePage'}}">
       <text class="cuIcon-back"></text>
       <slot name="backText"></slot>
@@ -13,7 +13,33 @@
       <text class="cuIcon-back" bindtap="BackPage"></text>
       <text class="cuIcon-homefill" bindtap="toHome" data-url="{{homePage}}"></text>
     </view>
+    <view class="action" wx:if="{{isTop}}">
+      <!-- <text class="cuIcon-{{icon}}" style="font-size: 56rpx;"></text> -->
+      <image src="/images/logo.png" style="height: 52rpx; width: 52rpx; border-radius: 200rpx;" />
+    </view>
     <view class="content" style="top:{{StatusBar}}px">
+      <slot name="content"></slot>
+    </view>
+    <slot name="right"></slot>
+  </view>
+  <view class="cu-bar {{noFixed ? '' : 'fixed'}} {{bgImage!=''?'none-bg text-white bg-img':''}} {{bgColor}}" wx:else style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;{{bgImage?'background-image:url(' + bgImage+')':''}}">
+    <view class="action" bindtap="BackPage" wx:if="{{isBack && mode != 'singlePage'}}">
+      <text class="cuIcon-back"></text>
+      <slot name="backText"></slot>
+    </view>
+    <view class="action" bindtap="toHome" data-url="{{homePage}}" wx:if="{{isBack && mode == 'singlePage'}}">
+      <text class="cuIcon-home padding-left-sm"></text>
+      <slot name="homeText"></slot>
+    </view>
+    <view class="action border-custom" wx:if="{{isCustom}}" style="width:{{Custom.width}}px;height:{{Custom.height}}px;margin-left:calc(750rpx - {{Custom.right}}px)">
+      <text class="cuIcon-back" bindtap="BackPage"></text>
+      <text class="cuIcon-homefill" bindtap="toHome" data-url="{{homePage}}"></text>
+    </view>
+    <view class="action" wx:if="{{isTop}}">
+      <!-- <text class="cuIcon-{{icon}}" style="font-size: 56rpx;"></text> -->
+      <image src="/images/logo.png" style="height: 52rpx; width: 52rpx; border-radius: 200rpx;" />
+    </view>
+    <view class="content text-center text-lg text-cut" style="top:{{StatusBar}}px; width: 320rpx;">
       <slot name="content"></slot>
     </view>
     <slot name="right"></slot>
