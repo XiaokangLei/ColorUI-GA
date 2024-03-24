@@ -9,12 +9,12 @@
   </view>
 </view>
 
-<view class="bg-white">
+<view class="bg-white padding-bottom">
   <view class="flex justify-center align-center padding text-lg">
-    <view class="cu-tag radius bg-orange light">{{left_time_list[0]}}</view>天
-    <view class="cu-tag radius bg-orange light">{{left_time_list[1]}}</view>时
-    <view class="cu-tag radius bg-orange light">{{left_time_list[2]}}</view>分
-    <view class="cu-tag radius bg-orange light">{{left_time_list[3]}}</view>秒
+    <view class="cu-tag radius bg-orange light margin-lr-xs text-lg">{{left_time_list[0]}}</view>天
+    <view class="cu-tag radius bg-orange light margin-right-xs text-lg">{{left_time_list[1]}}</view>时
+    <view class="cu-tag radius bg-orange light margin-right-xs" text-lg>{{left_time_list[2]}}</view>分
+    <view class="cu-tag radius bg-orange light margin-lr-xs text-lg">{{left_time_list[3]}}</view>秒
   </view>
 </view>
 
@@ -26,28 +26,28 @@
 
 <view class="bg-white">
   <view class="flex justify-center align-center padding text-lg">
-    <view class="cu-tag radius bg-pink light">{{left_time_list[0]}}</view>天
-    <view class="cu-tag radius bg-pink light">{{left_time_list[1]}}</view>时
-    <view class="cu-tag radius bg-pink light">{{left_time_list[2]}}</view>分
-    <view class="cu-tag radius bg-pink light">{{left_time_list[3]}}</view>秒
+    <view class="cu-tag radius bg-pink light margin-lr-xs text-lg">{{left_time_list[0]}}</view>天
+    <view class="cu-tag radius bg-pink light margin-right-xs text-lg">{{left_time_list[1]}}</view>时
+    <view class="cu-tag radius bg-pink light margin-right-xs text-lg">{{left_time_list[2]}}</view>分
+    <view class="cu-tag radius bg-pink light margin-lr-xs text-lg">{{left_time_list[3]}}</view>秒
   </view>
 </view>
 
 <view class="bg-white">
   <view class="flex justify-center align-center padding text-lg">
-    <view class="cu-tag round bg-orange">{{left_time_list[0]}}</view>天
-    <view class="cu-tag round bg-orange">{{left_time_list[1]}}</view>时
-    <view class="cu-tag round bg-orange">{{left_time_list[2]}}</view>分
-    <view class="cu-tag round bg-orange">{{left_time_list[3]}}</view>秒
+    <view class="cu-tag round bg-orange margin-lr-xs text-lg">{{left_time_list[0]}}</view>天
+    <view class="cu-tag round bg-orange margin-right-xs text-lg">{{left_time_list[1]}}</view>时
+    <view class="cu-tag round bg-orange margin-right-xs text-lg">{{left_time_list[2]}}</view>分
+    <view class="cu-tag round bg-orange margin-lr-xs text-lg">{{left_time_list[3]}}</view>秒
   </view>
 </view>
 
-<view class="bg-white">
+<view class="bg-white padding-bottom">
   <view class="flex justify-center align-center padding text-lg">
-    <view class="solid padding-xs">{{left_time_list[0]}}</view>天
-    <view class="solid padding-xs">{{left_time_list[1]}}</view>时
-    <view class="solid padding-xs">{{left_time_list[2]}}</view>分
-    <view class="solid padding-xs">{{left_time_list[3]}}</view>秒
+    <view class="solid radius-df padding-xs margin-lr-xs text-lg">{{left_time_list[0]}}</view>天
+    <view class="solid radius-df padding-xs margin-right-xs text-lg">{{left_time_list[1]}}</view>时
+    <view class="solid radius-df padding-xs margin-right-xs text-lg">{{left_time_list[2]}}</view>分
+    <view class="solid radius-df padding-xs margin-lr-xs text-lg">{{left_time_list[3]}}</view>秒
   </view>
 </view>
 
@@ -57,20 +57,20 @@
   </view>
 </view>
 
-<view class="bg-white">
+<view class="bg-white padding-bottom">
   <view class="flex justify-center align-center padding text-lg">
     <block wx:for="{{left_time_list_date[0]}}" wx:key="item">
-      <view class="cu-tag radius bg-orange">{{item}}</view>
-    </block>天
+      <view class="cu-tag radius bg-orange text-lg">{{item}}</view>
+    </block><text class="margin-lr-xs">天</text>
     <block wx:for="{{left_time_list_date[1]}}" wx:key="item">
-      <view class="cu-tag radius bg-orange">{{item}}</view>
-    </block>时
+      <view class="cu-tag radius bg-orange text-lg">{{item}}</view>
+    </block><text class="margin-lr-xs margin-lr-xs">时</text>
     <block wx:for="{{left_time_list_date[2]}}" wx:key="item">
-      <view class="cu-tag radius bg-orange">{{item}}</view>
-    </block>分
+      <view class="cu-tag radius bg-orange text-lg">{{item}}</view>
+    </block><text class="margin-lr-xs margin-lr-xs">分</text>
     <block wx:for="{{left_time_list_date[3]}}" wx:key="item">
-      <view class="cu-tag radius bg-orange">{{item}}</view>
-    </block>秒
+      <view class="cu-tag radius bg-orange text-lg">{{item}}</view>
+    </block><text class="margin-lr-xs margin-left-xs">秒</text>
   </view>
 </view>
 
