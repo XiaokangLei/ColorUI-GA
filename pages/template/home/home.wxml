@@ -1,7 +1,7 @@
 <!--pages/template/home/home.wxml-->
 <import src="/pages/template/common/copyright.wxml" />
 
-<cu-custom noFixed="{{true}}" isLucency="{{true}}">
+<cu-custom isTop="{{true}}" noFixed="{{true}}" isLucency="{{true}}">
   <view slot="content"><text class="">ColorUI GA</text></view>
 </cu-custom>
 
@@ -9,7 +9,7 @@
 <image src='/images/bg.png' mode='widthFix' class='bg-img-new'></image>
 
 <!-- 页面 -->
-<scroll-view scroll-y class="scrollPage">
+<scroll-view scroll-y class="scrollPage padding-top-sm">
   <!-- 滚动图片 -->
   <swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" previousMargin="0.01rpx" indicator-color="#8799a3" indicator-active-color="#0081ff" style='margin-top: {{StatusBar + CustomBar}}rpx;'>
     <swiper-item wx:for="{{swiperList}}" wx:key="item" class="{{cardCur==index?'cur':''}}" bindtap='jumpTo' data-page='{{item.page}}'>
@@ -45,14 +45,23 @@
   </swiper>
 
   <view class='nav-list'>
-    <navigator open-type="navigate" hover-class='none' url="/pages/template/uitemplate/home/home" class="nav-li-new bg-mauve light">
-      <image src='/images/0004.svg' mode='scaleToFill' class='image-bg' style="z-index: -2; margin: -24rpx 0rpx 0rpx -40rpx"></image>
-      <view class="text-xl text-bold">完整UI模板</view>
-      <view class="flex padding-top-xxl">
-        <view class="flex-sub">基于ColorUI GA组件库实现商城、新闻、博客、企业网站等完整UI模板，持续开发更新中...</view>
+    <navigator open-type="navigate" hover-class='none' url="/pages/template/uitemplate/home/home" class="nav-li bg-mauve light">
+      <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -18rpx 0rpx 0rpx -36rpx"></image>
+      <view class="text-xl text-bold">UI模板</view>
+      <view class="flex padding-top-xl">
+        <view class="flex-sub">持续更新模板</view>
       </view>
       <text class='cuIcon-hotfill'></text>
     </navigator>
+    <view hover-class='none' class="nav-li bg-pink light" bindtap='MemoTime'>
+      <image src='/images/0004.svg' mode='widthFix' class='image-bg' style="z-index: -2; margin: -18rpx 0rpx 0rpx -36rpx"></image>
+      <view class="text-xl text-bold">案例体验</view>
+      <view class="flex padding-top-xl">
+        <view class="flex-sub">MemoTime小程序</view>
+      </view>
+      <text class='cuIcon-hotfill'></text>
+    </view>
+    
   </view>
 
   <view class='nav-list'>

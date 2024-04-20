@@ -134,6 +134,19 @@ Component({
       return wx.navigateTo({
         url: e.currentTarget.dataset.page
       })
+    },
+    MemoTime(e) {
+      return wx.navigateToMiniProgram({
+        appId: 'wx7de5936e7a323506',
+        path: 'pages/hometime/hometime',
+        //develop开发版；trial体验版；release正式版
+        envVersion: 'release',
+        success(res) {
+          // 打开成功
+          console.log("跳转小程序成功！", res);
+        }
+      })
+
     }
   }
 })
