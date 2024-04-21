@@ -1,5 +1,7 @@
 # ColorUI GA
 
+**由于微信小程序需要每年认证收费，且很多样式审核不能通过，需要企业认证并收年费，本小程序线上版本不再维护更新，线上预览版本将于2025年3月停止服务**
+
 ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发的小程序**原生** css 组件库。在原组件库的基础上会增加部分样式和模板，长期更新，如果您有好的想法或对本项目有任何建议以及发现文中内容有误的请提交 [Github Issues](https://github.com/XiaokangLei/ColorUI-GA/issues)。对于想要一起开发，补充 CSS 样式库的朋友，欢迎提交 PR。
 
 **Uniapp**版本可参考[ColorUI-GA-Uniapp](https://github.com/helloh2o/ColorUI-GA-Uniapp/tree/uniapp)
