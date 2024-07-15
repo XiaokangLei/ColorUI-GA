@@ -23,7 +23,8 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 
 ## 模板
 
-持续更新，最近更新日期：2023/1/12，预览地址：[链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/demo.html)
+持续更新，最近更新日期：2024/7/15，预览地址：[链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/demo.html)
+20240715 样式: 顶部导航栏滑动显示/隐藏渐变样式[链接](https://mp.weixin.qq.com/s/426m6tk2EFqOMgp7EZio4Q)
 
 **_注意：线上小程序发布周期较慢，最新样式请下载代码运行程序进行预览_**
 
