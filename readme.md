@@ -32,7 +32,7 @@ ColorUI GA 是基于[ColorUI 2.0](https://github.com/weilanwl/coloruicss)开发�
 **完整 UI 模板**
 
 - 商城 UI 模板《北岛小店》：[H5 预览链接](https://xiaokanglei.github.io/ColorUI-GA-Docs/h5/northlandshop/demo.html)
-- 获取源码：小程序首页-->完整 UI 模板
+- 获取源码：👉 关注公众号 **ColorUI GA** 回复2110
 
 **单页模板**
 
